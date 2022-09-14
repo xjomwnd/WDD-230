@@ -7,7 +7,7 @@ body{
 
 .header{
     display: flex;
-    background-color: #5b32a8;
+    background-color: #b4c0d4;
     color: #ffffff;
     justify-content: center;
     padding: 1rem;
@@ -25,7 +25,7 @@ body{
 }
 
 .footer {
-    background-color: #5b32a8;
+    background-color: #b4c0d4;
     color: #ffffff;
     text-align: center;
     padding: 1rem;
@@ -40,3 +40,81 @@ body{
 .last-update {
     color: gold;
 }
+
+
+body {
+    background-color: #f6f1d1;
+    color: #311288;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+  }
+  header,
+  main,
+  footer {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  header,
+  footer {
+    padding: 1.5rem;
+    background-color: #b4c0d4;
+  }
+  
+  #profilePic {
+    max-width: 250px;
+    height: auto;
+     
+      
+    }
+    
+    #profile-name {
+      margin-left: 55px;
+      right: 0;
+    }
+    
+    
+    #profilepic {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    }
+  
+  
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  main, main a {
+    color: black;
+  }
+  
+  main ul {
+    display: inline-block;
+    text-align:left;
+  }
+  
+  footer a {
+    color: #b4c0d4;
+  }
+  
+  .nested{
+    display: block;
+  }
+  
+
+@media (min-width: 32.5em) {
+    header,
+    footer {
+      border-radius: 5px;
+    }
+  
+    #profilePic {
+      float: left;
+      max-width: 200px;
+    }
+  }
