@@ -90,6 +90,10 @@ body {
   
   h1 {
     font-size: 3rem;
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+
   }
   h2 {
     font-size: 1.5rem;
