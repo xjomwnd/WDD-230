@@ -20,6 +20,12 @@ body{
     box-shadow: 3px 5px 32px 8px rgba(0,0,0,0.36);
 }
 
+.profile-pcture:hover {
+  background: var(--color-bg2);
+  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+
 .main {
     padding: 1rem;
 }
