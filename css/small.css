@@ -23,6 +23,11 @@ body {
     vertical-align: middle;
     border: 0;
   }
+  img[Attributes Style] {
+    width: 634px;
+    aspect-ratio: auto 634 / 635;
+    height: 635px;
+}
   
   h1 {
     font-size: 3rem;
