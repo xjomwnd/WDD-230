@@ -16,7 +16,7 @@ body{
 
 .profile-picture {
     position: absolute;
-    right: 5%;
+    left: 5%;
     box-shadow: 3px 5px 32px 8px rgba(0,0,0,0.36);
 }
 
