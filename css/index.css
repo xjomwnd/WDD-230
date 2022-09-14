@@ -113,7 +113,7 @@ body {
   }
 
   .footer:hover {
-    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
     z-index: 1;
  }
 
