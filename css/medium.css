@@ -1,0 +1,11 @@
+@media (min-width: 32.5em) {
+    header,
+    footer {
+      border-radius: 5px;
+    }
+  
+    #profilePic {
+      float: right;
+      max-width: 200px;
+    }
+  }
