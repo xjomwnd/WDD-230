@@ -6,7 +6,7 @@
     }
   
     #profilePic {
-      float: left;
+      float: center;
       max-width: 200px;
     }
   }
