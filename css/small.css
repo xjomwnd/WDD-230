@@ -3,6 +3,8 @@ body {
     color: #70a9a1;
     font-family: "Roboto", sans-serif;
     text-align: center;
+    font-size: 100%;
+    line-height: 1.5;
   }
   header,
   main,
