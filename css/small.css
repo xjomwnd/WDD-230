@@ -1,0 +1,47 @@
+body {
+    background-color: #f6f1d1;
+    color: #70a9a1;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+  }
+  header,
+  main,
+  footer {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  header,
+  footer {
+    padding: 1.5rem;
+    background-color: #0b2027;
+  }
+  
+  #profilePic {
+    max-width: 250px;
+    height: auto;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  main, main a {
+    color: black;
+  }
+  
+  main ul {
+    display: inline-block;
+    text-align:left;
+  }
+  
+  footer a {
+    color: #70a9a1;
+  }
+  
+  .nested{
+    display: block;
+  }
