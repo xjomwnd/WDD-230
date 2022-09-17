@@ -1,5 +1,13 @@
-let lastModified = new Date(document.lastModified);
-let fullDate = lastModified.toLocaleString('en-US', {month: "2-digit", day: "2-digit", year: "numeric"});
-let time = lastModified.toLocaleString('en-GB', {hour: "2-digit", minute: "2-digit", second: "2-digit"});
-let dateTime = `Last Updated: ${fullDate} ${time}`;
-document.getElementById("lastModified").innerHTML = dateTime;
+var lastupd = new Date(document.lastModified);
+numMonth = lastupd.getMonth() + 1;
+numDate = lastupd.getDate();
+numYear = lastupd.getFullYear();
+numHour = lastupd.getHours();
+numMin = lastupd.getMinutes();
+numSec = lastupd.getSeconds();
+document.getElementById('lastUpdate').textContent = (numMonth + "/" + numDate + "/" + numYear + "  " + numHour + ":" + numMin + ":" + numSec);
+
+
+let d = new Date();
+let year = d.getFullYear();
+document.getElementById('copyyear').textContent = year;
