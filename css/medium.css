@@ -1,5 +1,5 @@
 
-@media (min-width: 32.5em) {
+@media only screen and (min-width: 32.5em) {
     header,
     footer {
       border-radius: 5px;
@@ -8,5 +8,13 @@
     #profilePic {
       float: center;
       max-width: 200px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
     }
   }
