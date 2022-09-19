@@ -38,6 +38,14 @@ footer {
   float: center;
   }
 
+  img {
+    max-with: 100%;
+  }
+  
+  figure {
+    margin: 2rem 0;
+  }
+
 
 h1 {
   font-size: 1.5rem;
