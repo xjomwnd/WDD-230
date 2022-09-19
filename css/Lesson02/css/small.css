@@ -18,20 +18,20 @@ footer {
   background-color: #b4c0d4;
 }
 
-#profilePic {
+img {
   max-width: 250px;
   height: auto;
    
     
   }
   
-  #profile-name {
+  img {
     margin-left: 55px;
     right: 0;
   }
   
   
-  #profilepic {
+  img {
   height: 50px;
   width: 50px;
   border-radius: 50px;
