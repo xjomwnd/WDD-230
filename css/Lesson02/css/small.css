@@ -77,40 +77,6 @@ main ul {
   text-align:center;
 }
 
-main {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 16px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.dp-column {
-  background-color: hsl(28, 28%, 87%);
-  padding: 10px;
-  border: 1px solid hsl(27, 95%, 9%);
-  margin-top: 16px;
-}
-
-div img {
-  margin-top: 16px;
-  border: 1px solid hsl(27, 95%, 9%);
-  width: 100%;
-}
-
-div {
-  border-radius: 7px;
-}
-
-main a {
-    color: hsl(27, 95%, 9%);
-}
-
-main a:visited {
-    color:hsl(27, 95%, 9%);
-}
-Footer
-
 
 footer a {
   color: #b4c0d4;
