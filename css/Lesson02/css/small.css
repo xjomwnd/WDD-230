@@ -42,6 +42,12 @@ footer {
     max-width: 100%;
   }
 
+  .responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
   figure {
     margin: 2rem 0;
     position: relative;
