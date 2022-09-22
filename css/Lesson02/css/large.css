@@ -14,3 +14,25 @@
         font-size: 1.2rem;
     }
 }
+
+/*media queries */
+@media screen and (max-width: 1200px) {
+    body {
+        margin-left: 0px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #church,
+    #facebook,
+    #myown {
+        min-width: 96%;
+    }
+
+    .grid-item {
+        min-width: 96%;
+    }
+
+}
