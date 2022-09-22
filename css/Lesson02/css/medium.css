@@ -19,3 +19,18 @@
 }
 
 /* media queries */
+@media screen and (max-width: 750px) {
+    .grid-container {
+        grid-template-columns: auto;
+    }
+
+    #church,
+    #facebook,
+    #myown {
+        min-width: 100%;
+    }
+
+    .grid-item {
+        min-width: 100%;
+    }
+}
