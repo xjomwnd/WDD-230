@@ -90,48 +90,6 @@ footer a {
 
 /* small.css */
 
-body {
-  max-width: 1280px;
-  display: block;
-  margin: auto;
-  background-color: azure;
- /* margin-left: 70px;*/
-}
-
-header {
-  background-color: rgb(2, 109, 109);
-  border-radius: 15px;
-  display: grid;
-  border: ridge bisque 15px;
-}
-
-h1 {
-  color: white;
-  text-align: center;
-  font-family: "Neucha", Helvetica, sans-serif;
-  font-size: 50px;
-  line-height: 50px;
-}
-
-h2 {
-  font-family: "Neucha", Helvetica, sans-serif;
-  font-size: 40px;
-  color: rgb(247, 41, 141);
-  text-align: center;
-}
-
-#name {
-  margin-top: -15px;
-}
-
-h3 {
-  font-family: "Neucha", Helvetica, sans-serif;
-  font-size: 25px;
-  color: rgb(2, 109, 109);
-  text-align: center;
-  margin-top: -20px;
-}
-
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -179,26 +137,5 @@ p {
   text-align: justify;
   color: dimgray;
   line-height: 25px;
-}
-footer p{
-  text-align: center;
-  color: white;
-}
-footer a:link,
-footer a:visited {
-  color: whitesmoke;
-}
-
-footer a:hover {
-  color: cyan;
-}
-footer {
-  background-color: rgb(2, 109, 109);
-  border-radius: 15px;
-  border: ridge bisque 15px;
-  font-family: Helvetica;
-  font-size: 22px;
-  color: rgb(232, 252, 252);
-  text-align: center;
 }
 
