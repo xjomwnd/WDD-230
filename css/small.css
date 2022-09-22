@@ -63,3 +63,11 @@ body {
     display: block;
   }
   
+  /* css */
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    font-size: 0.8rem;
+    padding-top: 2rem;
+}
