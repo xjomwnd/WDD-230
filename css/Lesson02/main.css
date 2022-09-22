@@ -1,0 +1,149 @@
+body {
+    max-width: 1280px;
+    display: block;
+    margin: auto;
+    background-color: azure;
+   /* margin-left: 70px;*/
+}
+
+header {
+    background-color: rgb(2, 109, 109);
+    border-radius: 15px;
+    display: grid;
+    border: ridge bisque 15px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: "Neucha", Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+h2 {
+    font-family: "Neucha", Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgb(247, 41, 141);
+    text-align: center;
+}
+
+#name {
+    margin-top: -15px;
+}
+
+h3 {
+    font-family: "Neucha", Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(2, 109, 109);
+    text-align: center;
+    margin-top: -20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    padding: 5px;
+}
+
+.grid-item {
+    max-width: 400px;
+    padding: 5px;
+    background-color: rgb(250, 250, 237);
+    border-radius: 20px;
+    box-shadow: 2px 2px 22px;
+}
+
+.chalk {
+    max-width: 100px;
+}
+
+#church,
+#facebook,
+#myown {
+    max-width: 100%;
+}
+
+#home {
+    margin-top: 40px;
+    background-color: white;
+    padding: 50px;
+    width: 60px;
+    border-radius: 18px;
+    border: solid 3px rgb(247, 41, 141);
+    margin-left: 115px;
+}
+a:link, a:visited {
+    color:  rgb(247, 41, 141);
+}
+a:hover {
+    color: aqua;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 50px;
+    text-align: justify;
+    color: dimgray;
+    line-height: 25px;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+footer a:link,
+footer a:visited {
+    color: whitesmoke;
+}
+
+footer a:hover {
+    color: cyan;
+}
+footer {
+    background-color: rgb(2, 109, 109);
+    border-radius: 15px;
+    border: ridge bisque 15px;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: rgb(232, 252, 252);
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+    body {
+        margin-left: 0px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #church,
+    #facebook,
+    #myown {
+        min-width: 96%;
+    }
+
+    .grid-item {
+        min-width: 96%;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .grid-container {
+        grid-template-columns: auto;
+    }
+
+    #church,
+    #facebook,
+    #myown {
+        min-width: 100%;
+    }
+
+    .grid-item {
+        min-width: 100%;
+    }
+}
