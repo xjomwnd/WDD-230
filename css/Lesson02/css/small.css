@@ -109,33 +109,3 @@ footer a {
   max-width: 100px;
 }
 
-#church,
-#facebook,
-#myown {
-  max-width: 100%;
-}
-
-#home {
-  margin-top: 40px;
-  background-color: white;
-  padding: 50px;
-  width: 60px;
-  border-radius: 18px;
-  border: solid 3px rgb(247, 41, 141);
-  margin-left: 115px;
-}
-a:link, a:visited {
-  color:  rgb(247, 41, 141);
-}
-a:hover {
-  color: aqua;
-}
-
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 10px 50px;
-  text-align: justify;
-  color: dimgray;
-  line-height: 25px;
-}
-
