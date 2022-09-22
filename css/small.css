@@ -71,3 +71,22 @@ body {
     font-size: 0.8rem;
     padding-top: 2rem;
 }
+
+.footer {
+  background-color: #114c50;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: .9rem;
+  margin-top: 2rem;
+}
+
+.footer span {
+  text-decoration: underline;
+}
+
+
+* {
+  box-sizing: border-box;
+}
