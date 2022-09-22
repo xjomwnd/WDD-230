@@ -109,3 +109,8 @@ footer a {
   max-width: 100px;
 }
 
+ #repetition,
+ #white-space,
+ #fitts-law {
+    max-width: 100%;
+}
