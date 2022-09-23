@@ -77,6 +77,10 @@ main ul {
   max-width: 100px;
 }
 
+footer a:hover {
+  color: cyan;
+}
+
 footer a {
   color: #b4c0d4;
 }
