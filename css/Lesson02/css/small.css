@@ -114,20 +114,14 @@ footer a {
     max-width: 100%;
 }
 
-footer p{
-  text-align: center;
-  color: white;
-}
-footer a:link,
-footer a:visited {
-  color: whitesmoke;
-}
 
 footer a:hover {
   color: cyan;
 }
 
 footer {
+  max-width: 900px;
+  margin: 0 auto;
   border-radius: 15px;
   border: ridge bisque 15px;
   font-size: 22px;
