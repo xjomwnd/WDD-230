@@ -84,10 +84,6 @@ footer a {
   color: #b4c0d4;
 }
 
-footer p{
-  text-align: center;
-  color: white;
-}
 footer a:link,
 footer a:visited {
   color: whitesmoke;
@@ -97,15 +93,12 @@ footer a:hover {
   color: cyan;
 }
 footer {
-  background-color: rgb(2, 109, 109);
-  border-radius: 15px;
+ 
   border: ridge bisque 15px;
   font-family: Helvetica;
   font-size: 22px;
-  color: rgb(232, 252, 252);
   text-align: center;
 }
-
 
 .nested{
   display: block;
