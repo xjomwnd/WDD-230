@@ -95,13 +95,7 @@ footer a:visited {
 footer a:hover {
   color: cyan;
 }
-footer {
- 
-  border: ridge bisque 15px;
-  font-family: Helvetica;
-  font-size: 22px;
-  text-align: center;
-}
+
 
 .nested{
   display: block;
