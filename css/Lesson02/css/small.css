@@ -55,6 +55,25 @@ main ul {
   text-align:center;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  padding: 5px;
+}
+
+.grid-item {
+  max-width: 400px;
+  padding: 5px;
+  background-color: rgb(250, 250, 237);
+  border-radius: 20px;
+  box-shadow: 2px 2px 22px;
+}
+
+.chalk {
+  max-width: 100px;
+}
+
 footer a {
   color: #b4c0d4;
 }
