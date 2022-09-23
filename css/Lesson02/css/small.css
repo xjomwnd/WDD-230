@@ -114,6 +114,19 @@ footer a {
     max-width: 100%;
 }
 
+footer p{
+  text-align: center;
+  color: white;
+}
+footer a:link,
+footer a:visited {
+  color: whitesmoke;
+}
+
+footer a:hover {
+  color: cyan;
+}
+
 footer {
   border-radius: 15px;
   border: ridge bisque 15px;
