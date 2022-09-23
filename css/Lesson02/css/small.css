@@ -1,4 +1,7 @@
 body {
+  max-width: 1280px;
+  display: block;
+  margin: auto;
   background-color: #f6f1d1;
   color: #311288;
   font-family: "Roboto", sans-serif;
