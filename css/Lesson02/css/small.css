@@ -113,3 +113,10 @@ footer a {
  #ux-engineer {
     max-width: 100%;
 }
+
+footer {
+  border-radius: 15px;
+  border: ridge bisque 15px;
+  font-size: 22px;
+  text-align: center;
+}
