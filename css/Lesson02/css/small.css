@@ -114,11 +114,14 @@ footer a {
     max-width: 100%;
 }
 
-header,
-  footer {
-    padding: 1.5rem;
-    background-color: #b4c0d4;
-  }
+footer p{
+  text-align: center;
+  color: white;
+}
+footer a:link,
+footer a:visited {
+  color: whitesmoke;
+}
 
 footer a:hover {
   color: cyan;
