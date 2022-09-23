@@ -104,10 +104,12 @@ footer a {
   box-shadow: 2px 2px 22px;
 }
 
+.chalk {
+  max-width: 100px;
+}
 
-
- #alignment,
- #whitespace,
- #fitts-law {
+ #xbox,
+ #mix,
+ #ux-engineer {
     max-width: 100%;
 }
