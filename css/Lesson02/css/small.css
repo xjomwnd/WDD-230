@@ -87,20 +87,6 @@ footer a {
   color: #b4c0d4;
 }
 
-footer a:link,
-footer a:visited {
-  color: whitesmoke;
-}
-
-footer a:hover {
-  color: cyan;
-}
-
-
-.nested{
-  display: block;
-}
-
 /* small.css */
 
 .grid-container {
@@ -124,6 +110,6 @@ footer a:hover {
 
  #repetition,
  #whitespace,
- #fittslaw {
+ #fitts-law {
     max-width: 100%;
 }
