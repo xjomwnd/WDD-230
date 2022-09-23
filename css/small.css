@@ -16,6 +16,7 @@ body {
   footer {
     padding: 1.5rem;
     background-color: #b4c0d4;
+    border-radius: 15px;
   }
   
   #profilePic {
