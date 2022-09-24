@@ -2,7 +2,7 @@
 
     .main {
         display: grid;
-        grid-template-columns: repeat(positive-integer);
+        grid-template-columns: repeat([ <positive-integer> ] , [ <line-names>? <track-size> ]+ <line-names>? ),);
     }
 
     .card h2 {
