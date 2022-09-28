@@ -90,6 +90,8 @@ font-family: 'Open Sans', sans-serif;
                                         height: auto;
                                         border-radius: 5px;
                                         box-shadow: 0 0 5px #777;
+                                        align-items: center;
+
                                     }
                                     
                                     .iwf-logo {
