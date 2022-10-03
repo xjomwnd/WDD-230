@@ -32,4 +32,4 @@ const dayName = daynames[d.getDay()];
 const monthName = months[d.getMonth()];
 const year = d.getFullYear();
 const fulldate = `${year}`;
-document.querySelector"#year").textContent = fulldate;
+document.querySelector("#year").textContent = fulldate;
