@@ -124,23 +124,27 @@ footer a {
   text-decoration: none;
 }
 
-
-
+.navigation {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  padding: 10px;
+}
+.navigation li {
+  display: none;
+}
 .navigation a {
   display: block;
   color: #311288;  
 }
 
-
 img {
   width: 200px;
   height: auto;
 }
-
-
-
-
-img {
-  width: 200px;
-  height: auto;
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Trirong', serif;
 }
