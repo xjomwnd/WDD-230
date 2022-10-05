@@ -91,7 +91,7 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    max-width: 65px;
+    max-width: 100px;
     border: 2px solid #912a2d;
     border-radius: 10px;
     box-shadow: rgb(227, 241, 252) 0px 0px 15px;
