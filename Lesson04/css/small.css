@@ -74,27 +74,3 @@ h1 {
     font-weight: bold;
     font-family: 'Trirong', serif;
 }
-
-
-#icon {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    max-width: 65px;
-    border: 2px solid #912a2d;
-    border-radius: 10px;
-    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
-}
-
-#motto {
-    float: right;
-    margin-right: -218px;
-    margin-top: 35px;
-    padding-right: 10px;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif
-}
-
-#sage {
-    display: none;
-}
