@@ -124,16 +124,8 @@ footer a {
   text-decoration: none;
 }
 
-.navigation {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  padding: 10px;
-}
-.navigation li {
-  display: none;
-}
+
+
 .navigation a {
   display: block;
   color: #311288;  
