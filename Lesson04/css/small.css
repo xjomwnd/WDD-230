@@ -13,6 +13,7 @@ footer {
 }
 
 header,
+main,
 footer {
   padding: 1.5rem;
   background-color: #b4c0d4;
