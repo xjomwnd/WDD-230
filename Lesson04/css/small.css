@@ -89,17 +89,12 @@ header {
 
   .top-header { 
 	width: 100%; 
-	background-image: url(images/download-3.jpg); 
+	background-image: url(img-download-3.jpg); 
 	background-size: cover; 
 	background-position: center; 
 } 
  
-.top-header > h1 { 
-	color: white; 
-	background-color: rgba(0,0,0,0.3); 
-	padding: 2em 1em; 
-	font-family: sans-serif; 
-}
+
 
 #icon {
     position: -webkit-sticky;
