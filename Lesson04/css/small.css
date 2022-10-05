@@ -74,3 +74,23 @@ h1 {
     font-weight: bold;
     font-family: 'Trirong', serif;
 }
+
+
+
+
+header {
+    display: flex;
+  }
+  header img {
+    max-width: 200px;
+  }
+
+#icon {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    max-width: 65px;
+    border: 2px solid #912a2d;
+    border-radius: 10px;
+    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
+}
