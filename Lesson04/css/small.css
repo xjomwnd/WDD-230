@@ -111,3 +111,34 @@ header img {
   max-width: 200px;
   background-size: cover;
 }
+nav {
+  background-color: #b4c0d4;
+  color: #311288;
+  font-size: 1.5rem;
+  padding: 1.5px;
+}
+nav a,
+footer a {
+  color: #70a9a1;
+  text-decoration: none;
+}
+
+.navigation {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  padding: 10px;
+}
+.navigation li {
+  display: none;
+}
+.navigation a {
+  display: block;
+  color: #311288;  
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
