@@ -33,9 +33,9 @@ footer {
   
   
   #profilepic {
-  height: 50px;
-  width: 50px;
-  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
   float: left;
   }
 
@@ -108,7 +108,7 @@ header {
   display: flex;
 }
 header img {
-  max-width: 400px;
+  max-width: 200px;
   background-size: cover;
 }
 nav {
