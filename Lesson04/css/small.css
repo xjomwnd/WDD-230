@@ -92,8 +92,7 @@ footer a {
   display: block;
 }
 
-header,
-footer, #icon {
+#icon {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
