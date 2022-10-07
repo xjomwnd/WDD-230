@@ -11,33 +11,4 @@
   }
 }
 
-/*35rem is also 560px when basefont is 16px */
-@media only screen and (min-width: 35rem) {
-    
-  nav button {display: none;}
-  
-  nav ul {
-      display: flex;
-      margin-left: 2vw;
-      border-left: 1px solid rgba(0, 0, 0, 0.3);
-  }
-  
-  nav ul li a {
-      border: none;
-      border-right: 1px solid rgba(0, 0, 0, 0.3);
-  }
-  }
-
-  @media (min-width: 32.5em) {
-    header,
-    footer {
-      border-radius: 5px;
-    }
-  
-    #profilePic {
-      float: right;
-      max-width: 200px;
-    }
-  }
-  
   /*end of medium.css */
