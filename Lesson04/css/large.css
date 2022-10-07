@@ -33,5 +33,13 @@
       margin-right: 0;
   }
 
+  header img {
+    width: 100%;
+  }
+
+  .headings h1 {
+    font-size: 3rem;
+  }
+
 }
 /* end large */
