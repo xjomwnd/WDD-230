@@ -1,31 +1,69 @@
-@media only screen and (min-width: 900px) {
-    .navigation {
-      display: flex;
-    }
-    .navigation li:first-child{
-      display:none;
-  }
-    .navigation li{
-      display:  block;
-      flex: 1 1 100%;
-    }
-  }
+@media only screen and (max-width: 32.5em) {
 
-  /*35rem is also 560px when basefont is 16px */
-@media only screen and (min-width: 35rem) {
-    
-  nav button {display: none;}
-  
-  nav ul {
-      display: flex;
-      margin-left: 2vw;
-      border-left: 1px solid rgba(0, 0, 0, 0.3);
+  h1 {					
+    line-height: 1em;
+    font-size: 30px;
+
   }
-  
-  nav ul li a {
-      border: none;
-      border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+@media only screen and (min-width: 32.5em) {
+
+  h1 {					
+    line-height: 1em;
   }
-  }
+}
+
+
+
+
+
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+/* Horizontal Menu Examples */
+/* Flex *********************/
+/*	nav ul { display: flex; }
+  nav ul li { flex: 1 1 100%; }
+*/
+
+/* Grid *********************/
+    nav ul { 
+      display: grid;
+      /*grid-template-columns: repeat(5, 1fr);*/
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    }
+
+/* Inline-Block             */
+/*
+    nav li {display: inline-block;}
+*/
+
+/* Float                    */
+/*
+    nav li {float:left; margin-right:15px;}
+    main {clear:both;}
+*/
+
+/*******************************************************/
+
+nav a {
+  font-size: 1rem;
+}
+main {
+  grid-template-columns: 1fr 1fr;
+}
+article:nth-child(3) {
+  grid-column: span 2;
+}
+main picture {
+  display: block;
+}
+main picture img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #bbb;
+}
+}
   
   /*end of medium.css */
