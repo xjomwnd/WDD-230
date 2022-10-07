@@ -208,3 +208,11 @@ nav {
 		display: none;
 	}
 }
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+#humburgerBtn span:nth-child(1) {display: block;}
+#humburgerBtn span:nth-child(2) {display: none;}
+#humburgerBtn.open span:nth-child(1) {display: none;}
+#humburgerBtn.open span:nth-child(2) {display: block;}
+/* end of small.css */
