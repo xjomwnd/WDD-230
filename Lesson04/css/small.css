@@ -108,7 +108,7 @@ header {
   display: flex;
 }
 header img {
-  max-width: 200px;
+  max-width: 400px;
   background-size: cover;
 }
 nav {
