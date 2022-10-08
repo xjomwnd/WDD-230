@@ -181,6 +181,11 @@ nav a:hover {
 	color: #fff;
 }
 
+.navigation a:hover {
+	color: white;
+	background-color: black;
+}
+
 
 /* Small/Phone View ***************
 nav {
