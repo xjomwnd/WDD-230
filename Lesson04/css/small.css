@@ -149,7 +149,8 @@ nav {
 	margin: 0 auto;
 }
 
-nav {
+ header, 
+ nav {
 	background-color: #007abd;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
