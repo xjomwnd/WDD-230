@@ -143,9 +143,8 @@ img {
   height: auto;
 }
 /* import nav.css */
-header,
-nav,
-main {
+
+nav {
 	max-width: 950px;
 	margin: 0 auto;
 }
@@ -172,22 +171,8 @@ nav ul li a {
 	font-size: 0.95rem;
 }
 
-.navigation a.ham::before {
-	content: "🍔 ";
-}
 
-nav a:hover {
-	background-color: rgb(14, 171, 243);
-	color: #fff;
-}
-
-.navigation a:hover {
-	color: white;
-	background-color: black;
-}
-
-
-/* Small/Phone View ***************
+/* Small/Phone View ***************/
 nav {
 	margin: 0 auto;
 	max-width: 760px;
