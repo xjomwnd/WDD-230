@@ -149,9 +149,14 @@ nav {
 	margin: 0 auto;
 }
 
- header, 
- nav, 
- main {
+header,
+nav,
+main {
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+nav {
 	background-color: #007abd;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
@@ -172,6 +177,17 @@ nav ul li a {
 	text-decoration: none;
 	font-size: 0.95rem;
 }
+
+nav a:hover {
+	background-color: rgb(14, 171, 243);
+	color: #fff;
+}
+
+.active {
+	color: #fff;
+	background-color: rgb(14, 171, 243);
+}
+
 
 
 /* Small/Phone View ***************/
