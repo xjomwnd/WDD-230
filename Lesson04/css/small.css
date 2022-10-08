@@ -159,7 +159,7 @@ main {
 nav {
 	background-color: #007abd;
 	text-align: center;
-	
+	box-shadow: 0 2px 15px gray;
 }
 
 nav ul {
