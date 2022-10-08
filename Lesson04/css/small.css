@@ -111,6 +111,15 @@ header img {
   max-width: 200px;
   background-size: cover;
 }
+
+footer {
+  display: flex;
+}
+footer img {
+  max-width: 200px;
+  background-size: cover;
+}
+
 nav {
   background-color: #b4c0d4;
   color: #128826;
