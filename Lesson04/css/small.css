@@ -142,9 +142,43 @@ img {
   width: 200px;
   height: auto;
 }
+/* import nav.css */
+header,
+nav,
+main {
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+nav {
+	background-color: #007abd;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+
+nav a:hover {
+	background-color: rgb(14, 171, 243);
+	color: #fff;
+}
 
 
-/* Small/Phone View ***************/
+/* Small/Phone View ***************
 nav {
 	margin: 0 auto;
 	max-width: 760px;
