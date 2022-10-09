@@ -192,7 +192,7 @@ nav a:hover {
 }
 .navigation a {
 	display: block;
-	padding: 0.75rem;
+	padding: 0;
 	text-align: left;
 	text-decoration: none;
 	color: navy;
