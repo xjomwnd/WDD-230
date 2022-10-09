@@ -175,84 +175,43 @@ nav a:hover {
 
 
 
-/* addw04 */
-/* small.css */
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
-/*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-h1, p {margin: 0 2vw;}
-nav button {
-    margin: .2rem 2vw;
-    background: transparent;
-    border: none;
-    font-size: 2rem;
-    color: #555;
+.navigation a.ham::before {
+  content: "🍔 ";
 }
-nav {
-    background-color: #eee;
+.navigation a:hover {
+  color: white;
+  background-color: black;
 }
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+  display: block;
 }
-
-nav ul li a {
-    display: block;
-    padding: 8rem 2vw;
-    text-decoration: none;
-    color: #333;
-    border-top: 1px solid rgba(0, 0, 0, 0.5);
+.responsive a.ham::before {
+  content: "❌ ";
 }
-
-nav ul li.active a {
-    background-color: rgba(0, 0, 0, 0.2);
-    color: #fff;
+/* Media Query for medium+ views */
+@media only screen and (min-width: 32.5em) {
+  .navigation {
+    display: flex;
+  }
+  .navigation li {
+    display: block; /* change state in small view */
+    flex: 1 1 auto;
+  }
+  .navigation a {
+    text-align: center;
+  }
+  .navigation li:first-child {
+    display: none;
+  }
 }
 
-nav ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-nav ul {display: none;}
 nav ul.open {display: block;}
-
-#hamburgerBtn span:nth-child(1) {display: block;}
-#hamburgerBtn span:nth-child(2) {display: none;}
-
-#hamburgerBtn.open span:nth-child(1) {display: none;}
-#hamburgerBtn.open span:nth-child(2) {display: block;}
-
-/* end small.css */
-
-/* medium.css */
-/* 15 rem is also 560px when basefont is 16px */
-@media only screen and (min-width: 35rem) {
-   
-    nav button {display: none;}
-
-    nav ul#primaryNav{
-        display: flex;
-        margin-left: 2vw;
-        border-left: 1px solid rgba(0, 0, 0, 0.3);
-    }
-
-    nav ul li a {
-        border: none;
-        border-right: 1px solid rgba(0, 0, 0, 0.3);
-    }
-} /* end medium */
-
-/*large.css*/
-/* 64em is also 1028px when basefront is 16px */
-@media only screen and (min-width: 64rem) {
-   
-    nav ul li a {
-        padding: .5rem 1rem;
-    }
-    
-} /* end large */
-
+#humburgerBtn span:nth-child(1) {display: block;}
+#humburgerBtn span:nth-child(2) {display: none;}
+#humburgerBtn.open span:nth-child(1) {display: none;}
+#humburgerBtn.open span:nth-child(2) {display: block;}
+/* end of small.css */
