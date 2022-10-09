@@ -215,3 +215,28 @@ nav ul.open {display: block;}
 #humburgerBtn.open span:nth-child(1) {display: none;}
 #humburgerBtn.open span:nth-child(2) {display: block;}
 /* end of small.css */
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+  font-weight: lighter;
+  color: white;
+  letter-spacing: .1em;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.active {
+  background-color: #a5040a;
+  background-image: linear-gradient( #a5040a, rgb(255, 238, 0));
+  box-shadow: rgb(227, 241, 252) 0px 0px 15px;
+}
+
+.ham a {
+  text-align: left;
+}
