@@ -133,8 +133,19 @@ li {
 img {
   width: 200px;
   height: auto;
-}
+
+
 /* import nav.css */
+body {
+  color: #311288;
+  max-width: 950px;
+margin: auto;
+background-color: rgb(238, 238, 238);
+font-family: 'Open Sans', sans-serif;	
+line-height: 1.55em;
+height: 100%;
+}
+
 nav {
   max-width: 950px;
   margin: 0 auto;
