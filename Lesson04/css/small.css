@@ -1,7 +1,7 @@
 body {
   margin: auto;
   background-color: white;
-  color: #311288;
+  color: #000;
   font-family: "Roboto", sans-serif;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -33,9 +33,9 @@ footer {
   
   
   #profilepic {
-  height: 100px;
-  width: 100px;
-  border-radius: 100px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
   float: left;
   }
 
@@ -111,18 +111,9 @@ header img {
   max-width: 200px;
   background-size: cover;
 }
-
-footer {
-  display: flex;
-}
-footer img {
-  max-width: 200px;
-  background-size: cover;
-}
-
 nav {
   background-color: #b4c0d4;
-  color: #128826;
+  color: #311288;
   font-size: 1.5rem;
   padding: 1.5px;
 }
@@ -151,97 +142,231 @@ img {
   width: 200px;
   height: auto;
 }
-/* import nav.css */
 
-nav {
-	max-width: 950px;
-	margin: 0 auto;
+
+
+
+/*-----        css font properties   -----
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+                ----    */
+
+
+
+
+body {
+  color: #311288;
+  max-width: 950px;
+margin: auto;
+background-color: rgb(238, 238, 238);
+font-family: 'Open Sans', sans-serif;	
+line-height: 1.55em;
+height: 100%;
 }
+
 
 header,
 nav,
 main {
-	max-width: 950px;
-	margin: 0 auto;
+max-width: 950px;
+margin: 0 auto;
 }
 
 nav {
-	background-color: #007abd;
-	text-align: center;
-	box-shadow: 0 2px 15px gray;
+background-color: #007abd;
+text-align: center;
+box-shadow: 0 2px 15px gray;
 }
 
 nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
 }
 
 nav ul li a {
-	display: block;
-	color: #fff;
-	text-align: center;
-	padding: 0.75rem;
-	text-decoration: none;
-	font-size: 0.95rem;
+display: block;
+color: #fff;
+text-align: center;
+padding: 0.75rem;
+text-decoration: none;
+font-size: 0.95rem;
 }
 
 nav a:hover {
-	background-color: rgb(14, 171, 243);
-	color: #fff;
+background-color: rgb(14, 171, 243);
+color: #fff;
 }
 
 .active {
-	color: #fff;
-	background-color: rgb(14, 171, 243);
+color: #fff;
+background-color: rgb(14, 171, 243);
+}
+
+main {
+display: block;
+font-size: 15.3px;
+padding: 20px;
+}
+
+main h2 {
+margin-bottom: auto;
+}
+
+a {
+text-decoration: none;
+color: #007ADB;
+}
+
+.color-scheme {
+display: grid;
+grid-template-columns: auto;
 }
 
 
-
-
-
-.navigation a.ham::before {
-	content: "🍔 ";
+header {
+display: grid;
+padding: 35px;
+grid-template-columns: 1fr auto;
+align-items: center;
 }
 
-.navigation a:hover {
-	color: white;
-	background-color: black;
+.color-image {
+margin: 5px;
+  width: 100%;
+height: auto;
+border-radius: 5px;
+  box-shadow: 0 0 5px #777;
 }
 
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
-  <ul class="navigation responsive">
-*/
-.responsive li {
-	display: block;
+.iwf-logo {
+margin: 15px;
+  width: 40%;
+height: auto;
 }
 
-.responsive a.ham::before {
-	content: "❌ ";
+
+h2 {
+color: grey;
+font-family: 'Noto Sans', sans-serif;	
+  font-size: 24px;
 }
 
-/* Media Query for medium+ views */
+h1 {
+display: grid;
+font-family: 'Noto Sans', sans-serif;	
+font-size: 40px;
+grid-column: 1;
+}
+
+p {
+font-size: 17px;
+}
+
+.typo {
+margin-bottom: 0px;
+}
+
+ul {
+margin-top: 5px;
+font-size: 17px;
+}
+
+
+footer {
+background-color: #b4c0d4;
+color: #311288;
+text-align: center;
+font-size: 1.5rem;
+font-family: 'Open Sans', sans-serif;
+padding: 20px;
+max-width: 950px;
+margin: 0 auto;
+}
+
+footer a:link {
+color: rgb(14, 171, 243);
+text-decoration: none;
+}
+
+@media only screen and (max-width: 32.5em) {
+
+  h1 {					
+    line-height: 1em;
+    font-size: 30px;
+
+  }
+}
+
+
 @media only screen and (min-width: 32.5em) {
-	.navigation {
-		display: flex;
-	}
-	.navigation li {
-		display: block; /* change state in small view */
-		flex: 1 1 auto;
-	}
-	.navigation a {
-		text-align: center;
-	}
-	.navigation li:first-child {
-		display: none;
-	}
+
+  h1 {					
+    line-height: 1em;
+  }
 }
 
 
-nav ul.open {display: block;}
-#humburgerBtn span:nth-child(1) {display: block;}
-#humburgerBtn span:nth-child(2) {display: none;}
-#humburgerBtn.open span:nth-child(1) {display: none;}
-#humburgerBtn.open span:nth-child(2) {display: block;}
-/* end of small.css */
+
+
+
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+/* Horizontal Menu Examples */
+/* Flex *********************/
+/*	nav ul { display: flex; }
+  nav ul li { flex: 1 1 100%; }
+*/
+
+/* Grid *********************/
+    nav ul { 
+      display: grid;
+      /*grid-template-columns: repeat(5, 1fr);*/
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    }
+
+/* Inline-Block             */
+/*
+    nav li {display: inline-block;}
+*/
+
+/* Float                    */
+/*
+    nav li {float:left; margin-right:15px;}
+    main {clear:both;}
+*/
+
+/*******************************************************/
+
+nav a {
+  font-size: 1rem;
+}
+main {
+  grid-template-columns: 1fr 1fr;
+}
+article:nth-child(3) {
+  grid-column: span 2;
+}
+main picture {
+  display: block;
+}
+main picture img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #bbb;
+}
+}
+
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+nav a {
+  font-size: 1.1rem;
+}
+main {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+article:nth-child(3) {
+  grid-column: span 1;
+}
+}
