@@ -19,7 +19,7 @@ h1 {
 
 main {
 	margin: 0.5rem auto;
-	border: 1px solid rgba(0, 0, 0, 0.2);
+	border: 1px solid #999;
 	padding: 0.5rem;
 	background-color: #bed;
 	display: grid;
@@ -42,7 +42,7 @@ label {
 	font-size: 0.9rem;
 }
 .listcontainer {
-	border: 1px solid rgba(0, 0, 0, 0.2);
+	border: 1px solid #bbb;
 	margin: 1rem;
 	padding: 1rem;
 }
@@ -61,6 +61,13 @@ li {
 	align-items: center;
 	justify-content: space-between;
 	margin-bottom: 0.5rem;
+}
+
+.appear{
+	display:block;
+}
+.disappear{
+	Display: none;
 }
 
 @media only screen and (min-width: 32.5em) {
