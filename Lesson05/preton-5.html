@@ -17,6 +17,7 @@
     <script defer src="js/index.js"></script>
     <script src="js/toggleMenu.js"></script>
 </head>
+<body>
 <header>
     <picture>
         <img src="https://cdn2.iconfinder.com/data/icons/Stock_icons_by_indestudio/128/Weather.png"
@@ -28,30 +29,33 @@
         <div class="m">Be ready to be informed</div>
     </section>   
 </header>
-<ul class="navigation">
-  <li class="ham">
-    <div class="container" id="menu">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-    </div>
-</li>
-  <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
-  <li><a href="#!">Home</a></li>
-  <li><a href="preston-4.html" class="active">Preston</a></li>
-  <li><a href=#>Soda Springs</a></li>
-  <li><a href=#>Fish Haven</a></li>
-  <li><a href=#>Storm Center</a></li>
-  <li><a href=#>Gallery</a></li>
-</ul>
+<nav>
+  <ul class="navigation">
+      </li>
+      <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+      <li><a href="#!">Home</a></li>
+      <li><a href="preston-4.html" class="active">Preston</a></li>
+      <li><a href=#>Soda Springs</a></li>
+      <li><a href=#>Fish Haven</a></li>
+      <li><a href=#>Storm Center</a></li>
+      <li><a href=#>Gallery</a></li>
+  </ul>
 </nav>
 </main>
 
 </main>
 <footer>
-    <img src="images/download.jpg" alt="Profile Pictute">
+  <picture>
+      <img src="https://cdn2.iconfinder.com/data/icons/Stock_icons_by_indestudio/128/Weather.png"
+              alt="wheater logo">
+  </picture>
+   
+  <p>
+&copy; <span id="year"></span>| SE Idaho Weather Report | Joel Ndiba Mwaura | WDD 230 Project |</span><Span class="last-update" id="lastModified">|</Span>  
+  </p>
+  
 </footer>
-<body>
-    
+
+<script src="js/last-modified.js" defer></script>
 </body>
 </html>
