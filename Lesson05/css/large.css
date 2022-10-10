@@ -1,0 +1,48 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem){
+
+    nav ul li a {
+        padding: .5rem 1rem;
+    }
+    
+  }
+  
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px
+  */
+  
+  @media (min-width: 1028px) {
+  
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    nav li {
+        margin-right: 1rem;
+        display: flex;
+    }
+    
+    nav li:first-child {
+        display: none;
+    }
+  
+    nav li:last-child {
+        margin-right: 0;
+    }
+  
+    header img {
+      width: 100%;
+    }
+  
+    .headings h1 {
+      font-size: 3rem;
+    }
+  
+  
+    
+  
+  }
+  /* end large */
