@@ -40,9 +40,37 @@
     .headings h1 {
       font-size: 3rem;
     }
-  
-  
-    
-  
-  }
+   }
   /* end large */
+
+  /*glich large.css*/
+  .weather-summary{
+    top: 50px;
+    left: 75px;
+    font-size: 18px;
+}
+.hero-box h3 {
+    margin-top: 5px;
+    font-size: 35px;
+}
+#widerodeo{
+    display: inline;
+    position: relative;
+    min-width: 100%;
+    border-radius: 15px;
+}
+table{
+    font-size: 18px;
+}
+
+.article, .article-wide{
+    font-size: 17px;
+    margin: 35px 0px;
+    max-width: 45%;
+}
+#tent{
+    max-width: 50%;
+    border-radius: 15px;
+    float: right;
+    margin-top: -720px;
+}
