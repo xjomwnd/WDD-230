@@ -59,18 +59,3 @@
     min-width: 100%;
     border-radius: 15px;
 }
-table{
-    font-size: 18px;
-}
-
-.article, .article-wide{
-    font-size: 17px;
-    margin: 35px 0px;
-    max-width: 45%;
-}
-#tent{
-    max-width: 50%;
-    border-radius: 15px;
-    float: right;
-    margin-top: -720px;
-}
