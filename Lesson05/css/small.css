@@ -452,3 +452,24 @@ p {
     font-size: 14px;
     line-height: .7;
 }
+.hero-box{
+  position: relative;
+  margin-top: -25px;;
+}
+.hero-box h3 {
+  margin-top: 5px;
+  font-family: "Neucha", fantasy, cursive;
+  font-size: 20px;
+  color: rgb(253, 215, 1);
+  text-shadow: rgb(1, 59, 99) 2px 2px 2px;
+}
+span{
+ color: rgb(253, 215, 1); 
+ text-shadow: rgb(1, 59, 99) 2px 2px 2px;
+}
+
+.hero-box p{
+  margin-top: 15px;
+  font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1;
+}
