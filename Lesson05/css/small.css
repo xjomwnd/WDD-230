@@ -473,3 +473,27 @@ span{
   font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1;
 }
+
+}
+.weather-summary{
+    position: absolute;
+    top: 75px;
+    left: 15px;
+    background-color: rgba(3, 128, 201, 0.7);
+    border: rgb(1, 82, 136) solid 2px;
+    color: white;
+    padding: 0 15px;
+    max-width: 50%;
+    border-radius: 15px;
+    box-shadow: 0 0 55px lemonchiffon;
+}
+#rodeo{
+    max-width: 550px;
+    border-radius: 5px;
+}
+#widerodeo{
+    display: none;
+}
+#fiveday{
+    display: none;
+}
