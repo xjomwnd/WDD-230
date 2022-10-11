@@ -228,7 +228,7 @@ p {
     background-color: rgb(14, 171, 243);
   }
   
-  /* glich.css*/
+  /* glich-styles.css*/
 
   main {
     background-color: #FFF0F0;
@@ -308,8 +308,60 @@ p {
     
   }
 
-  /*end glich.css*/
+  /*end glich-styles.css*/
+
+  /*glich-site-plan.css*/
+
+  .sitemap {
+    display: grid;
+    justify-content: center;
   
+    grid-template-columns: repeat(6, 15%);
+    grid-template-rows: 3em 1.5em 1.5em 3em;
+    grid-template-areas: ". . home home . ."
+      ". . . top . ."
+      ". left left right right ."
+      "page2 page2 . . page3 page3";
+  }
+  .sitemap > div {
+  
+    text-align: center;
+  
+  }
+  .sm-home {
+    grid-area: home;
+    background-color: #999;
+    line-height: 3em;
+  }
+  .sm-page2 {
+    grid-area: page2;
+    background-color: #999;
+    line-height: 3em;
+  }
+  .sm-page3 {
+    grid-area: page3;
+    background-color: #999;
+    line-height: 3em;
+  }
+  
+  .top {
+    grid-area: top;
+    border-left: 1px solid;
+  }
+  
+  .left {
+    grid-area: left;
+    border-top: 1px solid;
+    border-left: 1px solid;
+  }
+  
+  .right {
+    grid-area: right;
+    border-top: 1px solid;
+    border-right: 1px solid;
+  }
+
+  /*end-glich-site-plan.css*/
   
   
   /*css*/
