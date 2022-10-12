@@ -11,6 +11,8 @@ footer {
   max-width: 900px;
   margin: 0 auto;
   padding: 0;
+  align-items: flex-end;
+  justify-content: left;
 }
 header,
 footer {
@@ -20,6 +22,7 @@ footer {
   box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
  
 }
+
 
 #profilePic {
   max-width: 250px;
@@ -138,13 +141,6 @@ footer a {
 }
 
 
-header {
-  display: flex;
-}
-header img {
-  max-width: 200px;
-  background-size: cover;
-}
 nav {
   background-color: #b4c0d4;
   color: #311288;
@@ -202,7 +198,7 @@ height: 100%;
 header,
 nav,
 main {
-max-width: 950px;
+max-width: 900px;
 margin: 0 auto;
 }
 
@@ -261,9 +257,9 @@ grid-template-columns: auto;
 
 header {
 display: grid;
-padding: 35px;
+padding: 0px;
 grid-template-columns: 1fr auto;
-align-items: center;
+align-items: left;
 }
 
 .color-image {
