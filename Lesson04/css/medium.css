@@ -1,9 +1,11 @@
-/*35rem is also 560px when basefont is 16px */
+/*chny medium.css*/
+      /*medium.css*/
+/* 35 rem is also 560px when base font is 16px */
 @media only screen and (min-width: 35rem) {
     
     nav button {display: none;}
     
-    nav ul {
+    nav ul#primaryNav {
         display: flex;
         margin-left: 2vw;
         border-left: 1px solid rgba(0, 0, 0, 0.3);
@@ -13,16 +15,7 @@
         border: none;
         border-right: 1px solid rgba(0, 0, 0, 0.3);
     }
-
-    nav ul { 
-        display: grid;
-        /*grid-template-columns: repeat(5, 1fr);*/
-        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-    }
-
-    }
-    
-    /*end of medium.css */
+    }/* chny end medium */
 
     @media (min-width: 32.5em) {
         header,
@@ -69,21 +62,3 @@
             margin-right: 40px;
         }
       }
-      /*chny medium.css*/
-      /*medium.css*/
-/* 35 rem is also 560px when base font is 16px */
-@media only screen and (min-width: 35rem) {
-    
-    nav button {display: none;}
-    
-    nav ul#primaryNav {
-        display: flex;
-        margin-left: 2vw;
-        border-left: 1px solid rgba(0, 0, 0, 0.3);
-    }
-    
-    nav ul li a {
-        border: none;
-        border-right: 1px solid rgba(0, 0, 0, 0.3);
-    }
-    }/* chny end medium */
