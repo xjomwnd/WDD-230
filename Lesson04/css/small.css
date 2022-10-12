@@ -16,7 +16,14 @@ footer {
   padding: 1.5rem;
   background-color: #b4c0d4;
   border-radius: 15px;
+  box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
+  display: grid;
+  grid-template-columns: 98%;
+  justify-items: center;
+  text-align: center;
 }
+
+
 #profilePic {
   max-width: 250px;
   height: auto;
