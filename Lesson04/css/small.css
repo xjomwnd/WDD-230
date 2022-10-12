@@ -193,7 +193,7 @@ header {
 }
 
 .logo img {
-	width: 80px;
+	width: 100px;
 	height: auto;
 }
 
@@ -221,6 +221,10 @@ header {
 .social svg {
 	width: 25px;
 	height: auto;
+}
+.social img {
+  width: 10px;
+  height: auto;
 }
 
 
