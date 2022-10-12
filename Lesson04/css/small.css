@@ -349,6 +349,16 @@ margin: 15px;
 height: auto;
 }
 
+fieldset {
+	margin: 1.5rem;
+}
+span {
+	font-weight: 700;
+}
+#date1 {
+	color: forestgreen;
+}
+
 
 h2 {
 color: grey;
