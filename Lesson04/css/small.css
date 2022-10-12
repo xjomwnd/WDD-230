@@ -196,7 +196,7 @@ body {
 
 header {
 	background-color: #b4c0d4;
-	padding: 5px 0;
+	padding: 0px 0;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -243,3 +243,4 @@ header {
 	height: auto;
 }
 
+/* try nav*/
