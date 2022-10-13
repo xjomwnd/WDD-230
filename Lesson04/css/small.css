@@ -271,7 +271,7 @@ height: 100%;
 header,
 nav,
 main {
-max-width: 900px;
+max-width: 950px;
 margin: 0 auto;
 }
 
@@ -332,7 +332,7 @@ header {
 display: grid;
 padding: 0px;
 grid-template-columns: 1fr auto;
-align-items: center;
+align-items: left;
 }
 
 .color-image {
