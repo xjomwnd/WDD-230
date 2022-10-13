@@ -332,7 +332,7 @@ header {
 display: grid;
 padding: 0px;
 grid-template-columns: 1fr auto;
-align-items: left;
+align-items: center;
 }
 
 .color-image {
