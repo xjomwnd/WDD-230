@@ -1,62 +1,46 @@
-/*chny large.css*/
-/*large.css*/
-/* 64em is also 1028px when basefont is 16px */
-@media only screen and (min-width: 64rem) {
-    
-    nav ul li a {
-        padding: .5rem 1rem;
-    }
-  
-  }
-  /*end large.css*/
-  /* 
-    ##Device = Laptops, Desktops
-    ##Screen = B/w 1025px
-  */
-  
-  @media (min-width: 1028px) {
-  
-    nav ul {
-        flex-direction: row;
-        justify-content: center;
-    }
-    
-    nav li {
-        margin-right: 1rem;
-        display: flex;
-    }
-    
-    nav li:first-child {
-        display: none;
-    }
-  
-    nav li:last-child {
-        margin-right: 0;
-    }
-  
-    header img {
-      width: 100%;
-    }
-  
-    .headings h1 {
-      font-size: 3rem;
-    } 
-  
-  }
-  /* end large */
-  /* Larger viewports */
-  @media only screen and (min-width: 32.5em) {
-      header img {
-          width: 100%;
-      }
-  
-      .headings h1 {
-          font-size: 2rem;
-          margin: 0;
-      }
-  
-      .m {
-          letter-spacing: 1.5pt;
-          font-size: 0.9rem;
-      }
-  }
+// Select the HTML element to manipulate
+const date1 = document.querySelector("#date1");
+// Try to complete the method with options
+try {
+	const options = {
+		weekday: "long",
+		day: "numeric",
+		month: "long",
+		year: "numeric"
+	};
+	date1.textContent = new Date().toLocaleDateString("en-UK", options);
+} catch (e) {
+	alert("Error with code or your browser does not support Locale");
+}
+
+// Long hand method ... building day and month names from built-in date methods.
+
+const daynames = [
+	"Sunday",
+	"Monday",
+	"Tuesday",
+	"Wednesday",
+	"Thursday",
+	"Friday",
+	"Saturday"
+];
+const months = [
+	"January",
+	"February",
+	"March",
+	"April",
+	"May",
+	"June",
+	"July",
+	"August",
+	"September",
+	"October",
+	"November",
+	"December"
+];
+const d = new Date();
+const dayName = daynames[d.getDay()];
+const monthName = months[d.getMonth()];
+const year = d.getFullYear();
+const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
+document.querySelector("#date2").textContent = fulldate;
