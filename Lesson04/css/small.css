@@ -232,6 +232,12 @@ header {
 }
 
 /*date.css*/
+#lastModified {
+	text-align: center;
+	font-size: smaller;
+  margin: 0;
+	background-color: #abe;
+}
 
 
 /* Larger viewports */
