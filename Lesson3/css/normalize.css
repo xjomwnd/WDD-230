@@ -288,7 +288,7 @@
    */
   
   [type="search"] {
-    -webkit-appearance: outline-offset: -2px; /* 2 */
+    -webkit-appearance: outline-offset: -2px; 
   }
   
   /**
