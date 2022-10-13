@@ -219,12 +219,12 @@ header {
 }
 
 .social svg {
-	width: 25px;
-	height: auto;
+	width: 5px;
+	height: 5px;
 }
 .social img {
-  width: 30px;
-  height: auto;
+  width: 5px;
+  height: 5px;
 }
 
 /*date.css*/
@@ -347,16 +347,6 @@ border-radius: 5px;
 margin: 15px;
   width: 40%;
 height: auto;
-}
-
-fieldset {
-	margin: 1.5rem;
-}
-span {
-	font-weight: 700;
-}
-#date1 {
-	color: forestgreen;
 }
 
 
