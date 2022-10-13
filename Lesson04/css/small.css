@@ -172,6 +172,10 @@ img {
   width: 200px;
   height: auto;
 }
+.location img {
+  width: 20px;
+  height: 20px;
+}
 
 
 /* header set icons.css */
