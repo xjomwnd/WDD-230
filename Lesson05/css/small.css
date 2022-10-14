@@ -197,6 +197,10 @@ padding: 20px;
 .herodiv {
   margin: 10px auto;
   position: relative;
+  border: 1px dashed cyan;
+}
+.button {
+  
 }
 
 .summerfestival {
