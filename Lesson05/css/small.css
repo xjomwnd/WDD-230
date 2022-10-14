@@ -195,7 +195,7 @@ padding: 20px;
 
 .hero-ph {
   width: 400px;
-	height: 450;
+	height: auto;
   margin: 10px auto;
   position: relative;
   border-width: 50%;
@@ -265,7 +265,7 @@ padding: 20px;
   margin: 10px auto;
   position: absolute;
   width: 200px;
-  height: 600px;
+  height: 630px;
   top: 5px;
   right: 5px;
   border: 1px solid #000;
