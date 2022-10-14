@@ -187,18 +187,15 @@ padding: 20px;
 }
 
 
-.herodiv img {
-  width: 500px;
-  height: 500px;
-  text-align: center;
-  border: 1px solid #333;
-}
-
 .herodiv {
+  width: 500px;
+	height: auto;
   margin: 10px auto;
   position: relative;
   border: 1px dashed cyan;
+  border-width: 50%;
 }
+
 .button {
 	position: absolute;
 	top: 25px;
@@ -208,6 +205,8 @@ padding: 20px;
 	padding: 1.5rem;
 	box-shadow: 0 0 30px #333;
 	opacity: 0.8;
+  text-align: center;
+  
 }
 
 .button span {
@@ -215,11 +214,12 @@ padding: 20px;
 	font-weight: 700;
 }
 
-
-.summerfestival {
+.event {
   position: absolute;
-  top: 10px;
+  width: 200px;
+  height: 200px;
   left: 10px;
+  border: 1px solid #000;
 }
 
 
