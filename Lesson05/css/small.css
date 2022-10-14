@@ -95,7 +95,7 @@ footer a {
   max-height: 20px;
   border: 2px solid #074915;
   border-radius: 10px;
-  
+  box-shadow: hwb(195 98% 1%) 0px 0px 15px;
 }
 header {
   display: flex;
