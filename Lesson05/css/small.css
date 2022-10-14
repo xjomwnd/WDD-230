@@ -185,14 +185,17 @@ display: block;
 font-size: 15.3px;
 padding: 20px;
 }
-
-
 .herodiv {
-  width: 500px;
-	height: auto;
   margin: 10px auto;
   position: relative;
   border: 1px dashed cyan;
+} 
+
+.hero-ph {
+  width: 400px;
+	height: auto;
+  margin: 10px auto;
+  position: relative;
   border-width: 50%;
 }
 
@@ -218,7 +221,8 @@ padding: 20px;
   position: absolute;
   width: 200px;
   height: 200px;
-  left: 10px;
+  top: 5px;
+  left: 5px;
   border: 1px solid #000;
 }
 
