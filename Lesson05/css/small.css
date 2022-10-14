@@ -193,7 +193,7 @@ padding: 20px;
 
 .hero-ph {
   width: 400px;
-	height: auto;
+	height: 700;
   margin: 10px auto;
   position: relative;
   border-width: 50%;
@@ -226,6 +226,20 @@ padding: 20px;
   border: 1px solid #000;
 }
 
+.weather {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  min-width: none;
+  left: 5px;
+  border: 1px solid #000;
+}
+
+.weather {
+  grid-column: 1 / 1;
+  grid-row: 2 / 2;
+  
+}
 
 
 
