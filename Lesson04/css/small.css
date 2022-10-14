@@ -173,8 +173,8 @@ img {
   height: auto;
 }
 .location img {
-  width: 20px;
-  height: 20px;
+  width: 5px;
+  height: 5px;
 }
 
 
@@ -227,8 +227,8 @@ header {
 	height: 5px;
 }
 .social img {
-  width: 5px;
-  height: 5px;
+  width: 20px;
+  height: 20px;
 }
 
 /*date.css*/
@@ -268,8 +268,8 @@ font-family: 'Open Sans', sans-serif;
 
 
 body {
-  color: #311288;
-  max-width: 950px;
+color: #311288;
+max-width: 950px;
 margin: auto;
 background-color: rgb(238, 238, 238);
 font-family: 'Open Sans', sans-serif;	
