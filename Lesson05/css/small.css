@@ -193,7 +193,7 @@ padding: 20px;
 
 .hero-ph {
   width: 400px;
-	height: 700;
+	height: auto;
   margin: 10px auto;
   position: relative;
   border-width: 50%;
@@ -231,16 +231,26 @@ padding: 20px;
   width: 200px;
   height: 200px;
   min-width: none;
+  top: auto;
   left: 5px;
   border: 1px solid #000;
 }
 
-.weather {
-  grid-column: 1 / 1;
-  grid-row: 2 / 2;
-  
+.news {
+  position: relative;
+  width: 400px;
+  height: 100px;
+  align-self: start;
+  border: 1px solid #000;
 }
 
+.join {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  left: 5px;
+  border: 1px solid #000;
+}
 
 
 
