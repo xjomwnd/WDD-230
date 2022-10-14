@@ -188,8 +188,21 @@ padding: 20px;
 
 
 .herodiv img {
-  width: 100%;
-  height: 100%;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  border: 1px solid #333;
+}
+
+.herodiv {
+  margin: 10px auto;
+  position: relative;
+}
+
+.summerfestival {
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 
