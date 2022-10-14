@@ -6,19 +6,15 @@ body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
+
 header,
 footer {
   max-width: 900px;
-  margin: 0 auto;
-  padding: 0;
-  align-items: left;
-  justify-content: center;
-}
-header,
-footer {
   padding: 1.5rem;
   background-color: #b4c0d4;
   border-radius: 15px;
+  align-items: left;
+  justify-content: left;
   box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
  
 }
@@ -101,6 +97,9 @@ header {
 header img {
   max-width: 200px;
   background-size: cover;
+  align-items: left;
+  justify-content: left;
+  box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
 }
 footer {
   display: flex;
@@ -131,8 +130,8 @@ font-family: 'Open Sans', sans-serif;
 
 
 body {
-  color: #311288;
-  max-width: 950px;
+color: #311288;
+max-width: 950px;
 margin: auto;
 background-color: rgb(238, 238, 238);
 font-family: 'Open Sans', sans-serif;	
