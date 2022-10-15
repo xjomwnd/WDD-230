@@ -282,24 +282,16 @@ padding: 20px;
   position: absolute;
   width: 180px;
   height: 180px;
-  
   right: 5px;
   border: 1px solid #000;
 }
 
 .spotlight2 {
-  
+  position: none;
   width: 180px;
   height: 180px;
- bottom: 0.5px;
   right: 5px;
   border: 1px solid #000;
-  
-  border-collapse: separate;
-  border-spacing: 15px;
-    
-    text-align: center;
-  position: absolute;
 }
 
 .spotlight3 {
