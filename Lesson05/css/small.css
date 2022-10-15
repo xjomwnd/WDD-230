@@ -293,16 +293,18 @@ main {
     left: 4px;
   } 
   
-
   .news {
     width: 400px;
-    height: 290px;
+    height: 300px;
     margin: 10px auto;
     position: relative;
+    border-width: 50%;
     border: 1px solid #000;
-    left: 2px;
-  } 
-  
+    bottom: 10px;
+    
+  }
+ 
+ 
   
    
   .join {
@@ -332,20 +334,22 @@ main {
     right: 5px;
     border: 1px solid #000;
   }
+  
   .spotlight2 {
-    position: none;
     width: 180px;
     height: 180px;
-    right: 5px;
-    grid-column-end: 5;
-    grid-row-end: 1;
-    border: 1px solid #000;
-  }
+    position: relative;
+    border: 1px dashed cyan;
+    right: 6px;
+    margin: 10px auto;
+    top: 200px;
+  } 
+
   .spotlight3 {
     position: absolute;
     width: 180px;
-    height: 150px;
-    bottom: -5px;
+    height: 180px;
+    top: 400px;
     right: 5px;
     border: 1px solid #000;
   }
