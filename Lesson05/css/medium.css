@@ -16,7 +16,6 @@
         border-right: 1px solid rgba(0, 0, 0, 0.3);
     }
     }/* chny end medium */
-
     @media (min-width: 32.5em) {
         header,
         footer {
@@ -27,7 +26,6 @@
           float: right;
           max-width: 200px;
         }
-
         #icon {
             position: -webkit-sticky;
             position: sticky;
@@ -39,7 +37,6 @@
             box-shadow: hwb(195 98% 1%) 0px 0px 15px;
           }
           
-
         #icon {
             min-width: 100px;
             margin-left: 40px;
