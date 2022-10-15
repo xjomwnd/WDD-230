@@ -145,6 +145,11 @@ line-height: 1.55em;
 height: 100%;
 }
 
+header {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  
+}
 
 header,
 nav,
@@ -236,6 +241,7 @@ padding: 20px;
 
 .weather {
   position: absolute;
+  grid-row-start: 1;
   width: 200px;
   height: 200px;
   min-width: none;
@@ -291,6 +297,8 @@ padding: 20px;
   width: 180px;
   height: 180px;
   right: 5px;
+  grid-column-end: 5;
+  grid-row-end: 1;
   border: 1px solid #000;
 }
 
