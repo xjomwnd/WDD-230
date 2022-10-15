@@ -329,17 +329,17 @@ main {
   }
   .spotlight1 {
     position: absolute;
-    width: 180px;
-    height: 180px;
+    width: 190px;
+    height: 200px;
     right: 5px;
     border: 1px solid #000;
   }
   
   .spotlight2 {
-    width: 180px;
-    height: 180px;
+    width: 190px;
+    height: 200px;
     position: relative;
-    border: 1px dashed cyan;
+    border: 1px solid #000;
     right: 6px;
     margin: 10px auto;
     top: 200px;
@@ -347,9 +347,9 @@ main {
 
   .spotlight3 {
     position: absolute;
-    width: 180px;
-    height: 180px;
-    top: 400px;
+    width: 190px;
+    height: 200px;
+    top: 420px;
     right: 5px;
     border: 1px solid #000;
   }
