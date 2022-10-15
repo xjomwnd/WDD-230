@@ -257,10 +257,10 @@ padding: 20px;
   width: 400px;
   height: 100px;
   align-self: start;
-  
-  border: 1px solid #000;
+  grid-area: right;
   box-sizing: border-box;
   font-size: 1.2rem;
+  right: 4;
 }
 
 
