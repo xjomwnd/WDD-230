@@ -1,54 +1,61 @@
-/*chny large.css*/
-/*large.css*/
-/* 64em is also 1028px when basefont is 16px */
-@media only screen and (min-width: 64rem) {
+/*chny medium.css*/
+      /*medium.css*/
+/* 35 rem is also 560px when base font is 16px */
+@media only screen and (min-width: 35rem) {
     
-    nav ul li a {
-        padding: .5rem 1rem;
-    }
-  }
-  /*end large.css*/
-  /* 
-    ##Device = Laptops, Desktops
-    ##Screen = B/w 1025px
-  */
-  @media (min-width: 1028px) {
-    nav ul {
-        flex-direction: row;
-        justify-content: center;
-    }
-    
-    nav li {
-        margin-right: 1rem;
-        display: flex;
-    }
-    
-    nav li:first-child {
-        display: none;
-    }
-    nav li:last-child {
-        margin-right: 0;
-    }
-    header img {
-      width: 100%;
-    }
-    .headings h1 {
-      font-size: 3rem;
-    } 
-  }
-  /* end large */
-  /* Larger viewports */
-  @media only screen and (min-width: 32.5em) {
-    header img {
-      width: 100%;
-    }
-    .headings h1 {
-      font-size: 2rem;
-      margin: 0;
-    }
-    .m {
-      letter-spacing: 1.5pt;
-      font-size: 0.9rem;
-    }
+  nav button {display: none;}
+  
+  nav ul#primaryNav {
+      display: flex;
+      margin-left: 2vw;
+      border-left: 1px solid rgba(0, 0, 0, 0.3);
   }
   
+  nav ul li a {
+      border: none;
+      border-right: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  }/* chny end medium */
+  @media (min-width: 32.5em) {
+      header,
+      footer {
+        border-radius: 5px;
+      }
+    
+      #profilePic {
+        float: right;
+        max-width: 200px;
+      }
+      #icon {
+          position: -webkit-sticky;
+          position: sticky;
+          top: 0;
+          max-width: 100px;
+          max-height: 100px;
+          border: 2px solid #074915;
+          border-radius: 10px;
+          box-shadow: hwb(195 98% 1%) 0px 0px 15px;
+        }
+        
+      #icon {
+          min-width: 100px;
+          margin-left: 40px;
+          border: 4px solid #912a2d;
+      }
+  
+      #sage {
+          margin-top: -auto;
+          margin-bottom: 10px;
+          width: 200px;
+          height: 200px;
+      }
+  
+      h1 {
+          font-size: 40px;
+      }
+  
+      #top-h1 {
+          margin-top: 20px;
+          margin-right: 40px;
+      }
+    } 

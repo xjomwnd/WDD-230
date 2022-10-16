@@ -3,59 +3,59 @@
 /* 35 rem is also 560px when base font is 16px */
 @media only screen and (min-width: 35rem) {
     
-    nav button {display: none;}
+  nav button {display: none;}
+  
+  nav ul#primaryNav {
+      display: flex;
+      margin-left: 2vw;
+      border-left: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  
+  nav ul li a {
+      border: none;
+      border-right: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  }/* chny end medium */
+  @media (min-width: 32.5em) {
+      header,
+      footer {
+        border-radius: 5px;
+      }
     
-    nav ul#primaryNav {
-        display: flex;
-        margin-left: 2vw;
-        border-left: 1px solid rgba(0, 0, 0, 0.3);
-    }
-    
-    nav ul li a {
-        border: none;
-        border-right: 1px solid rgba(0, 0, 0, 0.3);
-    }
-    }/* chny end medium */
-    @media (min-width: 32.5em) {
-        header,
-        footer {
-          border-radius: 5px;
+      #profilePic {
+        float: right;
+        max-width: 200px;
+      }
+      #icon {
+          position: -webkit-sticky;
+          position: sticky;
+          top: 0;
+          max-width: 100px;
+          max-height: 100px;
+          border: 2px solid #074915;
+          border-radius: 10px;
+          box-shadow: hwb(195 98% 1%) 0px 0px 15px;
         }
-      
-        #profilePic {
-          float: right;
-          max-width: 200px;
-        }
-        #icon {
-            position: -webkit-sticky;
-            position: sticky;
-            top: 0;
-            max-width: 100px;
-            max-height: 100px;
-            border: 2px solid #074915;
-            border-radius: 10px;
-            box-shadow: hwb(195 98% 1%) 0px 0px 15px;
-          }
-          
-        #icon {
-            min-width: 100px;
-            margin-left: 40px;
-            border: 4px solid #912a2d;
-        }
-    
-        #sage {
-            margin-top: -auto;
-            margin-bottom: 10px;
-            width: 200px;
-            height: 200px;
-        }
-    
-        h1 {
-            font-size: 40px;
-        }
-    
-        #top-h1 {
-            margin-top: 20px;
-            margin-right: 40px;
-        }
-      } 
+        
+      #icon {
+          min-width: 100px;
+          margin-left: 40px;
+          border: 4px solid #912a2d;
+      }
+  
+      #sage {
+          margin-top: -auto;
+          margin-bottom: 10px;
+          width: 200px;
+          height: 200px;
+      }
+  
+      h1 {
+          font-size: 40px;
+      }
+  
+      #top-h1 {
+          margin-top: 20px;
+          margin-right: 40px;
+      }
+    } 
