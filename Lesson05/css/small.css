@@ -222,121 +222,124 @@ body {
     margin: 0;
     background-color: #abe;
   }
-  /* main css */
-  main {
-    display: block;
-    font-size: 15.3px;
-    padding: 20px;
-    }
-    .herodiv {
-      width: 850px;
-      height: 650px;
-      margin: 10px auto;
-      position: relative;
-      border: 1px dashed cyan;
-      background-color: #f2e8cb;
-    } 
-    .hero-ph {
-      width: 400px;
-      height: auto;
-      margin: 10px auto;
-      position: relative;
-      border-width: 50%;
-    }
-    .button {
-      position: absolute;
-      bottom: 25px;
-      right: 50px;
-      background: radial-gradient(#eee, #4567aa);
-      border: 1px solid #000;
-      padding: 1.5rem;
-      box-shadow: 0 0 30px #333;
-      opacity: 0.8;
-      text-align: center;
-      
-    }
-    .button span {
-      font-style: italic;
-      font-weight: 700;
-    }
-    .event {
-      position: absolute;
-      width: 200px;
-      height: 350px;
-      top: 5px;
-      left: 5px;
-      border: 1px solid #000;
-    }
+
+/* begining MAIN css */
+/*start main css */
+main {
+  display: block;
+  font-size: 15.3px;
+  padding: 20px;
+  }
+  .herodiv {
+    width: 850px;
+    height: 650px;
+    margin: 10px auto;
+    position: relative;
+    border: 1px dashed cyan;
+    background-color: #f2e8cb;
+  } 
+  .hero-ph {
+    width: 400px;
+    height: auto;
+    margin: 10px auto;
+    position: relative;
+    border-width: 50%;
+  }
+  .button {
+    position: absolute;
+    bottom: 25px;
+    right: 50px;
+    background: radial-gradient(#eee, #4567aa);
+    border: 1px solid #000;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #333;
+    opacity: 0.8;
+    text-align: center;
     
-    .weather {
-      width: 200px;
-      height: 225px;
-      margin: 10px auto;
-      position: absolute;
-      border: 1px solid #000;
-      left: 4px;
-    } 
+  }
+  .button span {
+    font-style: italic;
+    font-weight: 700;
+  }
+  .event {
+    position: absolute;
+    width: 200px;
+    height: 350px;
+    top: 5px;
+    left: 5px;
+    border: 1px solid #000;
+  }
+  
+  .weather {
+    width: 200px;
+    height: 225px;
+    margin: 10px auto;
+    position: absolute;
+    border: 1px solid #000;
+    left: 4px;
+  } 
+  
+  .news {
+    width: 400px;
+    height: 300px;
+    margin: 10px auto;
+    position: relative;
+    border-width: 50%;
+    border: 1px solid #000;
+    bottom: 10px;
     
-    .news {
-      width: 400px;
-      height: 300px;
-      margin: 10px auto;
-      position: relative;
-      border-width: 50%;
-      border: 1px solid #000;
-      bottom: 10px;
-      
-    }
+  }
+ 
+ 
+  
    
-   
-    
-     
-    .join {
-      position: absolute;
-      width: 200px;
-      height: 50px;
-      bottom: 5px;
-      left: 5px;
-      border: 1px solid #000;
-      box-sizing: border-box;
-    }
-    
-    
-    .spotlight {
-      margin: 10px auto;
-      position: absolute;
-      width: 200px;
-      height: 630px;
-      top: 5px;
-      right: 5px;
-      border: 1px solid #000;
-    }
-    .spotlight1 {
-      position: absolute;
-      width: 190px;
-      height: 200px;
-      right: 5px;
-      border: 1px solid #000;
-    }
-    
-    .spotlight2 {
-      width: 190px;
-      height: 200px;
-      position: relative;
-      border: 1px solid #000;
-      right: 6px;
-      margin: 10px auto;
-      top: 200px;
-    } 
-    .spotlight3 {
-      position: absolute;
-      width: 190px;
-      height: 200px;
-      top: 420px;
-      right: 5px;
-      border: 1px solid #000;
-    }
-    
+  .join {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    bottom: 5px;
+    left: 5px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+  }
+  
+  
+  .spotlight {
+    margin: 10px auto;
+    position: absolute;
+    width: 200px;
+    height: 630px;
+    top: 5px;
+    right: 5px;
+    border: 1px solid #000;
+  }
+  .spotlight1 {
+    position: absolute;
+    width: 190px;
+    height: 200px;
+    right: 5px;
+    border: 1px solid #000;
+  }
+  
+  .spotlight2 {
+    width: 190px;
+    height: 200px;
+    position: relative;
+    border: 1px solid #000;
+    right: 6px;
+    margin: 10px auto;
+    top: 200px;
+  } 
+  .spotlight3 {
+    position: absolute;
+    width: 190px;
+    height: 200px;
+    top: 420px;
+    right: 5px;
+    border: 1px solid #000;
+  }
+
+
   /* end main css */
   /* Larger viewports */
   @media only screen and (min-width: 32.5em) {
