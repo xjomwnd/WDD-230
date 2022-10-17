@@ -8,7 +8,7 @@ body {
   }
   header,
   footer {
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0;
     align-items: left;
@@ -177,7 +177,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     border-bottom: 1px solid #bbb;
   }
@@ -187,7 +187,7 @@ body {
     margin-left: 1rem;
   }
   .logo img {
-    width: 100px;
+    width: 100%;
     height: auto;
   }
   .headings {
@@ -248,7 +248,7 @@ body {
   
   body {
   color: #311288;
-  max-width: 900px;
+  max-width: 100%;
   margin: auto;
   background-color: rgb(238, 238, 238);
   font-family: 'Open Sans', sans-serif; 
@@ -259,7 +259,7 @@ body {
   header,
   nav,
   main {
-  max-width: 950px;
+  max-width: 100%;
   margin: 0 auto;
   }
   nav {
@@ -350,7 +350,7 @@ body {
     margin: 1px auto;
     position: relative;
     background-color: #f2e8cb;
-    width: 800px;
+    width: 100%;
     padding: 50px;
     border: solid blue 1px;
     -webkit-box-sizing: border-box;
@@ -364,7 +364,7 @@ body {
     margin: 1px auto;
     position: relative;
     background-color: #f2e8cb;
-    width: 800px;
+    width: 100%;
     padding: 50px;
     border: solid blue 1px;
     -webkit-box-sizing: border-box;
@@ -376,7 +376,7 @@ body {
     margin: 1px auto;
     position: relative;
     background-color: white;
-    width: 800px;
+    width: 100%;
     padding: 50px;
     border: solid blue 1px;
     -webkit-box-sizing: border-box;
@@ -388,7 +388,7 @@ body {
     margin: 1px auto;
     position: relative;
     background-color: #f2e8cb;
-    width: 600px;
+    width: 100%;
     padding: 50px;
     border: solid blue 1px;
     -webkit-box-sizing: border-box;
@@ -400,7 +400,7 @@ body {
     margin: 1px auto;
     position: relative;
     background-color: #f2e8cb;
-    width: 600px;
+    width: 100%;
     padding: 50px;
     border: solid blue 1px;
     -webkit-box-sizing: border-box;
@@ -412,7 +412,7 @@ body {
     margin: 1px auto;
     position: relative;
     background-color: #f2e8cb;
-    width: 600px;
+    width: 100%;
     padding: 50px;
     border: solid blue 1px;
     -webkit-box-sizing: border-box;
@@ -426,7 +426,7 @@ body {
     margin: 1px auto;
     position: relative;
     background-color: #f2e8cb;
-    width: 800px;
+    width: 100%;
     padding: 50px;
     border: solid blue 1px;
     -webkit-box-sizing: border-box;
@@ -439,7 +439,7 @@ body {
     margin: 1px auto;
     position: relative;
     background-color: #f2e8cb;
-    width: 800px;
+    width: 100%;
     padding: 50px;
     border: solid blue 1px;
     -webkit-box-sizing: border-box;
@@ -451,7 +451,7 @@ body {
     margin: 1px auto;
     position: relative;
     background-color: #f2e8cb;
-    width: 800px;
+    width: 100%;
     padding: 50px;
     border: solid blue 1px;
     -webkit-box-sizing: border-box;
@@ -459,7 +459,7 @@ body {
             box-sizing: border-box;
   }
 
-  }
+  
   
   footer {
   background-color: #b4c0d4;
