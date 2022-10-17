@@ -361,6 +361,7 @@ font-size: 17px;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  margin: 1px auto;
 }
 
 
@@ -411,8 +412,8 @@ font-size: 17px;
 .weather img {
   width: 100%;
   display: block;
-  margin: 1em;
   float: left;
+  margin: 1px auto;
 }
 
 
@@ -425,7 +426,7 @@ font-size: 17px;
   height: 200px;
   padding: 50px;
   float: left; 
-  top: -120px;
+  top: -220px;
 }
 
 .weather {
@@ -468,11 +469,18 @@ font-size: 17px;
   color: #fca311;
 }
 
-.spot1, #spot2, #spot3 {
+.spot1, .spot2, .spot3 {
   width: 95%;
-  height: 400px;
+  height: auto;
   /* margin: -20px; */
 }
+
+.spot1, .spot2, .sport3 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 1px auto;
+} 
 
 
 .spotlight {
@@ -530,19 +538,23 @@ font-size: 17px;
 .event {
   position: absolute;
   width: 200px;
-  height: 400px;
+  height: 300px;
   top: 5px;
   left: 5px;
   border: 1px solid blue;
   margin: 1px auto;
 }
 
-
+.join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .join {
   position: absolute;
   width: 200px;
-  height: 100px;
+  height: 200px;
   bottom: 5px;
   left: 5px;
   border: 1px solid blue;
