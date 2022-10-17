@@ -411,7 +411,7 @@ font-size: 17px;
 .weather {
   margin: 1px auto;
   position: relative;
-  border: 1px solid #960b0b;
+  border: 1px solid blue;
   background-color: #f2e8cb;
   width: 200px;
   height: 200px;
@@ -440,7 +440,7 @@ font-size: 17px;
   height: 95%;
   top: 5px;
   right: 5px;
-  border: 1px solid rgba(8, 6, 6, 0.671);
+  border: 1px solid blue;
   background-color: #41e441;
   margin: 1rem 1rem;
 }
@@ -477,7 +477,7 @@ font-size: 17px;
   position: relative;
   background-color: #f2e8cb;
   width: 200px;
-  height: 250px;
+  height: 300px;
   padding: 50px;
   border: solid blue 1px;
   -webkit-box-sizing: border-box;
@@ -488,10 +488,10 @@ font-size: 17px;
 .event {
   position: absolute;
   width: 200px;
-  height: 300px;
+  height: 400px;
   top: 5px;
   left: 5px;
-  border: 1px solid #000;
+  border: 1px solid blue;
   margin: 1px auto;
 }
 
@@ -503,7 +503,7 @@ font-size: 17px;
   height: 100px;
   bottom: 5px;
   left: 5px;
-  border: 1px solid #000;
+  border: 1px solid blue;
   margin: 1px auto;
   padding: 50px;
   margin: 1px auto;
@@ -518,6 +518,7 @@ font-size: 17px;
   border-radius: 2em;
   margin: 1px auto;
   margin-top: 1em;
+  border: 1px solid blue;
 }
 
 .join button:hover {
