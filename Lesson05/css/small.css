@@ -23,20 +23,20 @@ footer {
  
 }
 
-#profilePic {
+.profilePic {
   max-width: 250px;
   height: auto;
    
     
   }
   
-  #profile-name {
+  .profile-name {
     margin-left: 55px;
     right: 0;
   }
   
   
-  #profilepic {
+  .profilepic {
   height: 100px;
   width: 100px;
   border-radius: 100px;
@@ -84,7 +84,7 @@ footer a {
 .nested{
   display: block;
 }
-#icon {
+.icon {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
