@@ -406,7 +406,9 @@ font-size: 17px;
           box-sizing: border-box;
 } 
 
-
+.weather img {
+  width: 50%;
+}
 
 .weather {
   margin: 1px auto;
