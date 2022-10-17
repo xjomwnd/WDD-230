@@ -362,16 +362,29 @@ font-size: 17px;
 }
 
 .hero-ph{
-  margin: 1px auto;
+  margin: 20px auto;
   position: relative;
   background-color: #f2e8cb;
   width: 400px;
-  height: 400px;
+  height: auto;
   padding: 50px;
   border: solid blue 1px;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.button {
+  position: absolute;
+  bottom: 25px;
+  right: 50px;
+  background: radial-gradient(#eee, #4567aa);
+  border: 1px solid #000;
+  padding: 1.5rem;
+  box-shadow: 0 0 30px #333;
+  opacity: 0.8;
+  text-align: center;
+  
 }
 
 
@@ -389,6 +402,35 @@ font-size: 17px;
           box-sizing: border-box;
 } 
 
+.weather img {
+  width: 50%;
+}
+
+.weather {
+  margin: 1px auto;
+  position: relative;
+  border: 1px solid #960b0b;
+  background-color: #f2e8cb;
+  width: 200px;
+  height: 200px;
+  padding: 50px;
+  float: left; 
+  top: auto;
+}
+
+.weather {
+  grid-column: 1;
+  grid-row: 2;
+  /* overflow: scroll; */
+}
+
+.weather_top {
+  margin-bottom: -150px;
+  margin-top: -25px;
+}
+
+
+
 .spotlight {
   margin: 1px auto;
   position: absolute;
@@ -396,8 +438,7 @@ font-size: 17px;
   height: 95%;
   top: 5px;
   right: 5px;
-  border: 1px solid #000;
-  border: 1px solid #960b0b;
+  border: 1px solid rgba(8, 6, 6, 0.671);
   background-color: #41e441;
   margin: 1rem 1rem;
 }
