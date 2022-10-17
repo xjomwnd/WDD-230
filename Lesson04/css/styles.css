@@ -134,6 +134,7 @@ header {
 .home-main {
     margin: auto;
     margin-top: 1em;
+   
 }
 
 .discovery-main {
@@ -226,6 +227,10 @@ section div {
 #event p span {
     color: rgb(230, 230, 26);
 }
+
+
+
+
 
 .spotlight {
     border: 1.5px solid white;
