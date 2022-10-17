@@ -347,11 +347,7 @@ margin-top: 5px;
 font-size: 17px;
 }
 
-.hero img {
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
-}
+
 .herodiv {
   width: 100%;
   height: auto;
@@ -361,17 +357,24 @@ font-size: 17px;
   margin: 0 auto;
 }
 
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+
 .hero-ph{
   margin: 20px auto;
   position: relative;
   background-color: #f2e8cb;
   width: 400px;
-  height: auto;
+  height: 500px;
   padding: 50px;
   border: solid blue 1px;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+          object-fit: contain;
 }
 
 .button {
@@ -388,6 +391,7 @@ font-size: 17px;
 }
 
 
+
 .news {
  
   margin: 1px auto;
@@ -402,9 +406,7 @@ font-size: 17px;
           box-sizing: border-box;
 } 
 
-.weather img {
-  width: 50%;
-}
+
 
 .weather {
   margin: 1px auto;
@@ -415,7 +417,7 @@ font-size: 17px;
   height: 200px;
   padding: 50px;
   float: left; 
-  top: auto;
+  top: -120px;
 }
 
 .weather {
@@ -475,7 +477,7 @@ font-size: 17px;
   position: relative;
   background-color: #f2e8cb;
   width: 200px;
-  height: 200px;
+  height: 250px;
   padding: 50px;
   border: solid blue 1px;
   -webkit-box-sizing: border-box;
@@ -486,7 +488,7 @@ font-size: 17px;
 .event {
   position: absolute;
   width: 200px;
-  height: 220px;
+  height: 300px;
   top: 5px;
   left: 5px;
   border: 1px solid #000;
