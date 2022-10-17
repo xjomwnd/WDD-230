@@ -357,9 +357,70 @@ body {
        -moz-box-sizing: border-box;
             box-sizing: border-box;
   }
-
- 
   
+  
+  .news {
+   
+    margin: 1px auto;
+    position: relative;
+    background-color: #f2e8cb;
+    width: 800px;
+    padding: 50px;
+    border: solid blue 1px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  } 
+
+  .spotlight {
+    margin: 1px auto;
+    position: relative;
+    background-color: white;
+    width: 800px;
+    padding: 50px;
+    border: solid blue 1px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  .spotlight1 {
+    margin: 1px auto;
+    position: relative;
+    background-color: #f2e8cb;
+    width: 600px;
+    padding: 50px;
+    border: solid blue 1px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+  .spotlight2 {
+    margin: 1px auto;
+    position: relative;
+    background-color: #f2e8cb;
+    width: 600px;
+    padding: 50px;
+    border: solid blue 1px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+  .spotlight3 {
+    margin: 1px auto;
+    position: relative;
+    background-color: #f2e8cb;
+    width: 600px;
+    padding: 50px;
+    border: solid blue 1px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+
   .event {
    
     margin: 1px auto;
@@ -385,9 +446,8 @@ body {
        -moz-box-sizing: border-box;
             box-sizing: border-box;
   }
-  
-  .news {
-   
+
+  .join {
     margin: 1px auto;
     position: relative;
     background-color: #f2e8cb;
@@ -397,57 +457,10 @@ body {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
-  } 
+  }
 
-  .spotlight {
-    margin: 1px auto;
-    position: relative;
-    background-color: white;
-    width: 900px;
-    padding: 50px;
-    border: solid blue 1px;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
   }
   
-  .spotlight1 {
-    margin: 1px auto;
-    position: relative;
-    background-color: #f2e8cb;
-    width: 800px;
-    padding: 50px;
-    border: solid blue 1px;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-
-  .spotlight2 {
-    margin: 1px auto;
-    position: relative;
-    background-color: #f2e8cb;
-    width: 800px;
-    padding: 50px;
-    border: solid blue 1px;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-
-  .spotlight3 {
-    margin: 1px auto;
-    position: relative;
-    background-color: #f2e8cb;
-    width: 800px;
-    padding: 50px;
-    border: solid blue 1px;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-
-
   footer {
   background-color: #b4c0d4;
   color: #311288;
