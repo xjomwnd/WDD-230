@@ -359,8 +359,10 @@ font-size: 17px;
 
 .hero img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
 }
+
 
 
 .hero-ph{
@@ -407,8 +409,12 @@ font-size: 17px;
 } 
 
 .weather img {
-  width: 50%;
+  width: 100%;
+  display: block;
+  margin: 1em;
+  float: left;
 }
+
 
 .weather {
   margin: 1px auto;
@@ -433,6 +439,40 @@ font-size: 17px;
   margin-top: -25px;
 }
 
+.spotlights {
+  height: 100%;
+}
+
+.spot1 img, #spot2 img, #spot3 img {
+  /* filter: brightness(.5); */
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* position: relative; */
+}
+
+.spot1 h3, #spot2 h3, #spot3 h3 {
+  background-color: #14213d;
+  color: #e5e5e5;
+  z-index: 3;
+  position: relative;
+  top: 200px;
+  font-size: 2em;
+}
+
+.spotlights a {
+  text-decoration: none;
+}
+
+.spotlights h3:hover {
+  color: #fca311;
+}
+
+.spot1, #spot2, #spot3 {
+  width: 95%;
+  height: 400px;
+  /* margin: -20px; */
+}
 
 
 .spotlight {
