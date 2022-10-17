@@ -411,11 +411,12 @@ font-size: 17px;
 
 .weather img {
   width: 100%;
+  height: 100%;
   display: block;
   float: left;
   margin: 1px auto;
+  object-fit: cover;
 }
-
 
 .weather {
   margin: 1px auto;
@@ -444,7 +445,7 @@ font-size: 17px;
   height: 100%;
 }
 
-.spot1 img, #spot2 img, #spot3 img {
+.spot1 img, .spot2 img, .spot3 img {
   /* filter: brightness(.5); */
   height: 100%;
   width: 100%;
@@ -452,7 +453,7 @@ font-size: 17px;
   /* position: relative; */
 }
 
-.spot1 h3, #spot2 h3, #spot3 h3 {
+.spot1 h3, .spot2 h3, .spot3 h3 {
   background-color: #14213d;
   color: #e5e5e5;
   z-index: 3;
