@@ -361,13 +361,13 @@ font-size: 17px;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  margin: 1px auto;
+  margin: 0 auto;
 }
 
 
 
 .hero-ph{
-  margin: 20px auto;
+  margin: 0 auto;
   position: relative;
   background-color: #f2e8cb;
   width: 400px;
@@ -390,6 +390,7 @@ font-size: 17px;
   box-shadow: 0 0 30px #333;
   opacity: 0.8;
   text-align: center;
+  margin: 0 auto;
   
 }
 
@@ -397,7 +398,7 @@ font-size: 17px;
 
 .news {
  
-  margin: 1px auto;
+  margin: 0 auto;
   position: relative;
   background-color: #f2e8cb;
   width: 400px;
@@ -414,12 +415,12 @@ font-size: 17px;
   height: 100%;
   display: block;
   float: left;
-  margin: 1px auto;
+  margin: 0 auto;
   object-fit: cover;
 }
 
 .weather {
-  margin: 1px auto;
+  margin: 0 auto;
   position: relative;
   border: 1px solid blue;
   background-color: #f2e8cb;
@@ -480,12 +481,12 @@ font-size: 17px;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  margin: 1px auto;
+  margin: 0 auto;
 } 
 
 
 .spotlight {
-  margin: 1px auto;
+  margin: 0 auto;
   position: absolute;
   width: 210;
   height: 95%;
@@ -498,7 +499,7 @@ font-size: 17px;
 
 
 .spotlight1 {
-  margin: 1px auto;
+  margin: 0 auto;
   position: relative;
   background-color: #f2e8cb;
   width: 200px;
@@ -511,7 +512,7 @@ font-size: 17px;
 }
 
 .spotlight2 {
-  margin: 1px auto;
+  margin: 0 auto;
   position: relative;
   background-color: #f2e8cb;
   width: 200px;
@@ -524,7 +525,7 @@ font-size: 17px;
 }
 
 .spotlight3 {
-  margin: 1px auto;
+  margin: 0 auto;
   position: relative;
   background-color: #f2e8cb;
   width: 200px;
@@ -543,7 +544,7 @@ font-size: 17px;
   top: 5px;
   left: 5px;
   border: 1px solid blue;
-  margin: 1px auto;
+  margin: 0 auto;
 }
 
 .join {
@@ -561,7 +562,7 @@ font-size: 17px;
   border: 1px solid blue;
   margin: 1px auto;
   padding: 50px;
-  margin: 1px auto;
+  margin: 0 auto;
 }
 
 .join button {
@@ -571,7 +572,7 @@ font-size: 17px;
   color: white;
   font-weight: bold;
   border-radius: 2em;
-  margin: 1px auto;
+  margin: 0 auto;
   margin-top: 1em;
   border: 1px solid blue;
 }
