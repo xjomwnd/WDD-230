@@ -346,11 +346,27 @@ ul {
 margin-top: 5px;
 font-size: 17px;
 }
+
+.hero img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+.herodiv {
+  width: 100%;
+  height: auto;
+  border: solid #000 1px;
+  position: relative;
+  background-color: #f2e8cb;
+  margin: 0 auto;
+}
+
 .hero-ph{
   margin: 1px auto;
   position: relative;
   background-color: #f2e8cb;
-  width: 100%;
+  width: 400px;
+  height: 400px;
   padding: 50px;
   border: solid blue 1px;
   -webkit-box-sizing: border-box;
@@ -364,7 +380,8 @@ font-size: 17px;
   margin: 1px auto;
   position: relative;
   background-color: #f2e8cb;
-  width: 100%;
+  width: 400px;
+  height: 200px;
   padding: 50px;
   border: solid blue 1px;
   -webkit-box-sizing: border-box;
@@ -374,21 +391,24 @@ font-size: 17px;
 
 .spotlight {
   margin: 1px auto;
-  position: relative;
-  background-color: white;
-  width: 100%;
-  padding: 50px;
-  border: solid blue 1px;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  position: absolute;
+  width: 210;
+  height: 95%;
+  top: 5px;
+  right: 5px;
+  border: 1px solid #000;
+  border: 1px solid #960b0b;
+  background-color: #41e441;
+  margin: 1rem 1rem;
 }
+
 
 .spotlight1 {
   margin: 1px auto;
   position: relative;
   background-color: #f2e8cb;
-  width: 100%;
+  width: 200px;
+  height: 200px;
   padding: 50px;
   border: solid blue 1px;
   -webkit-box-sizing: border-box;
@@ -400,7 +420,8 @@ font-size: 17px;
   margin: 1px auto;
   position: relative;
   background-color: #f2e8cb;
-  width: 100%;
+  width: 200px;
+  height: 200px;
   padding: 50px;
   border: solid blue 1px;
   -webkit-box-sizing: border-box;
@@ -412,54 +433,55 @@ font-size: 17px;
   margin: 1px auto;
   position: relative;
   background-color: #f2e8cb;
-  width: 100%;
+  width: 200px;
+  height: 200px;
   padding: 50px;
   border: solid blue 1px;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-
 
 .event {
- 
+  position: absolute;
+  width: 200px;
+  height: 220px;
+  top: 5px;
+  left: 5px;
+  border: 1px solid #000;
   margin: 1px auto;
-  position: relative;
-  background-color: #f2e8cb;
-  width: 100%;
-  padding: 50px;
-  border: solid blue 1px;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-} 
-
-.weather {
- 
-  margin: 1px auto;
-  position: relative;
-  background-color: #f2e8cb;
-  width: 100%;
-  padding: 50px;
-  border: solid blue 1px;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
 }
+
+
 
 .join {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  bottom: 5px;
+  left: 5px;
+  border: 1px solid #000;
   margin: 1px auto;
-  position: relative;
-  background-color: #f2e8cb;
-  width: 100%;
   padding: 50px;
-  border: solid blue 1px;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  margin: 1px auto;
 }
 
+.join button {
+  display: block;
+  padding: 1em 5em;
+  background-color: var(--secondary-color);
+  color: white;
+  font-weight: bold;
+  border-radius: 2em;
+  margin: 1px auto;
+  margin-top: 1em;
+}
 
+.join button:hover {
+  background-color: var(--primary-color);
+  box-shadow: 0 0 30px #333;
+  opacity: 0.8;
+}
 
 footer {
 background-color: #b4c0d4;
@@ -468,7 +490,7 @@ text-align: center;
 font-size: 1.5rem;
 font-family: 'Open Sans', sans-serif;
 padding: 10px 0;
-max-width: 900px;
+max-width: 100%;
 margin: 0 auto;
 }
 footer a:link {
