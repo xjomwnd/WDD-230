@@ -371,7 +371,7 @@ font-size: 17px;
   position: relative;
   background-color: #f2e8cb;
   width: 50%;
-  height: 500px;
+  
   padding: 50px;
   border: solid blue 1px;
   -webkit-box-sizing: border-box;
@@ -394,120 +394,71 @@ font-size: 17px;
   
 }
 
+/* =====399 .news==== */
+.event {
+  width: 25%;
+  margin: 1px auto;
+  position: absolute;
+  background-color: #f2e8cb;
+  top: 5%;
+  left: 5%;
+  
+  border: solid blue 1px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.weather {
+ 
+  margin: 1px auto;
+  position: relative;
+  background-color: #f2e8cb;
+  width: 25%;
+  
+  float: left;
+  top: -220px;
+
+  border: solid blue 1px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 
 .news {
  
-  margin: 0 auto;
+  margin: 1px auto;
   position: relative;
   background-color: #f2e8cb;
-  width: 400px;
-  height: 200px;
+  width: 50%;
   padding: 50px;
-  
   border: solid blue 1px;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 } 
 
-.weather img {
-  width: 100px;
-  width: 100px;
-  
-  display: block;
-  margin: 0 auto;
-  border: 5% solid blue;
-  
-}
-
-.weather {
-  margin: 0 auto;
-  position: relative;
-  border: 1px solid blue;
-  background-color: #f2e8cb;
-  width: 200px;
-  height: 200px;
-  padding: 50px;
-  float: left;
-  top: -220px;
-}
-
-.weather {
-  grid-column: 1;
-  grid-row: 2;
-  /* overflow: scroll; */
-}
-
-.weather_top {
-  margin-bottom: -150px;
-  margin-top: -25px;
-}
-
-.spotlights {
-  height: 100%;
-}
-
-.spot1 img, .spot2 img, .spot3 img {
-  /* filter: brightness(.5); */
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  /* position: relative; */
-}
-
-.spot1 h3, .spot2 h3, .spot3 h3 {
-  background-color: #14213d;
-  color: #e5e5e5;
-  z-index: 3;
-  position: relative;
-  top: 200px;
-  font-size: 2em;
-}
-
-.spotlights a {
-  text-decoration: none;
-}
-
-.spotlights h3:hover {
-  color: #fca311;
-}
-
-.spot1, .spot2, .spot3 {
-  width: 95%;
-  height: auto;
-  /* margin: -20px; */
-}
-
-.spot1, .spot2, .sport3 img{
-  width: 50%;
-  height: 100%;
-  object-fit: cover;
-  margin: 2% 0 0 0;
-  float: right;
-} 
-
-
 .spotlight {
-  margin: 0 auto;
+  margin: 1px auto;
   position: absolute;
-  width: 210;
-  height: 95%;
-  top: 5px;
-  right: 5px;
-  border: 1px solid blue;
-  background-color: #41e441;
-  margin: 1rem 1rem;
+  top: 5%;
+  right: 5%;
+  background-color: white;
+  width: 25%;
+  
+  border: solid blue 1px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
-
 
 .spotlight1 {
-  margin: 0 auto;
+  margin: 1px auto;
   position: relative;
   background-color: #f2e8cb;
-  width: 200px;
-  height: 200px;
-  padding: 50px;
+  width: 100%;
+  
   border: solid blue 1px;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -515,12 +466,11 @@ font-size: 17px;
 }
 
 .spotlight2 {
-  margin: 0 auto;
+  margin: 1px auto;
   position: relative;
   background-color: #f2e8cb;
-  width: 200px;
-  height: 200px;
-  padding: 50px;
+  width: 100%;
+  
   border: solid blue 1px;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -528,11 +478,28 @@ font-size: 17px;
 }
 
 .spotlight3 {
-  margin: 0 auto;
+  margin: 1px auto;
   position: relative;
   background-color: #f2e8cb;
-  width: 200px;
-  height: 265px;
+  width: 100%;
+ 
+  border: solid blue 1px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+
+.join {
+  margin: 1px auto;
+  position: absolute;
+  background-color: #f2e8cb;
+  width: 25%;
+  height: 50%;
+  bottom: 5%;
+  left: 5%;
+  float: left;
   padding: 50px;
   border: solid blue 1px;
   -webkit-box-sizing: border-box;
@@ -540,51 +507,8 @@ font-size: 17px;
           box-sizing: border-box;
 }
 
-.event {
-  position: absolute;
-  width: 200px;
-  height: 250px;
-  top: 5px;
-  left: 5px;
-  border: 1px solid blue;
-  margin: 0 auto;
-}
 
-.join {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
-.join {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  bottom: 5px;
-  left: 5px;
-  border: 1px solid blue;
-  margin: 1px auto;
-  padding: 50px;
-  margin: 0 auto;
-}
-
-.join button {
-  display: block;
-  padding: 1em 5em;
-  background-color: var(--secondary-color);
-  color: white;
-  font-weight: bold;
-  border-radius: 2em;
-  margin: 0 auto;
-  margin-top: 1em;
-  border: 1px solid blue;
-}
-
-.join button:hover {
-  background-color: var(--primary-color);
-  box-shadow: 0 0 30px #333;
-  opacity: 0.8;
-}
 
 footer {
 background-color: #b4c0d4;

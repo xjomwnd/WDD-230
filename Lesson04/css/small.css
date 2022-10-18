@@ -262,33 +262,70 @@ body {
   max-width: 100%;
   margin: 0 auto;
   }
+  /* ========================= */
+  /*navigation*/
+  .menu {
+    padding-left: 1rem;
+  }
+
+  /*navigation*/
+ 
+   
+   
+  
+  /*navigation*/
+  nav button{
+    background: transparent;
+    border: none;
+    font-size: 2.5rem;
+    color:#555;
+  }
+  
   nav {
-  background-color: #007abd;
-  text-align: center;
-  box-shadow: 0 2px 15px gray;
+    background-color: #6cb1ff;
+    margin-left: .6rem;
   }
+  
   nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
   }
+  
   nav ul li a {
-  display: block;
-  color: #fff;
-  text-align: center;
-  padding: 0.75rem;
-  text-decoration: none;
-  font-size: 0.95rem;
+    display: block;
+    padding: .8rem 2vw;
+    font-size: 1.3rem;
+  
+    text-decoration: none;
+    color:#333;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
   }
-  nav a:hover {
-  background-color: rgb(14, 171, 243);
-  color: #fff;
+  
+  nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
   }
-  .active {
-  color: #fff;
-  background-color: rgb(14, 171, 243);
+  
+  nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
   }
+  
+  nav ul { display: none; }
+  
+  nav ul.open { 
+    display: block; 
+    text-align: left;
+  }
+  
+  #hamburgerBtn span:nth-child(1) { display: block; }
+  #hamburgerBtn span:nth-child(2) { display: none; }
+  
+  #hamburgerBtn.open span:nth-child(1) { display: none; }
+  #hamburgerBtn.open span:nth-child(2) { display: block;}
+  
+
+ /* ========================= */ 
   main {
   display: block;
   font-size: 15.3px;
@@ -311,6 +348,7 @@ body {
   padding: 0px;
   grid-template-columns: 1fr auto;
   align-items: left;
+  width: 100%;
   }
   .color-image {
   margin: 5px;
@@ -358,6 +396,32 @@ body {
             box-sizing: border-box;
   }
   
+  .event {
+   
+    margin: 1px auto;
+    position: relative;
+    background-color: #f2e8cb;
+    width: 100%;
+    padding: 50px;
+    border: solid blue 1px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  } 
+
+  .weather {
+   
+    margin: 1px auto;
+    position: relative;
+    background-color: #f2e8cb;
+    width: 100%;
+    padding: 50px;
+    border: solid blue 1px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
   
   .news {
    
@@ -421,32 +485,7 @@ body {
   }
 
 
-  .event {
-   
-    margin: 1px auto;
-    position: relative;
-    background-color: #f2e8cb;
-    width: 100%;
-    padding: 50px;
-    border: solid blue 1px;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-  } 
-
-  .weather {
-   
-    margin: 1px auto;
-    position: relative;
-    background-color: #f2e8cb;
-    width: 100%;
-    padding: 50px;
-    border: solid blue 1px;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-
+  
   .join {
     margin: 1px auto;
     position: relative;
