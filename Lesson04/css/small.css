@@ -264,19 +264,26 @@ body {
   }
 /* ==========cyan css===============*/
 
+
+/*=============end cyan css=========== */
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 h1, p {margin: 0 2vw;}
 nav button {
-    margin: 2rem 2vw;
+    margin: .2rem 2vw;
     background: transparent;
     border: none;
     font-size: 2rem;
     color: #555;
 }
 nav {
-    background-color: #eee;
+    background-color: #faa;
 }
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -293,61 +300,23 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.3);
 }
 
 nav ul li.active a {
-  background-color: rgba(0, 0, 0, 0.2);
-  color: #fff;
-}
-
-nav ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
 }
 
 nav ul {display: none;}
 nav ul.open {display: block;}
 
-#hamburgerBtn.open span:nth-child(1) {display: none;}
-#hamburgerBtn.open span:nth-child(2) {display: block;}
-
 #hamburgerBtn span:nth-child(1) {display: block;}
 #hamburgerBtn span:nth-child(2) {display: none;}
 
-/*end small.css*/
-
-/*medium.css*/
-/* 35 rem is also 560px when base font is 16px */
-@media only screen and (min-width: 35rem) {
-    
-nav button {display: none;}
-
-nav ul#primaryNav {
-    display: flex;
-    margin-left: 2vw;
-    border-left: 1px solid rgba(0, 0, 0, 0.3);
-}
-
-nav ul li a {
-    border: none;
-    border-right: 1px solid rgba(0, 0, 0, 0.3);
-}
-}/* end medium */
-/*end medium.css*/
-
-/*large.css*/
-/* 64em is also 1028px when basefont is 16px */
-@media only screen and (min-width: 64rem) {
-    
-    nav ul li a {
-        padding: .5rem 1rem;
-    }
-
-}
-/*end large.css*/
-
-
-/*=============end cyan css=========== */
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+/*------end small css-------*/
 
 
   /* ========================= */
