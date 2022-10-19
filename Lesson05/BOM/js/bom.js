@@ -1,32 +1,34 @@
-const ul = document.querySelector("ul");
+// Create three variables that hold references to the input, button, and list elements using const.
 const input = document.querySelector("input");
-const btn = document.querySelector("button");
-const main = document.querySelector("main");
+const button = document.querySelector("button");
+const list = document.querySelector("ul");
 
-btn.addEventListener('click', function(){
-    const p =document.querySelector('p');
-    p.remove();
- 
-     let myValue = input.value;
-     input.focus();
-     input.value  = '';
-     if( myValue === ''){
-         const error = document.createElement("p");
-         error.textContent = 'Please enter a favorite book and chapter e.g. "1 nephi 1"';
-         main.appendChild(error);
-     }
-     else{
-        const li = document.createElement('li');
-        const delBtn = document.createElement('button');
-        ul.appendChild(li);
-        li.textContent = myValue;      
-        li.appendChild(delBtn);
-        delBtn.textContent = '❌';
-        
-        
-        delBtn.addEventListener('click', function(){
-            li.remove();
-        })
-       
-     }
- })
+// Create an click event listener for the Add Chapter button using addEventListener and an anonymous function.
+button.addEventListener("click", () => {
+    // In the function block for adding a chapter, make sure the input is not blank and if not, do the following:
+    if (!(input.value == "")) {
+
+        //  Create li, button elements. I added a span element so that I could add the text to the li element.
+        const listItem = document.createElement("li");
+        const listText = document.createElement("span");
+        const deleteButton = document.createElement("button");
+
+        // Append elements to li.
+        listText.innerHTML = input.value;
+        listItem.appendChild(listText);
+        deleteButton.textContent = "❌";
+        listItem.appendChild(deleteButton);
+
+        // Append li to ul.
+        list.appendChild(listItem);
+
+        // Create an event listener for the delete button that removes the li.
+        deleteButton.addEventListener("click", () => {
+        list.removeChild(listItem);
+        });
+
+        // Focus and clear input.
+        input.focus();
+        input.value = "";
+    }
+});

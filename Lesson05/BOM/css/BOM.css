@@ -19,7 +19,7 @@ h1 {
 
 main {
 	margin: 0.5rem auto;
-	border: 1px solid #999;
+	border: 1px solid rgba(0, 0, 0, 0.2);
 	padding: 0.5rem;
 	background-color: #bed;
 	display: grid;
@@ -42,7 +42,7 @@ label {
 	font-size: 0.9rem;
 }
 .listcontainer {
-	border: 1px solid #bbb;
+	border: 1px solid rgba(0, 0, 0, 0.2);
 	margin: 1rem;
 	padding: 1rem;
 }
@@ -63,13 +63,6 @@ li {
 	margin-bottom: 0.5rem;
 }
 
-.appear{
-	display:block;
-}
-.disappear{
-	Display: none;
-}
-
 @media only screen and (min-width: 32.5em) {
 	h1 {
 		font-size: 2rem;
@@ -79,3 +72,4 @@ li {
 		width: 480px;
 	}
 }
+
