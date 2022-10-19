@@ -309,10 +309,10 @@ nav ul {display: none;}
 nav ul.open {display: block;}
 
 #hamburgerBtn span:nth-child(1) {display: block;}
-#hamburgerBtn span:nth-child(1) {display: none;}
+#hamburgerBtn span:nth-child(2) {display: none;}
 
 #hamburgerBtn span:nth-child(1) {display: none;}
-#hamburgerBtn span:nth-child(1) {display: block;}/*end small.css*/
+#hamburgerBtn span:nth-child(2) {display: block;}/*end small.css*/
 
 /*medium.css*/
 /* 35 rem is also 560px when base font is 16px */
@@ -350,126 +350,7 @@ nav ul li a {
 
   /* ========================= */
   /*navigation*/
-  /* Small/Phone View ***************/
-/* Small/Phone View ***************/
-nav {
-	margin: 0 auto;
-	max-width: 760px;
-	background-color: tomato;
-}
-.navigation {
-	list-style: none;
-	padding: 0;
-}
-.navigation li:first-child {
-	display: block;
-}
-.navigation li {
-	display: none;
-}
-.navigation a {
-	display: block;
-	padding: 0.75rem;
-	text-align: left;
-	text-decoration: none;
-	color: black;
-	font-weight: 700;
-	transition: 0.5s;
-	font-size: clamp(1rem, 2vmin, 1.5rem);
-}
-
-.navigation a.ham::before {
-	content: "🍔 ";
-}
-
-.navigation a:hover {
-	color: white;
-	background-color: black;
-}
-
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
-  <ul class="navigation responsive">
-*/
-.responsive li {
-	display: block;
-}
-
-.responsive a.ham::before {
-	content: "❌ ";
-}
-
-/* Media Query for medium+ views */
-@media only screen and (min-width: 32.5em) {
-	.navigation {
-		display: flex;
-	}
-	.navigation li {
-		display: block; /* change state in small view */
-		flex: 1 1 auto;
-	}
-	.navigation a {
-		text-align: center;
-	}
-	.navigation li:first-child {
-		display: none;
-	}
-}
-
- /* ========================== */  
- /*navigation*/
- .menu {
-  padding-left: 1rem;
-}
-
- nav button{
-  background: transparent;
-  border: none;
-  font-size: 2.5rem;
-  color:#555;
-}
-
-nav {
-  background-color: #6cb1ff;
-  margin-left: .6rem;
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-nav ul li a {
-  display: block;
-  padding: .8rem 2vw;
-  font-size: 1.3rem;
-
-  text-decoration: none;
-  color:#333;
-  border-top: 1px solid rgba(0, 0, 0, 0.5);
-}
-
-nav ul li.active a {
-  background-color: rgba(0,0,0,0.2);
-  color: #fff;
-}
-
-nav ul li a:hover {
-  background-color: rgba(0,0,0,0.3);
-}
-
-nav ul { display: none; }
-
-nav ul.open { 
-  display: block; 
-  text-align: left;
-}
-
-#hamburgerBtn span:nth-child(1) { display: block; }
-#hamburgerBtn span:nth-child(2) { display: none; }
-
-#hamburgerBtn.open span:nth-child(1) { display: none; }
-#hamburgerBtn.open
+  
  /* ========================= */ 
   main {
   display: block;
