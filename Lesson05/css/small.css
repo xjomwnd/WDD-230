@@ -393,81 +393,124 @@ font-size: 17px;
 }
 /* ===========start grid===========*/
 main {
-  display:grid;
-  grid-template-columns: 98%;
-  grid-gap: 5px;
-  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 
-main div {
-  border: 1px solid gray;
-  background-color: #b59b3d;
-  text-align: center;
-}
-
-.event, .weather, .news, .join, .spotlight {
-  padding: .5em;
-  font-size: 1.2rem;
-}
-
-main h2 {
-  color: #960b0b;
-}
-
-.linkMoreInfo {
-  color: rgb(5, 5, 176);
-  font-weight: bold;
-}
-
-.linkMoreInfo:hover{
-  color: #791b1b;
-}
-
-.weather img {
-  width: 40%;
-}
-
-.hero {
-  position: relative;
-} 
-
-.welcome {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  font-size: 1.7rem;
-  color: black;
-}
-
-.herodiv img{
-  width: 100%;
-  height: 15rem;
-}
-
-.joinRRCOC {
-  position: absolute;
-  bottom: 2em;
-  right: 3em;
-  font-size: 1.3rem;
-  padding: .3rem;
-}
-
-.spotlight div {
-  border: 1px solid #960b0b;
-  background-color: #b59b3d;
-  margin: 1rem 1rem;
-} 
-
-.spotlight {
-  display:grid;
-  grid-area: 1fr;
-  padding-bottom: 0rem;
-}
-
-.join {
+main h1 {
   display: none;
 }
 
+#spotlights h2 {
+  display: none;
+}
+
+main section {
+  /* height: 400px; */
+  object-fit: cover;
+}
+
+main section div {
+  height: 200px;
+}
+
+main section,  main section div {
+  background-color: #e5e5e5;
+  margin: 10px;
+  text-align: center;
+  /* border: 2px solid #14213d; */
+}
+
+#hero, #spot1, #spot2, #spot3 {
+  display: inline-block;
+  overflow: hidden;
+}
+
+#hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#hero button {
+  background-color: #14213d;
+  color: #e5e5e5;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  bottom: 200px;
+  z-index: 5;
+  width: 200px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+#spotlights {
+  height: 100%;
+}
+
+#spot1 img, #spot2 img, #spot3 img {
+  /* filter: brightness(.5); */
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* position: relative; */
+}
+
+#spot1 h3, #spot2 h3, #spot3 h3 {
+  background-color: #14213d;
+  color: #e5e5e5;
+  z-index: 3;
+  position: relative;
+  top: 200px;
+  font-size: 2em;
+}
+
+#spotlights a {
+  text-decoration: none;
+}
+
+#spotlights h3:hover {
+  color: #fca311;
+}
+
+#spot1, #spot2, #spot3 {
+  width: 95%;
+  height: 400px;
+  /* margin: -20px; */
+}
+
+#news, #event, #join, #weather {
+  padding: 10px;
+}
+
+#news a:hover {
+  color: #14213d;
+}
+
+button:hover {
+  background-color: #fca311;
+}
+
+#join button {
+  background-color: #14213d;
+  color: #e5e5e5;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  /* bottom: 300px; */
+  z-index: 5;
+  width: 200px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: 700;
+}
 
 /* ========end grid========= */
 /* ======== mine grid set up ========== */
