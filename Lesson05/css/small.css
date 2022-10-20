@@ -391,6 +391,13 @@ font-size: 17px;
   margin: 0 auto;
   padding: 50px;
 }
+/* ===========start grid===========*/
+.herodiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  padding: 5px;
+}
 /* ======grid====== */
 .grid-container {
   display: grid;
