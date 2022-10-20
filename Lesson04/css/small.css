@@ -318,30 +318,10 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
 /*------end small css-------*/
-@media only screen and (min-width: 35rem) {
 
-  nav button {display: none;}
-
-  nav ul#primaryNav{
-      display: flex;
-      justify-content: flex-start;
-      margin-left: 2vw;
-      border-left: 1px solid rgba(0, 0, 0, 0.3);
-  }
-
-  nav ul li a {
-      border: none;
-      border-right: 1px solid rgba(0, 0, 0, 0.3);
-  }
-}
 /*===end medium css===============*/
-@media only screen and (min-width: 64rem) {
 
 
-  nav ul li a {
-      padding: .5rem 1rem;
-  }
-}
 /* ======= end large css ================ */
 
 
