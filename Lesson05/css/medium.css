@@ -1,10 +1,8 @@
 /*==========medium.css===============*/
 @media only screen and (min-width:34.5em) {
 
-    /* ********************* */
-    /*      MAIN SECTION     */
-    /* ********************* */
-  
+    
+    /* ====================== MAIN SECTION ==================== */
     main {
       grid-template-columns: 23% 25% 25% 25%;
     }
@@ -50,9 +48,7 @@
     }
   
   
-    /* ********************* */
-    /*         FOOTER        */
-    /* ********************* */
+     /* ====================== FOOTER SECTION ==================== */
   
     footer {
       grid-template-columns: 10% 40% 1fr;
@@ -74,9 +70,7 @@
     }
   
   
-     /* ********************* */
-     /*     FOOTER  JAVAS     */
-     /* ********************* */
+     /* footer js */
   
     .jsfooter1 {
       flex-direction: row;
