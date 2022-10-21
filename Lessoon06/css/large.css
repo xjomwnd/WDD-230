@@ -1,27 +1,12 @@
 /*======== large.css =============*/
 @media only screen and (min-width: 64em) {
-  
-    /* ******************** */
-    /*     HEADER ORDER     */
-    /* ******************** */
-  
     .headertop :nth-child(1) { order: 1; }
     .headertop :nth-child(2) { order: 3; }
     .headertop :nth-child(3) { order: 2; }
   
-  
-    /* ******************** */
-    /*         LOGO         */
-    /* ******************** */
-  
     .logo {
       margin-left: 1rem; 
     }
-  
-  
-    /* ********************* */
-    /*       HAMBURGER       */
-    /* ********************* */
   
     nav button {
       display: none;
@@ -39,11 +24,6 @@
     nav ul.open{
       display: flex;
     }
-  
-  
-    /* ********************* */
-    /*      MAIN SECTION     */
-    /* ********************* */
   
     main {
       grid-template-columns: 25% 23% 25% 25%;
@@ -89,17 +69,9 @@
       grid-row: 1 / 4;
     }
   
-  
-    /* ********************* */
-    /*       FOOTER          */
-    /* ********************* */
-  
     .jsfooter {
       flex-direction: row;
     }
   
   }
   
-  
-  
-  /*======== end large.css ==
