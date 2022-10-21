@@ -22,7 +22,6 @@ footer {
   box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
  
 }
-
 #profilePic {
   max-width: 250px;
   height: auto;
@@ -117,7 +116,6 @@ background-color: rgb(238, 238, 238);
 line-height: 1.55em;
 height: 100%;
 }
-
 /* end of header small.css*/
 footer a {
   color: #311288;
@@ -135,7 +133,6 @@ footer a {
   border-radius: 10px;
   box-shadow: hwb(195 98% 1%) 0px 0px 15px;
 }
-
 nav {
   background-color: #b4c0d4;
   color: #311288;
@@ -169,7 +166,6 @@ img {
   width: 5px;
   height: 5px;
 }
-
 /* header set icons.css */
 header {
   background-color: #b4c0d4;
@@ -222,7 +218,6 @@ header {
   margin: 0;
   background-color: #abe;
 }
-
 /* Larger viewports */
 @media only screen and (min-width: 32.5em) {
   header img {
@@ -238,12 +233,10 @@ header {
   }
 }/* end header set icons.css */
 
-
 /*-----        css font properties   -----
 font-family: 'Noto Sans', sans-serif;
 font-family: 'Open Sans', sans-serif;
                 ----    */
-
 
 
 body {
@@ -255,7 +248,6 @@ font-family: 'Open Sans', sans-serif;
 line-height: 1.55em;
 height: 100%;
 }
-
 header,
 nav,
 main {
@@ -265,16 +257,13 @@ margin: 0 auto;
 /* ========================= */
 /*navigation*/
 
-
 /* ========================== */  
 /*navigation*/
 ./*=============end cyan css=========== */
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
 h1, p {margin: 0 2vw;}
 nav button {
     margin: .2rem 2vw;
@@ -286,13 +275,11 @@ nav button {
 nav {
     background-color: #faa;
 }
-
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-
 nav ul li a {
     display: block;
     padding: .8rem 2vw;
@@ -301,27 +288,20 @@ nav ul li a {
     border-top: 1px solid rgba(0, 0, 0, 0.5);
     font-size: .8rem;
 }
-
 nav ul li a:hover {
     background: rgba(0, 0, 0, 0.3);
 }
-
 nav ul li.active a {
     background-color: rgba(0, 0, 0, 0.2);
     color: #fff;
 }
-
 nav ul {display: none;}
 nav ul.open {display: block;}
-
 #hamburgerBtn span:nth-child(1) {display: block;}
 #hamburgerBtn span:nth-child(2) {display: none;}
-
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
-
 /*------end small css-------*/
-
 /* ========================= */ 
 main {
 display: block;
@@ -339,7 +319,6 @@ color: #007ADB;
 display: grid;
 grid-template-columns: auto;
 }
-
 header {
 display: grid;
 padding: 0px;
@@ -359,7 +338,6 @@ margin: 15px;
   width: 40%;
 height: auto;
 }
-
 h2 {
 color: grey;
 font-family: 'Noto Sans', sans-serif; 
@@ -384,133 +362,15 @@ font-size: 17px;
 /*=======================================*/
 .herodiv {
   width: 90%;
-  height: 100%;
+  height: 850px;
   border: solid #000 1px;
   position: relative;
   background-color: #f2e8cb;
   margin: 0 auto;
   padding: 50px;
+  /* flex-wrap: wrap; */
 }
 /* ===========start grid===========*/
-main {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-}
-
-main h1 {
-  display: none;
-}
-
-#spotlights h2 {
-  display: none;
-}
-
-main section {
-  /* height: 400px; */
-  object-fit: cover;
-}
-
-main section div {
-  height: 200px;
-}
-
-main section,  main section div {
-  background-color: #e5e5e5;
-  margin: 10px;
-  text-align: center;
-  /* border: 2px solid #14213d; */
-}
-
-#hero, #spot1, #spot2, #spot3 {
-  display: inline-block;
-  overflow: hidden;
-}
-
-#hero img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-#hero button {
-  background-color: #14213d;
-  color: #e5e5e5;
-  cursor: pointer;
-  padding: 10px;
-  border: none;
-  border-radius: 10px;
-  position: relative;
-  bottom: 200px;
-  z-index: 5;
-  width: 200px;
-  height: 50px;
-  font-size: 1.5em;
-  font-weight: 700;
-}
-
-#spotlights {
-  height: 100%;
-}
-
-#spot1 img, #spot2 img, #spot3 img {
-  /* filter: brightness(.5); */
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  /* position: relative; */
-}
-
-#spot1 h3, #spot2 h3, #spot3 h3 {
-  background-color: #14213d;
-  color: #e5e5e5;
-  z-index: 3;
-  position: relative;
-  top: 200px;
-  font-size: 2em;
-}
-
-#spotlights a {
-  text-decoration: none;
-}
-
-#spotlights h3:hover {
-  color: #fca311;
-}
-
-#spot1, #spot2, #spot3 {
-  width: 95%;
-  height: 400px;
-  /* margin: -20px; */
-}
-
-#news, #event, #join, #weather {
-  padding: 10px;
-}
-
-#news a:hover {
-  color: #14213d;
-}
-
-button:hover {
-  background-color: #fca311;
-}
-
-#join button {
-  background-color: #14213d;
-  color: #e5e5e5;
-  cursor: pointer;
-  padding: 10px;
-  border: none;
-  border-radius: 10px;
-  position: relative;
-  /* bottom: 300px; */
-  z-index: 5;
-  width: 200px;
-  height: 50px;
-  font-size: 1.5em;
-  font-weight: 700;
-}
 /* *********************************************** small orig css***************************** */
 .hero img {
   width: 100%;
@@ -518,7 +378,6 @@ button:hover {
   object-fit: cover;
   margin: 0 auto;
 }
-
 .hero-ph{
   margin: 0 auto;
   position: relative;
@@ -527,7 +386,10 @@ button:hover {
   padding: 1rem;
   border: solid blue 1px;
        box-sizing: border-box;
-   
+       grid-column: 1/3;
+       grid-row: 1;
+       /* height: 100%; */
+       height: 500px; 
 }
 .hero {
   grid-column: 1/3;
@@ -535,7 +397,6 @@ button:hover {
   /* height: 100%; */
   height: 500px;
 }
-
 .button {
   position: absolute;
   bottom: 25px;
@@ -549,7 +410,6 @@ button:hover {
   margin: 0 auto;
   
 }
-
 .event {
   width: 25%;
   margin: 1px auto;
@@ -571,7 +431,6 @@ button:hover {
   grid-row: 2;
   /* height: 428px; */
 }
-
 .weather {
  
   margin: 1px auto;
@@ -580,7 +439,7 @@ button:hover {
   width: 25%;
   padding: 1rem;
   float: left;
-  top: -220px;
+  
   border: solid blue 1px;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -588,20 +447,18 @@ button:hover {
           grid-column: 1;
           grid-row: 4;
           /* overflow: scroll; */
-          margin-bottom: -150px;
-  margin-top: -25px;
+          margin-bottom: -210px;
+          margin-top: -.9px;   
 }
 .weather {
   grid-column: 1;
   grid-row: 4;
   /* overflow: scroll; */
 }
-
 .weather_top {
   margin-bottom: -150px;
   margin-top: -25px;
 }
-
 .news {
   padding: 1rem;
   margin: 1px auto;
@@ -621,7 +478,6 @@ button:hover {
   grid-row: 4;
   overflow: scroll;
 }
-
 .spotlight {
   margin: 1px auto;
   position: absolute;
@@ -669,27 +525,24 @@ button:hover {
   grid-column: 1/3;
   grid-row: 3;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 790px;
   /* flex-wrap: wrap; */
 }
 
 
-
-.spot1 img, #spot2 img, #spot3 img {
+.spot1 img, .spot2 img, .spot3 img {
   width: 100%;
   overflow: hidden;
   position: relative;
   bottom: 125px;
   /* position: relative; */
 }
-
-.spot1 h3, #spot2 h3, #spot3 h3 {
+.spot1 h3, .spot2 h3, .spot3 h3 {
   position: relative;
   top: 75px;
   font-size: 2em;
 }
-
 
 .join {
   margin: 1px auto;
@@ -710,7 +563,6 @@ button:hover {
   grid-row: 2;
 }
 /* ======== mine grid set up end========== */
-
 /* **********************************************end small orig css**************************** */
 footer {
 background-color: #b4c0d4;
@@ -721,4 +573,52 @@ font-family: 'Open Sans', sans-serif;
 padding: 10px 0;
 max-width: 100%;
 margin: 0 auto;
+}
+
+/* FOOTER */
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.about img {
+  grid-column: 2;
+  width: 250px;
+  margin: auto;
+}
+.address {
+  grid-column: 1;
+  grid-row: 1;
+  line-height: .5em;
+}
+.contact {
+  grid-column: 3;
+  grid-row: 1;
+  /* line-height: .5em; */
+}
+.copyright-large {
+  display: block;
+}
+.discover div:hover{
+-moz-box-shadow: 0 0 10px #ccc;
+-webkit-box-shadow: 0 0 10px #ccc;
+box-shadow: 0 0 10px #ccc;
+}
+.join {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px;
+}
+tr td {
+  display: table-cell;
+}
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+}
+.board {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
 }
