@@ -373,7 +373,7 @@ body {
     font-size: 1.5rem;
     font-family: 'Open Sans', sans-serif;
     padding: 10px 0;
-    max-width: 900px;
+   /* max-width: 900px; */
     margin: 0 auto;
     }
       /* ===============end small.css============== */
