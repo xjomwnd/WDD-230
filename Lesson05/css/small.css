@@ -22,20 +22,20 @@ footer {
   box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
  
 }
-#profilePic {
+.profilePic {
   max-width: 250px;
   height: auto;
    
     
   }
   
-  #profile-name {
+  .profile-name {
     margin-left: 55px;
     right: 0;
   }
   
   
-  #profilepic {
+  .profilepic {
   height: 100px;
   width: 100px;
   border-radius: 100px;
@@ -83,7 +83,7 @@ footer a {
 .nested{
   display: block;
 }
-#icon {
+.icon {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -100,7 +100,84 @@ header img {
   max-width: 200px;
   background-size: cover;
 }
+/*navigation*/
+/* ******************** */
+/*       HAMBURGER      */
+/* ******************** */
 
+.menu {
+  padding-left: 1rem;
+}
+
+nav button{
+  background: transparent;
+  border: none;
+  font-size: 2.5rem;
+  color:#555;
+}
+
+nav {
+  background-color: #ffdf6c;
+  margin-right: .6rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: .8rem 2vw;
+  font-size: 1.3rem;
+
+  text-decoration: none;
+  color:#333;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+  background-color: rgba(0,0,0,0.2);
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0,0,0,0.3);
+}
+
+nav ul { display: none; }
+
+nav ul.open { 
+  display: block; 
+  text-align: left;
+}
+
+#hamburgerBtn span:nth-child(1) { display: block; }
+#hamburgerBtn span:nth-child(2) { display: none; }
+
+#hamburgerBtn.open span:nth-child(1) { display: none; }
+#hamburgerBtn.open span:nth-child(2) { display: block;}
+
+
+/* ******************** */
+/*         DATE         */
+/* ******************** */
+
+.date {
+  display: block;
+  text-align: center;
+  border-top: 2px solid #9f862c;
+  border-left: 2px solid #9f862c;
+  border-bottom: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  background-color: #b59b3d;
+  padding: 1px;
+  margin: 0 1rem;
+} 
+
+
+/*=======================*/
 
 /* ******************** */
 /*         MAIN         */
@@ -212,7 +289,7 @@ footer a {
 .nested{
   display: block;
 }
-#icon {
+.icon {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -230,7 +307,7 @@ nav {
 }
 nav a,
 footer a {
-  color: #70a9a1;
+  color: #8470a9;
   text-decoration: none;
 }
 .navigation {
@@ -263,5 +340,20 @@ max-width: 100%;
 margin: 0 auto;
 }
 /*==========================================*/
+.join button {
+  background-color: #14213d;
+  color: #e5e5e5;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  /* bottom: 300px; */
+  z-index: 5;
+  width: 200px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: 700;
+}
 
 /* ===============end small.css============== */
