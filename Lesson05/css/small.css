@@ -46,12 +46,8 @@ h1 {
 }
 h2 {
   font-size: 1rem;
-}
+} 
 
-/*====================================================*/
-
-
-/*=============================================================*/
 footer a {
   color: #b4c0d4;
 }
@@ -78,9 +74,7 @@ header img {
   background-size: cover;
 }
 /*navigation*/
-/* ******************** */
-/*       HAMBURGER      */
-/* ******************** */
+/* ************** HAMBURGER **************** */
 
 .menu {
   padding-left: 1rem;
@@ -137,9 +131,7 @@ nav ul.open {
 #hamburgerBtn.open span:nth-child(2) { display: block;}
 
 
-/* ******************** */
-/*         DATE         */
-/* ******************** */
+/* ************** DATE **************** */
 
 .date {
   display: block;
@@ -156,9 +148,7 @@ nav ul.open {
 
 /*=======================*/
 
-/* ******************** */
-/*         MAIN         */
-/* ******************** */
+/* ************** MAIN **************** */
 
 main {
   display:grid;
@@ -179,7 +169,7 @@ main div {
 }
 
 main h2 {
-  color: #960b0b;
+  color: #570b96;
 }
 
 .linkMoreInfo {
@@ -188,7 +178,7 @@ main h2 {
 }
 
 .linkMoreInfo:hover{
-  color: #791b1b;
+  color: #570b96;
 }
 
 .weather img {
@@ -221,7 +211,7 @@ main h2 {
 }
 
 .spotlight div {
-  border: 1px solid #960b0b;
+  border: 1px solid #570b96;
   background-color: #3db597;
   margin: 1rem 1rem;
 } 
@@ -237,9 +227,8 @@ main h2 {
 }
 
 
-/* ********************* */
-/*         FOOTER        */
-/* ********************* */
+
+/* ************** FOOTER **************** */
 
 
 
@@ -272,7 +261,7 @@ footer a {
   top: 0;
   max-width: 100px;
   max-height: 100px;
-  border: 2px solid #074915;
+  border: 2px solid #570b96;
   border-radius: 10px;
   box-shadow: hwb(195 98% 1%) 0px 0px 15px;
 }
