@@ -548,7 +548,8 @@ font-size: 17px;
   float: left;
   padding: 1rem;
   border: solid blue 1px;
- 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   grid-column: 2;
   grid-row: 2;
