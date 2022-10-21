@@ -359,7 +359,6 @@ ul {
 margin-top: 5px;
 font-size: 17px;
 }
-/*=======================================*/
 .herodiv {
   width: 90%;
   height: 850px;
@@ -370,8 +369,7 @@ font-size: 17px;
   padding: 50px;
   /* flex-wrap: wrap; */
 }
-/* ===========start grid===========*/
-/* *********************************************** small orig css***************************** */
+
 .hero img {
   width: 100%;
   height: 100%;
@@ -391,6 +389,8 @@ font-size: 17px;
        /* height: 100%; */
        height: 500px; 
 }
+/*=======================================*/
+/* ===========start grid===========*/
 .hero {
   grid-column: 1/3;
   grid-row: 1;
@@ -422,9 +422,7 @@ font-size: 17px;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-          grid-column: 1;
-          grid-row: 2;
-          /* height: 428px; */
+         
 }
 .event {
   grid-column: 1;
@@ -444,11 +442,7 @@ font-size: 17px;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-          grid-column: 1;
-          grid-row: 4;
-          /* overflow: scroll; */
-          margin-bottom: -210px;
-          margin-top: -.9px;   
+          
 }
 .weather {
   grid-column: 1;
@@ -469,9 +463,7 @@ font-size: 17px;
   border: solid blue 1px;
   
           box-sizing: border-box;
-          grid-column: 2;
-  grid-row: 4;
-  overflow: scroll;
+ 
 } 
 .news {
   grid-column: 2;
@@ -490,6 +482,16 @@ font-size: 17px;
   
           box-sizing: border-box;
 }
+
+.spotlight {
+  grid-column: 3;
+  grid-row: 1/4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: auto
+}
+
 .spotlight1 {
   margin: 1px auto;
   position: relative;
@@ -556,12 +558,12 @@ font-size: 17px;
   padding: 1rem;
   border: solid blue 1px;
  
-          box-sizing: border-box;
-}
-.join {
+  box-sizing: border-box;
   grid-column: 2;
   grid-row: 2;
 }
+
+
 /* ======== mine grid set up end========== */
 /* **********************************************end small orig css**************************** */
 footer {
