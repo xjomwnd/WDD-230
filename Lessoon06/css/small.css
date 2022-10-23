@@ -377,11 +377,18 @@ body {
     margin: 0 auto;
     }
       /* ===============end small.css============== */
-      footer {
-        width: 80%;
-        
+    footer {
+      display: grid;
+      grid-template-columns: 98%;
+      background-color: #b4c0d4;
+      justify-items: center;
+      text-align: center;
+      box-shadow: -1px -1px 30px 20px rgba(63, 65, 63, 0.5);
     }
-
+    
+    .imagefooter {
+      grid-column: 1 / -1;
+      grid-row: 1;
     
 
 
