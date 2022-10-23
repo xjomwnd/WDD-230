@@ -459,18 +459,6 @@ main figure.myphoto img {width: 100%;}
 main figure.myphoto figcaption {text-align: center;font-size: .75rem;}
 
 
-/*----------- FOOTER --------------*/
-footer {
-  background-color: #b4c0d4;
-  padding: .5rem 2%;
-  text-align: center;
-}
 
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /* ===== end small.css ===== */
