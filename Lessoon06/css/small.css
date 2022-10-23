@@ -379,6 +379,7 @@ body {
       /* ===============end small.css============== */
       footer {
         width: 80%;
+        
     }
 
     footer * {
@@ -403,7 +404,7 @@ body {
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #ddd;
+    background-color: #b4c0d4;
 }
 header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
@@ -460,12 +461,10 @@ main figure.myphoto figcaption {text-align: center;font-size: .75rem;}
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #ddd;
+    background-color: #b4c0d4;
     padding: .5rem 2%;
     text-align: center;
 }
-
-
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
