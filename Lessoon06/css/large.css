@@ -82,3 +82,34 @@
     grid-template-rows: 1fr 4em;
     height: 200px;
 }
+/*================================ optimizing path large.css =============================== */
+/* ===== large.css ===== */
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+  header, nav, main, footer {
+      max-width: 64rem;
+      margin:auto;
+  }
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+
+
+
+/*----------- MAIN --------------*/
+
+
+
+/*----------- FOOTER --------------*/
+  
+} /* end of media query */
+
+/* ===== end large.css ===== */
