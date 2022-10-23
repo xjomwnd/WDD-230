@@ -461,9 +461,9 @@ main figure.myphoto figcaption {text-align: center;font-size: .75rem;}
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #b4c0d4;
-    padding: .5rem 2%;
-    text-align: center;
+  background-color: #b4c0d4;
+  padding: .5rem 2%;
+  text-align: center;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
