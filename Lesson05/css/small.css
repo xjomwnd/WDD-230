@@ -322,15 +322,6 @@ body {
     display: block;
     color: #70a9a1;  
   }
-  img {
-    width: 200px;
-    height: auto;
-  }
-  .location img {
-    width: 5px;
-    height: 5px;
-  }
-  
   header,
   nav,
   main {
