@@ -40,3 +40,4 @@ const monthName = months[d.getMonth()];
 const year = d.getFullYear();
 const fulldate = `${year}`;
 document.querySelector("#year").textContent = fulldate;
+/* ================== end copyright year.js================= */
