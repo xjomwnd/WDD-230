@@ -1,7 +1,14 @@
+/*==========medium.css===============*/
 @media only screen and (min-width:34.5em) {
 
+    
+  /* ====================== MAIN SECTION ==================== */
   main {
     grid-template-columns: 23% 25% 25% 25%;
+  }
+
+  .herodiv img{
+    height: 25rem;
   }
 
   .hero {
@@ -21,7 +28,7 @@
   }
 
   .spotlight3 {
-    display: none;
+    display: none
   } 
 
   .join {
@@ -39,6 +46,9 @@
     grid-column: 4 / 5;
     grid-row: 5;
   }
+
+
+   /* ====================== FOOTER SECTION ==================== */
 
   footer {
     grid-template-columns: 10% 40% 1fr;
@@ -59,87 +69,13 @@
     grid-row: 1;
   }
 
+
+   /* footer js */
+
   .jsfooter1 {
     flex-direction: row;
   } 
 }
 
-/*-----------------------------*/
- footer {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 150px 1fr 1fr;
-  grid-template-rows: 1fr 4em;
-  height: 200px;
-}
 
-.footer-container {
-  margin: 0;
-  padding: 0;
-}
-
-.footer-img {
-  padding-top: 1em;
-  grid-column: 1;
-  grid-row: 1;
-}
-
-.footer-left {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.footer-right {
-  grid-column: 3;
-  grid-row: 1;
-}
-
-.footer-bottom {
-  grid-column: 1 / 4;
-  grid-row: 2;
-}
-
-.hamburgerBtn {
-  display: none;
-}
-
-.nav-links {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-/* =======end====== */
-
-/* =================== optimizing path medium.css =========================*/
-
-
-/* ===== medium.css ===== */
-/* 35em is also 560px (if basefont is 16px) */
-@media only screen and (min-width: 35rem) {
-
-
-/*----------- BODY --------------*/
-
-
-
-/*----------- HEADER --------------*/
-
-
-
-/*----------- NAVIGATION --------------*/
-    nav ul {margin-left: 2%;}
-    nav ul li {width: auto;}
-    nav ul li:first-child a {border-left: 1px solid #777;}
-    nav ul li:last-child a {border-right: 1px solid #777;}
-    nav ul li a{padding: .5rem 1rem;}
-
-
-/*----------- MAIN --------------*/
-
-
-
-/*----------- FOOTER --------------*/
-    
-} /* end of media query */
-
-/* ===== end medium.css ===== */
+/*==========end medium.css===============*/
