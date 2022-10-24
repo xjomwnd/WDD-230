@@ -6,6 +6,8 @@ body {
     font-family: "Roboto", sans-serif;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    max-width: 1050px;
+    margin: 0 auto;
   }
   header,
   footer {
@@ -19,8 +21,9 @@ body {
   footer {
     padding: 1.5rem;
     background-color: #b4c0d4;
-    border-radius: 15px;
+    border-radius: 0px;
     box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
+    
    
   }
   .profilePic {
@@ -109,72 +112,32 @@ body {
     flex-direction: row;
       justify-content: space-between;
     background-color: #b4c0d4;
-  }#b4c0d4
+  }
   
   /*=============end cyan css=========== */
-  /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-  html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
   
-  /*----------- apply a natural box layout model to all elements --------------*/
-  
-  
-  /* ************** HAMBURGER **************** */
-  
-  .menu {
-    padding-left: 1rem;
-  }
-  
-  nav button{
-    background: transparent;
-    border: none;
-    font-size: 2.5rem;
-    color:#555;
-  }
-  
-  nav {
-    background-color: #ebe7db;
-    margin-right: .6rem;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav ul li a {
+
+nav ul li a {
     display: block;
     padding: .8rem 2vw;
-    font-size: 1.3rem;
-  
     text-decoration: none;
-    color:#333;
+    color: #333;
     border-top: 1px solid rgba(0, 0, 0, 0.5);
-  }
-  
-  nav ul li.active a {
-    background-color: rgba(0,0,0,0.2);
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
     color: #fff;
-  }
-  
-  nav ul li a:hover {
-    background-color: rgba(0,0,0,0.3);
-  }
-  
-  nav ul { display: none; }
-  
-  nav ul.open { 
-    display: block; 
-    text-align: left;
-  }
-  
-  #hamburgerBtn span:nth-child(1) { display: block; }
-  #hamburgerBtn span:nth-child(2) { display: none; }
-  
-  #hamburgerBtn.open span:nth-child(1) { display: none; }
-  #hamburgerBtn.open span:nth-child(2) { display: block;}
-  
-  
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
   /* ************** DATE **************** */
   
   .date {
@@ -293,62 +256,7 @@ body {
   height: 100%;
   }
   /* end of header small.css*/
-  footer a {
-    color: #311288;
-  }
-  .nested{
-    display: block;
-  }
-  .icon {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    max-width: 20px;
-    max-height: 20px;
-    border: 2px solid #570b96;
-    border-radius: 10px;
-    box-shadow: hwb(195 98% 1%) 0px 0px 15px;
-  }
-  nav {
-    background-color: #b4c0d4;
-    color: #311288;
-    font-size: 1.5rem;
-    padding: 1.5px;
-  }
-  nav a,
-  footer a {
-    color: #8470a9;
-    text-decoration: none;
-  }
-  .navigation {
-    list-style-type: none;
-    padding: 0;
-  }
-  li {
-    padding: 10px;
-  }
-  .navigation li {
-    display: none;
-  }
-  .navigation a {
-    display: block;
-    color: #70a9a1;  
-  }
-  img {
-    width: 200px;
-    height: auto;
-  }
-  .location img {
-    width: 5px;
-    height: 5px;
-  }
-  
-  header,
-  nav,
-  main {
-  max-width: 100%;
-  margin: 0 auto;
-  }
+ 
   /*==========================================*/
   .join button {
     background-color: #14213d;
@@ -377,7 +285,7 @@ body {
     margin: 0 auto;
     }
       /* ===============end small.css============== */
-    footer {
+    .footer {
       display: grid;
       grid-template-columns: 98%;
       background-color: #b4c0d4;
