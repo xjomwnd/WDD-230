@@ -200,6 +200,7 @@ main {
   grid-template-columns: 98%;
   grid-gap: 5px;
   padding: 1rem 0;
+  font-family: "Roboto", sans-serif;
 }
 
 main div {
@@ -371,8 +372,7 @@ footer p {
     text-align: center;
     margin-top: -5px;
     font-family: 'Montserrat', sans-serif;
-    
-    font-size: 700;
+     font-size: 700;
 }
 
 footer a {
