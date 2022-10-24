@@ -351,9 +351,11 @@ margin: 0 auto;
    /*===========FOOTER GRIDS============*/
    footer {
     display: flex;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 0px;
     background-color: #b4c0d4;
-    background-image: linear-gradient(rgb(214, 240, 252), rgb(237, 240, 241));
-    padding: 1.5rem;
+    background-image: linear-gradient(rgb(214, 240, 252), rgb(230, 55, 84));
     box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
     border: 1px solid gray;
 }
@@ -369,16 +371,16 @@ footer p {
 }
 
 footer a {
-    background-color: #a5040a;
+    background-color: #b4c0d4;
     padding: 2px 3px;
     border-radius: 5px;
     color: white;
 }
 
 footer a:hover {
-    color: rgb(199, 199, 209);
+    color: rgb(209, 199, 199);
     border: #333 solid 1px;
-    background-color: white;
+    background-color: rgb(231, 222, 222);
     font-size: 14px;
     transition: 1s;
 }
