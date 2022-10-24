@@ -241,6 +241,7 @@ nav ul.open {display: block;}
   
   footer {
     display: flex;
+    margin: auto;
   }
   footer img {
     max-width: 200px;
@@ -282,20 +283,55 @@ nav ul.open {display: block;}
     font-family: 'Open Sans', sans-serif;
     padding: 10px 0;
    /* max-width: 900px; */
+   max-height: auto;
     margin: 0 auto;
     }
       /* ===============end small.css============== */
-    .footer {
-      display: grid;
-      grid-template-columns: 98%;
-      background-color: #b4c0d4;
-      justify-items: center;
-      text-align: center;
-      box-shadow: -1px -1px 30px 20px rgba(63, 65, 63, 0.5);
-    }
-    
-    .imagefooter {
-      grid-column: 1 / -1;
-      grid-row: 1;
-    }
-      
+   .footer {
+  display: grid;
+  grid-template-columns: 98%;
+  background-color: #b4c0d4;
+  justify-items: center;
+  text-align: center;
+  box-shadow: -1px -1px 30px 20px rgba(63, 65, 63, 0.5);
+  border: 1px solid #11100b;
+}
+
+.imagefooter {
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+.namefooter {
+  grid-column: 1 / -1;
+  grid-row: 2;
+}
+
+.mapfooter {
+  grid-column: 1 / -1;
+  grid-row: 3;
+}
+
+.jsfooter {
+  grid-column: 1 / -1;
+  grid-row: 4;
+}
+
+/* ********************* */
+/*     FOOTER  JAVAS     */
+/* ********************* */
+
+.jsfooter {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #11100b;
+}
+
+.jsfooter1 {
+  display: flex;
+  flex-direction: column;
+} 
+
+.jsfooter p {
+  padding: 0 1rem; 
+}  
