@@ -5,7 +5,11 @@ body {
   font-family: "Roboto", sans-serif;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-}
+  }
+
+  .main {
+    font-family: "Roboto", sans-serif;
+  }
 header,
 footer {
   max-width: 100%;
