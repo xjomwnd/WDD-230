@@ -125,6 +125,13 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
   padding-left: 1rem;
 }
 
+header,
+  nav,
+  main {
+  max-width: 100%;
+  margin: 0 auto;
+  }
+
 nav button{
   background: transparent;
   border: none;
