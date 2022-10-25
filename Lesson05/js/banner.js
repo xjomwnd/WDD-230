@@ -12,3 +12,13 @@ if (day == 1 || day == 2) {
     let banner = document.querySelector('.banner');
     banner.style.display = 'none';
 }
+
+
+/*======================banner.js===============================*/
+const weekday = new Date().setDate();
+if (weekday == 1) {
+    document.querySelector('.banner').style.display = "block";
+}
+if (weekday == 2) {
+    document.querySelector('.banner').style.display = "block";
+}
