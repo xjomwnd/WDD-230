@@ -1,55 +1,72 @@
-picture img {
-    display: block;
-    margin: 0 auto;
-    padding: 5px;
+:root {
+    /* Color pallete */
+    --primary-color: #043565;
+    --secondary-color: #e6dfdf;
 }
+
 body {
-    font-size: 25px;
-    line-height: 1.5;
-    font-weight: bold;
-    font-family: 'Scheherazade New', serif;
-  }
-  
-  header, main, footer {
-    margin: 2rem auto;
-    max-width: 550px;
-  }
-  
-  header, footer {
-    align-items: center;
-    justify-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+    border-radius: 1.5em 1.5em 0 0;
+    background-color: black;
+    width: 500px;
+    margin: 0 auto;
+    padding: 0 0.5em;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav-item {
+    padding: 0.5em 1em;
+}
+
+.nav-item a {
+    text-decoration: none;
+    padding: auto;
+    color: white;
+}
+
+.nav-item:hover {
+    background-color: #303030;
+}
+
+.container {
+    padding: 0.5em;
+    background-color: var(--secondary-color);
+    border: 1px black solid;
+    width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
     text-align: center;
-    padding: 1rem;
-    background-color: #FFDF6C;  
-    box-shadow: -1px -1px 30px 20px rgba(63, 65, 63, 0.5);
-  }
-  
-  header img {
-    width: 70%;
-    height: auto;
-  }
-  
-  header {
-    display:grid;
-    grid-template-columns: 25% 1fr;
-  }
-  
-  h1 {
-    font-size: 2rem;
-    font-family: 'Patrick Hand', cursive;
-  }
-  
-  h2 {
-    font-size: 2rem;
-  }
-  
-  main ul li a, #lastupdated {
-    text-decoration:none;
-    color: #6d0404;
-  }
-  
-  #lastupdated {
-    font-size: 1.2rem;
-  }
-  Footer
-  
+    background-color: var(--primary-color);
+    padding: 0.25em 0;
+    color: white;
+    border-radius: 1.5em;
+}
+
+img {
+    width: 300px;
+    height: 400px;
+    filter: blur(0em);
+    transition: filter 1.5s;
+    display: block;
+    margin: auto;
+}
+
+[data-src] {
+    filter: blur(0.25em);
+}
+
+picture {
+    display: block;
+    margin-bottom: 1em;
+}
+Footer
