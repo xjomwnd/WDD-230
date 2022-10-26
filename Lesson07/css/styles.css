@@ -59,7 +59,7 @@ img {
     transition: filter 1.5s;
     display: block;
     margin: auto;
-    padding: .5rem;
+    padding: 2rem;
 }
 
 [data-src] {
