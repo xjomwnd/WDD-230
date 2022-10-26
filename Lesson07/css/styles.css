@@ -10,7 +10,7 @@ body {
 
 .navbar {
     border-radius: 1.5em 1.5em 0 0;
-    background-color: black;
+    background-color: #42f586;
     width: 500px;
     margin: 0 auto;
     padding: 0 0.5em;
@@ -33,13 +33,13 @@ body {
 }
 
 .nav-item:hover {
-    background-color: #303030;
+    background-color: #42f586;
 }
 
 .container {
     padding: 0.5em;
     background-color: var(--secondary-color);
-    border: 1px black solid;
+    border: 1px rgb(114, 49, 49) solid;
     width: 500px;
     margin: 0 auto;
 }
@@ -48,7 +48,7 @@ h1 {
     text-align: center;
     background-color: var(--primary-color);
     padding: 0.25em 0;
-    color: white;
+    color: rgb(20, 13, 13);
     border-radius: 1.5em;
 }
 
