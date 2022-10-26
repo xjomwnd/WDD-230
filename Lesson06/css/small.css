@@ -90,8 +90,6 @@ body {
     padding: 0px;
     grid-template-columns: 1fr auto;
     align-items: left;
-    width: 100%;
-    height: 100%;
     background-color: #b4c0d4;
   }
   
@@ -297,8 +295,7 @@ a:link {
     border-right: 1px solid #160e0e;
     padding: 1px;
     margin: 0 1rem;
-    width: 900px;
-    height: 30px;
+    width: 650px;
   }
   
   /*=======================*/
