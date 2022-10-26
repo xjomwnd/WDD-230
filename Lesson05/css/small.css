@@ -80,8 +80,48 @@ body {
     max-width: 200px;
     background-size: cover;
   }
-  /* *****************navigation************************* */
-  
+  /*=============================================BANNER===================================*/
+  /* BANNER */
+.banner {
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  background: #f15360;
+}
+
+.banner-content {
+  max-width: 650px;
+  padding: 4px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.banner-text {
+  flex-grow: 1;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.banner-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.banner-button img {
+  width: 30px;
+}
+
+.banner-text,
+.banner-button > span {
+  color: black; 
+}
+
+.banner-button > span:hover {
+  color: #14213d;
+}
+
   
   /* ************** HEADER **************** */
   
