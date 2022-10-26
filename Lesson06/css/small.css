@@ -83,7 +83,7 @@ body {
   
   
   
-  header {
+  .header {
     display: flex;
     font-size: 1.5em;
     font-weight: 700;
@@ -96,7 +96,7 @@ body {
   }
   
   /* *****************navigation************************* */
-  * ******************** */
+  /* ******************** */
 /*         LOGO         */
 /* ******************** */
 
@@ -140,7 +140,7 @@ a:link {
   position: sticky;
   top: 0px;
   z-index: 10;
- 
+  background:   #F0A156;
 
 }
 
@@ -192,7 +192,7 @@ a:link {
     background-color: #f3ebce;
   }
   
-  header {
+  .header {
     width: 100%;
     background-color: #b4c0d4;
     padding: 1rem 0;
@@ -225,36 +225,38 @@ a:link {
     padding-left: 1rem;
   }
   
-  header,
+  .header,
     nav,
     main {
     max-width: 100%;
     margin: 0 auto;
     }
   
-  nav button{
+  .nav button{
     background: transparent;
     border: none;
     font-size: 2.5rem;
     color:#555;
   }
   
-  nav {
+  .nav {
     background-color: #ebe7db;
     margin-right: .6rem;
+    
   }
   
-  nav ul {
+  .nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    
   }
   
   nav ul li a {
     display: block;
     padding: .8rem 2vw;
     font-size: 1.3rem;
-  
+    font-weight: 700;
     text-decoration: none;
     color:#333;
     border-top: 1px solid rgba(0, 0, 0, 0.5);
