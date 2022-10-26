@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
@@ -29,7 +29,7 @@ body {
 .nav-item a {
     text-decoration: none;
     padding: auto;
-    color: white;
+    color: rgb(19, 13, 13);
 }
 
 .nav-item:hover {
@@ -48,7 +48,7 @@ h1 {
     text-align: center;
     background-color: var(--primary-color);
     padding: 0.25em 0;
-    color: rgb(20, 13, 13);
+    color: rgb(27, 236, 146);
     border-radius: 1.5em;
 }
 
@@ -59,7 +59,7 @@ img {
     transition: filter 1.5s;
     display: block;
     margin: auto;
-    padding: 2rem;
+    padding: 5rem;
 }
 
 [data-src] {
