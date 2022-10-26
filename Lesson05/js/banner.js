@@ -22,3 +22,5 @@ if (weekday == 1) {
 if (weekday == 2) {
     document.querySelector('.banner').style.display = "block";
 }
+
+
