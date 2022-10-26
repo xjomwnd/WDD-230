@@ -34,7 +34,7 @@
         }
       
         #profilePic {
-          float: right;
+          float: left;
           max-width: 200px;
         }
 
