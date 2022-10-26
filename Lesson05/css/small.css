@@ -132,21 +132,24 @@ a:link {
 /*=============================================BANNER===================================*/
 /* BANNER */
 .banner {
-position: sticky;
-top: 0px;
-z-index: 10;
-background:   #b4c0d4;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  background:   #c0ad84;
+  font-weight: 700;
+
 }
 
 .banner-content {
-max-width: 650px;
-height: 50px;
-padding: 4px;
-display: flex;
-margin: 0 auto;
-align-items: center;
-}
+  max-width: 650px;
+  height: 50px;
+  padding: 2px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  border: 2px solid #074915;
 
+}
 .banner-text {
 flex-grow: 1;
 line-height: 1;

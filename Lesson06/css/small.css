@@ -139,7 +139,7 @@ a:link {
   position: sticky;
   top: 0px;
   z-index: 10;
-  background:   #849ac0;
+  background:   #b4c0d4;
   font-weight: 700;
 
 }
@@ -292,14 +292,16 @@ a:link {
   .date {
     display: block;
     text-align: center;
-    background-color:  #566df0;
-    border-top: 2px solid #160e0e;
-    border-left: 2px solid #160e0e;
-    border-right: 1px solid #160e0e;
-    padding: 1px;
+    border-top: 2px solid #ebe7db;
+    border-left: 2px solid #ebe7db;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    background-color: #b4c0d4;
+    padding: 0px;
     margin: 0 1rem;
     width: 650px;
-  }
+    height: 50%;
+  } 
   
   /*=======================*/
   
