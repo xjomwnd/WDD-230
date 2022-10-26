@@ -122,6 +122,10 @@ body {
   color: #14213d;
 }
 
+.banner img {
+  display: left;
+}
+
   
   /* ************** HEADER **************** */
   
