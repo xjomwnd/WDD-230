@@ -95,7 +95,7 @@ header img {
 position: sticky;
 top: 0px;
 z-index: 10;
-background:   #F7DDD4;
+background:   #c4f8cb;
 }
 
 .banner-content {
@@ -137,11 +137,11 @@ color: #14213d;
 .joinUs {
     font-size: .5rem;
     text-align: center;
-  border-top: 2px solid #9f862c;
-  border-left: 2px solid #9f862c;
+  border-top: 2px solid #b6b5b3;
+  border-left: 2px solid #b6b5b3;
   border-bottom: 1px solid #ffffff;
   border-right: 1px solid #ffffff;
-  background-color: #b59b3d;
+  background-color: #b6b5b3;
 }
 
 header {
@@ -239,7 +239,7 @@ nav ul.open {
   border-left: 2px solid #ebe7db;
   border-bottom: 1px solid #ffffff;
   border-right: 1px solid #ffffff;
-  background-color: #ebe7db;
+  background-color: #c4f8cb;
   padding: 1px;
   margin: 0 1rem;
 } 
