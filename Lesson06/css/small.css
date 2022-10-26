@@ -289,11 +289,7 @@ a:link {
   .date {
     display: block;
     text-align: center;
-    border-top: 2px solid #ebe7db;
-    border-left: 2px solid #ebe7db;
-    border-bottom: 1px solid #ffffff;
-    border-right: 1px solid #ffffff;
-    background-color:  #56E6F0;
+    background-color:  #566df0;
     padding: 1px;
     margin: 0 1rem;
     width: 900px;
