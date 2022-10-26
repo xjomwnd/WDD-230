@@ -80,7 +80,7 @@ progressive-image.loading:before {
   
   progressive-image > img {
     opacity: 0;
-    transition: opacity 800ms ease 0ms;
+    transition: opacity 1600ms ease 0ms;
   }
   progressive-image > img:first-of-type {
     filter: blur(100px);
