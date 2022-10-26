@@ -89,6 +89,44 @@ header img {
   background-size: cover;
 }
 /* *****************navigation************************* */
+/* ******************** */
+/*         LOGO         */
+/* ******************** */
+
+.logo {
+	display: flex;
+  float: left;
+	align-items: flex-start;
+}
+
+.logo img {
+	width: 5rem;
+	height: auto;
+}
+
+.logo picture {
+  display: flex;
+}
+
+
+/* ******************** */
+/*        SOCIAL        */
+/* ******************** */
+
+
+.social img {
+  width: 3%;
+  height: 3%;
+  align-items: flex-start;
+  background-color: #b4c0d4;
+}
+
+a:link {
+  text-decoration: none;
+  background-color: #b4c0d4;
+}
+
+
 /*=============================================BANNER===================================*/
 /* BANNER */
 .banner {
@@ -445,4 +483,8 @@ footer a:hover {
     background-color: rgb(231, 222, 222);
     font-size: 14px;
     transition: 1s;
+}
+footer img {
+  max-width: 5rem;
+  background-size: cover;
 }
