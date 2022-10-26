@@ -95,7 +95,7 @@ header img {
 position: sticky;
 top: 0px;
 z-index: 10;
-background:   #c4f8cb;
+background:   #F0A156;
 }
 
 .banner-content {
@@ -158,7 +158,7 @@ header {
   flex-direction: row;
     justify-content: space-between;
   background-color: #b4c0d4;
-}#b4c0d4
+}
 
 /*=============end cyan css=========== */
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
@@ -241,7 +241,7 @@ nav ul.open {
   border-bottom: 1px solid #ffffff;
   border-right: 1px solid #ffffff;
   background-color: #c4f8cb;
-  padding: 1px;
+  padding: 0px;
   margin: 0 1rem;
   width: 650px;
   height: 50%;
