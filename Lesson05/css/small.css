@@ -19,8 +19,50 @@ body {
     padding: 1.5rem;
     background-color: #b4c0d4;
     box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
-   
-  }
+   /*=======HEADER===================*/
+   * ******************** */
+/*        HEADER        */
+/* ******************** */
+
+.joinUs {
+	font-size: .5rem;
+	text-align: center;
+  border-top: 2px solid #9f862c;
+  border-left: 2px solid #9f862c;
+  border-bottom: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  background-color: #b59b3d;
+}
+
+header {
+  background-color: #ffdf6c;
+  padding: 1rem 0;
+}
+
+.headertop {
+	padding: 5px 0;
+	display: flex;
+  flex-direction: row;
+	justify-content: space-between;
+  background-color: #ffdf6c;
+}
+
+
+/* ******************** */
+/*     HEADER ORDER     */
+/* ******************** */
+
+.headertop :nth-child(1) { order: 2; }
+.headertop :nth-child(2) { order: 3; }
+.headertop :nth-child(3) { order: 1; }
+
+/* ******************** */
+
+
+
+
+   /*=========CHECK HEADER END ==================================================*/
+  
   .profilePic {
     max-width: 250px;
     height: auto;
