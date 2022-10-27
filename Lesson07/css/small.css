@@ -208,13 +208,51 @@ body {
   html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
   
   /*----------- apply a natural box layout model to all elements --------------*/
-  
-  
-  /* ************** HAMBURGER **************** */
-  
+ /* ============= menu nav stcc ======= */
   .menu {
     padding-left: 1rem;
   }
+
+  nav {
+    margin: auto;
+    grid-column: 1/3;
+}
+
+nav li {
+    display: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #fca311;
+}
+
+#hamburger {
+    color: #e5e5e5;
+    text-decoration: none;
+    grid-column: 2;
+    text-align: right;
+    margin: auto;
+    font-size: 3em;
+}
+
+.responsive  li{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+  /* ============menu nav============ */
+  
+  /* ************** HAMBURGER **************** */
   
   header,
     nav,
