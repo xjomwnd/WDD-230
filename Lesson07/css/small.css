@@ -88,8 +88,9 @@ body {
     font-size: 1.5em;
     font-weight: 700;
     padding: 0px;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 0 auto;
     align-items: left;
+    justify-content: left;
     background-color: #b4c0d4;
   }
   
