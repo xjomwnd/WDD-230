@@ -1,9 +1,9 @@
-    let date = new Date();
+const date = new Date();
+const day = today.getDay();
+const banner = document.getElementById("banner");
 
-    if(date.getDay() == 1 || date.getDay() == 2) {
-
-        let header = document.querySelector("header");
-        let banner = document.createElement("h3");
-        banner.innerText = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m";
-        banner.setAttribute("id", "join-banner");
-    }
+if (day == 1 || day == 2) {
+    banner.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m"
+} else {
+    banner.remove();
+}
