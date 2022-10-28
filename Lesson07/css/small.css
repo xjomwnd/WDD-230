@@ -222,7 +222,7 @@ a:link {
   /* ************** HAMBURGER **************** */
   
   .menu {
-    padding-left: 1rem;
+    padding-left: 5rem;
   }
   
   header,
@@ -242,18 +242,19 @@ a:link {
   .nav {
     background-color: #ebe7db;
     margin-right: .6rem;
-    
+    float: right;
+    font-weight: 700;
   }
   
-  nav ul {
-    list-style-type: none;
+  .nav ul {
+    list-style-type: inline;
     padding: 0;
     margin: 0;
     text-align: center;
     justify-content: center;
   }
   
-  nav ul li a {
+  .nav ul li a {
     display: block;
     padding: .8rem 2vw;
     font-size: 1.3rem;
@@ -263,13 +264,13 @@ a:link {
     border-top: 1px solid rgba(0, 0, 0, 0.5);
   }
   
-  nav ul li.active a {
+  .nav ul li.active a {
     background-color: rgba(0,0,0,0.2);
     color: #fff;
     text-align: center;
   }
   
-  nav ul li a:hover {
+  .nav ul li a:hover {
     background-color: rgba(0,0,0,0.3);
   }
   
