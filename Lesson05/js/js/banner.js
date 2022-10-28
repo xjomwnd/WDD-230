@@ -1,14 +1,13 @@
-letday=date.getDay();
-day=1;
+function checkJoinBanner() {
 
-if(day==1||day==2){
-    letbanner=document.querySelector('.banner');
-    banner.style.display='block';
+    let date = new Date();
 
-    document.querySelector(".banner-button").addEventListener("click",function(){
-        banner.style.display='none';
-      });
-}else{
-    letbanner=document.querySelector('.banner');
-    banner.style.display='none';
+    if(date.getDay() == 1 || date.getDay() == 2) {
+
+        let header = document.querySelector("header");
+        let banner = document.createElement("h3");
+        banner.innerText = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m";
+        banner.setAttribute("id", "join-banner");
+        header.prepend(banner);
+    }
 }
