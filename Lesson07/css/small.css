@@ -83,14 +83,14 @@ body {
   
   
   
-  .header {
+  header {
     display: flex;
     font-size: 1.5em;
     font-weight: 700;
     padding: 0px;
     grid-template-columns: 0 auto;
-    align-items: left;
-    justify-content: left;
+    align-items: flex-end;
+    justify-content: center;
     background-color: #b4c0d4;
   }
   
@@ -112,6 +112,7 @@ body {
 
 .logo picture {
   display: flex;
+  float: left;
 }
 
 
