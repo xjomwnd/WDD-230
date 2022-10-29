@@ -223,7 +223,7 @@ a:link {
   
   /* ************** HAMBURGER **************** */
   
-  .menu {
+  menu {
     padding-left: 5rem;
   }
   
@@ -234,21 +234,21 @@ a:link {
     margin: 0 auto;
     }
   
-  .nav button{
+  nav button{
     background: transparent;
     border: none;
     font-size: 2.5rem;
     color:#555;
   }
   
-  .nav {
+  nav {
     background-color: #ebe7db;
     margin-right: .6rem;
     float: right;
     font-weight: 700;
   }
   
-  .nav ul {
+  nav ul {
     list-style-type: inline;
     padding: 0;
     margin: 0;
@@ -256,7 +256,7 @@ a:link {
     justify-content: center;
   }
   
-  .nav ul li a {
+  nav ul li a {
     display: block;
     padding: .8rem 2vw;
     font-size: 1.3rem;
@@ -266,13 +266,13 @@ a:link {
     border-top: 1px solid rgba(0, 0, 0, 0.5);
   }
   
-  .nav ul li.active a {
+  nav ul li.active a {
     background-color: rgba(0,0,0,0.2);
     color: #fff;
     text-align: center;
   }
   
-  .nav ul li a:hover {
+  ul li a:hover {
     background-color: rgba(0,0,0,0.3);
   }
   
@@ -280,7 +280,7 @@ a:link {
   
   nav ul.open { 
     display: block; 
-    text-align: left;
+    text-align: center;
   }
   
   #hamburgerBtn span:nth-child(1) { display: block; }
@@ -394,6 +394,7 @@ a:link {
   main ul {
     display: inline-block;
     text-align:center;
+    padding: 20px;
   }
   
   .grid-container {
