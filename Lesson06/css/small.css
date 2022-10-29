@@ -322,7 +322,7 @@ a:link {
   }
   
   .event, .weather, .news, .join, .spotlight {
-    padding: .5em;
+    padding: 0em;
     font-size: 1.2rem;
   }
   
@@ -369,15 +369,17 @@ a:link {
   }
   
   .spotlight div {
-    border: 1px solid #570b96;
-    background-color: #3db597;
+    border: 1px solid #8637c7;
+    background-color: #8637c7;
     margin: 1rem 1rem;
+    padding-right: 0rem;
   } 
   
   .spotlight {
     display:grid;
     grid-area: 1fr;
     padding-bottom: 0rem;
+    padding-left: 0rem;
   }
   
   .join {
