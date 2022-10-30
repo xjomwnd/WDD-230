@@ -392,6 +392,18 @@ nav ul.open {
     text-align:center;
     padding: 20px;
   }
+
+  main {
+    display:grid;
+    grid-template-columns: 98%;
+    grid-gap: 5px;
+    padding: 0.5rem 0;
+  }
+  
+  main img {
+    width: 100px;
+    height: auto;
+  }
   
   .grid-container {
     display: grid;
