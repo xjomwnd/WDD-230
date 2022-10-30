@@ -44,8 +44,11 @@
     /* ********************* */
     /*      MAIN SECTION     */
     /* ********************* */
-  
-    main {
+    .discovery-main {
+      margin-top: 0;
+      padding-top: 1em;
+    }
+    .main {
       grid-template-columns: 25% 23% 25% 25%;
     }
   
