@@ -88,9 +88,8 @@ body {
     font-size: 1.5em;
     font-weight: 700;
     padding: 0px;
-    grid-template-columns: 0 auto;
-    align-items: flex-end;
-    justify-content: center;
+    grid-template-columns: 1fr auto;
+    align-items: left;
     background-color: #b4c0d4;
   }
   
@@ -112,7 +111,6 @@ body {
 
 .logo picture {
   display: flex;
-  float: left;
 }
 
 
@@ -224,7 +222,7 @@ a:link {
   /* ************** HAMBURGER **************** */
   
   .menu {
-    padding-left: 5rem;
+    padding-left: 1rem;
   }
   
   header,
@@ -234,22 +232,21 @@ a:link {
     margin: 0 auto;
     }
   
-  nav button{
+  .nav button{
     background: transparent;
     border: none;
     font-size: 2.5rem;
     color:#555;
   }
   
-  nav {
-    background-color:  #b4c0d4;
+  .nav {
+    background-color: #ebe7db;
     margin-right: .6rem;
-    float: right;
-    font-weight: 700;
+    
   }
   
   nav ul {
-    list-style-type: inline;
+    list-style-type: none;
     padding: 0;
     margin: 0;
     text-align: center;
@@ -268,11 +265,11 @@ a:link {
   
   nav ul li.active a {
     background-color: rgba(0,0,0,0.2);
-    color:  #b4c0d4;
+    color: #fff;
     text-align: center;
   }
   
-  ul li a:hover {
+  nav ul li a:hover {
     background-color: rgba(0,0,0,0.3);
   }
   
@@ -280,7 +277,7 @@ a:link {
   
   nav ul.open { 
     display: block; 
-    text-align: center;
+    text-align: left;
   }
   
   #hamburgerBtn span:nth-child(1) { display: block; }
@@ -288,7 +285,7 @@ a:link {
   
   #hamburgerBtn.open span:nth-child(1) { display: none; }
   #hamburgerBtn.open span:nth-child(2) { display: block;}
-  /***********************menu********************** */
+  
   
   /* ************** DATE **************** */
   
@@ -302,7 +299,7 @@ a:link {
     background-color: #b4c0d4;
     padding: 0px;
     margin: 0 1rem;
-    width: 500px;
+    width: 650px;
     height: 50%;
   } 
   
@@ -310,7 +307,7 @@ a:link {
   
   /* ************** MAIN **************** */
   
-  .main {
+  main {
     display:grid;
     grid-template-columns: 98%;
     grid-gap: 5px;
@@ -322,15 +319,14 @@ a:link {
     border: 1px solid rgb(237, 248, 217);
     background-color: #aaa9a6;
     text-align: center;
-    padding: 20px;
   }
   
   .event, .weather, .news, .join, .spotlight {
-    padding: .5em;
+    padding: 0.3em;
     font-size: 1.2rem;
   }
   
-  .main h2 {
+  main h2 {
     color: #570b96;
   }
   
@@ -373,67 +369,25 @@ a:link {
   }
   
   .spotlight div {
-    border: 1px solid #570b96;
-    background-color: #3db597;
+    border: 1px solid #4c08ca;
+    background-color: #aaa9a6;
     margin: 1rem 1rem;
+    padding-right: 0rem;
   } 
   
   .spotlight {
     display:grid;
     grid-area: 1fr;
     padding-bottom: 0rem;
+    padding-left: 0rem;
   }
   
   .join {
     display: none;
   }
-  /*===========GRID ITEM=======================*/
-  main, main a {
-    color: #000;
-  }
   
-  main ul {
-    display: inline-block;
-    text-align:center;
-    padding: 20px;
-  }
   
-  .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5px;
-    padding: 5px;
-  }
   
-  .grid-item {
-    max-width: 400px;
-    padding: 5px;
-    background-color: rgb(250, 250, 237);
-    border-radius: 20px;
-    box-shadow: 2px 2px 22px;
-    box-sizing: border-box;
-    gap: 16px;
-  }
-  
-  .chalk {
-    max-width: 100px;
-  }
-  
-  .image-grid > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  /*================================================================*/
-  .typo {
-    margin-bottom: 0px;
-    }
-    ul {
-    margin-top: 5px;
-    font-size: 17px;
-    }
-    
-  /*=====================================================================*/
   /* ************** FOOTER **************** */
   
   
@@ -466,7 +420,7 @@ a:link {
     display: block;
   }
   
-  .nav {
+  nav {
     background-color: #b4c0d4;
     color: #311288;
     font-size: 1.5rem;
@@ -481,7 +435,7 @@ a:link {
     list-style-type: none;
     padding: 0;
   }
-  .li {
+  li {
     padding: 10px;
   }
   .navigation li {
