@@ -1,6 +1,3 @@
-//* LAST VISIT js*//
-// ///////////// //
-
 let dayBefore = localStorage.getItem('date');
 
 localStorage.setItem('date', day);
