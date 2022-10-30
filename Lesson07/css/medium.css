@@ -46,6 +46,23 @@
       grid-column: 4 / 5;
       grid-row: 5;
     }
+    /* ===============DISCOVER CSS============== */
+    .home-main {
+      width: 100%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(2, fit-content(1fr));
+      grid-template-rows: repeat(5, fit-content(1fr));
+      grid-gap: 1em;
+  }
+
+  .discovery-main {
+      padding-top: 1em;
+  }
+
+  .join-main {
+      width: 100%;
+  }
   
   
      /* ====================== FOOTER SECTION ==================== */
