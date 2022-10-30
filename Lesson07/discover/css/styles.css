@@ -1,0 +1,130 @@
+:root {
+    /* Color pallete */
+    --primary-color: #043565;
+    --secondary-color: #e6dfdf;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    border-radius: 1.5em 1.5em 0 0;
+    background-color: #42f586;
+    width: 500px;
+    margin: 0 auto;
+    padding: 0 0.5em;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+.nav-item {
+    padding: 0.5em 1em;
+}
+.nav-item a {
+    text-decoration: none;
+    padding: auto;
+    color: rgb(19, 13, 13);
+}
+.nav-item:hover {
+    background-color: #42f586;
+}
+.container {
+    padding: 0.5em;
+    background-color: var(--secondary-color);
+    border: 1px rgb(114, 49, 49) solid;
+    width: 500px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 0.25em 0;
+    color: rgb(27, 236, 146);
+    border-radius: 1.5em;
+}
+img {
+    width: 300px;
+    height: 400px;
+    filter: blur(0em);
+    transition: filter 1.5s;
+    display: block;
+    margin: auto;
+    padding: 5rem;
+}
+/* //////////////////////////////////////////////////////////// */
+/* Header styles */
+header {
+    background-color: var(--primary-color);
+    border-radius: 1.5em 1.5em 0 0;
+    padding: 0;
+    padding-top: 0.5em;
+    height: auto;
+}
+
+#join-banner {
+    grid-row: 1;
+    padding: 0.5em;
+    margin: 0.5em;
+    text-align: center;
+    color: white;
+    background-color: var(--secondary-color);
+    border: 1.5px solid white;
+    border-radius: 1.5em;
+    height: fit-content;
+}
+
+
+
+/*/////////////////////////////////////////////////////////*/
+/* ==============discovery======================== */
+
+
+
+
+
+picture {
+    display: block;
+    margin-bottom: 1em;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.discovery-main h1 {
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 0.25em 0;
+    color: white;
+    border-radius: 1.5em;
+    margin: 0 2em;
+    margin-bottom: 0;
+}
+
+.history-section p {
+    padding: 0;
+    margin: 1em 2em;
+}
+/* ///////////////////////===END DISCOVER===//////////////////// */
+/* ==============FOOTER============= */
+footer {
+    margin: 0 auto;
+    background-color: var(--primary-color);
+    padding-bottom: 1em;
+    border-radius: 0 0 1.5em 1.5em;
+}
+
+footer div {
+    padding-top: 2em;
+}
+
+footer div img {
+    display: block;
+    margin: auto;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
