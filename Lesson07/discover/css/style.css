@@ -79,33 +79,6 @@ header {
 /*/////////////////////////////////////////////////////////*/
 /* ==============discovery======================== */
 
-
-
-
-
-picture {
-    display: block;
-    margin-bottom: 1em;
-}
-
-figcaption {
-    text-align: center;
-}
-
-.discovery-main h1 {
-    text-align: center;
-    background-color: var(--primary-color);
-    padding: 0.25em 0;
-    color: white;
-    border-radius: 1.5em;
-    margin: 0 2em;
-    margin-bottom: 0;
-}
-
-.history-section p {
-    padding: 0;
-    margin: 1em 2em;
-}
 /* ///////////////////////===END DISCOVER===//////////////////// */
 /* ==============FOOTER============= */
 footer {
