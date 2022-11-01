@@ -1,5 +1,5 @@
 const date = new Date();
-const day = today.getDay();
+const day = date.getDay();
 const banner = document.getElementById("banner");
 
 if (day == 1 || day == 2) {
