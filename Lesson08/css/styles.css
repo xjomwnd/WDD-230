@@ -142,3 +142,10 @@ td.text-center {
 td.text-right {
   text-align: right;
 }
+/*//////////////// MEDIUM CSS ////////////////// */
+@media only screen and (min-width:34.5em) {
+  html {
+    font-size: 1.5rem;
+  }
+  
+}
