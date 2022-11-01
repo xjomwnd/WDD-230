@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber Home Page</title>
+    <meta name="description" content="Assignment portal for Joel Ndiba Mwaura, WDD-230-1: Web Frontend Development, Brigham Young University - Idaho" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <span id="banner"></span>
+    <header> 
+    <div class="headertop"> 
+    <div class="logo">    
+        <picture> 
+          <img src="images/area-logo.png"
+          alt="wheater logo">
+        </picture>
+      </div>  
+      </div>
+      <div class="headings">
+      <section>
+        <h3>Chamber of Commerce</h3>
+        <h2>Preston Area</h2>
+      </section>
+      <div class="social">
+        <a href="https://www.facebook.com/" target="_blank">
+        <img src="images/facebook-48.webp" alt="YouTube Icon" width="32" height="32">
+        </a>
+        
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="images/instagram-48.webp" alt="Twitter Icon" width="32" height="32">
+        </a> 
+      </div>
+    </div>
+    <div class="menu"></div>
+      <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+          <li><a href="#">Home</a></li>
+          <li><a href=#>Discover</a></li>
+          <li><a href=#>Directory</a></li>
+          <li><a href=#>Join</a></li>
+          <li><a href=#>Contact</a></li>
+      </ul>
+      </nav>
+    </div>
+</header> 
+  <fieldset>
+  <div class="date1">
+    <p class="date1"><span id="date1"><script src="index.js"></script></span></p>    
+  </div>
+  </fieldset>
+<main class="join">
+    <div class="form">
+        <h1>Join Us</h1>
+        <form action="/WDD230/chamber/thanks.html" method="GET" autocomplete="on">
+            <label for="fname">
+                First Name
+                <input type="text" id="fname" name="fname" required>
+            </label>
+
+            <label for="lname">
+                Last Name
+                <input type="text" id="lname" name="lname" required>
+            </label>
+
+            <label for="business">
+                Business Name
+                <input type="text" id="business" name="business" pattern="[- A-Z a-z 0-9]" required>
+            </label>
+
+            <label for="title">
+                Job Title
+                <input type="text" id="title" name="title">
+            </label>
+
+            <label for="email">
+                Email
+                <input type="email" placeholder="johndoe@example.com" id="email" name="email" required>
+            </label>
+
+            <label for="phone">
+                Phone
+                <input type="tel" id="phone" name="phone" required>
+            </label>
+
+            <label for="membership">
+                Choose a membership level:
+                <select id="membership" name="membership">
+                    <option selected disabled hidden>Make a Selection</option>
+                    <option value="NP">Nonprofit</option>
+                    <option value="bronze">Bronze</option>
+                    <option value="silver">Silver</option>
+                    <option value="gold">Gold</option>
+                </select>
+            </label>
+
+            <label for="desc">
+                Business Description
+                <textarea name="desc" id="desc"></textarea>
+            </label>
+
+            <label for="dateTime" hidden>
+                Datetime
+                <input type="datetime-local" name="dateTime" id="dateTime" required hidden>
+            </label>
+            <input type="submit" id="submit" value="submit">
+            
+        </form>
+    </div>
+
+    <div class="membershipLevels">
+
+        <h1>Membership Levels</h1>
+
+        <div class="nonprofit">
+            <h2>Nonprofit</h2>
+            <p class="fee">No fee</p>
+            <p>
+                Nonprofit membership is for businesses that are not for profit and are not
+                self-employed.
+            </p>
+        </div>
+
+        <div class="bronze">
+            <h2>Bronze</h2>
+            <p class="fee">$50/month</p>
+            <p>
+                Bronze membership is for businesses with less than 50 employees that are for profit. Benefits
+                include:
+            </p>
+            <ul>
+                <li>15% discount on events</li>
+                <li>10% discount on advertising</li>
+            </ul>
+        </div>
+
+        <div class="silver">
+            <h2>Silver</h2>
+            <p class="fee">$100/month</p>
+            <p>
+                Silver membership is for businesses with less than 250 employees that are for profit. Additional
+                benefits include:
+            </p>
+            <ul>
+                <li>50% discount on events</li>
+                <li>50% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+            </ul>
+        </div>
+
+        <div class="gold">
+            <h2>Gold</h2>
+            <p class="fee">$250/month</p>
+            <p>
+                Gold membership is for businesses with more than 250 employees that are for profit. Additional
+                benefits include:
+            </p>
+            <ul>
+                <li>50% discount on events</li>
+                <li>50% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>5 featured ads per year</li>
+                <li>1 free training per quarter</li>
+            </ul>
+        </div>
+
+
+    </div>
+  </main>
+     <footer>
+      <div class="imaagefooter">
+        <picture>
+          <img src="images/area-logo.png" alt="Preston Area Chamber Logo">
+        </picture>
+      </div>  
+      
+      <div class="namefooter">
+      <p>Preston Area Chamber of Commerce</p>
+      <p>https://www.prestonchamber.org</p>
+      <p>208-852-6621</p>
+      <p>
+      <a href="https://www.google.com/maps/place/Preston,+ID+83263,+USA/@42.1466722,-112.0612386,10.25z/data=!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173">
+         <img src="images/location-.png" alt="Preston Area Chamber of commerce">
+         </a>
+         Location Map
+      </p>
+      </div>
+      <div>
+        <p>
+          <p>&copy; <script>document.write(new Date().getFullYear())</script><br><span>Preston Chamber Chamber Home Page</span></p> 
+        </p>
+        <p>WDD 230 Project</p>
+        <P>Joel Ndiba Mwaura</P>
+      <p class="last-update" id="lastModified"></p>  
+      </div> 
+    </footer>
+    <script src="js/last-modified.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/hamburger.js"></script>
+  
+  </body>
+  </html>  
