@@ -304,7 +304,23 @@ a:link {
   } 
   
   /*=======================*/
-  
+  .lazyload main {
+    display:grid;
+    grid-template-columns: 98%;
+    grid-gap: 5px;
+    padding: 1rem 0;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    justify-content: center;
+
+  }
+
+  .lazyload {
+    display:grid;
+    grid-area: 1fr;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+  }
   /* ************** MAIN **************** */
   
   main {
