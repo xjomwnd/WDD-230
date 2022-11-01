@@ -537,12 +537,22 @@ nav ul.open {
       font-family: "Ubuntu", sans-serif;
       font-size: 1.5em;
   }
-  
-  table {
+ 
+  .table-ph {
       margin: 1em auto;
       border: thin solid #555555;
       box-shadow: 8px 10px 10px hsl(0, 0%, 50%);
       text-align: center;
+      float: center;
+      justify-content: center;
+      margin: 1px auto;
+      position: relative;
+      width: 100%;
+    padding: 50px;
+    border: solid blue 1px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
   }
   
   thead tr:first-child th {
