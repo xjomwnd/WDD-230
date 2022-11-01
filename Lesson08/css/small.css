@@ -527,16 +527,44 @@ nav ul.open {
   }
      /* ===============end TABLECSS.css============== */
      :root {
+      /* Color pallete */
       --primary-color: #043565;
       --secondary-color: #e6dfdf;
-      --dark-row: #4d5191;
-      --light-row: #c5c7ee;
+  }
+  body {
+      font-family: 'Montserrat', sans-serif;
+  }
+  .navbar {
+      border-radius: 1.5em 1.5em 0 0;
+      background-color: #42f586;
+      width: 500px;
+      margin: 0 auto;
+      padding: 0 0.5em;
+  }
+  .nav-links {
+      list-style: none;
+      display: flex;
+      margin: 0;
+  }
+  .nav-item {
+      padding: 0.5em 1em;
+  }
+  .nav-item a {
+      text-decoration: none;
+      padding: auto;
+      color: rgb(19, 13, 13);
+  }
+  .nav-item:hover {
+      background-color: #42f586;
+  }
+  .container {
+      padding: 0.5em;
+      background-color: var(--secondary-color);
+      border: 1px rgb(114, 49, 49) solid;
+      width: 500px;
+      margin: 0 auto;
   }
   
-  body {
-      font-family: "Ubuntu", sans-serif;
-      font-size: 1.5em;
-  }
  
   .table-ph {
       margin: 1em auto;
@@ -613,33 +641,6 @@ nav ul.open {
     }
   }
   
-  
-  .navbar {
-      border-radius: 1.5em 1.5em 0 0;
-      background-color: black;
-      max-width: 500px;
-      margin: 0 auto;
-  }
-  
-  .nav-links {
-      list-style: none;
-      display: flex;
-      margin: 0;
-  }
-  
-  .nav-item {
-      padding: 0.5em 1em;
-  }
-  
-  .nav-item a {
-      text-decoration: none;
-      padding: auto;
-      color: white;
-  }
-  
-  .nav-item:hover {
-      background-color: #303030;
-  }
      /*===========FOOTER GRIDS============*/
      footer {
       display: flex;
