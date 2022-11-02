@@ -35,6 +35,8 @@
     letter-spacing: 1px;
     margin: 0 auto;
     color: white;
+    font-size: large;
+    font-size: bolder;
   }
   td, th {
     border: 0.5px solid rgb(9, 156, 33);
@@ -43,11 +45,11 @@
   }
   th {
     background-color: rgba(116, 184, 134);
-    
+    color: #000;
   }
   .title{
-    background-color:  rgb(7, 88, 7);
-    
+    background-color:  rgb(18, 124, 18);
+    color: white;
   }
   td {
     text-align: center;
