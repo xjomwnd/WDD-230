@@ -6,47 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table Buid Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link href="css/tablecss.css" rel="stylesheet" type="text/css">
+    <link href="styles/medium.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/styles.css">
+
 </head>
 <body>
-<main>
-<div class="table-title">
-<h1>HTML Table Build</h1>
-</div>        
-<table class="table-fill">
-<thead>
-<th colspan="3" scope="rowgroup"><h3>Sales</h3></th>
-<tr>
-<th class="text-left">Month</th>
-<th class="text-left">Sales</th>
-</tr>
-</thead>
-<tbody class="table-hover">
-<tr>
-<td class="text-left">July</td>
-<td class="text-left">$ 3,000</td>
-</tr>
-<tr>
-<td class="text-left">August</td>
-<td class="text-left" >$ 8,000</td>
-</tr>
-<tr>
-<td class="text-left">September</td>
-<td class="text-left">$ 4,000</td>
-</tr>
-<tr>
-<td class="text-left">October</td>
-<td class="text-left">$ 3,000</td>
-</tr>
-<tr>
-<td class="text-left">November</td>
-<td class="text-left">$ 2,000</td>
-</tr>
-    <td colspan="3">Table 1: Wasatch Sales | Compiled by Joel</td>
-</tr>
-
-</tbody>
-
-</main>
-</body>
-</html>
+    <header>
+      <h3>HTML Table Build</h3>
+    </header>
+    <main>
+      <figure>
+        <table>
+            <thead>
+              <tr>
+                <th class="title" colspan="2" scope="colgroup">Sales</th>
+              </tr>
+              <tr>
+                <th scope="col">Month</th>
+                <th scope="col">Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>July</td>
+                <td>3,000</td>
+              </tr>
+              <tr>
+                <td>August</td>
+                <td id="number">8,000</td>
+              </tr>
+              <tr>
+                <td>September</td>
+                <td>4,000</td>
+              </tr>
+              <tr>
+                <td>October</td>
+                <td>3,000</td>
+              </tr>
+              <tr>
+                <td>November</td>
+                <td>2,000</td>
+              </tr>
+          </tbody>
+        </table>
+        <figcaption>Table 1: Wasatch Sales</figcaption>
+      </figure>
+    </main>
+  </body>
+  
+  </html>
+  
+  

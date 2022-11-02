@@ -1,0 +1,55 @@
+  /*////////////////TABLE AND MEDIUM CSS (BOTTOM )////////////////// */
+  html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+  }
+  body {
+    text-align: center;
+    
+  }
+  h3 {
+    color:  rgb(18, 134, 59);
+  }
+  table {
+    border-collapse: collapse;
+    border: 1px solid rgb(13, 119, 48);
+    letter-spacing: 1px;
+    margin: 0 auto;
+    color: white;
+  }
+  td, th {
+    border: 0.5px solid rgb(9, 156, 33);
+    padding: 10px 20px;
+    
+  }
+  th {
+    background-color: rgba(116, 184, 134);
+    
+  }
+  .title{
+    background-color:  rgb(7, 88, 7);
+    
+  }
+  td {
+    text-align: center;
+    color: #000;
+  }
+  tr:nth-child(even) td {
+    background-color:  rgb(221, 219, 213);
+color: #000;
+  }
+  tr:nth-child(odd) td {
+    background-color: rgb(253, 253, 252);
+    color: #000;
+  }
+  figcaption{
+    color:  rgb(5, 165, 59);
+    font-weight: bolder;
+    padding: 0.5rem;
+  }
+  #number {
+    background-color: rgb(44, 143, 78);
+    color: white
+  }
+  
+  
