@@ -559,6 +559,22 @@ label, textarea, select{
     font-weight: 700;
   }
      /* ===============end small.css============== */
+     
+#join button {
+    background-color: #14213d;
+    color: #e5e5e5;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    /* bottom: 300px; */
+    z-index: 5;
+    width: 200px;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
      /*===========FOOTER GRIDS============*/
      footer {
       display: flex;
