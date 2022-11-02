@@ -90,31 +90,9 @@
     }
     /* ////////////////////////////////////////// */
   /* **********JOIN ************* */
-  #join {
-    grid-column: 1;
-    grid-row: 3;
-}
-  .join {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 50px;
-}
-
-tr td {
-    display: table-cell;
-}
-
-.contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 20px;
-}
-
-.board {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
+  .join-main {
+    width: 100%;
+    margin: 0 auto;
 }
 /* ///////////////////////////////////////////////////////////////// */
     /* ********************* */
