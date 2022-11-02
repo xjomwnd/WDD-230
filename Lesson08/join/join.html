@@ -58,107 +58,100 @@
     <p class="date1"><span id="date1"><script src="index.js"></script></span></p>    
     </div>
  </fieldset>
-  <main class="join">
-    <div class="form">
-      <h1>Join Us Now!</h1>
-        <form action="/WDD230/chamber/thanks.html" method="GET" autocomplete="on">
-            <label for="fname">
-                First Name
-                <input type="text" id="fname" name="fname" required>
-            </label>
-            <label for="lname">
-                Last Name
-                <input type="text" id="lname" name="lname" required>
-            </label>
-            <label for="business">
-                Business Name
-                <input type="text" id="business" name="business" pattern="[- A-Z a-z 0-9]" required>
-            </label>
-            <label for="title">
-                Job Title
-                <input type="text" id="title" name="title">
-            </label>
-            <label for="email">
-                Email
-                <input type="email" placeholder="johndoe@example.com" id="email" name="email" required>
-            </label>
-            <label for="phone">
-                Phone
-                <input type="tel" id="phone" name="phone" required>
-            </label>
-            <label for="membership">
-                Choose a membership level:
-                <select id="membership" name="membership">
-                    <option selected disabled hidden>Make a Selection</option>
-                    <option value="NP">Nonprofit</option>
-                    <option value="bronze">Bronze</option>
-                    <option value="silver">Silver</option>
-                    <option value="gold">Gold</option>
-                </select>
-            </label>
-            <label for="desc">
-                Business Description
-                <textarea name="desc" id="desc"></textarea>
-            </label>
-            <label for="dateTime" hidden>
-                Datetime
-                <input type="datetime-local" name="dateTime" id="dateTime" required hidden>
-            </label>
-            <input type="submit" id="submit" value="submit">  
-        </form>
-    </div>
-    <div class="membershipLevels">
-        <h1>Membership Levels</h1>
-        <div class="nonprofit">
-            <h2>Nonprofit</h2>
-            <p class="fee">No fee</p>
-            <p>
-                Nonprofit membership is for businesses that are not for profit and are not
-                self-employed.
-            </p>
+ <main class="join-main">
+
+  <h1>Join Us Now!</h1>
+
+  <form method="GET" action="./thankyou.html">
+
+      <div id="first-name-input">
+          <label for="first-name">
+              <p class="prepend-label">First name</p>
+              <input type="text" name="first-name" id="first-name" required>
+          </label> 
+      </div> 
+
+      <div id="last-name-input">
+          <label for="last-name">
+              <p class="prepend-label">Last name</p>
+              <input type="text" name="last-name" id="last-name" required>
+          </label>
+      </div>
+
+      <div id="business-position-input">
+          <label for="business-position">
+              <p class="prepend-label">Business position</p>
+              <input type="text" name="business-position" pattern="a-z\-\ {7,}" id="business-position">
+          </label>  
+      </div>
+
+      <div id="email-input">
+          <label for="email">
+              <p class="prepend-label">Email</p>
+              <input type="email" name="email" id="email" placeholder="some-email@domain.com" required>
+          </label>
+      </div>
+
+      <div id="cell-phone-input">
+          <label for="cell-phone">
+              <p class="prepend-label">Cell phone</p>
+              <input type="tel" name="cell-phone" id="cell-phone" required>
+          </label>
+      </div>
+
+      <div id="business-name-input">
+          <label for="business-name">
+              <p class="prepend-label">Business name</p>
+              <input type="text" name="business-name" id="business-name" required>  
+          </label>  
+      </div>
+
+      <div id="membership-input">
+          <p>Membership level</p>
+          <div class="membership-selector">
+              <label for="membership-np">
+                  <input type="radio" name="membership" id="membership-np" value="np" required>
+                  NP Membership
+              </label>
           </div>
-        <div class="bronze">
-            <h2>Bronze</h2>
-            <p class="fee">$50/month</p>
-            <p>
-                Bronze membership is for businesses with less than 50 employees that are for profit. Benefits
-                include:
-            </p>
-            <ul>
-                <li>15% discount on events</li>
-                <li>10% discount on advertising</li>
-            </ul>
-        </div>
-        <div class="silver">
-            <h2>Silver</h2>
-            <p class="fee">$100/month</p>
-            <p>
-                Silver membership is for businesses with less than 250 employees that are for profit. Additional
-                benefits include:
-            </p>
-            <ul>
-                <li>50% discount on events</li>
-                <li>50% discount on advertising</li>
-                <li>Free participation in the trade fair</li>
-            </ul>
-        </div>
-        <div class="gold">
-            <h2>Gold</h2>
-            <p class="fee">$250/month</p>
-            <p>
-                Gold membership is for businesses with more than 250 employees that are for profit. Additional
-                benefits include:
-            </p>
-            <ul>
-                <li>50% discount on events</li>
-                <li>50% discount on advertising</li>
-                <li>Free participation in the trade fair</li>
-                <li>5 featured ads per year</li>
-                <li>1 free training per quarter</li>
-            </ul>
-        </div>
-</div>
+          <div class="membership-selector">
+              <label for="membership-bronze">
+                  <input type="radio" name="membership" id="membership-bronze" value="bronze" required>
+                  Bronze Membership
+              </label>
+          </div>
+          <div class="membership-selector">
+              <label for="membership-silver">
+                  <input type="radio" name="membership" id="membership-silver" value="silver" required>
+                  Silver Membership
+              </label>
+          </div>
+          <div class="membership-selector">
+              <label for="membership-gold">
+                  <input type="radio" name="membership" id="membership-gold" value="gold" required>
+                  Gold Membership
+              </label>
+          </div>
+      </div>
+
+      <div id="business-description-input">
+          <label for="business-description">
+              <p class="prepend-label">Business description</p>
+              <textarea name="business-description" id="business-description" cols="30" rows="10" placeholder="Describe your business..."></textarea>
+          </label>
+      </div>
+
+      <div id="timestamp-input">
+          <input type="hidden" name="timestamp">
+      </div>
+
+      <div id="submit-imput">
+          <input type="submit" value="Join">
+      </div>
+
+  </form>
 </main>
+
      <footer>
       <div class="imaagefooter">
         <picture>
