@@ -545,7 +545,36 @@ a:link {
     .form #submit:hover {
         background-color: #fca311;
     }
-    
+    /* ///////////////////////////////////carl styles////////////////////////// */
+    #join-banner {
+      grid-row: 1;
+      padding: 0.5em;
+      margin: 0.5em;
+      text-align: center;
+      color: white;
+      background-color: var(--secondary-color);
+      border: 1.5px solid white;
+      border-radius: 1.5em;
+      height: fit-content;
+  }
+  #join p {
+    text-align: center;
+}
+
+#join button {
+    display: block;
+    padding: 1em 5em;
+    background-color: var(--secondary-color);
+    color: white;
+    font-weight: bold;
+    border-radius: 2em;
+    margin: auto;
+    margin-top: 1em;
+}
+
+#join button:hover {
+    background-color: var(--primary-color);
+}
 
      /*===========FOOTER GRIDS============*/
      footer {
