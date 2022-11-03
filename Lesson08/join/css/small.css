@@ -393,8 +393,23 @@ label, textarea, select{
        -moz-box-sizing: border-box;
             box-sizing: border-box;
   }
+  /* /////////////////////////// THANKS //////////////////////////////// */
+  .thanks-ph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+
+.thanks h2, .board h2 {
+    display: block;
+    position: static;
+}
  
-  
+ /* /////////////////////////// THANKS //////////////////////////////// */ 
   .event, .weather, .news, .join, .spotlight {
     padding: 0.3em;
     font-size: 1.2rem;
