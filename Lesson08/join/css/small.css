@@ -97,27 +97,22 @@ body {
   /* ******************** */
 /*         LOGO         */
 /* ******************** */
-
 .logo {
-	display: flex;
+  display: flex;
   float: left;
-	align-items: flex-start;
+  align-items: flex-start;
 }
-
 .logo img {
-	width: 5rem;
-	height: auto;
+  width: 5rem;
+  height: auto;
 }
-
 .logo picture {
   display: flex;
 }
 
-
 /* ******************** */
 /*        SOCIAL        */
 /* ******************** */
-
 
 .social img {
   width: 3%;
@@ -126,12 +121,10 @@ body {
   background-color: #b4c0d4;
   float: left;
 }
-
 a:link {
   text-decoration: none;
   background-color: #b4c0d4;
 }
-
 
   /*=============================================BANNER===================================*/
   /* BANNER */
@@ -141,9 +134,7 @@ a:link {
   z-index: 10;
   background:   #b4c0d4;
   font-weight: 700;
-
 }
-
 .banner-content {
   max-width: 650px;
   height: 50px;
@@ -152,34 +143,27 @@ a:link {
   margin: 0 auto;
   align-items: center;
   border: 2px solid #074915;
-
 }
-
 .banner-text {
   flex-grow: 1;
   line-height: 1;
   font-weight: 500;
 }
-
 .banner-button {
   background: none;
   border: none;
   cursor: pointer;
 }
-
 .banner-button img {
   width: 30px;
 }
-
 .banner-text,
 .banner-button > span {
   color: black; 
 }
-
 .banner-button > span:hover {
   color: #14213d;
 }
-
    
   /* ************** HEADER **************** */
   
@@ -206,11 +190,9 @@ a:link {
       justify-content: space-between;
       background-color: #b4c0d4;
   }
-
   .headertop:nth-child(1) { order:2; }
 .headertop:nth-child(2) { order:3; }
 .headertop:nth-child(3) { order:1; }
-
   
   /*=============end cyan css=========== */
   /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
@@ -309,16 +291,13 @@ a:link {
     flex-direction: column;
     justify-content: center;
 }
-
 .membershipLevels {
     margin: 10px;
 }
-
 .form h1 {
     display: block;
     text-align: center;
 }
-
 
 .form form {
     display: flex;
@@ -328,7 +307,6 @@ a:link {
     margin: 50px auto;
     color: black;
 }
-
 .form form input, .form textarea {
     font-size: 1em;
     width: 450px;
@@ -341,18 +319,15 @@ a:link {
     font-weight: 500;
     background-color: #e5e5e5;
 }
-
 .form textarea {
     height: 250px;
 }
-
 .form form label {
     /* font-size: 1.5em; */
     font-weight: 700;
     text-align: left;
     margin: 5px;
 }
-
 label, textarea, select{
     display: inline-block;
     /* float: left; */
@@ -360,7 +335,6 @@ label, textarea, select{
     width: 450px;
     text-align: left;
 }
-
 .form #submit {
     background-color: #14213d;
     color: white;
@@ -377,11 +351,9 @@ label, textarea, select{
     font-weight: 700;
     margin: 15px;
 }
-
 .form #submit:hover {
     background-color: #fca311;
 }
-
 .thanks {
     display: flex;
     flex-direction: column;
@@ -391,19 +363,17 @@ label, textarea, select{
     padding: 50px;
     text-align: center;
 }
-
 .thanks h1, .board h1 {
     display: block;
 }
-
   /* ************** MAIN **************** */
-  
   main {
     display:grid;
     grid-template-columns: 98%;
     grid-gap: 5px;
     padding: 1rem 0;
     font-family: "Roboto", sans-serif;
+    
   }
   
   main div {
@@ -411,6 +381,19 @@ label, textarea, select{
     background-color: #aaa9a6;
     text-align: center;
   }
+
+  main {
+    margin: 1px auto;
+    position: relative;
+    background-color: #d4d3cf;
+    width: 100%;
+    padding: 50px;
+    border: solid blue 1px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+ 
   
   .event, .weather, .news, .join, .spotlight {
     padding: 0.3em;
@@ -543,70 +526,132 @@ label, textarea, select{
   margin: 0 auto;
   }
   /*==========================================*/
-  .join button {
-    background-color: #14213d;
-    color: #e5e5e5;
-    cursor: pointer;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    position: relative;
-    /* bottom: 300px; */
-    z-index: 5;
-    width: 200px;
-    height: 50px;
-    font-size: 1.5em;
-    font-weight: 700;
-  }
-     /* ===============end small.css============== */
-     
-#join button {
-    background-color: #14213d;
-    color: #e5e5e5;
-    cursor: pointer;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    position: relative;
-    /* bottom: 300px; */
-    z-index: 5;
-    width: 200px;
-    height: 50px;
-    font-size: 1.5em;
-    font-weight: 700;
+  /*////////////////////////////////MY SMALL CSSS ///////////////////////// */
+  
+/* ////// small.css ////// */
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
 }
-     /*===========FOOTER GRIDS============*/
-     footer {
-      display: flex;
-      font-size: 1.5em;
-      font-weight: 700;
-      padding: 20px;
-      background-color: #b4c0d4;
-      background-image: linear-gradient(rgb(214, 240, 252), rgb(230, 55, 84));
-      box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
-      border: 1px solid gray;
-  }
-  
-  footer p {
-      font-size: 12px;
-      line-height: 1.5;
-      text-align: center;
-      margin-top: -5px;
-      font-family: 'Montserrat', sans-serif;
-       font-size: 700;
-  }
-  
-  footer a {
-      background-color: #b4c0d4;
-      padding: 2px 3px;
-      border-radius: 5px;
-      color: white;
-  }
-  
-  footer a:hover {
-      color: rgb(209, 199, 199);
-      border: #333 solid 1px;
-      background-color: rgb(231, 222, 222);
-      font-size: 14px;
-      transition: 1s;
-  }
+/*----------- HEADER --------------*/
+
+/*----------- NAVIGATION --------------*/
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+    
+}
+
+/* ------------------ FORM ----------------------- */
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+form legend {
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0 0.5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #ddd;
+    padding: .5rem 2%;
+    text-align: center;
+    width: 100%;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required {
+    border-top: green solid 6px;
+}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* ========== END SMALL ========== */
+
+  /* /////////////////////footer////////////////////// */
+  footer {
+    display: flex;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 20px;
+    background-color: #b4c0d4;
+    background-image: linear-gradient(rgb(214, 240, 252), rgb(230, 55, 84));
+    box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
+    border: 1px solid gray;
+}
+
+footer p {
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: -5px;
+    font-family: 'Montserrat', sans-serif;
+     font-size: 700;
+}
+
+footer a {
+    background-color: #b4c0d4;
+    padding: 2px 3px;
+    border-radius: 5px;
+    color: white;
+}
+
+footer a:hover {
+    color: rgb(209, 199, 199);
+    border: #333 solid 1px;
+    background-color: rgb(231, 222, 222);
+    font-size: 14px;
+    transition: 1s;
+}
+
+
+/*///////////////////////////////////////////////////////*/
