@@ -1,63 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber Home Page</title>
-    <meta name="description" content="Assignment portal for Joel Ndiba Mwaura, WDD-230-1: Web Frontend Development, Brigham Young University - Idaho" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"> 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Page</title>
+  <meta name="description"
+    content="Assignment portal for Joel Ndiba Mwaura, WDD-230-1: Web Frontend Development, Brigham Young University - Idaho" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="lazy.css">
 </head>
 <body>
-  <span id="banner"></span>
-    <header> 
-    <div class="headertop"> 
-    <div class="logo">    
-        <picture> 
-          <img src="images/preston-area-logo.png"
-          alt="logo">
+ <span id="banner"></span>
+  <header>
+    <div class="headertop">
+      <div class="logo">
+        <picture>
+          <img src="images/area-logo.png" alt="chamber logo">
         </picture>
-      </div>  
       </div>
-      <div class="headings">
+    </div>
+    <section class="headings">
       <section>
         <h3>Chamber of Commerce</h3>
         <h2>Preston Area</h2>
       </section>
       <div class="social">
-        <a href="https://www.whatsapp.com/" target="_blank">
-        <img src="images/whatsapp.png" alt="Wwhatsapp Icon" width="32" height="32">
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="images/facebook-48.webp" alt=Facebook Icon" width="32" height="32">
         </a>
-        
-        <a href="https://www.linkedin.com/" target="_blank">
-          <img src="images/linkedin logo_icon.png" alt="Linkedin Icon" width="32" height="32">
-        </a> 
+        <br>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="images/instagram-48.webp" alt="Instagram Icon" width="32" height="32">
+        </a>
       </div>
-    </div>
-    <div class="menu"></div>
+      </div>
+      <div class="menu"></div>
       <nav>
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
         <ul id="primaryNav">
-          <li><a href="#">Home</a></li>
-          <li><a href=#>Discover</a></li>
-          <li><a href=#>Directory</a></li>
-          <li><a href=#>Join</a></li>
-          <li><a href=#>Contact</a></li>
+          <li><a href="discover.html" class="active">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="thanks.html">Thanks</a></li>
+          <li><a href="contact.html">Contact</a></li>
       </ul>
       </nav>
     </div>
-    <fieldset>
-      <div class="date1">
-        <p class="date1"><span id="date1"><script src="index.js"></script></span></p>    
-      </div>
-      </fieldset>
-</header>   
+  </header>
+  <fieldset>
+    <div class="date1">
+      <p class="date1"><span id="date1">
+          <script src="scripts/index.js"></script>
+        </span></p>
+    </div>
+  </fieldset>
+  
 <main class="container">
 
 </main>
