@@ -547,13 +547,14 @@ main {
   grid-gap: 5px;
   padding: 1rem 0;
   font-family: "Roboto", sans-serif;
+  width: 300px;
   
 }
 main div {
   border: 1px solid rgb(237, 248, 217);
   background-color: #aaa9a6;
   text-align: center;
-  width: 100%;
+  width: 300px;
   height: auto;
   
   
@@ -562,7 +563,7 @@ main {
   margin: 1px auto;
   position: relative;
   background-color: #d4d3cf;
-  width: 800px;
+  width: 300px;
   height: auto;
   padding: 50px;
   border: solid blue 1px;
