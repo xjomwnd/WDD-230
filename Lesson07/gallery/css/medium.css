@@ -46,7 +46,10 @@
       grid-column: 4 / 5;
       grid-row: 5;
     }
-    
+    .discover img:hover {
+      filter: contrast(70%);
+      border-radius: 150px 150px;
+    }
   
   
      /* ====================== FOOTER SECTION ==================== */
