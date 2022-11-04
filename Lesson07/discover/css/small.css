@@ -95,56 +95,56 @@ body {
   
   /* *****************navigation************************* */
   /* ******************** */
-  /*         LOGO         */
-  /* ******************** */
-  
-  .logo {
-  display: flex;
+/*         LOGO         */
+/* ******************** */
+
+.logo {
+	display: flex;
   float: left;
-  align-items: flex-start;
-  }
-  
-  .logo img {
-  width: 5rem;
-  height: auto;
-  }
-  
-  .logo picture {
+	align-items: flex-start;
+}
+
+.logo img {
+	width: 5rem;
+	height: auto;
+}
+
+.logo picture {
   display: flex;
-  }
-  
-  
-  /* ******************** */
-  /*        SOCIAL        */
-  /* ******************** */
-  
-  
-  .social img {
+}
+
+
+/* ******************** */
+/*        SOCIAL        */
+/* ******************** */
+
+
+.social img {
   width: 3%;
   height: 3%;
   align-items: flex-start;
   background-color: #b4c0d4;
   float: left;
-  }
-  
-  a:link {
+}
+
+a:link {
   text-decoration: none;
   background-color: #b4c0d4;
-  }
-  
-  
+}
+
+
   /*=============================================BANNER===================================*/
   /* BANNER */
-  .banner {
+.banner {
   position: sticky;
   top: 0px;
   z-index: 10;
   background:   #b4c0d4;
   font-weight: 700;
-  
-  }
-  
-  .banner-content {
+
+}
+
+.banner-content {
   max-width: 650px;
   height: 50px;
   padding: 2px;
@@ -152,34 +152,34 @@ body {
   margin: 0 auto;
   align-items: center;
   border: 2px solid #074915;
-  
-  }
-  
-  .banner-text {
+
+}
+
+.banner-text {
   flex-grow: 1;
   line-height: 1;
   font-weight: 500;
-  }
-  
-  .banner-button {
+}
+
+.banner-button {
   background: none;
   border: none;
   cursor: pointer;
-  }
-  
-  .banner-button img {
+}
+
+.banner-button img {
   width: 30px;
-  }
-  
-  .banner-text,
-  .banner-button > span {
+}
+
+.banner-text,
+.banner-button > span {
   color: black; 
-  }
-  
-  .banner-button > span:hover {
+}
+
+.banner-button > span:hover {
   color: #14213d;
-  }
-  
+}
+
    
   /* ************** HEADER **************** */
   
@@ -206,11 +206,11 @@ body {
       justify-content: space-between;
       background-color: #b4c0d4;
   }
-  
+
   .headertop:nth-child(1) { order:2; }
-  .headertop:nth-child(2) { order:3; }
-  .headertop:nth-child(3) { order:1; }
-  
+.headertop:nth-child(2) { order:3; }
+.headertop:nth-child(3) { order:1; }
+
   
   /*=============end cyan css=========== */
   /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
@@ -304,23 +304,7 @@ body {
   } 
   
   /*=======================*/
-  .lazyload main {
-    display:grid;
-    grid-template-columns: 98%;
-    grid-gap: 5px;
-    padding: 1rem 0;
-    font-family: "Roboto", sans-serif;
-    text-align: center;
-    justify-content: center;
   
-  }
-  
-  .lazyload {
-    display:grid;
-    grid-area: 1fr;
-    padding-bottom: 0rem;
-    padding-left: 0rem;
-  }
   /* ************** MAIN **************** */
   
   main {
@@ -402,61 +386,6 @@ body {
     display: none;
   }
   
-  /* ========================DISCOVER CSS======================= */
-  .discovery-main {
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 1em;
-  }
-  
-  .join-main {
-    width: 80%;
-  }
-  
-  .directory-main {
-    width: 80%;
-  }
-  
-  .container {
-    display: grid;
-    grid-template-columns: repeat(2, fit-content(1fr));
-    grid-template-rows: repeat(3, fit-content(1fr));
-    grid-gap: 1em;
-  }
-  
-  #picture-1 {
-    grid-column: 1;
-    grid-row: 1;
-  }
-  
-  #picture-2 {
-    grid-column: 2;
-    grid-row: 1;
-  }
-  
-  #picture-3 {
-    grid-column: 1;
-    grid-row: 2;
-  }
-  
-  #picture-4 {
-    grid-column: 2;
-    grid-row: 2;
-  }
-  
-  #picture-5 {
-    grid-column: 1;
-    grid-row: 3;
-  }
-  
-  #picture-6 {
-    grid-column: 2;
-    grid-row: 3;
-  }
-  
-  footer {
-    width: 80%;
-  }
   
   
   /* ************** FOOTER **************** */
@@ -539,81 +468,6 @@ body {
     font-weight: 700;
   }
      /* ===============end small.css============== */
-     
-  /* ************** MAIN **************** */
-  /* ******************** */
-/*     MAIN  DISCOVER   */
-/* ******************** */
-lazzard Jason////////////// /* ////////////////////LEHI C C/////////// */
-.container.squre {
-  display: flex;
-  width: 100%;
-  flex-direction: column
-}
-
-.layout .container {
-padding: 10px;
-}
-
-#dm {
-  -webkit-tap-layout-color: transparent;
-}
-
-*, :after, :before {
-  box-sizing: border-box;
-}
-
-
-
-#dmRoot {
-  text-decoration-skip-ink: none;
-}
-/* //////////add B*/
-.discover {
-  display: block;
-}
-
-.discover img {
-  width: 100%;
-  padding: 1rem;
-}
-
-.discover section {
-  display: grid;
-  grid-template-columns: 1fr;
-  background-color: #f7efd1;
-  margin-bottom: 2rem;
-  justify-items: center;
-  font-size: 1.4rem;
-}
-
-.discover h2{
-  background-color: #f7efd1;
-  padding: 1rem;
-  text-align: center;
-}
-
-.discover h1{
-  text-align: center;
-  font-size: 3rem;
-}
-
-.discover p {
-  margin: auto 0;
-  padding: 2rem;
-  text-align: center;
-}
-
-.dayBefore p {
-  font-size: 2rem;
-  font-weight: bolder;
-}
-
-/* ********************* */
-
-  /* ******************** */
-  
-  
      /*===========FOOTER GRIDS============*/
      footer {
       display: flex;
