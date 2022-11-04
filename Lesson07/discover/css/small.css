@@ -604,7 +604,17 @@ margin: 0 auto;
   font-weight: 700;
 }
    /* ===============end small.css============== */
-   
+   .main-ph{
+    margin: 1px auto;
+    position: relative;
+    background-color: #f2e8cb;
+    width: 100%;
+    padding: 50px;
+    border: solid blue 1px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
 /* ************** MAIN **************** */
 img {
   background: #F1F1FA;
@@ -616,7 +626,17 @@ img {
 }
 
 /* ******************** */
-
+.main {
+  margin: 1px auto;
+  position: relative;
+  background-color: white;
+  width: 100%;
+  padding: 50px;
+  border: solid blue 1px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
    /*===========FOOTER GRIDS============*/
    footer {
