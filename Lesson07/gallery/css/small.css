@@ -563,11 +563,7 @@ padding: 10px;
   box-sizing: border-box;
 }
 
-body {
-  width: 100%;
-  overflow: hidden;
-  -webkit-text-size-adjust: 100%;
-}
+
 
 #dmRoot {
   text-decoration-skip-ink: none;
