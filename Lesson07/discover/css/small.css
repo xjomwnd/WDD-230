@@ -401,7 +401,72 @@ main h2 {
 .join {
   display: none;
 }
+azzard Jason////////////// /* ////////////////////LEHI C C/////////// */
+.container.squre {
+  display: flex;
+  width: 100%;
+  flex-direction: column
+}
 
+.layout .container {
+padding: 10px;
+}
+
+#dm {
+  -webkit-tap-layout-color: transparent;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+
+
+#dmRoot {
+  text-decoration-skip-ink: none;
+}
+/* //////////add B*/
+.discover {
+  display: block;
+}
+
+.discover img {
+  width: 100%;
+  padding: 1rem;
+}
+
+.discover section {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #f7efd1;
+  margin-bottom: 2rem;
+  justify-items: center;
+  font-size: 1.4rem;
+}
+
+.discover h2{
+  background-color: #f7efd1;
+  padding: 1rem;
+  text-align: center;
+}
+
+.discover h1{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.discover p {
+  margin: auto 0;
+  padding: 2rem;
+  text-align: center;
+}
+
+.dayBefore p {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+/* ********************* */
 /* ========================DISCOVER CSS======================= */
 .discovery-main {
   width: 80%;
