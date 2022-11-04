@@ -329,14 +329,28 @@ a:link {
     grid-gap: 5px;
     padding: 1rem 0;
     font-family: "Roboto", sans-serif;
-  }
   
-  main div {
-    border: 1px solid rgb(237, 248, 217);
-    background-color: #aaa9a6;
-    text-align: center;
-  }
+}
+main div {
+  border: 1px solid rgb(237, 248, 217);
+  background-color: #aaa9a6;
+  text-align: center;
   
+  width: 300px;
+  
+}
+main {
+  margin: 1px auto;
+  position: relative;
+  background-color: #d4d3cf;
+  width: 400px;
+  padding: 50px;
+  border: solid blue 1px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
   .event, .weather, .news, .join, .spotlight {
     padding: 0.3em;
     font-size: 1.2rem;
