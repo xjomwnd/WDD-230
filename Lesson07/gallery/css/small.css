@@ -544,11 +544,11 @@ body {
   /* ******************** */
 /*     MAIN  DISCOVER   */
 /* ******************** */
-lazzard Jason////////////// /* ////////////////////LEHI C C/////////// */
+ /* ////////////////////LEHI C C/////////// */
 .container.squre {
   display: flex;
   width: 100%;
-  flex-direction: column
+  flex-direction: column;
 }
 
 .layout .container {
