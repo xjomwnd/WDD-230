@@ -50,7 +50,10 @@
       filter: contrast(70%);
       border-radius: 150px 150px;
     }
-  
+    .gallery {
+      border-radius: 10px;
+      padding-bottom: 0;
+  }
   
      /* ====================== FOOTER SECTION ==================== */
   
