@@ -581,14 +581,14 @@ padding: 1rem;
 .discover section {
 display: grid;
 grid-template-columns: 1fr;
-background-color:  #bebeb2;
+background-color:  #9c9c9a;
 margin-bottom: 2rem;
 justify-items: center;
 font-size: 1.4rem;
 }
 
 .discover h2{
-background-color: #bebeb2;
+background-color: #758a6f;
 padding: 1rem;
 text-align: center;
 }
