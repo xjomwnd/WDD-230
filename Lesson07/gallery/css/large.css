@@ -44,7 +44,18 @@
     /* ********************* */
     /*      MAIN SECTION     */
     /* ********************* */
-  
+    .discover div:hover{
+      -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 10px #ccc;
+    }
+
+    .join {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       padding: 50px;
+    }
+/* /////////////////////////////////////////////////// */
     main {
       grid-template-columns: 25% 23% 25% 25%;
     }
