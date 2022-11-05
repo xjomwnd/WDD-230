@@ -386,7 +386,7 @@ main h2 {
 
 .spotlight div {
   border: 1px solid #4c08ca;
-  background-color: #aaa9a6;
+  background-color: #f1f0ed;
   margin: 1rem 1rem;
   padding-right: 0rem;
 } 
@@ -581,7 +581,7 @@ padding: 1rem;
 .discover section {
 display: grid;
 grid-template-columns: 1fr;
-background-color: #f7efd1;
+background-color: #70706e;
 margin-bottom: 2rem;
 justify-items: center;
 font-size: 1.4rem;
