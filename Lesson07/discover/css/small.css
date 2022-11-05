@@ -479,7 +479,7 @@ body {
   color: #311288;
   width: 100%;
   margin: auto;
-  background-color: rgb(238, 238, 238);
+  background-color: rgba(238, 238, 238, 0.986);
   line-height: 1.55em;
   height: 100%;
 }
