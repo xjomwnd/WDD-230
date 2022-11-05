@@ -612,7 +612,27 @@ font-weight: bolder;
 /* ********************* */
 
 /* ******************** */
+@import 'lesshat';
+//lobster font family
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+//open sans font family
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+
+
+img{
+  margin-top:50px;
+  margin-bottom:50px;
+  
+}
+
+h1{
+  color:;
+  font-family: 'Lobster', cursive;
+}
+h2{
+  font-family: 'Open Sans', sans-serif;
+}
 
    /*===========FOOTER GRIDS============*/
    footer {
