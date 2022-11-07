@@ -3,7 +3,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: white;
-    color: #d6d5da;
+    color: #F0BF0F;;
     font-family: "Roboto", sans-serif;
     text-align: center;
     
@@ -342,7 +342,7 @@ img {
   
 .gallery{
     width: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 figcaption{
@@ -518,7 +518,7 @@ figcaption{
     color: #311288;
     width: 100%;
     margin: auto;
-    background-color: rgb(138, 132, 132);
+    background-color: rgb(233, 232, 232);
     line-height: 1.55em;
     height: 100%;
   }
