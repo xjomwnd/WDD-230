@@ -139,7 +139,7 @@ body {
   position: sticky;
   top: 0px;
   z-index: 10;
-  background:   #b4c0d4;
+  background: #F0BF0F;
   font-weight: 700;
   
   }
@@ -151,6 +151,7 @@ body {
   display: flex;
   margin: 0 auto;
   align-items: center;
+  background: #F0BF0F;
   border: 2px solid #074915;
   
   }
@@ -173,11 +174,11 @@ body {
   
   .banner-text,
   .banner-button > span {
-  color: black; 
+  color: #F0BF0F; 
   }
   
   .banner-button > span:hover {
-  color: #14213d;
+  color: #d3d7df;
   }
   
    
