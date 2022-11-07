@@ -219,90 +219,91 @@ body {
   /*----------- apply a natural box layout model to all elements --------------*/
   
   
-  /* ************** HAMBURGER **************** */
-  
-  .menu {
-    padding-left: 1rem;
+ /* ************** HAMBURGER **************** */
+
+.menu {
+  padding-left: 1rem;
+}
+
+header,
+  nav,
+  main {
+  width: 100%;
+  margin: 0 auto;
   }
+
+.nav button{
+  background: transparent;
+  border: none;
+  font-size: 2.5rem;
+  color:#555;
+}
+
+.nav {
+  background-color: #ebe7db;
+  margin-right: .6rem;
   
-  header,
-    nav,
-    main {
-    width: 100%;
-    margin: 0 auto;
-    }
-  
-  .nav button{
-    background: transparent;
-    border: none;
-    font-size: 2.5rem;
-    color:#555;
-  }
-  
-  .nav {
-    background-color: #ebe7db;
-    margin-right: .6rem;
-    
-  }
-  
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    justify-content: center;
-  }
-  
-  nav ul li a {
-    display: block;
-    padding: .8rem 2vw;
-    font-size: 1.3rem;
-    font-weight: 700;
-    text-decoration: none;
-    color:#333;
-    border-top: 1px solid rgba(0, 0, 0, 0.5);
-  }
-  
-  nav ul li.active a {
-    background-color: rgba(0,0,0,0.2);
-    color: #fff;
-    text-align: center;
-  }
-  
-  nav ul li a:hover {
-    background-color: rgba(0,0,0,0.3);
-  }
-  
-  nav ul { display: none; }
-  
-  nav ul.open { 
-    display: block; 
-    text-align: left;
-  }
-  
-  #hamburgerBtn span:nth-child(1) { display: block; }
-  #hamburgerBtn span:nth-child(2) { display: none; }
-  
-  #hamburgerBtn.open span:nth-child(1) { display: none; }
-  #hamburgerBtn.open span:nth-child(2) { display: block;}
-  
-  
-  /* ************** DATE **************** */
-  
-  .date {
-    display: block;
-    text-align: center;
-    border-top: 2px solid #ebe7db;
-    border-left: 2px solid #ebe7db;
-    border-bottom: 1px solid #ffffff;
-    border-right: 1px solid #ffffff;
-    background-color: #b4c0d4;
-    padding: 0px;
-    margin: 0 1rem;
-    width: 650px;
-    height: 50%;
-  } 
-  
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+nav ul li a {
+  display: block;
+  padding: .8rem 2vw;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-decoration: none;
+  color:#333;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+  background-color: rgba(0,0,0,0.2);
+  color: #fff;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0,0,0,0.3);
+}
+
+nav ul { display: none; }
+
+nav ul.open { 
+  display: block; 
+  text-align: left;
+}
+
+#hamburgerBtn span:nth-child(1) { display: block; }
+#hamburgerBtn span:nth-child(2) { display: none; }
+
+#hamburgerBtn.open span:nth-child(1) { display: none; }
+#hamburgerBtn.open span:nth-child(2) { display: block;}
+
+
+/* ************** DATE **************** */
+
+.date {
+  display: block;
+  text-align: center;
+  border-top: 2px solid #ebe7db;
+  border-left: 2px solid #ebe7db;
+  border-bottom: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  background-color: #b4c0d4;
+  padding: 0px;
+  margin: 0 1rem;
+  width: 650px;
+  height: 50%;
+} 
+
+/*=======================*/
   /*=======================*/
   .lazyload main {
     display:grid;
@@ -516,7 +517,7 @@ figcaption{
     color: #311288;
     width: 100%;
     margin: auto;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(138, 132, 132);
     line-height: 1.55em;
     height: 100%;
   }
@@ -559,6 +560,19 @@ figcaption{
   width: 100%;
   margin: 0 auto;
   }
+ .section-ph {
+    margin: 1px auto;
+    position: relative;
+    background-color: rgb(117, 113, 113);
+    width: 100%;
+    padding: 50px;
+    border: solid blue 1px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+
   /*==========================================*/
   .join button {
     background-color: #14213d;
