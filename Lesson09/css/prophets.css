@@ -1,141 +1,117 @@
-:root {
-  /* Color pallete */
-  --primary-color: #043565;
-  --secondary-color: #e6dfdf;
-}
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 body {
-  font-family: 'Montserrat', sans-serif;
-}
-.navbar {
-  border-radius: 1.5em 1.5em 0 0;
-  background-color: #42f586;
-  width: 500px;
-  margin: 0 auto;
-  padding: 0 0.5em;
-}
-.nav-links {
-  list-style: none;
-  display: flex;
-  margin: 0;
-}
-.nav-item {
-  padding: 0.5em 1em;
-}
-.nav-item a {
-  text-decoration: none;
-  padding: auto;
-  color: rgb(19, 13, 13);
-}
-.nav-item:hover {
-  background-color: #42f586;
-}
-.container {
-  padding: 0.5em;
-  background-color: var(--secondary-color);
-  border: 1px rgb(114, 49, 49) solid;
-  width: 500px;
-  margin: 0 auto;
-}
-h1 {
-  text-align: center;
-  background-color: var(--primary-color);
-  padding: 0.25em 0;
-  color: rgb(27, 236, 146);
-  border-radius: 1.5em;
-}
-img {
-  width: 100%;
-  height: 100%;
-  filter: blur(0em);
-  transition: filter 1.5s;
-  display: block;
-  margin: auto;
-  padding: 5rem;
-}
-/* //////////////////////////////////////////////////////////// */
-/* Header styles */
-header {
-  background-color: var(--primary-color);
-  border-radius: 1.5em 1.5em 0 0;
-  padding: 0;
-  padding-top: 0.5em;
-  height: auto;
-}
-main {
-  max-width: 500px;
-  margin: 0 auto;
-  border: 0.5px solid black;
-  background-color: var(--secondary-color);
-  border-radius: 0 0 1.5em 1.5em;
-}
-#join-banner {
-  grid-row: 1;
-  padding: 0.5em;
-  margin: 0.5em;
-  text-align: center;
-  color: white;
-  background-color: var(--secondary-color);
-  border: 1.5px solid white;
-  border-radius: 1.5em;
-  height: fit-content;
-}
-.lazyload main {
-  display:grid;
-  grid-template-columns: 98%;
-  grid-gap: 5px;
-  padding: 1rem 0;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  justify-content: center;
-}
-.lazyload {
-  display:grid;
-  grid-area: 1fr;
-  padding-bottom: 0rem;
-  padding-left: 0rem;
-}
-/* ================================= codepen load effect ========================= */
-/*/////////////////////////////////////////////////////////*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  height: 100vh;
-  width: 100vw;
-}
-.loading-num {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  color: #fff;
-  font-size: 50px;
-}
-.loading-blur {
-  background: url("https://images.unsplash.com/photo-1646412740530-fb3aaa37d325?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80")
-    no-repeat center center/cover;
-  width: 100%;
-  height: 100%;
+  font-size: 16px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
-
-/* ///////////////////////======//////////////////// */
-/* ==============FOOTER============= */
+header,
+main,
 footer {
-  margin: 0 auto;
-  background-color: var(--primary-color);
-  padding-bottom: 1em;
-  border-radius: 0 0 1.5em 1.5em;
+  margin: 1rem;
+  position: relative;
 }
-footer div {
-  padding-top: 2em;
+
+h1 {
+  color: #000;
+  border-bottom: 1px solid #eee;
+  text-shadow: 0 0 15px #999;
+  width: 60%;
 }
-footer div img {
-  display: block;
-  margin: auto;
+
+h2 {
+  color: blue;
+  margin: 0;
 }
-footer p {
-  color: white;
-  text-align: center;
+
+h3 {
+  margin: 0;
+}
+
+h4 {
+  color: #333;
+  margin: 7px 0 5px 0;
+}
+
+p {
+  margin: 0;
+}
+
+main {
+  margin-left: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+section {
+  margin: 0.25rem;
+  padding: 0.35rem;
+  background-color: #eee;
+  border: 1px solid #bbb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section > p {
+  min-height: 60px;
+}
+
+img {
+  width: auto;
+	max-width: 325px;
+  box-shadow: 0 0 30px #777;
+  height: 200px;
+  border: 1px solid #333;
+}
+
+li > img {
+  width: auto;
+  height: 30px;
+}
+
+footer {
+  border-top: 1px solid #555;
+  padding: 20px;
+}
+
+.caption {
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+  border: 1px solid #ccc;
+  background-color: lightyellow;
+  padding: 0.25rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1rem 1fr;
+}
+
+.caption h6 {
+  position: absolute;
+  top: -2.3rem;
+  left: -0.25rem;
+}
+
+.caption > div {
+  width: 0.75rem;
+  height: 0.75rem;
+  border: 1px solid #bbb;
+}
+
+.caption > p {
+  font-size: 0.75rem;
+}
+
+.most {
+  background-color: #bed;
+}
+
+.fav {
+  background-color: skyblue;
+}
+
+.own {
+  background-color: rosybrown;
 }
