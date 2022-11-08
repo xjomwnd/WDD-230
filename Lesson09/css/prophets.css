@@ -1,168 +1,98 @@
-/* /////////////////////////////////////// w09 css /////////////////////////////////////////// */
-main{
-  background-color: #dddddd;
-  box-shadow: dimgray 0 0 25px;
-  margin-top: -10px;
-}  
-  h1{
-  color: #5c5cac;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 10px;
-}
-.cards{
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 3px;
-  padding: 15px;
- 
-}
-section{
-  background-color: #b9b9ca;
-  border: #9797b7 solid 2px;
-}
-img{
-  display: block;
-  width: 225px;
-  height: 275px;
-  margin: auto auto 25px auto;
-  box-shadow: rgb(49, 49, 49) 0 0 15px;
-}
-h2{
-  text-align: center;
-  color: #4e4e91;
-  line-height: .75em;
-  font-family: Bree Serif, serif;
-  font-weight: lighter;
-}
-p{
-  text-align: center;
-  line-height: .3em;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-}
-footer{
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px;
-  text-align: center;
+:root {
+  --primary-color: #043565;
+  --secondary-color: #e6dfdf;
 }
 
-
-
-
-@media screen and (min-width: 700px) {
-  h1 {
-      margin-top: 30px;
-      font-size: 40px;
-  }
-
-  main {
-      margin: 0px 50px 50px 50px;
-  }
-
-  .cards {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-  }
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5em;
 }
 
-
-
-
-@media screen and (min-width: 1000px) {
-  h1 {
-      margin-top: 30px;
-      font-size: 40px;
-  }
-
-  .cards {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
-/* ///////////////////////////////////////// end w09 css /////////////////////////////// */
-.cards section{
-  background-color: #A6B1E1;
-  border-radius: .5em;
-  padding: 1em;
-  margin: 1em;
-  text-align: center;
-  box-shadow: 3px 3px 2px rgba(0, 0, 0, .3);
-}
-
-.cards section h2{
-  font-size: 2em;
-  margin-bottom: .1em;
-  text-shadow: 2px 2px 2px #555;
-  color: #333;
-  margin-top: 0;
-}
-
-.cards section h4{
-  margin-bottom: .8em;
-  color: #333;
-}
-
-.cards section p {
-  line-height: 1.5;
-}
-
-.cards section img{
-  width: 80%;
-  border-radius: .5em;
-  margin: .5em 0;
-}
-/* ///////////////////////////////////////////////////////////// */
-/* //////////////////////////////////////////////////////////// */
-/* Header styles */
-header {
-  background-color: var(--primary-color);
-  border-radius: 1.5em 1.5em 0 0;
-  padding: 0;
-  padding-top: 0.5em;
-  height: auto;
-}
-.main-ph {
+main {
   max-width: 500px;
   margin: 0 auto;
   border: 0.5px solid black;
   background-color: var(--secondary-color);
+}
+
+header {
+  border-radius: 1.5em 1.5em 0 0;
+  background-color: black;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+h1 {
+  padding-top: 1em;
+  text-align: center;
+  color: white;
+  display: block;
+}
+
+.navbar {  
+  margin: 0 auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.nav-item {
+  padding: 0.5em 1em;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item:hover {
+  background-color: #303030;
+}
+
+section {
+  margin: 1em;
+  border: 1px solid black;
+  background-color: #eeeeee;
+  padding: 0.5em;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  padding-left: 0;
+  font-size: 0.75em;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  max-width: 500px;
+  margin: 0 auto;
   border-radius: 0 0 1.5em 1.5em;
 }
-.lazyload .main-ph {
-  display:grid;
-  grid-template-columns: 98%;
-  grid-gap: 5px;
-  padding: 1rem 0;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  justify-content: center;
-}
-.lazyload {
-  display:grid;
-  grid-area: 1fr;
-  padding-bottom: 0rem;
-  padding-left: 0rem;
-}
-/*=======================*/
-.lazyload main {
-  display:grid;
-  grid-template-columns: 98%;
-  grid-gap: 5px;
-  padding: 1rem 0;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  justify-content: center;
 
+footer p {
+  margin: 0 1em;
+  padding: 1em 0;
 }
-
-.lazyload {
-  display:grid;
-  grid-area: 1fr;
-  padding-bottom: 0rem;
-  padding-left: 0rem;
-}
-/* ************** MAIN **************** */
-
-/* ================================= codepen load effect ========================= */
-/*/////////////////////////////////////////////////////////*/
+Footer
