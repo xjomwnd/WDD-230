@@ -1,20 +1,25 @@
+/*////////////////////////////////////////////////////////////////
 let dayBefore = localStorage.getItem('date');
 
 localStorage.setItem('date', day);
 
 dayBefore = Date.parse(dayBefore);
 
-const number_mSdayS = (day - dayBefore)/- 1667861810911;
+const number_mSdayS = (day - dayBefore)/86400000;
 
 
 if (!number_mSdayS) {
-    document.querySelector("#lastVisit").textContent = 0
-}
-else {
-    document.querySelector("#lastVisit").textContent = number_mSdayS.toFixed(0);
+    const numDaysN = document.querySelector("#lastVisit");
+    if (numDaysN) { numDaysN.textContent = 0; }
 }
 
-/* /////////////////////////////////////////////////////////////////////////
+else {
+    const numDaysY = document.querySelector("#lastVisit");
+    if (numDaysY) numDaysY.textContent = number_mSdayS.toFixed(0);
+}
+
+//////////////////////////////////////////////////////////////////////*/
+//////////////////////////////////////////////////////////////////////////
 // initialize display elements
 const todayDisplay = document.querySelector(".today");
 const visitsDisplay = document.querySelector(".visits");
@@ -37,4 +42,4 @@ localStorage.setItem("visits-ls", numVisits);
 todayDisplay.textContent = Date.now();
 
 
-/////////////////////////////////////////////////////////////////////////*/
+//////////////////////////////////////////////////////////////////////////
