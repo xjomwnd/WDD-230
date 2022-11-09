@@ -475,14 +475,14 @@ body {
     display: none;
   }
   
-  /*date.css*/
+  /*date.css/
   #lastModified {
     text-align: center;
     font-size: smaller;
     margin: 0;
-    background-color: #abe;
+    background-color: rgb(216, 54, 194);
   }
-  
+  */
   /* Larger viewports */
   @media only screen and (min-width: 32.5em) {
     header img {
