@@ -500,7 +500,49 @@ nav ul.open {display: block;}
        -moz-box-sizing: border-box;
             box-sizing: border-box;
   }
+/* /////////////////////////////// directory css  //////////////////////////////////// */
+.directory-main {
+    width: 80%;
+}
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, fit-content(1fr));
+    grid-template-rows: repeat(3, fit-content(1fr));
+    grid-gap: 1em;
+}
+
+#picture-1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#picture-2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#picture-3 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#picture-4 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#picture-5 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#picture-6 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+/* /////////////////////////////////////////////////////////////////// */
   
   
   footer {
