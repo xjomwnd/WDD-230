@@ -1,0 +1,106 @@
+/* Section */
+.discovery-main {
+    background-color: var(--section-color);
+}
+
+section, #join {
+    background-color: var(--section-color);
+    border: 1px solid #aaa;
+    margin-top: 0.5em;
+}
+
+section h3, div h3 {
+    color: var(--primary-color);
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+}
+
+section div {
+    border: 1px solid #aaa;
+    margin: 0.5em;
+}
+
+#call-to-action {
+    position: relative;
+}
+
+#call-to-action img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#call-to-action h2 {
+    position: absolute;
+    left: 1em;
+    background-color: var(--secondary-color);
+    color: white;
+    font-weight: bolder;
+    padding: 0.5em;
+    border-radius: 1em;
+    border: 2px solid black;
+}
+
+#call-to-action button {
+    position: absolute;
+    right: 2em;
+    bottom: 2em;
+    padding: 1em;
+    background-color: var(--secondary-color);
+    color: white;
+    font-weight: bold;
+    border-radius: 2em;
+}
+
+#call-to-action button:hover {
+    background-color: var(--primary-color);
+}
+/* End Discovery */
+
+/* Directory */
+.directory-main {
+    margin: 0 auto;
+    background-color: var(--section-color);
+    padding: 1em 0;
+}
+
+#directory-list {
+    padding-left: 0;
+    margin: 1em 1.5em;
+}
+
+.company {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    padding: 0;
+    margin: 0.25em 2em;
+    border-radius: 1em;
+}
+
+.directory-main h1 {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 1.5em;
+    padding: 0.25em;
+    text-align: center;
+    margin: 1em;
+}
+
+.company * {
+    height: fit-content;
+    margin: auto;
+    text-align: center;
+    padding: 1em;
+}
+
+#directory-list .company:nth-child(even) {
+    background-color: var(--secondary-color);
+    color: white;
+    border: 1px black solid;
+}
+
+#directory-list .company:nth-child(odd) {
+    background-color: #c5c7ee;
+    border: 1px black solid;
+}
