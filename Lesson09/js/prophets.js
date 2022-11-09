@@ -1,33 +1,52 @@
-const requestURL = 'https://github.com/xjomwnd/WDD-230-1/blob/main/Lesson09/directory/data.json';
+const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+const cards = document.querySelector('.cards');
 
-fetch(requestURL)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const prophets = jsonObject['prophets'];
+document.addEventListener("DOMContentLoaded", () => {
 
-    //Create elements and content
-    for (let i = 0; i < prophets.length; i++ ) {
-        let card = document.createElement('section');
-        let title = document.createElement('h2');
-        let birthdate = document.createElement('p');
-        let bornAt = document.createElement('p');
-        let photo = document.createElement('img');
+    fetch(requestURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        console.table(jsonObject);  // temporary checking for valid response and data parsing
+        const prophets = jsonObject['prophets'];
+        prophets.forEach(displayProphets);
+    });
+});
 
-        //Create content
-        birthdate.textContent = 'Date of Birth: ' + prophets[i].birthdate;
-        bornAt.textContent = 'Place of Birth: ' + prophets[i].birthplace;
-        photo.setAttribute('src', prophets[i].imageurl);
-        photo.setAttribute('alt', prophets[i].name + prophets[i].lastname + " - " + prophets[i].order);
-        title.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+function displayProphets(prophet) {
+    // Create elements to add to the document
+    let card = document.createElement('section');
+    let h2 = document.createElement('h2');
+    let portrait = document.createElement('img');
+    let p1 = document.createElement("p");
+    let p2 = document.createElement("p");
+  
+    // Change the textContent property of the h2 element to contain the prophet's full name
+    h2.textContent = `${prophet.name} ${prophet.lastname}`;
+  
+    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
+    let order = [
+        "1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th", "9th",
+        "10th", "11th", "12th", "13th", "14th", "15th", "16th", "17th"
+    ]
 
-        //Put elements in each
-        card.appendChild(title);
-        card.appendChild(birthdate);
-        card.appendChild(bornAt);
-        card.appendChild(photo);
-        document.querySelector('div.cards').appendChild(card);
-    }
-  });
+    portrait.setAttribute('src', prophet.imageurl);
+    portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${order[prophet.order]} Latter-Day President`);
+    portrait.setAttribute('loading', 'lazy');
+  
+    /* Append paragraphs */
+    p1.innerText = `Date of birth: ${prophet.birthdate}`;
+    p2.innerText = `Place of birth: ${prophet.birthplace}`;
+
+    // Add/append the section(card) with the h2 element
+    card.appendChild(h2);
+    card.appendChild(p1);
+    card.appendChild(p2);
+    card.appendChild(portrait);
+  
+    // Add/append the existing HTML div with the cards class with the section(card)
+    document.querySelector('div.cards').appendChild(card);
+  }
+Footer
+© 2022 GitHub, Inc.
