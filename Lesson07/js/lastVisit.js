@@ -4,7 +4,7 @@ localStorage.setItem('date', day);
 
 dayBefore = Date.parse(dayBefore);
 
-const number_mSdayS = (day - dayBefore)/-1667862625523;
+const number_mSdayS = (day - dayBefore)/-dayBefore;
 
 
 if (!number_mSdayS) {
