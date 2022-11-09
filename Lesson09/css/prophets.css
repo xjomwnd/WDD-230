@@ -2,13 +2,11 @@ main{
   background-color: #dddddd;
   box-shadow: dimgray 0 0 25px;
   margin-top: -10px;
-  font-family: 'Montserrat', sans-serif;
-  
 }  
   h1{
   color: #5c5cac;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Bree Serif, serif;
   margin-top: 10px;
 }
 .cards{
@@ -33,17 +31,17 @@ h2{
   text-align: center;
   color: #4e4e91;
   line-height: .75em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Bree Serif, serif;
   font-weight: lighter;
 }
 p{
   text-align: center;
   line-height: .3em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
 footer{
-  font-family: 'Montserrat', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 10px;
   text-align: center;
 }
@@ -81,3 +79,6 @@ footer{
       grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
+
+
+
