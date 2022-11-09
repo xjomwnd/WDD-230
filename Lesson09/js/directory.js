@@ -1,4 +1,4 @@
-const requestURL='https://carlassaraf.github.io/wdd230/chamber/data.json';
+const requestURL='https://xjomwnd.github.io/wdd230/chamber/data.json';
 
 document.addEventListener("DOMContentLoaded", () => {
     fetch(requestURL)
