@@ -1,4 +1,5 @@
-const requestURL='https://carlassaraf.github.io/wdd230/chamber/data.json';
+
+const requestURL='https://carlassaraf.github.io/wdd230/href="https://prestonchamber.org/business-directory/';
 
 document.addEventListener("DOMContentLoaded", () => {
     fetch(requestURL)
@@ -35,3 +36,31 @@ function displayCompanies(company) {
 
     shops.append(li);
 }
+
+/*
+const webtask_url = `https://wt-8081b26e05bb4354f7d65ffc34cbbd67-0.sandbox.auth0-extend.com/data-machine`;
+
+const setColor = (color) => {
+  document.body.style.backgroundColor = color;
+}
+
+const ajaxer = (color) => {
+  let url = webtask_url;
+  if (color) url += `?color=` + encodeURIComponent(color);
+  fetch(url)
+    .then(response => response.json())
+    .then(data => {
+      setColor(data.color);
+      if (!color) input.value = data.color;
+    });
+}
+
+// set color upfront
+ajaxer();
+
+const input = document.querySelector("input");
+input.addEventListener("input", function() {
+  setColor(input.value);
+  ajaxer(input.value);
+})
+*/
