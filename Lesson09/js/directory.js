@@ -27,5 +27,4 @@ function displayCompanies(company) {
     li.append(a);
     shops.append(li);
 }
-
-
+S
