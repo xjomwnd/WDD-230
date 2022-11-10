@@ -1,0 +1,88 @@
+{
+    "companies": [
+      {
+        "name": "Cornerstone Real Estate",
+        "address": "Northern Utah | Southern Idaho",
+        "phone": "208-406-7471",
+        "site": "prestonchamber.org",
+        "level": "Gold"
+      },
+      {
+        "name": "Mis Amoses Restaurant",
+        "address": "Mexican Restaurant",
+        "phone": "208-852-7133",
+        "site": "prestonchamber.org",
+        "level": "Gold"
+      },
+      {
+        "name": "Health West",
+        "address": "Community Center",
+        "phone": "208-852-3200",
+        "site": "prestonchamber.org",
+        "level": "Gold"
+      },
+      {
+        "name": "Pop'N Pins & Island Bowel",
+        "address": "Lanes",
+        "phone": "208-425-6128",
+        "site": "prestonchamber.org",
+        "level": "Silver"
+      },
+      {
+        "name": "Franklin County",
+        "address": "Funeral Home",
+        "phone": "(208)254-7866",
+        "site": "prestonchamber.org",
+        "level": "Silver"
+      },
+      {
+        "name": "Dans, Thomas & Smith",
+        "address": "LLP",
+        "phone": "208-852-1535",
+        "site": "prestonchamber.org",
+        "level": "Silver"
+      },
+      {
+        "name": "Sun Sage",
+        "address": "Floral",
+        "phone": "208-852-6711",
+        "site": "prestonchamber.org",
+        "level": "Silver"
+      },
+      {
+        "name": "Fuller & Fuller",
+        "address": "PLLC",
+        "phone": "(208)852-2680",
+        "site": "prestonchamber.org",
+        "level": "Bronze"
+      },
+      {
+        "name": "STILLWATERS",
+        "address": "Retirement Solutions",
+        "phone": "801-884-8927",
+        "site": "prestonchamber.org",
+        "level": "Bronze"
+      },
+      {
+        "name": "The Preston Citizen",
+        "address": "Community Newspaper",
+        "phone": "208-852-0155",
+        "site": "prestonchamber.org",
+        "level": "Bronze"
+      },
+      {
+        "name": "Day Mountain Ranch Resort",
+        "address": "Vocational ranch",
+        "phone": "208-544-0035",
+        "site": "prestonchamber.org",
+        "level": "NP"
+      },
+      {
+        "name": "Trends Salon",
+        "address": "Salon",
+        "phone": "208-852-1775",
+        "site": "prestonchamber.org",
+        "level": "NP"
+      }
+    ]
+  }
