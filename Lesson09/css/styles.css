@@ -36,7 +36,10 @@
     padding: 1em;
     max-width: 100%;
 }
-
+#directory-list {
+    width: 850px;
+    
+}
 #directory-list .company:nth-child(even) {
     background-color: var(--secondary-color);
     color: rgb(165, 82, 82);
