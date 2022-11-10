@@ -34,4 +34,4 @@ function displayCompanies(company) {
 
     shops.append(li);
 }
-Footer
+
