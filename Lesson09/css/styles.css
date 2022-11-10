@@ -26,6 +26,7 @@
     padding: 0.25em;
     text-align: center;
     margin: 1em;
+    max-width: 100%;
 }
 
 .company * {
@@ -33,15 +34,18 @@
     margin: auto;
     text-align: center;
     padding: 1em;
+    max-width: 100%;
 }
 
 #directory-list .company:nth-child(even) {
     background-color: var(--secondary-color);
-    color: white;
+    color: rgb(165, 82, 82);
     border: 1px black solid;
+   
 }
 
 #directory-list .company:nth-child(odd) {
     background-color: #c5c7ee;
     border: 1px black solid;
+    max-width: 100%;
 }
