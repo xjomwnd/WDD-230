@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+const requestURL = 'https://energy-mgt.ecosysteam.com/chamber.json';
 const cards = document.querySelector('.cards');
 
 document.addEventListener("DOMContentLoaded", () => {
