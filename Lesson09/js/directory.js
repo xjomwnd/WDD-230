@@ -1,4 +1,3 @@
-/*
 const requestURL='https://github.com/xjomwnd/WDD-230-1/blob/main/Lesson09/data.json';
 document.addEventListener("DOMContentLoaded", () => {
     fetch(requestURL)
@@ -35,7 +34,8 @@ function displayCompanies(company) {
 
     shops.append(li);
 }
-*/
+
+/*
 const displayDirectory = (dataDirectory) => {
     dataDirectory.companies.forEach ( 
         company => {
@@ -66,3 +66,4 @@ const displayDirectory = (dataDirectory) => {
       }
     )
   }
+  */
