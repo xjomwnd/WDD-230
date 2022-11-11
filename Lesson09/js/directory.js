@@ -1,3 +1,4 @@
+/*
 const requestURL='https://github.com/xjomwnd/WDD-230-1/blob/main/Lesson09/data.json';
 document.addEventListener("DOMContentLoaded", () => {
     fetch(requestURL)
@@ -34,3 +35,34 @@ function displayCompanies(company) {
 
     shops.append(li);
 }
+*/
+const displayDirectory = (dataDirectory) => {
+    dataDirectory.companies.forEach ( 
+        company => {
+        let card = document.createElement('section');
+        let name = document.createElement('h3');
+        let logo = document.createElement('img');
+        let address = document.createElement('p');
+        let phoneNumber = document.createElement('p');
+        let URL = document.createElement('p');
+
+        name.textContent = `${company.name}`;
+
+        logo.setAttribute('src', company.image);
+        logo.setAttribute('alt', `Photo of ${company.name}`);
+        logo.setAttribute('loading', 'lazy');
+  
+        address.textContent = `${company.address}`;
+        phoneNumber.textContent = `${company.phoneNumber}`;
+        URL.textContent = `${company.URL}`;
+      
+        card.appendChild(name);
+        card.appendChild(logo);
+        card.appendChild(address);
+        card.appendChild(phoneNumber);
+        card.appendChild(URL);
+  
+        document.querySelector('.gridArticle').appendChild(card);
+      }
+    )
+  }
