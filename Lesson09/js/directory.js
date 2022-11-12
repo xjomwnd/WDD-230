@@ -1,6 +1,6 @@
 
 
-const requestURL = 'https://github.com/xjomwnd/WDD-230-1/blob/main/Lesson09/data.json';
+const requestURL = 'https://ianashby.github.io/WDD230/chamber/data.json';
 const list = document.querySelector('#list');
 const table = document.querySelector('.table');
 const grid = document.querySelector('#grid');
