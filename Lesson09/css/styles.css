@@ -37,7 +37,7 @@
     max-width: 100%;
 }
 #directory-list {
-    width: 900px;
+    width: 100%;
     
 }
 #directory-list .company:nth-child(even) {
@@ -51,4 +51,45 @@
     background-color: #c5c7ee;
     border: 1px black solid;
     max-width: 100%;
+/*///////////////////////////////////////////////////////////////*/    
 }
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3px;
+    padding: 15px;
+   
+  }
+  div {
+    background-color: #b9b9ca;
+    border: #9797b7 solid 2px;
+  }
+  img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto auto 25px auto;
+    box-shadow: rgb(49, 49, 49) 0 0 15px;
+  }
+  h2{
+    text-align: center;
+    color: #4e4e91;
+    line-height: .75em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+  }
+  p{
+    text-align: center;
+    line-height: .3em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  }
+  footer{
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  /*//////////////////////////////////////////////////////////////////////////////*/
+  
+ 
