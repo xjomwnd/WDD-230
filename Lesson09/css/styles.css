@@ -71,24 +71,8 @@
     margin: auto auto 25px auto;
     box-shadow: rgb(49, 49, 49) 0 0 15px;
   }
-  h2{
-    text-align: center;
-    color: #4e4e91;
-    line-height: .75em;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
-  }
-  p{
-    text-align: center;
-    line-height: .3em;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-  }
-  footer{
-    font-family: 'Montserrat', sans-serif;
-    margin: 10px;
-    text-align: center;
-  }
+  
+ 
   
   /*//////////////////////////////////////////////////////////////////////////////*/
   
