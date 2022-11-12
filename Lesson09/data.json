@@ -69,21 +69,21 @@
       "name": "FIRST AMERICAN TITLE COMPANY",
       "title": "First American Title Company",
       "phone": "(208) 852-2810",
-      "site": "gofirstam.com"
+      "site": "https://gofirstam.com/locations/preston/"
     },
     {
       "imageurl": "https://prestonchamber.org/wp-content/uploads/2019/11/great-american-realty-400x200.jpg",
       "name": "GREAT AMERICAN REALITY",
       "title": "Great American Reality P.L.",
       "phone": "208-240-8296",
-      "site": "prestonidahorealestate.com"
+      "site": "https://prestonidahorealestate.com/"
     },
     {
       "imageurl": "https://prestonchamber.org/wp-content/uploads/2019/11/cornerstone-real-estate-tasha-siepert-400x200.png",
       "name": "Tasha Siepert",
       "title": "Cornerstone Real Estate",
       "phone": "208-794-3713",
-      "site": "utahcornerstone.com"
+      "site": "http://utahcornerstone.com/idaho-agents/"
     }
   ]
 }
