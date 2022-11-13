@@ -8,6 +8,12 @@ body {
     text-align: center;
     
     }
+    header div {
+      background-color: #b4c0d4;
+    }
+    header section {
+      background-color: #b4c0d4;
+    }
   
     main {
       font-family: "Roboto", sans-serif;
@@ -24,7 +30,7 @@ body {
     header,
     footer {
       width: 100%;
-      height: 100%;
+      height: auto;
       padding: 1.5rem;
       background-color: #b4c0d4;
       box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
@@ -294,78 +300,7 @@ body {
   .membershipLevels {
     margin: 10px;
   }
-  .form h1 {
-    display: block;
-    text-align: center;
-  }
-  
-  .form form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 50px auto;
-    color: black;
-  }
-  .form form input, .form textarea {
-    font-size: 1em;
-    width: 450px;
-    height: 30px;
-    padding: 10px;
-    margin: 10px auto;
-    border: 2px solid black;
-    border-radius: 10px;
-    /* font-size: 1.5em; */
-    font-weight: 500;
-    background-color: #e5e5e5;
-  }
-  .form textarea {
-    height: 250px;
-  }
-  .form form label {
-    /* font-size: 1.5em; */
-    font-weight: 700;
-    text-align: left;
-    margin: 5px;
-  }
-  label, textarea, select{
-    display: inline-block;
-    /* float: left; */
-    clear: left;
-    width: 450px;
-    text-align: left;
-  }
-  .form #submit {
-    background-color: #14213d;
-    color: white;
-    cursor: pointer;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    position: relative;
-    /* bottom: 300px; */
-    z-index: 5;
-    width: 200px;
-    height: 50px;
-    font-size: 1.5em;
-    font-weight: 700;
-    margin: 15px;
-  }
-  .form #submit:hover {
-    background-color: #fca311;
-  }
-  .thanks {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding: 50px;
-    text-align: center;
-  }
-  .thanks h1, .board h1 {
-    display: block;
-  }
+ 
   /* ************** MAIN **************** */
   main {
     display:grid;
@@ -393,23 +328,28 @@ body {
        -moz-box-sizing: border-box;
             box-sizing: border-box;
   }
-  /* /////////////////////////// THANKS //////////////////////////////// */
-  .thanks-ph {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding: 50px;
-    text-align: center;
-  }
   
-  .thanks h2, .board h2 {
+  /* /////////////////////////// cards //////////////////////////////// */
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3px;
+    padding: 15px;
+   
+  }
+  section{
+    background-color: #b9b9ca;
+    border: #9797b7 solid 2px;
+  }
+  img{
     display: block;
-    position: static;
+    width: 225px;
+    height: 275px;
+    margin: auto auto 25px auto;
+    box-shadow: rgb(49, 49, 49) 0 0 15px;
   }
   
-  /* /////////////////////////// THANKS //////////////////////////////// */ 
+  /* /////////////////////////// cards //////////////////////////////// */ 
   
   .directory-main {
     width: 100%;
@@ -454,19 +394,6 @@ body {
   
   /* ************** FOOTER **************** */
   
-  
-  
-  footer {
-    display: flex;
-    width: 100%;
-    height: auto;
-    grid-template-columns: 98%;
-    box-shadow: -1px -1px 30px 20px rgba(63, 65, 63, 0.5);
-  }
-  footer img {
-    max-width: 5rem;
-    background-size: cover;
-  }
   /* import nav.css */
   body {
     color: #311288;
@@ -545,12 +472,7 @@ body {
   
   
   /*----------- FOOTER --------------*/
-  footer {
-    background-color: #ddd;
-    padding: .5rem 2%;
-    text-align: center;
-    width: 100%;
-  }
+  
   
   /*----- Clearfix: Force an Element not to collapse -----*/
   .clearfix:after {
@@ -896,7 +818,19 @@ li > img {
     box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
     border: 1px solid gray;
   }
-  
+  footer {
+    display: flex;
+    width: 100%;
+    height: 215px;
+    grid-template-columns: 98%;
+    box-shadow: -1px -1px 30px 20px rgba(63, 65, 63, 0.5);
+  }
+  footer img {
+    max-width: 80px;
+    max-height: 50px;
+    background-size: cover;
+  }
+ 
   footer p {
     font-size: 12px;
     line-height: 1.5;
@@ -905,12 +839,12 @@ li > img {
     font-family: 'Montserrat', sans-serif;
      font-size: 700;
   }
-  
+
   footer a {
     background-color: #b4c0d4;
     padding: 2px 3px;
     border-radius: 5px;
-    color: white;
+    color: rgb(190, 114, 114);
   }
   
   footer a:hover {
@@ -919,6 +853,9 @@ li > img {
     background-color: rgb(231, 222, 222);
     font-size: 14px;
     transition: 1s;
+  }
+  footer div {
+    background-color: #b4c0d4;
   }
   
   
