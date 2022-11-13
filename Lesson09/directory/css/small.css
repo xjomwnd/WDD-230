@@ -791,10 +791,7 @@ body {
   width: 40px;
 }
 /*///////////////////////////////////////prophetes css directory/////////////////////////////////////////////////*/
-main{
-  background-color: #dddddd;
-  box-shadow: dimgray 0 0 25px;
-  margin-top: -10px;
+
 }  
   h1{
   color: #5c5cac;
@@ -816,7 +813,7 @@ section{
 img{
   display: block;
   width: 225px;
-  height: 275px;
+  height: auto;
   margin: auto auto 25px auto;
   box-shadow: rgb(49, 49, 49) 0 0 15px;
 }
@@ -834,6 +831,36 @@ p{
   font-size: 14px;
 }
 /*/////////////////////////////////////////////////////////////////////////////////////////*/
+main {
+  margin-left: 2rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+section {
+  margin: 0.25rem;
+  padding: 0.35rem;
+  background-color: #eee;
+  border: 1px solid #bbb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section > p {
+  min-height: 60px;
+}
+img {
+  width: auto;
+  max-width: 325px;
+  box-shadow: 0 0 30px #777;
+  height: 200px;
+  border: 1px solid #333;
+}
+li > img {
+  width: auto;
+  height: 30px;
+}
 
   
   /* /////////////////////footer////////////////////// */

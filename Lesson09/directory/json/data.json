@@ -5,7 +5,7 @@
       "address": "655 S 4th #200 Preston, ID  83263",
       "phoneNumber": "208-406-7471",
       "URL": "http://utahcornerstone.com/idaho-agents/",
-      "imageurl": "https://prestonchamber.org/wp-content/uploads/2020/02/cornerstone-real-estate-amber-almond-400x200.jpg",
+      "image": "https://prestonchamber.org/wp-content/uploads/2020/02/cornerstone-real-estate-amber-almond-400x200.jpg",
       "membershipLevel": 1
     }, 
     {
@@ -13,7 +13,7 @@
       "address": "655 S 4th #200 Preston, ID  83263",
       "phoneNumber": "208-240-8582",
       "URL": "http://utahcornerstone.com/idaho-agents/",
-      "imageurl": "https://prestonchamber.org/wp-content/uploads/2019/11/cornerstone-real-estate-misty-blotter2-400x200.jpg",
+      "image": "https://prestonchamber.org/wp-content/uploads/2019/11/cornerstone-real-estate-misty-blotter2-400x200.jpg",
       "membershipLevel": 1
     },
  {
@@ -21,7 +21,7 @@
       "address": "655 S 4th E #200 Preston, ID 83263",
       "phoneNumber": "801-510-1121",
       "URL": "http://utahcornerstone.com/idaho-agents/",
-      "imageurl": "https://prestonchamber.org/wp-content/uploads/2019/11/cornerstone-real-estate-mike-hansen-400x200.jpg",
+      "image": "https://prestonchamber.org/wp-content/uploads/2019/11/cornerstone-real-estate-mike-hansen-400x200.jpg",
       "membershipLevel": 2
     },
     {
@@ -29,7 +29,7 @@
       "address": "655 S 4th E #200 Preston, ID 83263",
       "phoneNumber": "435-760-0008",
       "URL": "https://www.virginiaharmon.com/",
-      "imageurl": "https://prestonchamber.org/wp-content/uploads/2019/11/cornerstone-real-estate-virginia-harmon-400x200.jpg",
+      "image": "https://prestonchamber.org/wp-content/uploads/2019/11/cornerstone-real-estate-virginia-harmon-400x200.jpg",
       "membershipLevel": 2
     }, 
     {
@@ -37,7 +37,7 @@
       "address": "79 N 100 W Providence, UT 84332",
       "phoneNumber": "435-753-2084",
       "URL": "https://www.carlsoninspection.com/",
-      "imageURL": "https://prestonchamber.org/wp-content/uploads/2019/11/carlson-inspection-services-400x200.png",
+      "image": "https://prestonchamber.org/wp-content/uploads/2019/11/carlson-inspection-services-400x200.png",
       "membershipLevel": 2
     },
   {
@@ -45,7 +45,7 @@
       "address": "565 W 465 N, Providence, UT 84332, United States",
       "phoneNumber": "208-221-1277",
       "URL": "https://www.markbecksteadrealestate.com",
-      "imageurl": "https://prestonchamber.org/wp-content/uploads/2019/11/mark-amy-beckstead-real-estate-400x200.jpg",
+      "image": "https://prestonchamber.org/wp-content/uploads/2019/11/mark-amy-beckstead-real-estate-400x200.jpg",
       "membershipLevel": 3
     },
     {
@@ -53,7 +53,7 @@
       "address": "Clifton ID 83228",
       "phoneNumber": "(208) 852-3199",
       "URL": "https://www.becksteadrealestate.com/",
-      "imageurl": "https://prestonchamber.org/wp-content/uploads/2019/11/beckstead-real-estate-400x200.png",
+      "image": "https://prestonchamber.org/wp-content/uploads/2019/11/beckstead-real-estate-400x200.png",
       "membershipLevel": 3
     },
     {
@@ -69,7 +69,7 @@
       "address": "28 W Oneida St, Preston, ID 83263, United States",
       "phoneNumber": "(208) 852-2810",
       "URL": "https://gofirstam.com/locations/preston/",
-      "imageurl": "https://prestonchamber.org/wp-content/uploads/2019/11/first-american-title-company-400x200.jpg",
+      "image": "https://prestonchamber.org/wp-content/uploads/2019/11/first-american-title-company-400x200.jpg",
       "membershipLevel": 3
     },
     {
@@ -77,7 +77,7 @@
       "address": "7 E Oneida St Preston, ID 83263",
       "phoneNumber": "208-240-8296",
       "URL": "https://prestonidahorealestate.com/",
-      "imageurl": "https://prestonchamber.org/wp-content/uploads/2019/11/great-american-realty-400x200.jpg",
+      "image": "https://prestonchamber.org/wp-content/uploads/2019/11/great-american-realty-400x200.jpg",
       "membershipLevel": 4
     }
   ]
