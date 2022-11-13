@@ -590,7 +590,7 @@ main section div {
             box-sizing: border-box
 }
 
-main section,  main section div {
+main section, div {
     background-color: #e5e5e5;
     margin: 10px;
     text-align: center;
@@ -612,6 +612,10 @@ label, textarea, select{
 .directory #content {
     width: 100%;
     margin: 0 auto;
+}
+.menuDirectory {
+
+border: solid blue 1px;
 }
 
 .cards {
