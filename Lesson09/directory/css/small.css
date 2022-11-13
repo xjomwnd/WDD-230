@@ -790,7 +790,50 @@ body {
 #grid img {
   width: 40px;
 }
-
+/*///////////////////////////////////////prophetes css directory/////////////////////////////////////////////////*/
+main{
+  background-color: #dddddd;
+  box-shadow: dimgray 0 0 25px;
+  margin-top: -10px;
+}  
+  h1{
+  color: #5c5cac;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+}
+.cards{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3px;
+  padding: 15px;
+ 
+}
+section{
+  background-color: #b9b9ca;
+  border: #9797b7 solid 2px;
+}
+img{
+  display: block;
+  width: 225px;
+  height: 275px;
+  margin: auto auto 25px auto;
+  box-shadow: rgb(49, 49, 49) 0 0 15px;
+}
+h2{
+  text-align: center;
+  color: #4e4e91;
+  line-height: .75em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+p{
+  text-align: center;
+  line-height: .3em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
 
   
   /* /////////////////////footer////////////////////// */
