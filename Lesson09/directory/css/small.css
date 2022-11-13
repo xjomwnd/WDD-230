@@ -695,7 +695,155 @@ body {
   }
   /* ========== END SMALL ========== */
   /* /////////////////////////////// directory css  //////////////////////////////////// */
-  
+ 
+/* MAIN */
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+main h1 {
+    display: none;
+}
+
+#spotlights h2 {
+    display: none;
+}
+
+main section {
+    /* height: 400px; */
+    object-fit: cover;
+}
+
+main section div {
+    height: 200px;
+}
+
+main section,  main section div {
+    background-color: #e5e5e5;
+    margin: 10px;
+    text-align: center;
+    /* border: 2px solid #14213d; */
+}
+.membershipLevels {
+    margin: 10px;
+}
+
+
+label, textarea, select{
+    display: inline-block;
+    /* float: left; */
+    clear: left;
+    width: 450px;
+    text-align: left;
+}
+
+.directory #content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.cards section {
+    border: 2px solid #14213d;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+}
+
+.directory h2, h1 {
+    color: #14213d;
+    text-align: center;
+}
+.directory .cards img {
+    width: 300px;
+    height: 180px;
+}
+
+.directory a {
+    text-decoration: none;
+    color: #14213d;
+}
+
+.directory p:first-of-type {
+    font-style: italic;
+    font-size: 0.75em;
+}
+
+.directory .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.icons button {
+    background-color: white;
+    border: none;   
+}
+
+.icons button:hover {
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+.icons img {
+    width: 50px;
+}
+
+.directory table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: auto;
+    overflow: hidden;
+}
+
+.directory td {
+
+    padding: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: #e5e5e5;
+}
+
+tr td {
+    display: block;
+}
+
+
+.board {
+    padding: 10px;
+}
+
+.board img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.board {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
   /* /////////////////////////////////////////////////////////////////// */
   * ********************* */
 /*       DIRECTORY       */
