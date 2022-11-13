@@ -611,7 +611,14 @@ label, textarea, select{
 
 border: solid blue 1px;
 }
-
+.companies {
+  border: 2px solid #14213d;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+}
 .cards {
     display: flex;
     flex-wrap: wrap;
