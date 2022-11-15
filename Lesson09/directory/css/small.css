@@ -752,7 +752,7 @@ tr td {
   align-items: center;
   background-color: var(--lightyellow);
   border: 3px solid var(--blackTrans);
-  padding: 10rem;
+  padding: 1rem;
 }
 
 .logoInside {
