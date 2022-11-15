@@ -1,4 +1,4 @@
-{ 
+{
   "companies": [
     {
       "name": "Cornerstone Real Estate",
@@ -6,23 +6,23 @@
       "phoneNumber": "208-406-7471",
       "URL": "http://utahcornerstone.com/",
       "image": "https://prestonchamber.org/wp-content/uploads/2020/02/cornerstone-real-estate-amber-almond-400x200.jpg",
-      "membershipLevel": 1
-    }, 
+      "membership ": "Bronze"
+    },
     {
       "name": "Cornerstone Real Estate",
       "address": "655 S 4th #200 Preston, ID  83263",
       "phoneNumber": "208-240-8582",
       "URL": "http://utahcornerstone.com/",
       "image": "https://prestonchamber.org/wp-content/uploads/2019/11/cornerstone-real-estate-misty-blotter2-400x200.jpg",
-      "membershipLevel": 1
+      "membershipLevel":"Bronze"
     },
- {
+    {
       "name": "Cornerstone Real Estate",
       "address": "655 S 4th E #200 Preston, ID 83263",
       "phoneNumber": "801-510-1121",
       "URL": "http://utahcornerstone.com/",
       "image": "https://prestonchamber.org/wp-content/uploads/2019/11/cornerstone-real-estate-mike-hansen-400x200.jpg",
-      "membershipLevel": 2
+      "membershipLevel": "Silver"
     },
     {
       "name": "Cornerstone Real Estate",
@@ -30,23 +30,23 @@
       "phoneNumber": "435-760-0008",
       "URL": "https://virginiaharmon.com/",
       "image": "https://prestonchamber.org/wp-content/uploads/2019/11/cornerstone-real-estate-virginia-harmon-400x200.jpg",
-      "membershipLevel": 2
-    }, 
+      "membershipLevel": "Silver"
+    },
     {
       "name": "CARSON INSPECTION SERVICES",
       "address": "79 N 100 W Providence, UT 84332",
       "phoneNumber": "435-753-2084",
       "URL": "https://carlsoninspection.com/",
       "image": "https://prestonchamber.org/wp-content/uploads/2019/11/carlson-inspection-services-400x200.png",
-      "membershipLevel": 2
+      "membershipLevel":  "Silver"
     },
-  {
+    {
       "name": "Team Mark & Army Beckstead Real Estate",
       "address": "565 W 465 N, Providence, UT 84332, USA",
       "phoneNumber": "208-221-1277",
       "URL": "https://markbecksteadrealestate.com",
       "image": "https://prestonchamber.org/wp-content/uploads/2019/11/mark-amy-beckstead-real-estate-400x200.jpg",
-      "membershipLevel": 3
+      "membershipLevel": "Gold"
     },
     {
       "name": "Beckstead Real Estate",
@@ -54,7 +54,7 @@
       "phoneNumber": "(208) 852-3199",
       "URL": "https://becksteadrealestate.com/",
       "image": "https://prestonchamber.org/wp-content/uploads/2019/11/beckstead-real-estate-400x200.png",
-      "membershipLevel": 3
+      "membershipLevel": "Gold"
     },
     {
       "name": "Cornerstone Real Estate Professionals",
@@ -62,7 +62,7 @@
       "phoneNumber": "208-852-3000",
       "URL": "http://utahcornerstone.com/",
       "image": "https://prestonchamber.org/wp-content/uploads/2019/11/cornerstone-real-estate-400x200.png",
-      "membershipLevel": 3
+      "membershipLevel": "Gold"
     },
     {
       "name": "First American Title Company",
@@ -70,7 +70,7 @@
       "phoneNumber": "(208) 852-2810",
       "URL": "https://gofirstam.com/",
       "image": "https://prestonchamber.org/wp-content/uploads/2019/11/first-american-title-company-400x200.jpg",
-      "membershipLevel": 3
+      "membershipLevel": "Gold"
     },
     {
       "name": "GREAT AMERICAN REALITY",
@@ -78,7 +78,7 @@
       "phoneNumber": "208-240-8296",
       "URL": "https://prestonidahorealestate.com/",
       "image": "https://prestonchamber.org/wp-content/uploads/2019/11/great-american-realty-400x200.jpg",
-      "membershipLevel": 4
+      "membershipLevel": "Gold"
     }
   ]
 }
