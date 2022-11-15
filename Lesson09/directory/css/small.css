@@ -313,7 +313,7 @@ body {
     grid-template-columns: 98%;
     grid-gap: 5px;
     padding: 1rem 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     
   }
   
@@ -743,7 +743,7 @@ tr td {
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	align-items: center;
   gap: 1rem;
-  
+
 }
 
 .gridArticle section{
