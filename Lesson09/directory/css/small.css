@@ -751,8 +751,8 @@ tr td {
   flex-direction: column;
   align-items: center;
   background-color: var(--lightyellow);
-  border: 1px solid var(--blackTrans);
-  padding: 1rem;
+  border: 10px solid var(--blackTrans);
+  padding: 10rem;
 }
 
 .logoInside {
