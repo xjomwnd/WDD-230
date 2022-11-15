@@ -330,8 +330,7 @@ body {
     width: 100%;
     padding: 50px;
     border: solid blue 1px;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
+    
             box-sizing: border-box;
   }
   
@@ -590,6 +589,24 @@ main section, div {
     text-align: center;
     /* border: 2px solid #14213d; */
 }
+/*  ********************************************** */
+.gridItems div {
+  border: 1px solid #4c08ca;
+  background-color: #aaa9a6;
+  margin: 1rem 1rem;
+  padding-right: 0rem;
+  border: solid blue 1px;
+} 
+
+.grid section{
+  display:grid;
+  grid-area: 10fr;
+  padding-bottom: 0rem;
+  padding-left: 0rem;
+  border: solid blue 10px;
+}
+/* ********************************************** */
+
 .membershipLevels {
     margin: 10px;
 }

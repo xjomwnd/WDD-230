@@ -111,4 +111,4 @@ if (gridbutton) {
     display.classList.remove("grid");
   }
 }
-Footer
+
