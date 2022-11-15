@@ -5,8 +5,7 @@ localStorage.setItem('date', day);
 
 dayBefore = Date.parse(dayBefore);
 
-const number_mSdayS =(day - dayBefore)/86400000;
-
+const number_mSdayS = (day - dayBefore)/86400000;
 
 
 if (!number_mSdayS) {
@@ -18,7 +17,6 @@ else {
     const numDaysY = document.querySelector("#lastVisit");
     if (numDaysY) numDaysY.textContent = number_mSdayS.toFixed(0);
 }
-
 ///////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////
