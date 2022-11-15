@@ -27,7 +27,7 @@ getWeather();
 
 /////////////////////////////////////////////////////*/
 const apiURL =
-'https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=70576274fb494d1b32471985c55c97f3';
+'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=70576274fb494d1b32471985c55c97f3';
 
 //Info for weather widget
 fetch(apiURL)
