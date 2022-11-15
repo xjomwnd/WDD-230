@@ -742,6 +742,7 @@ tr td {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	align-items: center;
+	border: 3px solid var(--blackTrans);
   gap: 1rem;
 
 }
