@@ -26,8 +26,7 @@ const kelvinToFahrenheit = (kelvin) => {
 getWeather();
 
 /////////////////////////////////////////////////////*/
-const apiURL =
-'https://api.openweathermap.org/data/2.5/weather?id=5861897&appid=70576274fb494d1b32471985c55c97f3';
+const apiURL ='https://api.openweathermap.org/data/2.5/weather?id=5861897&appid=70576274fb494d1b32471985c55c97f3';
 
 //Info for weather widget
 fetch(apiURL)
