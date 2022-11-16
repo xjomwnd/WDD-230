@@ -363,6 +363,24 @@ label, textarea, select{
 .form #submit:hover {
     background-color: #fca311;
 }
+.join-main {
+  width: 120%;
+}
+#join button {
+  display: block;
+  padding: 1em 5em;
+  background-color: var(--secondary-color);
+  color: white;
+  font-weight: bold;
+  border-radius: 2em;
+  margin: auto;
+  margin-top: 1em;
+}
+
+#join button:hover {
+  background-color: var(--primary-color);
+}
+
 
   /* ************** MAIN **************** */
   main {
@@ -378,6 +396,14 @@ label, textarea, select{
     border: 1px solid rgb(237, 248, 217);
     background-color: #aaa9a6;
     text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    border: solid blue 1px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            float: right;
   }
 
   main {
@@ -385,11 +411,13 @@ label, textarea, select{
     position: relative;
     background-color: #d4d3cf;
     width: 100%;
+    height: auto;
     padding: 50px;
     border: solid blue 1px;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
+            
   }
   /* /////////////////////////// THANKS //////////////////////////////// */
   .thanks-ph {
@@ -678,7 +706,7 @@ form label.top, form div {
 /*----------- FOOTER --------------*/
 footer {
     background-color: #ddd;
-    padding: .5rem 2%;
+    padding: 2rem 2%;
     text-align: center;
     width: 100%;
 }

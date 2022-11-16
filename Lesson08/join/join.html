@@ -58,71 +58,75 @@
     <p class="date1"><span id="date1"><script src="index.js"></script></span></p>    
     </div>
  </fieldset>
- <h1>Course Proposal Application</h1>
- <main>
-    <!-- CONTENT HERE -->
-           <form method="get" action="thanks.html">
-    <fieldset>
-        <legend>Application Information</legend>
-        <label class="top">First Name* <input type="text" name="fname" required></label>
-        <label class="top">Last Name* <input type="text" name="fname" required></label>
-        <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
-        <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-        <label class="top">Website <input type="url" name="url" placeholder="http://"></label>
-    </fieldset>
-    
-    <fieldset>
-        <legend>Course Information</legend>
-        <div>Audience</div>
-        <label class="sbs"><input type="radio" name="audience" value="beginner"> Beginner</label>
-        <label class="sbs"><input type="radio" name="audience" value="intermediate"> intermediate</label>
-        <label class="sbs"><input type="radio" name="audience" value="advanced"> advanced</label>
-    
-        <div>Software Needed</div>
-        <label class="sbs"><input type="checkbox" name="editing" value="yes">Photo Editing</label>
-        <label class="sbs"><input type="checkbox" name="code" value="yes"> Coding</label>
-        <label class="sbs"><input type="checkbox" name="process" value="yes"> Preprocessor</label>
-        <label class="sbs"><input type="checkbox" name="client" value="yes"> FTP Client</label>
-    </fieldset>
-    <!-- FUNDING-->
-    <div id="membership-input">
-        <p>Membership Benefits</p>
-        <div class="membership-benefit">
-            <label for="membership-np">
-                <input type="radio" name="membership" id="membership-np" value="np" required>
-                Scholarships
-            </label>
-        </div>
-        <div class="membership-benefit">
-            <label for="membership-bronze">
-                <input type="radio" name="membership" id="membership-bronze" value="bronze" required>
-                Bursary
-            </label>
-        </div>
-        <div class="membership-benefit">
-            <label for="membership-silver">
-                <input type="radio" name="membership" id="membership-silver" value="silver" required>
-                Educational Loan
-            </label>
-        </div>
-        <div class="membership-benefit">
-            <label for="Awards">
-                <input type="radio" name="membership" id="membership-gold" value="gold" required>
-                Awards
-            </label>
-        </div>
-    </div>
-    <input type="submit" value="Propose My Course" class="submitBtn">
-    
-    </form> 
-  </main>
-  
+
+ <main class="join-page">
+  <fieldset>
+    <h2>Membership Levels</h2>
+    <ul>
+        <li class="npMem">
+            <h3>NP Membership</h3>
+            <p>This membership is for non profit organizations. 
+                There is no fee for this membership.</p>
+        </li>
+        <li class="bronze">
+            <h3>Bronze Membership</h3>
+            <p>The Bronze Membership is $60 for a year. This 
+                membership allows you to access 1 free 
+                training a month as well as a 10% event discount.</p>
+        </li>
+        <li class="silver">
+            <h3>Silver Membership</h3>
+            <p>The Silver Membership is $80 for a year. This 
+                membership allows you to access 2 free 
+                trainings a month as well as a 15% event discount.</p>
+        </li>
+        <li class="gold">
+            <h3>Gold Membership</h3>
+            <p>The Gold Membership is $100 for a year. This 
+                membership allows you to access 4 free 
+                trainings a month as well as a 20% event discount 
+                and advertising on the home page.</p>
+        </li>
+    </ul>
+  </fieldset>
+  <form method="get" action="thanks.html">
+      <fieldset>
+          <legend>Applicant Information</legend>
+          <label class="top">First Name* <input type="text" name="fname" required></label>
+          <label class="top">Last Name* <input type="text" name="lname" required></label>
+          <label class="top">Email* <input type="email" name="email" placeholder="example@gmail.com" required></label>
+          <label class="top">Phone* <input type="tel" name="phone" placeholder="18085556487" required></label>
+      </fieldset>
+      
+      <fieldset>
+          <legend>Business Information</legend>
+          <label class="top">Business Title <input type="text" name="title" minlength="7" pattern=" ^[a-zA-Z]+[a-zA-Z0-9-_ ]*[a-zA-Z0-9]$"></label>
+          <label class="top">Company Name* <input type="text" name="compName" required></label>
+          <label class="top">Business Description<input name="description"></label>
+      </fieldset>
+      
+      <fieldset>
+          <legend>Membership Level</legend>
+          <label class="sbs"><input type="radio" name="membership" value="np"> NP Membership(Non Profit-No Fee)</label>
+          <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+          <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
+          <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
+          <label class="sbs"><input type="radio" name="membership" value="none"> None</label>
+          <input type="hidden" id="date" name="date" value="CurrentTime"> 
+          <input type="hidden" id="time" name="time" value="CurrentDate">
+      </fieldset>  
+      
+      
+      <input type="submit" value="Join Preston Chamber" class="submitBtn">
+  </form>
+</main>
      <footer>
       <div class="imaagefooter">
         <picture>
           <img src="images/preston-area-logo.png" alt="Preston Area Chamber Logo">
         </picture>
-      </div>  
+      </div> 
+      <hr> 
       <div class="namefooter">
       <p>Preston Area Chamber of Commerce</p>
       <p>https://www.prestonchamber.org</p>
@@ -134,6 +138,7 @@
          Location Map
       </p>
       </div>
+      <hr>
       <div>
         <p>
           <p>&copy; <script>document.write(new Date().getFullYear())</script><br><span>Preston Chamber Chamber Home Page</span></p> 
