@@ -85,13 +85,22 @@
 
     </div>
     <div class="weather">
-      <img class="weather-icon" src="images/weather-icon.webp" alt="Weather icon of the sun behind a cloud">
-      <span class="temperature"></span>
-      <p class="cloudy"></p>
-      <span class="line"></span>
-      <span class="wind-speed"></span>
-      <p class="wind">Wind Chill: <span class="windchill"></span></p>
+      <section id="weather">
+        <h2>Weather</h2>
+        <div id="weather_top">
+            <h2><span id="temp"></span>&#8457;</h2>
+            <figure><img src="" alt="" id="weathericon" />
+                <figcaption></figcaption>
+            </figure>
+        </div>
+        <hr>
+        <p>Wind: <span id="wind"></span> MPH</p>
+        <p>Wind Chill: <span id="windchill"></span><span id="windDegree"></span></p>
+    </section>
       </div>
+      <!---->
+ 
+      <!---->
       
      <div class="news">
       <h2>News Release</h2>
@@ -187,6 +196,9 @@
     <script src="js/toggleMenu.js"></script>
     <script src="js/banner.js"></script>
     <script src="js/hamburger.js"></script>
-    <script defer src="js/weather06api.js"></script>
+    <script defer src="scripts/main.js"></script>
+    <script defer src="scripts/visits.js"></script>
+    <script defer src="js/weather.js"></script>
+    <!-- <script defer src="scripts/chill.js"></script> -->
   </body>
   </html>  
