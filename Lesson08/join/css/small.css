@@ -397,7 +397,7 @@ label, textarea, select{
     background-color: #aaa9a6;
     text-align: center;
     width: 100%;
-    height: 100%;
+    height: auto;
     padding: 50px;
     border: solid blue 1px;
     -webkit-box-sizing: border-box;
@@ -410,7 +410,7 @@ label, textarea, select{
     margin: 1px auto;
     position: relative;
     background-color: #d4d3cf;
-    width: 100%;
+    width: 300px;
     height: auto;
     padding: 50px;
     border: solid blue 1px;
