@@ -26,6 +26,8 @@ const kelvinToFahrenheit = (kelvin) => {
 getWeather();
 
 /////////////////////////////////////////////////////*/
+
+///////////////////////////////////////////////////////////
 const apiURL ='https://api.openweathermap.org/data/2.5/weather?id=5861897&appid=70576274fb494d1b32471985c55c97f3';
 
 //Info for weather widget
@@ -74,3 +76,37 @@ const f =
 if (temp < 50 && windSpd > 10) {
 windChill.textContent = f.toFixed(1) + "℉";
 }
+/*///////////////////////////////////////////////////////////////////////////////////////////
+const apiURL ='https://api.openweathermap.org/data/2.5/weather?id=5861900&appid=70576274fb494d1b32471985c55c97f3';
+//Info for weather widget
+fetch(apiURL)
+.then((response) => response.json())
+.then((jsObject) => {
+  document.getElementById("temp").textContent =
+    jsObject.list[0].main.temp.toFixed(0);
+  document.getElementById("currently").textContent =
+    jsObject.list[0].weather[0].main;
+  document.getElementById("humidity").textContent =
+    jsObject.list[0].main.humidity;
+  document.getElementById("windSpd").textContent =
+    jsObject.list[0].wind.speed;
+});
+//5 day forecast
+fetch(apiURL)
+.then((response) => response.json())
+.then((jsObject) => {
+  const noon = jsObject.list.filter((x) => x.dt_txt.includes("12:00:00"));
+  let day = 0;
+  const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  noon.forEach((forecast) => {
+    let theDate = new Date(forecast.dt_txt);
+    document.querySelector(`#dayofweek${day + 1}`).textContent = weekdays[theDate.getDay()];
+    document.querySelector(`#forecast${day + 1}`).textContent = `${forecast.main.temp.toFixed(0)}℉`;
+    const imagesrc = `https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`;
+    const desc = forecast.weather[0].description;
+    document.getElementById(`img${day + 1}`).setAttribute("src", imagesrc);
+    document.getElementById(`img${day + 1}`).setAttribute("alt", desc);
+    day++;
+  });
+});
+////////////////////////////////////////////////////////////////////////////////////////////*/
