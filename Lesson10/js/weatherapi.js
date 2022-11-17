@@ -23,8 +23,8 @@ getWeather();
 // select output elements
 const temperature = document.querySelector('#temperature');
 const description = document.querySelector('#currently');
-const weathericon = document.querySelector('weathericon');
-const caption = document.querySelector('figcaption');
+const weathericon = document.querySelector('#weathericon');
+const caption = document.querySelector('#figcaption');
 
 
 // Get the weather data from the API - openweather.org
