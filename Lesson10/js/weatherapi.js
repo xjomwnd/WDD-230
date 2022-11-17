@@ -1,4 +1,4 @@
-/*//////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5809844&appid=70576274fb494d1b32471985c55c97f3'
 
 const getWeather = async () => {
@@ -24,8 +24,8 @@ const kelvinToFahrenheit = (kelvin) => {
 }
 
 getWeather();
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*/////////////////////////////////////////////////////////////////////////////////////////////
 // select output elements
 const temperature = document.querySelector('#temperature');
 const description = document.querySelector('#currently');
@@ -45,7 +45,7 @@ apiFetch()
 //capitalize
 
 function capitalize(string) {
-    return '${string.charAt(0).toUpperCase()} ${string.slice(1)}';
+    return '${string.charAt(0).toupperCase()} ${string.slice(1)}';
 }
 // display the results
 function displayResults(data) {
@@ -56,3 +56,4 @@ function displayResults(data) {
     weathericon.src = 'https://openweathermap.org/img/w/${data.weather[0].icon}.png';
     weathericon.alt = 'Icon of current weather condition at Fairbanks which is ${desc}';
 }
+/////////////////////////////////////////////////////////////////////////////////////////*/
