@@ -1,4 +1,4 @@
-///////////////////////////////////////////////////////////////////////////////////
+/*//////////////////////////////////////////////////////////////////////////////////
 const apiURL ='https://api.openweathermap.org/data/2.5/weather?id=5861897&appid=70576274fb494d1b32471985c55c97f3'
 const getWeather = async () => {
     const response = await fetch(apiURL);
@@ -18,4 +18,37 @@ const kelvinToFahrenheit = (kelvin) => {
     return f.toFixed(2);
 }
 getWeather();
+////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////*/
+// select output elements
+const temperature = document.querySelector('#temperature');
+const description = document.querySelector('#description');
+const weathericon = document.querySelector('weathericon');
+// Get the weather data from the API - openweather.org
+
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5861897&appid=70576274fb494d1b32471985c55c97f3'
+
+async function apiFetch(){
+    try {
+        const response = await fetch(apiURL);
+        if (response.ok){
+            const data = await response.json();
+            console.log(data);
+        } else {
+            console.log('Response not OK ${await response.text()}');
+        }
+    } catch (error) {
+        console.log('Error: ${error.message}');
+    }
+}
+
+apiFetch();
+
+//capitalize
+async function apiFetch(){
+}
+
+apiFetch()
+
+//capitalize
 
