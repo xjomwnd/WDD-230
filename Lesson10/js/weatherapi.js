@@ -22,16 +22,18 @@ getWeather();
 /*//////////////////////////////////////////////////////////////////*/
 // select output elements
 const temperature = document.querySelector('#temperature');
-const description = document.querySelector('#description');
+const description = document.querySelector('#currently');
 const weathericon = document.querySelector('weathericon');
-// Get the weather data from the API - openweather.org
+const caption = document.querySelector('figcaption');
 
+
+// Get the weather data from the API - openweather.org
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5861897&appid=70576274fb494d1b32471985c55c97f3'
 
 async function apiFetch(){
     try {
         const response = await fetch(apiURL);
-        if (response.ok){
+        if (response.ok) {
             const data = await response.json();
             console.log(data);
         } else {
@@ -45,10 +47,3 @@ async function apiFetch(){
 apiFetch();
 
 //capitalize
-async function apiFetch(){
-}
-
-apiFetch()
-
-//capitalize
-
