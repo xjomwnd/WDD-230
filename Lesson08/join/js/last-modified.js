@@ -1,8 +1,3 @@
-document.querySelector(
-	"#lastModified"
-).textContent = `Last Modification: ${document.lastModified}`;
-
-
 /* =================== last-modfied.js large ====plus the==== copyright.js========================== */
 /* ==================copyright year================= */
 let lastModified = new Date(document.lastModified);
@@ -11,33 +6,3 @@ let time = lastModified.toLocaleString('en-GB', {hour: "2-digit", minute: "2-dig
 let dateTime = `Last Updated: ${fullDate} ${time}`;
 document.getElementById("lastModified").innerHTML = dateTime;
 /*===================================== copyright.js =====================================*/
-const daynames = [
-	"Sunday",
-	"Monday",
-	"Tuesday",
-	"Wednesday",
-	"Thursday",
-	"Friday",
-	"Saturday"
-];
-const months = [
-	"January",
-	"February",
-	"March",
-	"April",
-	"May",
-	"June",
-	"July",
-	"August",
-	"September",
-	"October",
-	"November",
-	"December"
-];
-const d = new Date();
-const dayName = daynames[d.getDay()];
-const monthName = months[d.getMonth()];
-const year = d.getFullYear();
-const fulldate = `${year}`;
-document.querySelector("#year").textContent = fulldate;
-/* ================== end copyright year.js================= */
