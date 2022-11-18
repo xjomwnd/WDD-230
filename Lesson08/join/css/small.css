@@ -748,6 +748,15 @@ form label.top input:required {
   clear: both;
 }
 /* ========== END SMALL ========== */
+/* ********************* */
+/*       THANK YOU       */
+/* ********************* */
+
+.thankyou {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+}
 
   /* /////////////////////footer////////////////////// */
   footer {
