@@ -755,6 +755,7 @@ form label.top input:required {
 table {
   letter-spacing: 0.4px;
   text-align: left;
+ 
 }
 
 thead, td {
@@ -763,7 +764,7 @@ thead, td {
 
 td, th {
   border: 1px solid var(--silver);
-  padding: 10px 20px;
+  padding: 20px 30px;
 }
 
 .title {
@@ -789,6 +790,7 @@ table {
 form {
   margin: 0 1rem;
 }
+
 
 .joinForm {
   display: block;
