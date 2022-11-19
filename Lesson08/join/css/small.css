@@ -864,29 +864,13 @@ h3.thankyou {
   display: none;
 }
 
-
-
-/*------------end of form---------*/
-
-
-/* ********************* */
-/*       THANK YOU       */
-/* ********************* */
-
 .thankyou {
   display: block;
   text-align: center;
   font-size: 1.5rem;
 }
 
-
-
-.thankyou {
-  display: block;
-  text-align: center;
-  font-size: 1.5rem;
-}
-
+/*------------end Membership-Level & form---------*/
   /* /////////////////////footer////////////////////// */
   footer {
     display: flex;
