@@ -1,19 +1,19 @@
 {
   "companies": [
     {
-      "name": "Day Mountain Ranch Resort",
+      "name": "Cornerstone Real Estate",
       "address": "655 S 4th #200 Preston, ID  83263",
-      "phoneNumber": "208-544-0035",
-      "URL": "https://www.dmrresort.com/",
-      "image": "https://prestonchamber.org/chamber-members/day-mountain-ranch-resort/",
+      "phoneNumber": "208-406-7471",
+      "URL": "https://prestonidahorealestate.com/",
+      "image": "https://prestonchamber.org/wp-content/uploads/2020/02/cornerstone-real-estate-amber-almond-400x200.jpg",
       "membership ": "Bronze"
     },
     {
-      "name": "Stokes Market",
-      "address": "217 South State St.Preston, ID 83263",
-      "phoneNumber": "(208) 852-3190",
-      "URL": "https://stokesgrocery.com/",
-      "image": "https://prestonchamber.org/chamber-members/stokes-market/",
+      "name": "Cornerstone Real Estate",
+      "address": "655 S 4th #200 Preston, ID  83263",
+      "phoneNumber": "208-240-8582",
+      "URL": "https://utahcornerstone.com/",
+      "image": "https://prestonchamber.org/wp-content/uploads/2019/11/cornerstone-real-estate-misty-blotter2-400x200.jpg",
       "membershipLevel":"Bronze"
     },
     {
