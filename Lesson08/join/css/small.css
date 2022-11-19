@@ -748,129 +748,125 @@ form label.top input:required {
   clear: both;
 }
 /* ========== END SMALL ========== */
-//* ******************** */
-/*   MEMBERSHIP TABLE   */
-/* ******************** */
-
-table {
-  letter-spacing: 0.4px;
-  text-align: left;
- 
-}
-
-thead, td {
+/*Membership-Level Form Main----------------------*/
+.form-title {
   text-align: center;
+  font-family: "Neucha", fantasy, cursive;
+  font-size: 28px;
 }
 
-td, th {
-  border: 1px solid var(--silver);
-  padding: 20px 30px;
+.formMain {
+  max-width: 465px;
+  margin: auto;
 }
-
-.title {
-  background-color: var(--cornsilk);
-}
-
-tr:nth-child(even) td {
-  background-color: var(--lightyellow);
-}
-
-tr:nth-child(odd) td {
-  background-color: var(--lightgray);
-}
-
-table {
-  display: none;
-}
-
-/* ******************** */
-/*       MAIN  FORM     */
-/* ******************** */
 
 form {
-  margin: 0 1rem;
-}
-
-
-.joinForm {
-  display: block;
-  margin: 0 auto;
-}
-
-.joinForm h1 {
-  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #7c0206;
 }
 
 form fieldset {
-  border: 1.5px solid var(--black);
+  margin: 1rem 0 3rem 0;
+  border: 1px solid #1e316d;
   border-radius: 10px;
+  padding: .5rem 2%;
+  max-width: 100%;
 }
 
 form legend {
-  color: var(--black);
   margin: 0 1rem;
-  padding: 0 0.5rem;
-  font-size: 1.5rem;
+  padding: 0 .5rem;
+  color: #1e316d;
 }
 
-form label.top, form div{
+form label.top,
+form div {
   display: block;
-  padding: 0.5rem;
-  color: var(--black);
-  font-size: 1.5rem;
+  padding-top: 1rem;
+  max-width: 93%;
 }
 
-form label.top input{
+form label.top input,
+form label.top select,
+form label.top select.option {
   -webkit-appearance: none;
   display: block;
-  font-size: 1rem;
   border: solid 1px #999;
   border-radius: 4px;
   padding: .75rem;
-  color:  var(--black);
+  color: #555;
   width: 100%;
-  max-width: 20rem;
-  background-color: var(--lightgray);
+  max-width: 100%;
+  background-color: white;
 }
 
 form label.sbs {
   display: block;
-  padding: .75rem 2%;
-  color:  var(--black);
+  padding: .75rem 0;
+  color: #555;
+  max-width: 100%;
 }
 
-form button.submitBtn {
-  border: none;
-  background-color: var(--darkred);
-  color: var(--white);
-  border-radius: 1rem;
-  padding: .75rem 1.5rem;
-  margin: 0 0 2rem 2%;
-  width: 96%;
-  max-width: 20rem;
+.space {
+  margin-top: -15px;
+  padding: .5rem;
+  width: 94%;
+  height: 215px;
+  border-radius: 5px;
 }
 
 form label.top input:required {
-  border-left: var(--darkred) solid 6px;
+  border-left: #aa2a2e solid 6px;
 }
 
 form label.top input:required:valid {
-  border-left: var(--sapreen) solid 6px;
+  border-left: green solid 6px;
 }
 
-form textarea {
-  font-size: 1rem;
-  padding: 10px;
+.flexly {
+  display: flex;
+  align-items: center;
 }
 
-form label.sbs:hover {
-  background-color: var(--cornsilk);
+#white {
+  background-color: white;
+  width: 200px;
+  color: #555;
 }
 
-.information {
-  font-size: 1rem;
-  line-height: 0;
+#ratingvalue {
+  margin: 0 15px;
 }
+
+form input.submitBtn {
+  border: none;
+  background-color: #912a2d;
+  color: white;
+  border-radius: 10px;
+  padding: .75rem 1.5rem;
+  margin: 0 0 20px 40px;
+  width: 75%;
+  max-width: 20rem;
+}
+
+h3.thankyou {
+  font-family: "Neucha", fantasy, cursive;
+  text-align: center;
+  line-height: 1.25em;
+  font-size: 20px;
+  color: #912a2d;
+  text-shadow: rgb(227, 241, 252) 3px 3px 5px;
+  margin: 50px;
+
+}
+
+.thanksImg {
+  display: none;
+}
+
+
+
+/*------------end of form---------*/
 
 
 /* ********************* */
