@@ -191,6 +191,7 @@ a:link {
     border-left: 2px solid #f3ebce;
     border-right: 1px solid #ffffff;
     background-color: #f3ebce;
+    box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
   }
   
   .header {
