@@ -186,6 +186,7 @@ a:link {
   .joinUs {
       font-size: .5rem;
       text-align: center;
+      border-radius: 10px;
     border-top: 2px solid #f3ebce;
     border-left: 2px solid #f3ebce;
     border-right: 1px solid #ffffff;
