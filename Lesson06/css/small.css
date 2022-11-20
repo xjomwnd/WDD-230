@@ -367,6 +367,7 @@ a:link {
     right: 3em;
     font-size: 1.3rem;
     padding: .3rem;
+    box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
   }
   
   .spotlight div {
@@ -461,6 +462,8 @@ a:link {
     border: none;
     border-radius: 10px;
     position: relative;
+    border: 1px solid #0b0a0e;
+    box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
     /* bottom: 300px; */
     z-index: 5;
     width: 200px;
