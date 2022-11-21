@@ -903,8 +903,39 @@ li > img {
   width: auto;
   height: 30px;
 }
+/*////////////////////////////// Main ////////////////////////////*/
+  /* MAIN */
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
 
-  
+main h1 {
+    display: none;
+}
+
+#spotlights h2 {
+    display: none;
+}
+
+main section {
+    /* height: 400px; */
+    object-fit: cover;
+}
+
+main section div {
+    height: 200px;
+}
+
+main section,  main section div {
+    background-color: #e5e5e5;
+    margin: 10px;
+    text-align: center;
+    /* border: 2px solid #14213d; */
+}
+/*////////////////////////////// Main ////////////////////////////*/
+  /* END MAIN */
   /* /////////////////////footer////////////////////// */
   footer {
     display: flex;
