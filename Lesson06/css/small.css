@@ -399,6 +399,8 @@ a:link {
     display: flex;
     width: 100%;
     height: auto;
+    background-color: #b4c0d4;
+    box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
     grid-template-columns: 98%;
     box-shadow: -1px -1px 30px 20px rgba(63, 65, 63, 0.5);
   }
@@ -485,6 +487,15 @@ a:link {
       box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
       border: 1px solid gray;
   }
+  header,
+    footer {
+      width: 100%;
+      height: auto;
+      padding: 1.5rem;
+      background-color: #b4c0d4;
+      box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
+     
+    }
   
   footer p {
       font-size: 12px;
