@@ -806,7 +806,6 @@ form label.sbs {
   color: #555;
   max-width: 100%;
 }
-
 .space {
   margin-top: -15px;
   padding: .5rem;
@@ -837,23 +836,12 @@ form label.top input:required {
 
 form input.submitBtn {
   background-color: #9c2c13 95%;
-  color: white;
+  color: #070403;
   border-radius: 10px;
   padding: .75rem 1.5rem;
   margin: 0 0 20px 40px;
   width: 75%;
   max-width: 20rem;
-}
-form input.submitBtn {
-  border: none;
-  background-color: #9c2c13;
-  color: white;
-  border-radius: 1rem;
-  padding: 10rem 1.5rem;
-  margin: 0 0 2rem 2%;
-  width: 96%;
-  max-width: 20rem;
-  float: right;
 }
 
 h3.thankyou {
@@ -861,8 +849,8 @@ h3.thankyou {
   text-align: center;
   line-height: 1.25em;
   font-size: 20px;
-  color: #6a37ac;
-  text-shadow: rgb(227, 241, 252) 3px 3px 5px;
+  color: #030201;
+  text-shadow: rgb(8, 10, 12) 3px 3px 5px;
   margin: 50px;
 
 }
