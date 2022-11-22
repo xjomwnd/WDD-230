@@ -856,6 +856,7 @@ tr td {
 section{
   background-color: #b9b9ca;
   border: #9797b7 solid 2px;
+  padding-top: 20px;
 }
 img{
   display: block;
