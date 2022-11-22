@@ -125,14 +125,14 @@
       <fieldset>
           <legend>Applicant Information</legend>
           
-          <label class="top">Name* <input type="text" name="lname" required></label>
+          <label class="top">Name* <input type="text" name="name" required></label>
           <label class="top">Email* <input type="email" name="email" placeholder="example@gmail.com" required></label>
           <label class="top">Phone* <input type="tel" name="phone" placeholder="18085556487" required></label>
       </fieldset>
       
       <fieldset>
           <legend>Business Information</legend>
-          <label class="top">Business Title <input type="text" name="title" minlength="7" pattern=" ^[a-zA-Z]+[a-zA-Z0-9-_ ]*[a-zA-Z0-9]$"></label>
+          
           <label class="top">Company Name* <input type="text" name="compName" required></label>
           <label class="top">Business Description<input name="description"></label>
       </fieldset>
@@ -147,8 +147,9 @@
           <input type="hidden" id="time" name="time" value="CurrentDate">
       </fieldset>
       
-  <a href="https://xjomwnd.github.io/WDD-230-1/Lesson08/join/thankyou.html"> 
-   <strong>SUBMIT</strong>
+  <a href="https://xjomwnd.github.io/WDD-230-1/Lesson08/join/thankyou.html">
+    <input type="submit" value="SUBMIT" class="submitBtn">
+   <strong  class="submitBtn">SUBMIT</strong>
   </a>
 </form>
 </main>
