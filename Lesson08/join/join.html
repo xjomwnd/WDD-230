@@ -121,7 +121,7 @@
      <hr>
   <form method="get" action="forms.html">
       <fieldset>
-          <legend>Applicant Information</legend>
+          <legend>Chamber Area Applicant Information</legend>
           
           <label class="top">Name* <input type="text" name="name" required></label>
           <label class="top">Email* <input type="email" name="email" placeholder="example@gmail.com" required></label>
@@ -129,11 +129,17 @@
       </fieldset>
       
       <fieldset>
-          <legend>Business Information</legend>
+          <legend>Chamber Area Business Information</legend>
           
           <label class="top">Company Name* <input type="text" name="compName" required></label>
-          <label class="top">Business Description<input name="description"></label>
+          <legend>Business Description</legend>
+        <label class="top">
+  
+          <textarea name="description" rows="10" cols="26"></textarea>
+        </label>
+
       </fieldset>
+      
       
       <fieldset>
           <legend>Membership Level</legend>
@@ -176,15 +182,16 @@
       </p>
       </div>
       <hr>
-      <div>
-        <p>
-          <p>&copy; <script>document.write(new Date().getFullYear())</script><br><span>Preston AreaS Chamber Home Page</span></p> 
-        </p>
-        <p>WDD 230 Project</p>
-        <P>Joel Ndiba Mwaura</P>
-      <p class="last-update" id="lastModified"></p>  
-      </div> 
+      
     </footer>
+    <div>
+      <p>
+        <p>&copy; <script>document.write(new Date().getFullYear())</script><br><span>Preston AreaS Chamber Home Page</span></p> 
+      </p>
+      <p>WDD 230 Project</p>
+      <P>Joel Ndiba Mwaura</P>
+    <p class="last-update" id="lastModified"></p>  
+    </div> 
     <script src="js/scripts.js"></script>
     <script src="js/last-modified.js"></script>
     <script src="js/index.js"></script>
