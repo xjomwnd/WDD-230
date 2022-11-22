@@ -1,4 +1,4 @@
-/*//////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5809844&appid=70576274fb494d1b32471985c55c97f3'
 
 const getWeather = async () => {
@@ -25,8 +25,7 @@ const kelvinToFahrenheit = (kelvin) => {
 
 getWeather();
 
-
-/*////////////////////////////////////////////////////////////////////////////*/
+*////////////////////////////////////////////////////////////////////////////*/
 const temperature = document.querySelector('#temperature');
 const weathericon = document.querySelector('#weathericon');
 const caption = document.querySelector('figcaption');
@@ -34,7 +33,7 @@ const caption = document.querySelector('figcaption');
 async function apiFetch() {
     try {
       console.log('inside fetch beforeURL');
-      const url = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=766cc4c5847dc1e46a5927930e1b85f6';
+      const url = 'https://api.openweathermap.org/data/2.5/weather?id=5861897&appid=70576274fb494d1b32471985c55c97f3';
       const response = await fetch(url);
       console.log(response);
       if (response.ok) {
@@ -48,4 +47,6 @@ async function apiFetch() {
         console.log(error);
     }
   }
-  if (weather) { apiFetch(); }
+  if (weather) { apiFetch(); 
+  }
+/*//////////////////////////////////////////////////////////////*/
