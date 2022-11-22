@@ -888,6 +888,7 @@ main {
 }
 section {
   margin: 0.25rem;
+  padding-top: 20px;
   padding: 0.35rem;
   background-color: #eee;
   border: 1px solid #bbb;
