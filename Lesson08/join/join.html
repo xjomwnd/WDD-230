@@ -63,7 +63,7 @@
  <main class="join-page">
   <fieldset>
     <legend>Membership Level</legend>
-    <h3> NP Membership(Non Profit-No Fee)</h3>
+    <label class="sbs"><input type="radio" name="membership" value="np"> NP Membership(Non Profit-No Fee)</label>
     
       <p>This membership is for non profit organizations. There is no fee for this membership.</p>
       <br>
@@ -73,7 +73,7 @@
       <br>
       <br>
       <hr>
-    <h3> Bronze Membership</h3>
+    <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
     
         
       <p>The Bronze Membership is $60 for a year. This membership allows you to access 1 free 
@@ -87,8 +87,8 @@
           <br>  
       <hr> 
       
-    <h3> Silver Membership</h3>
-        
+    <label class="sbs"><input type="" name="membership" value="Silver Membership"><h3>Silver Membership</h3></label>
+    
             
       <p>The Silver Membership is $80 for a year. This 
           membership allows you to access 2 free 
@@ -100,7 +100,7 @@
           <br>
           <br>
       <hr>
-    <h3> Gold Membership </h3>>
+    <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
     
             
       <p>The Gold Membership is $100 for a year. This 
@@ -119,6 +119,7 @@
     <input type="hidden" id="time" name="time" value="CurrentDate">
     <hr>
 </fieldset>
+
      <hr>
   <form method="get" action="forms.html">
       <fieldset>
@@ -147,7 +148,7 @@
       </fieldset>
       
   <a href="https://xjomwnd.github.io/WDD-230-1/Lesson08/join/thankyou.html"> 
-    <h3><input type="submit" value="Join Chamber" class="submitBtn">SUBMIT</h3>
+    <button>SUBMIT</button>
   </a>
 </form>
 </main>
