@@ -816,7 +816,7 @@ form label.sbs {
 }
 
 form label.top input:required {
-  border-left: #9c2c13 solid 6px;
+  border-left: #080707 solid 6px;
 }
 
 
@@ -835,6 +835,15 @@ form label.top input:required {
   margin: 0 15px;
 }
 
+form input.submitBtn {
+  background-color: #9c2c13 95%;
+  color: white;
+  border-radius: 10px;
+  padding: .75rem 1.5rem;
+  margin: 0 0 20px 40px;
+  width: 75%;
+  max-width: 20rem;
+}
 form input.submitBtn {
   border: none;
   background-color: #9c2c13;
