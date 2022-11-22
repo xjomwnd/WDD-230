@@ -848,7 +848,7 @@ form label.top input:required {
 }
 
 form input.submitBtn {
-  background-color: #0c0a0a;
+  background-color: #942828% 95%);
   color: white;
   border-radius: 10px;
   padding: .75rem 1.5rem;
@@ -862,7 +862,7 @@ h3.thankyou {
   text-align: center;
   line-height: 1.25em;
   font-size: 20px;
-  color: #912a2d;
+  color: #66080b;
   text-shadow: rgb(227, 241, 252) 3px 3px 5px;
   margin: 50px;
 
