@@ -33,6 +33,7 @@ footer {
 .profilePic {
   max-width: 250px;
   height: auto;
+  padding-top: 20px;
    
     
   }
@@ -43,6 +44,7 @@ footer {
   }
   
   .profilepic {
+    padding-top: 20px;
   height: 100px;
   width: 100px;
   border-radius: 100px;
@@ -579,6 +581,7 @@ padding: 1rem;
 }
 
 .discover section {
+padding-top: 20px;
 display: grid;
 grid-template-columns: 1fr;
 background-color:  #9c9c9a;
