@@ -49,7 +49,7 @@ try{
         console.log('Response not ok ${await response.text()}');
     }
 }catch(error){
-    console.log('Error:${error.message}');
+    console.log('Error: ${error.message}');
 }
 }
 apiFetch()
@@ -58,3 +58,23 @@ apiFetch()
 function capitalize(string) {
     return '${string.charAt(0).toUpperCase()}${string.slice(1)}';
 }
+
+/* //////////////////////////////////*/
+async function apiFetch() {
+    try {
+      console.log('inside fetch beforeURL');
+      const url = 'https://api.openweathermap.org/data/2.5/weather?id=5861897&appid=70576274fb494d1b32471985c55c97f3';
+      const response = await fetch(url);
+      console.log(response);
+      if (response.ok) {
+        const data = await response.json();
+        console.log(data);
+        displayResults(data);
+      } else {
+          throw Error(await response.text());
+      }
+    } catch (error) {
+        console.log(error);
+    }
+  }
+  if (weather) { apiFetch(); }
