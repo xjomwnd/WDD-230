@@ -848,7 +848,7 @@ form label.top input:required {
 }
 
 form input.submitBtn {
-  background-color: #6a37ac% 95%);
+  background-color: #6a37ac 95%;
   color: white;
   border-radius: 10px;
   padding: .75rem 1.5rem;
