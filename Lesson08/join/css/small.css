@@ -699,7 +699,7 @@ form legend {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
+    color: #161413;
     font-size: .8rem;
 }
 
@@ -835,7 +835,7 @@ form label.top input:required {
 }
 
 form input.submitBtn {
-  background-color: #9c2c13 95%;
+  background-color: #b4c0d4 95%;
   color: #070403;
   border-radius: 10px;
   padding: .75rem 1.5rem;
