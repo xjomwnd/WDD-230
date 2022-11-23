@@ -12,8 +12,6 @@ const caption = document.querySelector('figcaption');
       }
       return str.join(" ");
   }
-
-  
   function  displayResults(weatherData) { 
 
     let weatherCard = document.createElement('section');
@@ -74,8 +72,6 @@ const caption = document.querySelector('figcaption');
 
     document.querySelector('.weatherInfo').appendChild(weatherCard);
   }
-
-
   async function apiFetch() {
     try {
       console.log('inside fetch beforeURL');
