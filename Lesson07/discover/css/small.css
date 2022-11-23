@@ -636,6 +636,7 @@ font-weight: bolder;
     background-image: linear-gradient(rgb(214, 240, 252), rgb(230, 55, 84));
     box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
     border: 1px solid gray;
+    font-family:  'Montserrat',sans-serif;
 }
 
 footer p {
