@@ -51,7 +51,7 @@ const caption = document.querySelector('figcaption');
     
     currentTextLL.textContent = 'Latitude & Longitude';
 
-    const globe = 'images/latitudeLongitude.svg';
+    const globe = 'images/cdn.ico';
     const descGlobe = 'Globe showing latitude and longitude';
 
     latitudeLongitude.setAttribute('src', globe);
