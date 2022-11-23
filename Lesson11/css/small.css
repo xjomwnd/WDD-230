@@ -732,6 +732,7 @@ form input.submitBtn {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 form label.top input:required {
@@ -751,7 +752,7 @@ form label.top input:required {
 /*Membership-Level Form Main----------------------*/
 .form-title {
   text-align: center;
-  font-family: "Neucha", fantasy, cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 28px;
 }
 
@@ -761,7 +762,7 @@ form label.top input:required {
 }
 
 form {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #020101;
 }
 
@@ -848,10 +849,11 @@ form input.submitBtn {
   width: 75%;
   max-width: 20rem;
   border: 2px solid #0b0c0b;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h3.thankyou {
-  font-family: "Neucha", fantasy, cursive;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   line-height: 1.25em;
   font-size: 20px;
