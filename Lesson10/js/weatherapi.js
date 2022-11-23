@@ -1,4 +1,7 @@
 const weather = document.querySelector('.weatherInfo');
+const temperature = document.querySelector('#temperature');
+const weathericon = document.querySelector('#weathericon');
+const caption = document.querySelector('figcaption');
 // Get the weather data from the API - openweather.org 
   function capital_letter(str) 
   {
