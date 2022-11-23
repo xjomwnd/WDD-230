@@ -28,7 +28,7 @@ footer {
   padding: 5rem;
   background-color: #b4c0d4;
   box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
- 
+  font-family: 'Montserrat', sans-serif;
 }
 .profilePic {
   max-width: 250px;
@@ -643,7 +643,7 @@ footer p {
     line-height: 1.5;
     text-align: center;
     margin-top: -5px;
-    font-family: 'Montserrat', sans-serif;
+    font-family:  'Montserrat',sans-serif;
      font-size: 700;
 }
 
