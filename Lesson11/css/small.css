@@ -735,11 +735,11 @@ form input.submitBtn {
 }
 
 form label.top input:required {
-    border-left: red solid 6px;
+    border-left: rgb(5, 4, 4) solid 6px;
 }
 
 form label.top input:required {
-    border-top: green solid 6px;
+    
 }
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
