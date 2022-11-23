@@ -51,7 +51,7 @@ const weather = document.querySelector('.weatherInfo');
     currentTextLL.textContent = 'Latitude & Longitude';
 
     const globe = 'images/latitudeLongitude.svg';
-    const descGlobe = 'Two globes showing latitude and longitude';
+    const descGlobe = 'Globes showing latitude and longitude';
 
     latitudeLongitude.setAttribute('src', globe);
     latitudeLongitude.setAttribute('alt', descGlobe);
