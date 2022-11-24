@@ -871,7 +871,13 @@ h3.thankyou {
   text-align: center;
   font-size: 1.5rem;
 }
-
+.contact-info{
+  display: flex;
+  flex-direction: row;
+  align-items: unset;
+  justify-content: space-evenly;
+  width: 100%;
+}
 /*------------end Membership-Level & form---------*/
   /* /////////////////////footer////////////////////// */
   footer {
