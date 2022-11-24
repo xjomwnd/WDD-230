@@ -1,3 +1,4 @@
+/*//////////////////////////////////////////////////////////
 const hambutton = document.querySelector('.ham');
 const mainnav = document.querySelector('.navigation')
 
@@ -17,3 +18,4 @@ hamburger.addEventListener('click', () => {
     nav.classList.toggle('responsive');
 
 });
+//////////////////////////////////////////////////////////////*/
