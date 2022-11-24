@@ -1,4 +1,3 @@
-/* ==================copyright year================= */
 const daynames = [
 	"Sunday",
 	"Monday",
