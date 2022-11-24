@@ -1,5 +1,3 @@
-// Select the HTML element to manipulate
-// Try to complete the method with options
 try {
 	const options = {
 		weekday: "long",
