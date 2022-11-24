@@ -874,7 +874,7 @@ img{
   height: auto;
   margin: auto auto 25px auto;
   box-shadow: rgb(49, 49, 49) 0 0 15px;
-  padding: 5px;
+  padding: .5px;
 }
 h2{
   text-align: center;
