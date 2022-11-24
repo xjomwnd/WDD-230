@@ -1,3 +1,4 @@
+// Select the HTML element to manipulate
 const date1 = document.querySelector("#date1");
 // Try to complete the method with options
 try {
