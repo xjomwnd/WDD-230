@@ -5,3 +5,15 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 
 // To solve the mid resizing issue with responsive class on
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
+
+
+/*/////////////////////////////////////////////////////////*/
+// Hamburger Menu
+
+let hamburger = document.querySelector('#hamburger');
+let nav = document.querySelector('header');
+
+hamburger.addEventListener('click', () => {
+    nav.classList.toggle('responsive');
+
+});
