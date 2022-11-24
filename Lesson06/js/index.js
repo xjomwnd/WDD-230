@@ -1,4 +1,3 @@
-// Select the HTML element to manipulate
 const date1 = document.querySelector("#date1");
 // Try to complete the method with options
 try {
@@ -43,4 +42,3 @@ const dayName = daynames[d.getDay()];
 const monthName = months[d.getMonth()];
 const year = d.getFullYear();
 const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
-document.querySelector("#date2").textContent = fulldate;
