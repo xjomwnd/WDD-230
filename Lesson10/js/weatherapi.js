@@ -102,4 +102,19 @@ function displayResults(data) {
   weathericon.src = 'https://openweathermap.org/img/w/${data.weather[0].icon}.png'
   weathericon.alt = 'Icon of current weather condition at Fairbanks which is ${desc}';
 }
+async function apiFetch() {
+  try {
+    const response = await fetch(url);
+    if (response.ok) {
+      const data = await response.json();
+      console.log(data); // this is for testing the call
+      displayResults(data);
+    } else {
+        console.log('Response not ok ${await response.text()}');
+    }
+  } catch (error) {
+      console.log('Error: ${error.message}');
+  }
+}
+apiFetch();
 /////////////////////////////////////////////////////////////////*/
