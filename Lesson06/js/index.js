@@ -1,4 +1,4 @@
-const date1 = document.querySelector("#date1");
+const date1 = document.querySelector("");
 // Try to complete the method with options
 try {
 	const options = {
