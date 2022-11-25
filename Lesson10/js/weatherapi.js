@@ -1,82 +1,46 @@
-///////////////////////////////////////////////////////////////////
-const weather = document.querySelector('.weatherInfo');
-const temperature = document.querySelector('#temperature');
-const weathericon = document.querySelector('#weathericon');
-const caption = document.querySelector('figcaption');
-// Get the weather data from the API - openweather.org 
-  function capital_letter(str) 
-  {
-      str = str.split(" ");
+const weather = document.querySelector('.weatherInfo'); 
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=70576274fb494d1b32471985c55c97f3'; 
 
-      for (var i = 0; i < str.length; i++) {
-          str[i] = `${str[i][0].toUpperCase()}${str[i].substr(1)}`;
-      }
-      return str.join(" ");
-  }
-  function  displayResults(weatherData) { 
-
+//capitalize
+function capitalize(string) {
+    return '${string.charAt(0).toUpperCase()}${string.slice(1)}';
+}
+//display the results
+ function displayResults(weatherData) {
     let weatherCard = document.createElement('section');
     let currentText = document.createElement('h2');
     let currentTemp = document.createElement('p');
     let currentTextLL = document.createElement('h2');
-    let latitudeLongitude = document.createElement('img');
-        latitudeLongitude.classList.add('lonlat');
-    let gridLL = document.createElement('div')
-    let latitudeNumber = document.createElement('p');
-    let longitudeNumber = document.createElement('p');
-
-    currentText.textContent = 'Current condition & ICON';
-
-    const tF = weatherData.main.temp.toFixed(0);
+const tF = weatherData.main.temp.toFixed(0);
     currentTemp.innerHTML = `Current temperature in Fairbanks, Alaska is <strong>${tF}</strong> &deg;F`;
-
     weatherCard.appendChild(currentText);
     weatherCard.appendChild(currentTemp);
+document.querySelector('.weatherInfo').appendChild(weatherCard);
+// WEATHER ICON - multiple weather events
 
-    for (let i = 0; i < weatherData.weather.length; i++) {
+for (let i = 0; i < weatherData.weather.length; i++) {
       
-      let weatherIcon = document.createElement('img');
-      let captionDesc = document.createElement('figcaption');
+  let weatherIcon = document.createElement('img');
+  let captionDesc = document.createElement('figcaption');
 
-      const iconsrc = `https://openweathermap.org/img/wn/${weatherData.weather[i].icon}.png`;
-      const desc = weatherData.weather[i].description;
+  const iconsrc = `https://openweathermap.org/img/wn/${weatherData.weather[i].icon}.png`;
+  const desc = weatherData.weather[i].description;
 
-      weatherIcon.setAttribute('src', iconsrc);
-      weatherIcon.setAttribute('alt', `Picture of ${desc}`);
-      captionDesc.textContent = `ICON for "${capital_letter(desc)}"`;
+  weatherIcon.setAttribute('src', iconsrc);
+  weatherIcon.setAttribute('alt', `Picture of ${desc}`);
+  captionDesc.textContent = `ICON for "${capital_letter(desc)}"`;
 
-      weatherCard.appendChild(weatherIcon);
-      weatherCard.appendChild(captionDesc);
+  weatherCard.appendChild(weatherIcon);
+  weatherCard.appendChild(captionDesc);
 
-    }
-    
-    currentTextLL.textContent = 'Latitude & Longitude';
+}
 
-    const globe = 'images/cdn.ico';
-    const descGlobe = 'Globe showing latitude and longitude';
+  }  
 
-    latitudeLongitude.setAttribute('src', globe);
-    latitudeLongitude.setAttribute('alt', descGlobe);
-
-    let latitude = weatherData.coord.lat;
-    let longitude = weatherData.coord.lon;
-
-    latitudeNumber.textContent = latitude;
-    longitudeNumber.textContent = longitude;
-
-    gridLL.appendChild(latitudeNumber);
-    gridLL.appendChild(longitudeNumber);
-
-    weatherCard.appendChild(currentTextLL);
-    weatherCard.appendChild(latitudeLongitude);
-    weatherCard.appendChild(gridLL);
-
-    document.querySelector('.weatherInfo').appendChild(weatherCard);
-  }
-  async function apiFetch() {
+async function apiFetch() {
     try {
       console.log('inside fetch beforeURL');
-      const url = 'https://api.openweathermap.org/data/2.5/weather?id=5809844&appid=70576274fb494d1b32471985c55c97f3';
+      
       const response = await fetch(url);
       console.log(response);
       if (response.ok) {
@@ -91,30 +55,5 @@ const caption = document.querySelector('figcaption');
     }
   }
   if (weather) { apiFetch(); }
-
-/*//////////////////////////////////////////////////////////
-//display the results
-function displayResults(data) {
-  temperature.textContent = data.main.temp;
-  let desc = capitalize(data.weather[0].description);
-  description.textContent = desc;
-  caption.textContent = 'Icon of current weather condition at Fairbanks which is ${desc}';
-  weathericon.src = 'https://openweathermap.org/img/w/${data.weather[0].icon}.png'
-  weathericon.alt = 'Icon of current weather condition at Fairbanks which is ${desc}';
-}
-async function apiFetch() {
-  try {
-    const response = await fetch(url);
-    if (response.ok) {
-      const data = await response.json();
-      console.log(data); // this is for testing the call
-      displayResults(data);
-    } else {
-        console.log('Response not ok ${await response.text()}');
-    }
-  } catch (error) {
-      console.log('Error: ${error.message}');
-  }
-}
-apiFetch();
-/////////////////////////////////////////////////////////////////*/
+ 
+  
