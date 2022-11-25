@@ -78,7 +78,7 @@ body {
     border: 2px solid #074915;
     border-radius: 10px;
     box-shadow: hwb(195 98% 1%) 0px 0px 15px;
-    align-items: left;
+    align-items: right;
   }
   
   
@@ -124,7 +124,7 @@ body {
   height: 3%;
   align-items: flex-start;
   background-color: #b4c0d4;
-  float: left;
+  float: right;
 }
 
 a:link {
