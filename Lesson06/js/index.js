@@ -1,4 +1,4 @@
-
+const date1 = document.querySelector("#date1");
 // Try to complete the method with options
 try {
 	const options = {
@@ -42,4 +42,3 @@ const dayName = daynames[d.getDay()];
 const monthName = months[d.getMonth()];
 const year = d.getFullYear();
 const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
-const date1 = document.querySelector("#date1");
