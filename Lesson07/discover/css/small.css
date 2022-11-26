@@ -126,7 +126,8 @@ width: 3%;
 height: 3%;
 align-items: flex-start;
 background-color: #b4c0d4;
-float: left;
+float: right;
+padding: auto;
 }
 
 a:link {
