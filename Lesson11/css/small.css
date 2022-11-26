@@ -120,6 +120,7 @@ body {
   align-items: flex-start;
   background-color: #b4c0d4;
   float: right;
+  padding: 1px;
 }
 a:link {
   text-decoration: none;
