@@ -294,6 +294,7 @@ a:link {
 
 .membershipLevels {
     margin: 10px;
+    float: right;
 }
 
 .form h1 {
