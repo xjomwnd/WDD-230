@@ -579,6 +579,8 @@ form label.top input:required:valid {
 form textarea {
   font-size: 1rem;
   padding: 10px;
+  width: 400px;
+  height: 100px;
 }
 
 form label.sbs:hover {
@@ -590,10 +592,6 @@ form label.sbs:hover {
   line-height: 0;
 }
 
-
-/* ********************* */
-/*       THANK YOU       */
-/* ********************* */
   
   /* ************** FOOTER **************** */
   
@@ -686,22 +684,22 @@ main {
 
 /* ------------------ FORM ----------------------- */
 form fieldset {
-    margin: 2rem 0;
-    border: 1px solid #445ba9;
-    border-radius: 10px;
-    padding: .5rem 2%;
+  margin: 2rem 0;
+  border: 1px solid #445ba9;
+  border-radius: 10px;
+  padding: .5rem 2%;
 }
 form legend {
-    color: #445ba9;
-    margin: 0 1rem;
-    padding: 0 0.5rem;
+  color: #445ba9;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
 }
 
 form label.top, form div {
-    display: block;
-    padding-top: 1rem;
-    color: #161413;
-    font-size: .8rem;
+  display: block;
+  padding-top: 1rem;
+  color: #161413;
+  font-size: .8rem;
 }
 
 /*----------- FOOTER --------------*/
