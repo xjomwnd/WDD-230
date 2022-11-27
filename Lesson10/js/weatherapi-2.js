@@ -65,26 +65,7 @@ const weather = document.querySelector('.weatherInfo');
     // LATITUDE & LONGITUDE
 
     
-    currentTextLL.textContent = 'Latitude & Longitude';
-
-    const globe = 'images/latitudeLongitude.svg';
-    const descGlobe = 'Two globes showing latitude and longitude';
-
-    latitudeLongitude.setAttribute('src', globe);
-    latitudeLongitude.setAttribute('alt', descGlobe);
-
-    let latitude = weatherData.coord.lat;
-    let longitude = weatherData.coord.lon;
-
-    latitudeNumber.textContent = latitude;
-    longitudeNumber.textContent = longitude;
-
-    gridLL.appendChild(latitudeNumber);
-    gridLL.appendChild(longitudeNumber);
-
-    weatherCard.appendChild(currentTextLL);
-    weatherCard.appendChild(latitudeLongitude);
-    weatherCard.appendChild(gridLL);
+    
 
     document.querySelector('.weatherInfo').appendChild(weatherCard);
   }
