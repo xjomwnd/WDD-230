@@ -34,8 +34,8 @@ const tF = weatherData.main.temp.toFixed(0);
     weatherCard.appendChild(currentText);
     weatherCard.appendChild(currentTemp);
 document.querySelector('.weatherInfo').appendChild(weatherCard);
-// WEATHER ICON - multiple weather events
 
+// WEATHER ICON - multiple weather events
 for (let i = 0; i < weatherData.weather.length; i++) {
       
   let weatherIcon = document.createElement('img');
@@ -52,6 +52,7 @@ for (let i = 0; i < weatherData.weather.length; i++) {
   weatherCard.appendChild(captionDesc);
 
 }
+document.querySelector('.weatherInfo').appendChild(weatherCard);
 
   }  
 

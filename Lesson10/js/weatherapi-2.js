@@ -1,23 +1,8 @@
+  // select HTML elements in the document
 const weather = document.querySelector('.weatherInfo');
+  //  Capitalize letters  
 
-
-  //////////////////////////
-  //  Capitalize letters  //
-  //////////////////////////
-
-  function capital_letter(str) 
-  {
-      str = str.split(" ");
-
-      for (var i = 0; i < str.length; i++) {
-          str[i] = `${str[i][0].toUpperCase()}${str[i].substr(1)}`;
-      }
-      return str.join(" ");
-  }
-
-  /////////////////////////
-  //       Display       //
-  /////////////////////////
+ function capital_letter(str) {str = str.split(" "); for (var i = 0; i < str.length; i++) { str[i] = `${str[i][0].toUpperCase()}${str[i].substr(1)}`; } return str.join(" "); }
 
   function  displayResults(weatherData) { 
 
@@ -30,10 +15,7 @@ const weather = document.querySelector('.weatherInfo');
     let gridLL = document.createElement('div')
     let latitudeNumber = document.createElement('p');
     let longitudeNumber = document.createElement('p');
-    
-
-    // TEMPERATURE
-
+  //Temperature
     currentText.textContent = 'Current condition & ICON';
 
     const tF = weatherData.main.temp.toFixed(0);
@@ -42,10 +24,8 @@ const weather = document.querySelector('.weatherInfo');
     weatherCard.appendChild(currentText);
     weatherCard.appendChild(currentTemp);
 
-
-    // WEATHER ICON - multiple weather events
-
-    for (let i = 0; i < weatherData.weather.length; i++) {
+  // WEATHER ICON - multiple weather events
+  for (let i = 0; i < weatherData.weather.length; i++) {
       
       let weatherIcon = document.createElement('img');
       let captionDesc = document.createElement('figcaption');
@@ -61,20 +41,12 @@ const weather = document.querySelector('.weatherInfo');
       weatherCard.appendChild(captionDesc);
 
     }
-
-    // LATITUDE & LONGITUDE
-
-    
-    
-
     document.querySelector('.weatherInfo').appendChild(weatherCard);
   }
-
-
   async function apiFetch() {
     try {
       console.log('inside fetch beforeURL');
-      const url = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=766cc4c5847dc1e46a5927930e1b85f6';
+      const url = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=70576274fb494d1b32471985c55c97f3';
       const response = await fetch(url);
       console.log(response);
       if (response.ok) {
