@@ -1,28 +1,10 @@
 const weather = document.querySelector('.weatherInfo'); 
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=70576274fb494d1b32471985c55c97f3'; 
-
-async function apiFetch() {
-    try {
-      console.log('inside fetch beforeURL');
-      
-      const response = await fetch(url);
-      console.log(response);
-      if (response.ok) {
-        const data = await response.json();
-        console.log(data);
-        displayResults(data);
-      } else {
-          throw Error(await response.text());
-      }
-    } catch (error) {
-        console.log(error);
-    }
-  }
-  if (weather) { apiFetch(); }
 //capitalize
 function capitalize(string) {
-    return '${string.charAt(0).toUpperCase()}${string.slice(1)}';
-}
+  return '${string.charAt(0).toUpperCase()}${string.slice(1)}';
+} 
+function capital_letter(str) {str = str.split(" "); for (var i = 0; i < str.length; i++) { str[i] = `${str[i][0].toUpperCase()}${str[i].substr(1)}`; } return str.join(" "); }
+
 //display the results
  function displayResults(weatherData) {
     let weatherCard = document.createElement('section');
@@ -54,7 +36,29 @@ for (let i = 0; i < weatherData.weather.length; i++) {
 }
 document.querySelector('.weatherInfo').appendChild(weatherCard);
 
-  }  
+  }
+  const url = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=70576274fb494d1b32471985c55c97f3'; 
+
+async function apiFetch() {
+    try {
+      console.log('inside fetch beforeURL');
+      
+      const response = await fetch(url);
+      console.log(response);
+      if (response.ok) {
+        const data = await response.json();
+        console.log(data);
+        displayResults(data);
+      } else {
+          throw Error(await response.text());
+      }
+    } catch (error) {
+        console.log(error);
+    }
+  }
+  if (weather) { apiFetch(); }
+
+
 
 
  
