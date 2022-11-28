@@ -296,7 +296,7 @@ a:link {
 .membershipLevels {
     margin: 10px;
     grid-template-rows: auto;
-    grid-template-areas: none;
+    grid-template-areas: unset;
     grid-auto-flow: column;
     grid-template-columns: auto;
 }
