@@ -43,7 +43,144 @@
         </div>
     </header> 
       <main>
-        
+        <main class="prestonMain">
+          <h2 id="preston">Preston Idaho</h2>
+          <div class="hero-box">
+              <div class="hero">
+                  <picture id="heroimg" class="flip">
+                      <source srcset="images/rodeoblue500.jpg" media="(max-width: 767px)">
+                      <source srcset="images/rodeoblue700.jpg" media="(min-width: 768px) and 
+                      (max-width: 1187px)">
+                      <source srcset="images/rodeoblue900.jpg" media="(min-width: 1188px)">
+                      <img src="images/rodeoblue900.jpg" alt="rodeo" class="border-shadow">
+                      <!--Photo by Andre Oullet from Unsplash-->
+                  </picture>
+              </div>
+              <div class="weather-summary">
+                  <h3>Today's Weather :</h3>
+                  <p>Currently ~ <span id="conditions"></span></p>
+                  <p>Current Temp ~ <span id="current-temp"></span>&#8457;</p>
+                  <p class="hide">High Temp ~ <span id="hightemp"></span>&#8457;</p>
+                  <p>High / Low ~ <span id="hi"></span>&#8457; / <span id="lo"></span>&#8457;</p>
+                  <p>Feels Like ~ <span id="feels"></span>&#8457;</p>
+                  <p>Wind Chill ~ <span id="windchill"></span></p>
+                  <p>Humidity ~ <span id="humidity"></span>%</p>
+                  <p>Wind Speed ~ <span id="windspeed"></span> mph</p>
+              </div>
+          </div>
+          <div id="forecast">
+              <h3>Five Day Forecast</h3>
+              <p class="centered">Shows conditions 24 hours from current time, + 24 hours for each day.</p>
+              <table>
+                  <tr>
+                      <th id="day1"></th>
+                      <th id="day2"></th>
+                      <th id="day3"></th>
+                      <th id="day4"></th>
+                      <th id="day5"></th>
+                  </tr>
+                  <tr>
+                      <td><span id="high1"></span>&#8457;<span id="imagesrc"></span> &nbsp; <img src="#" alt="#" id="icon1" class="emoji"></td>
+                      <td><span id="high2"></span>&#8457;<span id="imagesrc2"></span> &nbsp; <img src="#" alt="#" id="icon2" class="emoji"></td>
+                      <td><span id="high3"></span>&#8457;<span id="imagesrc3"></span> &nbsp; <img src="#" alt="#" id="icon3" class="emoji"></td>
+                      <td><span id="high4"></span>&#8457;<span id="imagesrc4"></span> &nbsp; <img src="#" alt="#" id="icon4" class="emoji"></td>
+                      <td><span id="high5"></span>&#8457;<span id="imagesrc5"></span> &nbsp; <img src="#" alt="#" id="icon5" class="emoji"></td>
+                  </tr>
+              </table>
+          </div>
+          <h3>Campgrounds Opening</h3>
+          <<div class="jumbotron text-center">
+            <h1>Restaurant Template</h1>
+            <p>Best Food Best offers Just Scroll down...!!!</p>
+          </div>
+          <div class="container">
+            <h4>Best Food in Mumbai <i class="fa fa-map-marker" aria-hidden="true"></i>
+          </h4> <br>
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="img-fluid" />
+                <h4>Pesto Pasta</h4>
+                <span class="fa fa-star checked"> </span>
+                <span class="fa fa-star checked"> </span>
+                <span class="fa fa-star checked"> </span>
+                <span class="fa fa-star checked"> </span>
+                <span class="fa fa-star"></span>
+                <span class="flr">(Delivery Reviews)</span>
+          
+                <p>Pesto Pasta, Pasta store 
+                  <br>
+                  ₹150 for one 31 min <i class="fa fa-clock-o" aria-hidden="true"></i>
+          
+                </p>
+          
+              </div>
+          
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <img src="https://images.unsplash.com/photo-1458642849426-cfb724f15ef7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="img-fluid" />
+                <h4>Pepperoni and Olive Pizza</h4>
+                <span class="fa fa-star checked"> </span>
+                <span class="fa fa-star checked"> </span>
+                <span class="fa fa-star checked"> </span>
+                <span class="fa fa-star checked"> </span>
+                <span class="fa fa-star"></span>
+                <span class="flr">(Delivery Reviews)</span>
+          
+                <p>Pepperoni and Olive Pizza
+                  <br>
+                  ₹250 for one 29 min <i class="fa fa-clock-o" aria-hidden="true"></i>
+          
+                </p>
+          
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <img src="https://images.unsplash.com/photo-1571091655789-405eb7a3a3a8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80" class="img-fluid" />
+                <h4>Big burger Store</h4>
+                <span class="fa fa-star checked"> </span>
+                <span class="fa fa-star checked"> </span>
+                <span class="fa fa-star checked"> </span>
+                <span class="fa fa-star checked"> </span>
+                <span class="fa fa-star"></span>
+                <span class="flr">(Delivery Reviews)</span>
+              
+                <p>big burger on a wooden table with garlic
+                  <br>  
+                  ₹450 for one 40 min <i class="fa fa-clock-o" aria-hidden="true"></i>
+          
+                </p>
+          
+              </div>
+            </div>
+          </div>
+          <div id="contact">
+              <div>
+                  <img id="map1" src="images/southidaho.jpg" alt="small map section">
+                  <p id="big" class="google-maps">Go to Google Maps for--> <a
+                          href="https://www.google.com/maps/place/Preston,+ID+83263/@42.0997416,-111.9153444,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173">Preston,ID</a>
+                  </p>
+              </div>
+              <div class="graybox">
+                  <h3 id="h3-float">Contact Information</h3>
+                  <p>Southeastern Idaho Weather<br>
+                      2005 Sagebrush Boulevard<br>
+                      Preston, Idaho 83263-2005<br><br>
+                      &#128222; (208) 555-4324<br><br>
+                      <u>idweather@gmail.com</u></p>
+                  <div class="social">
+                      <a href="https://www.facebook.com/janette.kaymak/"><img src="images/fb-icon.png" class="icon"
+                              alt="facebook icon"></a>
+                      <a href="https://www.instagram.com/napoleondynamite/?hl=en"><img src="images/insta-icon.png"
+                              class="icon" alt="instagram icon"></a>
+                      <a href="https://www.pinterest.com/search/pins/?q=rodeos&rs=typed&term_meta=rodeos%7Ctyped"><img
+                              src="images/pinterest.png" class="icon" alt="pinterest icon"></a>
+                  </div>
+              </div>
+              <img id="map" src="images/southidaho.jpg" alt="small map section">
+              <p id="small" class="google-maps">Go to Google Maps for--> <a
+                      href="https://www.google.com/maps/place/Preston,+ID+83263/@42.0997416,-111.9153444,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173">Preston,ID</a>
+              </p>
+          </div>
+          <p id='weather-link'><a href="https://openweathermap.org/">Weather by OpenWeatherMap</a></p>
+      </main>
       </main>
     <footer>
         <h1 class="footer"><span style="color: rgb(226, 109, 129);">Bountiful</span><span style="color:rgb(5, 12, 20);">
