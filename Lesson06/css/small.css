@@ -418,6 +418,8 @@ a:link {
   footer img {
     max-width: 5rem;
     background-size: cover;
+    width: 5rem;
+	height: auto;
   }
   /* import nav.css */
   body {
