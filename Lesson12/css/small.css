@@ -421,7 +421,7 @@ font-size: 17px;
           box-sizing: border-box;
 }
 
-.news {
+.business {
  
   margin: 1px auto;
   position: relative;
@@ -433,7 +433,7 @@ font-size: 17px;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 } 
-.spotlight {
+.drinks {
   margin: 1px auto;
   position: relative;
   background-color: white;
@@ -445,29 +445,7 @@ font-size: 17px;
           box-sizing: border-box;
 }
 
-.spotlight1 {
-  margin: 1px auto;
-  position: relative;
-  background-color: #f2e8cb;
-  width: 100%;
-  padding: 50px;
-  border: solid blue 1px;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-.spotlight2 {
-  margin: 1px auto;
-  position: relative;
-  background-color: #f2e8cb;
-  width: 100%;
-  padding: 50px;
-  border: solid blue 1px;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-.spotlight3 {
+.drinks1 {
   margin: 1px auto;
   position: relative;
   background-color: #f2e8cb;
@@ -479,8 +457,7 @@ font-size: 17px;
           box-sizing: border-box;
 }
 
-
-.join {
+.history {
   margin: 1px auto;
   position: relative;
   background-color: #f2e8cb;
@@ -491,7 +468,6 @@ font-size: 17px;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-
 
 footer {
 background-color: #A42B23;
