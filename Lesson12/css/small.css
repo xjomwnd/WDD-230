@@ -405,7 +405,10 @@ nav ul.open {display: block;}
        -moz-box-sizing: border-box;
             box-sizing: border-box;
   }
-  
+  .hero-ph img{
+    width: 100%;
+    height: auto;
+  }
   .event {
    
     margin: 1px auto;
