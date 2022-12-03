@@ -1,4 +1,4 @@
-/*//////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
 const member = document.querySelector('.memberName');
 if (member) {
     member.textContent = `${localStorage.getItem('firstName')} ${localStorage.getItem('lastName')}`;
@@ -65,7 +65,7 @@ function displaySpotlight(company,numberSpotlight) {
     let a = document.createElement('a');
     let link = document.createTextNode('WebSite');
     a.appendChild(link);
-    a.href='https://xjomwnd.github.io/WDD-230-1/Lesson09/directory/directory.html';
+    a.href='https://xjomwnd.github.io/WDD-230-1/main/Lesson09/data.json';
     a.target = '_blank';
     logo.setAttribute('src', company.image);
     logo.setAttribute('alt', `Photo of ${company.name}`);
@@ -117,7 +117,7 @@ if (gridbutton || listbutton) {
   });
 }
 /////////////////////////////////////////////////////////////////////////////////////////*/
-////////////////////////////////////////////////////////////////////
+/*///////////////////////////////////////////////////////////////////
 const requestURL='https://xjomwnd.github.io/WDD-230-1/main/Lesson09/data.json';
 
 document.addEventListener("DOMContentLoaded",()=>{
@@ -155,7 +155,6 @@ functiondisplayCompanies(company){
 
     shops.append(li);
 }
-//////////////////////////////////////////////////////////////////////*/
 const displayDirectory = (dataDirectory) => {
     dataDirectory.companies.forEach ( 
         company => {
@@ -230,3 +229,4 @@ if (gridbutton) {
     display.classList.remove("grid");
   }
 }
+//////////////////////////////////////////////////////////////////////*/
