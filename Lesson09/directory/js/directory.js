@@ -118,7 +118,7 @@ if (gridbutton || listbutton) {
 }
 /////////////////////////////////////////////////////////////////////////////////////////*/
 ////////////////////////////////////////////////////////////////////
-const requestURL='https://xjomwnd.github.io/WDD-230-1/main/Lesson09/data.json';
+const requestURL='https://xjomwnd.github.io/WDD-230-1/Lesson09/directory/directory.html';
 
 document.addEventListener("DOMContentLoaded",()=>{
     fetch(requestURL)
