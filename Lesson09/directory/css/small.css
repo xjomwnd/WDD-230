@@ -575,15 +575,15 @@ main section {
     /* height: 400px; */
     object-fit: cover;
 }
-
 main section div {
-    height: 200px;
-    padding: 50px;
-    border: solid blue 1px;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box
+  height: 200px;
+  padding: 50px;
+  border: solid blue 1px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box
 }
+
 
 main section, div {
     background-color: #e5e5e5;
