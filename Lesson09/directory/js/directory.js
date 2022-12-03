@@ -1,4 +1,4 @@
-/*//////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
 const member = document.querySelector('.memberName');
 if (member) {
     member.textContent = `${localStorage.getItem('firstName')} ${localStorage.getItem('lastName')}`;
@@ -27,7 +27,7 @@ const displayDirectory = (dataDirectory) => {
         let a = document.createElement('a');
         let link = document.createTextNode(company.URL);
         a.appendChild(link);
-        a.href = company.URL;
+        a.href = 'https://github.com/xjomwnd/WDD-230-1/blob/main/Lesson09/directory/json/data.json';
         a.target = '_blank';
         name.textContent = company.name;
         logo.setAttribute('src', company.image);
@@ -65,7 +65,7 @@ function displaySpotlight(company,numberSpotlight) {
     let a = document.createElement('a');
     let link = document.createTextNode('WebSite');
     a.appendChild(link);
-    a.href = company.URL;
+    a.'https://github.com/xjomwnd/WDD-230-1/blob/main/Lesson09/directory/json/data.json';
     a.target = '_blank';
     logo.setAttribute('src', company.image);
     logo.setAttribute('alt', `Photo of ${company.name}`);
@@ -117,7 +117,7 @@ if (gridbutton || listbutton) {
   });
 }
 /////////////////////////////////////////////////////////////////////////////////////////*/
-////////////////////////////////////////////////////////////////////
+/*///////////////////////////////////////////////////////////////////
 const requestURL='https://xjomwnd.github.io/WDD-230-1/main/Lesson09/data.json';
 
 document.addEventListener("DOMContentLoaded",()=>{
