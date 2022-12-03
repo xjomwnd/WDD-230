@@ -117,8 +117,8 @@ if (gridbutton || listbutton) {
   });
 }
 /////////////////////////////////////////////////////////////////////////////////////////*/
-/*///////////////////////////////////////////////////////////////////
-const requestURL='https://xjomwnd.github.io/WDD-230-1/Lesson09/directory/directory.html';
+////////////////////////////////////////////////////////////////////
+const requestURL='https://xjomwnd.github.io/WDD-230-1/main/Lesson09/data.json';
 
 document.addEventListener("DOMContentLoaded",()=>{
     fetch(requestURL)
@@ -155,6 +155,7 @@ functiondisplayCompanies(company){
 
     shops.append(li);
 }
+//////////////////////////////////////////////////////////////////////*/
 const displayDirectory = (dataDirectory) => {
     dataDirectory.companies.forEach ( 
         company => {
@@ -167,10 +168,7 @@ const displayDirectory = (dataDirectory) => {
         let a = document.createElement('a');
         let link = document.createTextNode(company.URL);
         a.appendChild(link);
-        a.href = 'https://xjomwnd.github.io/WDD-230-1/Lesson09/directory/directory.html'
-
-        name.textContent = company.name;
-
+        href = company.URL;
         logo.setAttribute('src', company.image);
         logo.setAttribute('alt', `Photo of ${company.name}`);
         logo.setAttribute('loading', 'lazy');
@@ -229,4 +227,3 @@ if (gridbutton) {
     display.classList.remove("grid");
   }
 }
-//////////////////////////////////////////////////////////////////////*/
