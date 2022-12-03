@@ -65,7 +65,7 @@ function displaySpotlight(company,numberSpotlight) {
     let a = document.createElement('a');
     let link = document.createTextNode('WebSite');
     a.appendChild(link);
-    a.'https://github.com/xjomwnd/WDD-230-1/blob/main/Lesson09/directory/json/data.json';
+    a.href='https://github.com/xjomwnd/WDD-230-1/blob/main/Lesson09/directory/json/data.json';
     a.target = '_blank';
     logo.setAttribute('src', company.image);
     logo.setAttribute('alt', `Photo of ${company.name}`);
