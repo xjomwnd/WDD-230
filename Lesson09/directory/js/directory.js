@@ -49,7 +49,7 @@ const displayDirectory = (dataDirectory) => {
         let a = document.createElement('a');
         let link = document.createTextNode(company.URL);
         a.appendChild(link);
-        a.href = '#'
+        a.href = 'https://xjomwnd.github.io/WDD-230-1/Lesson09/directory/directory.html'
 
         name.textContent = company.name;
 
