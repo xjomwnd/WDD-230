@@ -472,10 +472,6 @@ font-size: 17px;
           box-sizing: border-box;
 }
 /*/main add/*/
-main {
-  display: grid;
-  grid-template-columns: 1fr;
-}
 .hero {
   position: relative;
 }
@@ -483,22 +479,6 @@ main {
   width: 100%;
   grid-column: 1/2;
   margin-top:1rem;
-}
-.localEvents{
-  margin: 1rem auto;
-  width: 100%;
-  border: 3px dashed #70a9a1;
-  margin: 1rem auto;
-  background-color: #0b2027;
-  color: #70a9a1;
-}
-.localEvents h2{
-  padding: 0;
-  text-align: center;
-}
-.localEvents p{
-  text-align: left;
-  padding: 0 1rem;
 }
 .curHead {
   grid-column: 1/3;
