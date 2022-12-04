@@ -111,7 +111,7 @@ footer img {
 /* import nav.css */
 body {
   color: #311288;
-  width: 900px;
+  width: 100%;
 margin: auto;
 background-color: rgb(238, 238, 238);
 line-height: 1.55em;
@@ -340,7 +340,7 @@ grid-template-columns: auto;
 }
 
 header {
-display: grid;
+display: block;
 padding: 0px;
 grid-template-columns: 1fr auto;
 align-items: left;
@@ -471,36 +471,74 @@ font-size: 17px;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+/*/////////////////////////////////////////////////////////////////////*/
+header {
+  display: block;
+  flex-direction: column;
+}
+header img {
+  max-width: 200px;
+  align-self: center;
+}
+header p {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0;
+}
+header div{
+  margin: auto 1rem;
+}
+nav {
+	margin: 0 auto;
+	font-size: 1.25rem;
+	background-color: #0b2027;
+	color: #70a9a1;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #70a9a1;
+	font-weight: 700;
+	transition: 0.45s;
+}
+.navigation a:hover {
+	color: #0b2027;
+	background-color: #70a9a1;
+}
+.navigation .active {
+  color: white;
+  font-weight: bold;
+}
+.responsive li {
+	display: block;
+}
 /*/main add/*/
-.hero {
-  position: relative;
-}
-.heroImg {
-  width: 100%;
-  grid-column: 1/2;
-  margin-top:1rem;
-}
-.curHead {
-  grid-column: 1/3;
-  text-align: center;
-  padding: 0;
-  margin: 0 0 .5rem 0;
-}
 .curSum {
-  margin: 10px auto;
-  display: grid;
+  margin: 5px auto;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   background-color: #70a9a1;
-  text-align: right;
-  grid-column-gap: 15px;
-  padding: 10px;
+  text-align: left;
+  grid-column-gap: 5px;
+  padding: 1px;
 }
 .curSum p {
   margin: 2px;
 }
 .curStats {
-  text-align: left;
+  text-align: right;
 }
 .forecast {
   display: flex;
@@ -527,43 +565,7 @@ font-size: 17px;
 .forecast img{
   margin: 0 auto;
 }
-article {
-  FONT-VARIANT: JIS04;
-  background-color: #bec7ca75;
-  margin: 10px 0;
-  padding: 1rem;
-  font-size: 1.25rem;
-}
-article p {
-  text-align: left;
-}
-.imgFloat,
-.mapFloat {
-  width: 50%;
-  min-width: 130px;
-}
-.mapFloat{
-  max-width: 250px;
-}
-.socialCopy p{
-text-align: left;
-}
-.socialCopy div{
-  text-align: left;
-}
-.social{
-  max-width: 30px;
-}
-.alert {
-  display: block;
-  font-weight: bold;
-  font-size: 1.4rem;
-  background-color: #0b2027;
-  color: #eb2012;
-  text-align: center;
-  padding: 25px 0;
-  border: 5px dashed #eb2012;
-}
+
 /*////////////////////////////////////*/
 footer {
 background-color: #A42B23;
