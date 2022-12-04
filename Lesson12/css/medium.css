@@ -47,13 +47,6 @@
       grid-row: 5;
     }
   /*/////////////////////////////////////////*/
-  .curSum {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    opacity: 90%;
-    padding: 10px;
-  }
   .imgFloat {
     width: 35%;
     float: right;
