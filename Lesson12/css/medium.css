@@ -46,8 +46,25 @@
       grid-column: 4 / 5;
       grid-row: 5;
     }
-  
-  
+  /*/////////////////////////////////////////*/
+  .curSum {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    opacity: 90%;
+    padding: 10px;
+  }
+  .imgFloat {
+    width: 35%;
+    float: right;
+    margin-left: 1.5rem;
+  }
+  .mapFloat {
+    width: 35%;
+    float: left;
+    margin-right: 1.5rem;
+  }
+/*//////////////////////////////////////////////////////*/
      /* ====================== FOOTER SECTION ==================== */
   
     footer {
