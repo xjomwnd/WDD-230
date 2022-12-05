@@ -494,6 +494,9 @@ nav {
 	background-color: #0b2027;
 	color: #70a9a1;
 }
+.social img{
+  float: right;
+}
 .navigation {
 	list-style: none;
 	padding: 0;
