@@ -361,8 +361,10 @@ label, textarea, select{
     font-weight: 700;
     margin: 15px;
 }
-.form-main{
+.form main{
   padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .form #submit:hover {
