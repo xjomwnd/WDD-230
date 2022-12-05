@@ -393,7 +393,7 @@ font-size: 17px;
 }
 .hero-ph img{
   width: 100%;
-  height: 350px;
+  height: auto;
   padding: 0;
 }
 .event {
@@ -414,6 +414,7 @@ font-size: 17px;
   position: relative;
   background-color: #C8AD28;
   width: 100%;
+  height: auto;
   padding: 50px;
   border: solid blue 1px;
   -webkit-box-sizing: border-box;
@@ -427,6 +428,7 @@ font-size: 17px;
   position: relative;
   background-color: #C8AD28;
   width: 100%;
+  height: auto;
   padding: 50px;
   border: solid blue 1px;
   -webkit-box-sizing: border-box;
@@ -438,6 +440,7 @@ font-size: 17px;
   position: relative;
   background-color: white;
   width: 100%;
+  height: auto;
   padding: 50px;
   border: solid blue 1px;
   -webkit-box-sizing: border-box;
