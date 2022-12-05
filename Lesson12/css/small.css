@@ -227,7 +227,7 @@ header {
   text-align: center;
   font-size: smaller;
   margin: 0;
-  background-color: #abe;
+  background-color: rgb(141, 158, 211);
 }
 
 /* Larger viewports */
@@ -351,7 +351,7 @@ margin: 5px;
   width: 100%;
 height: auto;
 border-radius: 5px;
-  box-shadow: 0 0 5px #777;
+  box-shadow: 0 0 5px rgb(34, 33, 33);
 }
 .iwf-logo {
 margin: 15px;
@@ -360,7 +360,7 @@ height: auto;
 }
 
 h2 {
-color: grey;
+color: rgb(3, 2, 2);
 font-family: 'Noto Sans', sans-serif; 
   font-size: 24px;
 }
