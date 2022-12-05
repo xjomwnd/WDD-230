@@ -361,14 +361,17 @@ label, textarea, select{
     font-weight: 700;
     margin: 15px;
 }
+.form-main{
+  padding: 50px;
+}
 
 .form #submit:hover {
     background-color: #fca311;
 }
 .join-main {
   width: 100%;
-  margin: 0 auto;
-  padding-top: 1em;
+  padding: 50px;
+}
 
 #join button {
   display: block;
