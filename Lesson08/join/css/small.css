@@ -366,8 +366,10 @@ label, textarea, select{
     background-color: #fca311;
 }
 .join-main {
-  width: 120%;
-}
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 1em;
+
 #join button {
   display: block;
   padding: 1em 5em;
