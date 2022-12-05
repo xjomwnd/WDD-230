@@ -1,25 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bountiful Foods</title>
-    <meta name="description" content="Assignment portal for Joel Ndiba Mwaura, WDD-230-1: Web Frontend Development, Brigham Young University - Idaho" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bountiful Foods</title>
+  <meta name="description" content="Assignment portal for Joel Ndiba Mwaura, WDD-230-1: Web Frontend Development, Brigham Young University - Idaho" />    <link rel="icon" href="images/mtn.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"> 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"> 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <link rel="stylesheet" href="style.css" />
-    <script defer src='js/weatherapi.js'></script>
-    <script defer src="js/alert.js"></script>
     <script defer src="js/index.js"></script>
     <script defer src="js/toggleMenu.js"></script>
-    
+    <script defer src="js/alert.js"></script>
+    <script defer src='js/weatherapi.js'></script>
+    <script defer src="js/localEvents.js"></script>
 </head>
+
 <body>
+    <div class="alert">Saturday = Carlsbad Pancakes 🥞 in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
     <header>
     </div>
     <div class="headertop">
@@ -29,7 +31,6 @@
       alt="logo">
     </picture>
     </div>
-
     <div class="reverse">
         <div class="social">
             <a href="https://www.youtube.com/" target="_blank">
@@ -54,93 +55,110 @@
           <button>
           <a href="#"><span><input type="submit" value="Place Order" class="submitBtn"></span></a>
           </button>
-
     </div>
     </div>
     </div>
-  </header>
+    </header>
+    <main>
+        <h2>Preston Idaho</h2>
+        <section class="hero">
+            <!-- needs to get updated with new images -->
+            <picture class="heroImg">
+                <source media="(max-width: 400px)" srcset="images/hero400.jpg">
+                <source media="(max-width: 900px)" srcset="images/hero900.jpg">
+                <source media="(max-width: 1200px)" srcset="images/hero1100.jpg">
+                <img src="images/heroDefault.jpg" class="heroImg" alt="banner image">
+            </picture>
+            <div class="curSum">
+                <h3 class="curHead">Weather Summary</h3>
+                <p>Currently:</p>
+                <p class="curStats"><span id="currently"></span></p>
+                <p>Current Temp:</p>
+                <p class="curStats"><span id="temp"></span>℉</p>
+                <p>Wind Chill:</p>
+                <p class="curStats"><span id="windChill">N/A</span></p>
+                <p>Humidity:</p>
+                <p class="curStats"><span id="humidity"></span>%</p>
+                <p>Wind Speed:</p>
+                <p class="curStats"><span id="windSpd"></span> MPH</p>
+            </div>
+        </section>
+        <section class="localEvents">
+        </section>
+        <section>
+            <h2>Five Day Forecast</h2>
+            <div class="forecast">
+                <p class="flex-col">
+                    <span id="dayofweek1"></span>
+                    <img id="img1" src="" alt"">
+                    <span id="forecast1"></span>
+                </p>
+                <p class="flex-col">
+                    <span id="dayofweek2"></span>
+                    <img id="img2" src="" alt"">
+                    <span id="forecast2"></span>
+                </p>
+                <p class="flex-col">
+                    <span id="dayofweek3"></span>
+                    <img id="img3" src="" alt"">
+                    <span id="forecast3"></span>
+                </p>
+            </div>
+        </section>
 
-  <main>
-  <div class="herodiv">
-    <div class="hero-ph">
-    <picture>
-      <img src="images/coronado.jpg" alt="Carlsbad, California">
-    </picture>
- </div>
-<div class="weather">
-  <h2>Carlsbad, Califonia</h2>
-  <section class="weather">
-      <div class="curSum">
-  <p class="curStats"><span id="currently"></span></p>
-          <p>Current Temp:</p>
-          <p class="curStats"><span id="temp"></span>℉</p>
-          <p>Wind Chill:</p>
-          <p class="curStats"><span id="windChill">N/A</span></p>
-          <p>Humidity:</p>
-          <p class="curStats"><span id="humidity"></span>%</p>
-          <p>Wind Speed:</p>
-          <p class="curStats"><span id="windSpd"></span> MPH</p>
-      </div>
-</section>
-  </section>
-  <hr>
-  <section>
-      <h2>Three Day Forecast</h2>
-      <div class="forecast">
-          <p class="flex-col">
-              <span id="dayofweek1"></span>
-              <img id="img1" src="" alt="">
-              <span id="forecast1"></span>
-          </p>
-          <p class="flex-col">
-              <span id="dayofweek2"></span>
-              <img id="img2" src="" alt="">
-              <span id="forecast2"></span>
-          </p>
-          <p class="flex-col">
-              <span id="dayofweek3"></span>
-              <img id="img3" src="" alt="">
-              <span id="forecast3"></span>
-          </p>
-      </div>
-  </section>
-</div>
+        <article>
+            <h2>Home Town</h2>
+            <!-- had this img in webp and it made my score worse -->
+            <img class="imgFloat" src="images/Article.jpg" alt="flowers">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                id est laborum.<br></p>
 
-<div class="business">
-  <h3>Business Info</h3>
-  
-</div>
-<div class="drinks">
-  <div class="drinks1">
-    <h3>User Special Drinks info</h3>
-    <picture>
-      <img src="images/bountiful-200 x 133.png" alt="Road Master">
-    </picture>
-  </div>
-  
-</div>
-<div class="history">
-  <h3>Coastal Carlsbad</h3>
-  <p>Located in scenic North County and known as “The Village by the Sea," Carlsbad was named after a famous spa in Karlsbad, Bohemia, when in 1882 the water in Carlsbad was found to have similar mineral content.</p>
-  <p>This quaint city has beautiful sandy beaches, three unique lagoons, outstanding shopping and world-class sporting events. It also boasts the LEGOLAND® theme park with rides, shows and attractions and the Flower Fields of Carlsbad Ranch that sports 50 acres of spectacular blooming flowers every spring. Home to many world-renowned golf equipment manufacturers, Carlsbad also features the storied La Costa golf courses with their long list of legendary tournaments and players.</p>
-  <p>Make your plans now to visit Carlsbad, California along the Pacific Ocean in San Diego's North County.
-
-  </p>
-  
-</div>
-</div> 
-</main>
-<p class="last-update" id="lastModified"></p>
-<footer>
-    <div>
-      <h3>Bountiful Foods</h3>
-      <p>&copy; <script>document.write(new Date().getFullYear())</script><br><span>Carlsbad, California</span>  
-    </div>
-    <div id="date"></div> 
-</footer>
-    <script src="js/last-modified.js" defer></script>
-    <div id="lastModified"></div>
-    <script src="js/scripts.js"></script>
-    <script src="scripts/date.js"></script>
+        </article>
+        <section>
+            <h2>Contact Info</h2>
+            <a href="https://goo.gl/maps/PdhZXPhQGBNM5GPf6" rel="noreferrer" target="_blank">
+                <img class="mapFloat" src="images/mapOpt.jpg" alt="map">
+            </a>
+            <div class="socialCopy">
+                <p> We are so glad you have come to visit our regional site. This is a small side project that we have
+                    put together to serve the community. We are always grateful for feedback and suggestions. We are
+                    also happy to answer any questions you may have. We haev also linked out social media sites to the
+                    page so you can get regional news right in your social media feeds.<br> <br>
+                    Phone Number: 555-555-5555 <br>
+                    Email: seirr@gmail.com <br>
+                    Address: 1234 A street, Preston ID 83263<br>
+                </p>
+                <div>
+                    <a href="https://www.facebook.com/" rel="noreferrer" target="_blank"><img alt="Facebook Link"
+                            class="social" src="images/socialIcons/facebook.png" /></a>
+                    <a href="https://www.instagram.com/" rel="noreferrer" target="_blank"><img alt="Instagram Link"
+                            class="social" src="images/socialIcons/instagram.png" /></a>
+                    <a href="https://twitter.com/" rel="noreferrer" target="_blank"><img alt="Twitter Link"
+                            class="social" src="images/socialIcons/twitter.png" /></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"> SE Idaho Regional Report</span> | <a href="#">Attributions </a> | Matt Palmer |
+        </p>
+        <div id="date"></div>
+    </footer>
+    <!-- made my score worse -->
+    <!-- <script defer src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script defer src="js/webFont.js"></script> -->
 </body>
-</html>   
+
+</html>

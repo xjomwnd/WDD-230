@@ -8,7 +8,7 @@ body {
 }
 header,
 footer {
-  max-width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0;
   align-items: left;
@@ -111,7 +111,7 @@ footer img {
 /* import nav.css */
 body {
   color: #311288;
-  width: 100%;
+  width: 1000px;
 margin: auto;
 background-color: rgb(238, 238, 238);
 line-height: 1.55em;
@@ -177,7 +177,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
   border-bottom: 1px solid #bbb;
 }
@@ -266,7 +266,7 @@ height: 100%;
 header,
 nav,
 main {
-max-width: 100%;
+max-width: 1000px;
 margin: 0 auto;
 }
 /* ==========cyan css===============*/
@@ -340,7 +340,7 @@ grid-template-columns: auto;
 }
 
 header {
-display: block;
+display: ;
 padding: 0px;
 grid-template-columns: 1fr auto;
 align-items: left;
@@ -473,7 +473,7 @@ font-size: 17px;
 }
 /*/////////////////////////////////////////////////////////////////////*/
 header {
-  display: block;
+  display: flex;
   flex-direction: column;
 }
 header img {
