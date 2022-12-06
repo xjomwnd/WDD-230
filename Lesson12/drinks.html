@@ -18,15 +18,60 @@
     <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body>
-      <header>
-          <h1>Special Drinks Order</h1>
-      </header>
-      <main>
+      <!--Heading-->
+<header class="page-header">
+
+      <!--Search-->
+      <div class="search-container"></div>
+
+      <!--Container of Items-->
+      <div class="item-container"></div>
+
+      <!--Buttons-->
+      <div class="bttn-container"></div>
+      //implement getBeer
+      const getBeer = () => {
+        //fetch data from PUNK API 
+        fetch('https://api.punkapi.com/v2/beers?per_page=6')
+        
+        .then(resp => console.log(resp))
+      }
       
-      </main>
+      document.addEventListener('DOMContentLoaded', () => {
+        //invoke getBeer
+        getBeer();
+      })
+
+
+
+      //implement getBeer
       
-      <footer>
-          <p>Joel Ndiba Mwaura | 🏛 BYU-Idaho | WDD 230</p>
-      </footer>  
+      const getBeer = () => {
+        fetch('https://api.punkapi.com/v2/beers?per_page=6')
+        .then(resp => resp.json())
+        .then(beerBeer))
+      } 
+
+      //implement renderBeer
+      const renderBeer = beerArray => {
+        beerArray.forEach(beer => {
+            const {image_url, name} = beer;
+            const img = document.createElement('img')
+            img.src = image_url;
+
+            const beerName = document.createElement('h3')
+            beerName.textContent = name;
+
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.append(img, beerName);
+            document.querySelector('.item-container').appendChild(card);
+ })
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    getBeer();
+})
+           
   </body>
 </html>
