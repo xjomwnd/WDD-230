@@ -828,24 +828,16 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 }
-/*  CONTACT US  */
-.visit {
-background-color: var(--primaryCornsilk);
-margin-bottom: 2rem;
-}
-.contact, .gridArticle {
-display: grid;
-align-items: center;
-}
 /* THANK YOU  */
-.thankyou {
-display: block;
-margin: 5rem 3rem;
+.form h1{
+  display: block;
+  margin: 5rem 3rem;
 }
-.thankyou h3 {
-line-height: 3.5rem;
-margin-bottom: 5rem;
-box-shadow: 1rem 1rem 0.4em var(--primaryCornsilk), -1rem -1rem 0.4em var(--primaryCornsilk);
+
+.form h3 {
+  line-height: 3.5rem;
+  margin-bottom: 5rem;
+  box-shadow: 1rem 1rem 0.4em var(--primaryCornsilk), -1rem -1rem 0.4em var(--primaryCornsilk);
 }
 /* ================================================================================== */
 /* /////////////////////footer////////////////////// */
