@@ -9,12 +9,12 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .then(function (jsonObject) {
         console.table(jsonObject);  // temporary checking for valid response and data parsing
-        const prophets = jsonObject['prophets'];
+        const prophets = jsonObject['drinks'];
         prophets.forEach(displayProphets);
     });
 });
 
-function displayProphets(prophet) {
+function displayProphets(drink) {
     // Create elements to add to the document
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
@@ -23,7 +23,7 @@ function displayProphets(prophet) {
     let p2 = document.createElement("p");
   
     // Change the textContent property of the h2 element to contain the prophet's full name
-    h2.textContent = `${prophet.name} ${prophet.lastname}`;
+    h2.textContent = `${drink.name} ${drink.lastname}`;
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     let order = [
@@ -31,13 +31,13 @@ function displayProphets(prophet) {
         "10th", "11th", "12th", "13th", "14th", "15th", "16th", "17th"
     ]
 
-    portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${order[prophet.order]} Latter-Day President`);
+    portrait.setAttribute('src', drink.imageurl);
+    portrait.setAttribute('alt', `Portait of ${drink.name} ${drink.lastname} - ${order[drink.order]}`);
     portrait.setAttribute('loading', 'lazy');
   
     /* Append paragraphs */
-    p1.innerText = `Date of birth: ${prophet.birthdate}`;
-    p2.innerText = `Place of birth: ${prophet.birthplace}`;
+    p1.innerText = `Date of birth: ${drink.birthdate}`;
+    p2.innerText = `Place of birth: ${drink.birthplace}`;
 
     // Add/append the section(card) with the h2 element
     card.appendChild(h2);
