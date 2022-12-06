@@ -828,17 +828,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 }
-/* THANK YOU  */
-.form h1{
-  display: block;
-  margin: 5rem 3rem;
-}
 
-.form h3 {
-  line-height: 3.5rem;
-  margin-bottom: 5rem;
-  box-shadow: 1rem 1rem 0.4em var(--primaryCornsilk), -1rem -1rem 0.4em var(--primaryCornsilk);
-}
 /* ================================================================================== */
 /* /////////////////////footer////////////////////// */
 footer {
