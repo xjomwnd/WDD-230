@@ -1,5 +1,5 @@
 body {
-    background-color: #f6f1d1;
+    background-color: #C8AD28;
     color: #311288;
     font-family: "Roboto", sans-serif;
     text-align: center;
@@ -15,7 +15,7 @@ body {
   header,
   footer {
     padding: 1.5rem;
-    background-color: #b4c0d4;
+    background-color: #A42B23;
     border-radius: 15px;
   }
   
@@ -57,7 +57,7 @@ body {
   }
   
   footer a {
-    color: #b4c0d4;
+    color: #A42B23;
   }
   
   .nested{
