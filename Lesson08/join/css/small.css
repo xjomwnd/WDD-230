@@ -764,6 +764,7 @@ form label.top input:required {
 .formMain {
   max-width: 465px;
   margin: auto;
+  padding: 50px;
 }
 
 form {
@@ -872,6 +873,11 @@ h3.thankyou {
   text-align: center;
   font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
+}
+
+.thankyou {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 /*------------end Membership-Level & form---------*/
