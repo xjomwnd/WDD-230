@@ -113,6 +113,7 @@ height: auto;
 
 .logo picture {
 display: flex;
+float: left;
 }
 
 
@@ -194,6 +195,7 @@ color: #14213d;
   background-color: #f3ebce;
 }
 
+}
 .header {
   width: 100%;
   background-color: #b4c0d4;
