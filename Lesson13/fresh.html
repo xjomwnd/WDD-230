@@ -99,23 +99,16 @@
                                 <option value="">6</option>
                             </select>
                         </dl>
-                       
-                        <dl class="col-6">
-                            <input class="form-check" type="text" name="phone">
-                        <dd class="col-6">Name</dd>
-                        <dl class="col-6">
-                            <input class="form-check" type="text" name="phone" placeholder="Phone Number">
-                            <dd class="col-6">Enter your Phone Number</dd>
-                        </dl>
-                        <dd class="col-6">Enter your E-Mail ID</dd>
-                        <dl class="col-6">
-                            <input class="form-check" type="email" name="phone" placeholder="Email">
-                        </dl>
-                        <dd class="col-6">Special Instructions (If needed)</dd>
-                        <dl class="col-6">
-                            <input class="form-check" type="order-instructions" name="ingredients" placeholder="ingredients">
-                        </dl>
-
+                        <form method="get" action="forms.html">
+                            <fieldset>
+                                <legend>Chamber Area Applicant Information</legend>
+                                <label class="top">First Name* <input type="text" name="name" required></label>
+                                <label class="top">Last Name* <input type="text" name="name" required></label>
+                                <label class="top">Email* <input type="email" name="email" placeholder="example@gmail.com" required></label>
+                                <label class="top">Phone* <input type="tel" name="phone" placeholder="18085556487" required></label>
+                                <label class="top">Special Instructions (If needed) * <input type="text" name="businessName" required></label>
+                            </fieldset>
+                        </form>
                     </dl>
                     <a href="http://127.0.0.1:5500/Lesson13/thanks.html">
                         <button class="btn btn-warning text-white">Confirm Order</button>

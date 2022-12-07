@@ -83,6 +83,67 @@ main {
     display: block;
   }
 /*////////////////////////////////////////////////////////////////////*/
+.formMain {
+  max-width: 465px;
+  margin: auto;
+  padding: 50px;
+  }
+  form {
+  font-family: "Roboto", sans-serif;
+  color: #030202;
+  }
+  form fieldset {
+  margin: 1rem 0 3rem 0;
+  border: 1px solid #1e316d;
+  border-radius: 10px;
+  padding: .5rem 2%;
+  max-width: 100%;
+  }
+  form legend {
+  margin: 0 1rem;
+  padding: 0 1rem;
+  color: #1e316d;
+  }
+  form label.top,
+  form div {
+  display: block;
+  padding-top: 1rem;
+  max-width: 93%;
+  }
+  form label.top input,
+  form label.top select,
+  form label.top select.option {
+  -webkit-appearance: none;
+  display: block;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 100%;
+  background-color: white;
+  }
+  form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: #555;
+  max-width: 100%;
+  }
+  .space {
+  margin-top: -15px;
+  padding: .5rem;
+  width: 94%;
+  height: 215px;
+  border-radius: 5px;
+  }
+  form label.top input:required {
+  border-left: #080707 solid 6px;
+  }
+  
+  .flexly {
+  display: flex;
+  align-items: center;
+  }
 /*/////////////////////////////////////////////*/
 .card {
   display: flex;
