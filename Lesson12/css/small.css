@@ -340,7 +340,7 @@ grid-template-columns: auto;
 }
 
 header {
-display: ;
+display: flex;
 padding: 0px;
 grid-template-columns: 1fr auto;
 align-items: left;
