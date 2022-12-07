@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="fruit">
+<head>
+<meta name="description" content="Factory example" />
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<link href="http://getbootstrap.com/2.3.2/assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="http://getbootstrap.com/2.3.2/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+<script src="http://getbootstrap.com/2.3.2/assets/js/bootstrap.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js"></script>
+  <script src="http://code.angularjs.org/1.2.12/angular-route.js"></script>
+<meta charset=utf-8 />
+<title>JS Bin</title>
+</head>
+<body ng-controller="FruitCtrl">
+  <ul>
+    <li ng-repeat="fruit in fruits"><a href="#/fruits/{{fruit.name}}">{{fruit.name}}</a></li>
+  </ul>
+  <ng-view />
+</body>
+  <script id="templates/recipe.html" type="text/ng-template">
+    <form name="fruitForm">
+      <label>Name: <input name="name" ng-model="fruit.name" /></label>
+      <label>Description: <input name="description" ng-model="fruit.description" /></label>
+      <div>Form dirty? {{fruitForm.$dirty}}</div>
+      <div>Name dirty? {{fruitForm.name.$dirty}}</div>
+      <div>Description dirty? {{fruitForm.description.$dirty}}</div>
+     </form>
+  </script>
+</html>
