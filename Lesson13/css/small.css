@@ -17,6 +17,8 @@ body {
     padding: 1.5rem;
     background-color: #A42B23;
     border-radius: 15px;
+    width: 100%;
+    height: auto;
   }
   /*/////////////////////////////////////////////////////////////////////*/
 header {
@@ -40,6 +42,9 @@ nav {
 	font-size: 1.25rem;
 	background-color: #d2e8eb;
 	color: #f5f8f8
+}
+.menu {
+  display: block;
 }
 .social img{
   float: right;
