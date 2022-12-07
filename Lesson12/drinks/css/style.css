@@ -20,6 +20,7 @@ footer {
   align-items: left;
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
+
 }
 header,
 footer {
@@ -28,6 +29,7 @@ footer {
   padding: 1.5rem;
   background-color: #b4c0d4;
   box-shadow: -1px -1px 30px 20px rgb(63 65 63 / 50%);
+  
  
 }
 .profilePic {
@@ -242,7 +244,7 @@ header,
 .nav {
   background-color: #ebe7db;
   margin-right: .6rem;
-  font-weight: 700;
+ 
   
 }
 
