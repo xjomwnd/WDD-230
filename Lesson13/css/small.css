@@ -62,6 +62,9 @@ main {
   display: block;
   font-size: 15.3px;
   padding: 20px;
+  font-weight: 500;
+  margin: 1px auto;
+  border: solid blue 1px;
   }
   main h2 {
   margin-bottom: auto;
@@ -146,7 +149,7 @@ body {
 
 button, [type='submit'] {
   background-color: #1f1137;
-  color: #fff;
+  color: rgb(217, 209, 219);
   font-weight: bold;
   border-radius: 50%;
   padding: 10px 15px;
