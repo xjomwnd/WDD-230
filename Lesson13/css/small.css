@@ -144,6 +144,63 @@ header {
     font-size: 0.9rem;
   }
 }/* end header set icons.css */
+
+  
+.nav button{
+  background: transparent;
+  border: none;
+  font-size: 2.5rem;
+  color:#555;
+}
+
+.nav {
+  background-color: #ebe7db;
+  margin-right: .6rem;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+nav ul li a {
+  display: block;
+  padding: .8rem 2vw;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-decoration: none;
+  color:#333;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+  background-color: rgba(0,0,0,0.2);
+  color: #fff;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0,0,0,0.3);
+}
+
+nav ul { display: none; }
+
+nav ul.open { 
+  display: block; 
+  text-align: left;
+}
+
+#hamburgerBtn span:nth-child(1) { display: block; }
+#hamburgerBtn span:nth-child(2) { display: none; }
+
+#hamburgerBtn.open span:nth-child(1) { display: none; }
+#hamburgerBtn.open span:nth-child(2) { display: block;}
+
+
 /*/////////////////////////////////////////////////////////////////////*/
   
   #profilePic {
