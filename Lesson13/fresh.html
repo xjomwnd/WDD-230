@@ -61,6 +61,8 @@
       <main>
         <h1>Fresh Drinks</h1>
        <!-- MAIN FEATURES -->
+
+       <!-- SLIDE SHOW json -->
     <div class="container">
         <!-- SLIDE SHOW CODE -->
         <div id="mycarousel" class="carousel slide justify-content-center" data-ride="carousel">
@@ -137,6 +139,7 @@
                                 <option value="">6</option>
                             </select>
                         </dl>
+
                         <form method="get" action="forms.html">
                             <fieldset>
                                 <legend>Chamber Area Applicant Information</legend>
@@ -147,6 +150,36 @@
                                 <label class="top">Special Instructions (If needed) * <input type="text" name="businessName" required></label>
                             </fieldset>
                         </form>
+                        <div ng-app="todoapp">
+                            <!-- MAIN FEATURES -->
+                                <div ng-controller="todocontroller">
+                                  <header style="background:{{backgroundColor}}">
+                                  <h1>{{mainTitle}}</h1>
+                                  </header>
+                                
+                                 
+                                  <div class="searcheng"> <input type="text" ng-model="search" ng-model-options="{debounce:500}"/>
+                                  <p>Give me an ingredient</p>
+                                  </div>
+                                 
+                               
+                                  <div class="cocktails">
+                                     <img src="http://sbeccompany.fr/wikisbec/images/8/82/Cocktails_Neon_Sign_on_White_Matte.png">
+                                  <h3> {{search}} </h3>
+                                   <li ng-repeat="cocktail in cocktails | filter:{ingredients:search}" ng-if="search" ng-click="showMethod = !showMethod">
+                                    {{cocktail.text}} <span ng-show="showMethod === true"> 
+                                    
+                                     {{cocktail.method}}     
+                                 
+                                          <!--YOU HAVE TO DO NG REPEAT EVERYTIME YOU WANT TO DO SOME REPETIION WITH AN ARRAY-->    
+                                    <ul ng-repeat="ing in cocktail.ingredients">
+                                     <li>{{ing}}</li>
+                                      
+                                    </ul>  
+                                     </span>
+                                    </li>
+                            <!-- SLIDE SHOW CODE -->
+                        </div>
                     </dl>
                     <a href="http://127.0.0.1:5500/Lesson13/thanks.html">
                         <button class="btn btn-warning text-white">Confirm Order</button>
