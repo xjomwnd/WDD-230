@@ -625,6 +625,9 @@ label {
 }
 body {
   background-color:   #C8AD28;
+  padding: 1em;
+  margin-bottom: 1em;
+ background-origin: padding-box;
 }
 button, [type='submit'] {
   background-color: #1f1137;
