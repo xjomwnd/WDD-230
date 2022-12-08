@@ -394,8 +394,26 @@ label {
 }
 ////////////////////////////////*/
 body {
-  background-color:   #C8AD28;
+  background-color:   #E65F33;
+  padding: 1em;
+  margin-bottom: 1em;
+ background-origin: padding-box;
+ border: #E65F33;
 }
+button, [type='submit'] {
+  background-color: #1f1137;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 10px 15px;
+}
+main {
+  background-color:   #C8AD28;
+  display: block;
+  font-size: 15.3px;
+  padding: 20px;
+  }
+/*////////////////////////////////////*/
 button, [type='submit'] {
   background-color: #1f1137;
   color: rgb(217, 209, 219);
@@ -404,3 +422,55 @@ button, [type='submit'] {
   padding: 10px 15px;
 }
 /*////////////////////////////////////*/
+/*////////////////////////////////////////FRUITS MIXER//////////////////////////*/
+
+.searcheng p{
+  font-family:'Poiret One', cursive;
+  font-size:15px;
+  color:black;
+  margin:auto;
+  padding-left:-10px;
+}
+
+.searcheng {
+  background-color:#b2d8b2;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:250px; 
+  
+}
+
+h3{
+  margin:0px;
+  padding:0px;
+  font-family: 'Poiret One', cursive;
+  text-decoration:none;
+  font-size:50px;
+}
+
+img{
+ width:200px;
+ height:250px;
+ float:right;
+ display:inline-block;
+ margin-right:40px;
+ 
+}
+
+
+.cocktails{
+  background-color:#99cc99; 
+  height:700px;
+  font-family: 'Poiret One', cursive;
+  font-size:20px;
+  
+}
+
+
+.cocktails, li{
+  padding-left:10px;
+  padding-top:5px;
+  
+}
+
+/*////////////////////////////////////////// MIXER //////////////////////////////////////*/
