@@ -2,104 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- INCLUDING BOOTSTRAP,FONT-AWESOME,BOOTSTRAP-SOCIAL RESPECTIVELY -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-    <link rel="stylesheet" href="style.css">
-    <title>The best food delivery app</title>
-</head>
-
-<body>
-    <!-- LOGIN MODAL -->
-    <div id="loginmodal" class="modal fade " role="dialog">
-        <div class="modal-dialog modal-lg" role="content">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title">Sign-In</h4>
-                    <button type="button" class="close" data-dismiss="modal">
-                        &times;
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-sm-4">
-                                <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                                <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3"
-                                    placeholder="Enter email">
-                            </div>
-                            <div class="form-group col-sm-4">
-                                <label class="sr-only" for="exampleInputPassword3">Password</label>
-                                <input type="password" class="form-control form-control-sm mr-1"
-                                    id="exampleInputPassword3" placeholder="Password">
-                            </div>
-                            <div class="col-sm-auto">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox">
-                                    <label class="form-check-label"> Remember me
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <button type="button" class="btn btn-secondary btn-sm ml-auto"
-                                data-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
-                        </div>
-                    </form>
-                </div>
+    <title>About Page</title>
+    <meta name="description" content="Build drink card page using data from JSON"/>
+    <meta name="keywords" content="Drinks, card page, JSON" />
+    <meta name="author" content="Joel Ndiba Mwaura" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=uNpxBMhk23KhPsSPvTBbS73yruMmFDmd7-FGMa6J9ecWAv5j7_4PGexWWeOqg1xQAu99Rys3jw6u_8Pzl0GryRFlU0wNAyIJNkBcyguHQ5w" charset="UTF-8"></script>
+    <script defer src="js/drinks.js"></script>
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="js/index.js"></script>
+    <script defer src="js/toggleMenu.js"></script>
+    <script defer src="js/alert.js"></script>
+    <script defer src='js/weatherapi.js'></script>
+    <script defer src="js/localEvents.js"></script>
+    </head>
+    <body>
+      <header>
+        <div class="headertop">
+            <div class="logo">
+            <picture>
+              <img src="images/fruits-32 x 32.png"
+              alt="logo">
+            </picture>
             </div>
-            <div></div>
-        </div>
-    </div>
-    <!-- NAVBAR CODE -->
-    <navbar class="navbar navbar-dark navbar-expand-sm fixed-top">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                <span class="navbar-toggler-icon"></span>
-
-            </button>
-            <a class="navbar-brand" href="./index.html"><img src="img/logo.jpg " height="40" width="50" alt=""></a>
-            <div class="collapse navbar-collapse " id="Navbar">
-
-                <img class="nav" src="" alt="">
-                <ul class="list-unstyled navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link fa fa-home" href="./index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link fa fa-info" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link fa fa-list" href="./menu.html">Order</a></li>
-                    <li class="nav-item"><a class="nav-link fa fa-address-card" href="./contactus.html">Contact</a>
-                    </li>
-                </ul>
-                <span class="btn fa fa-sign-in" data-toggle="modal" data-target="#loginmodal">Login</span>
+            <div class="reverse">
+                <div class="social">
+                    <a href="https://www.youtube.com/" target="_blank">
+                      <img src="images/toutube.jpg" alt="YouTube Icon">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="images/instagram-48.webp" alt="instagram Icon" width="32" height="32">
+                      </a>
+                    <a href="https://www.twitter.com/" target="_blank">
+                      <img src="images/twitter logo_icon.png" alt="Twitter Icon">
+                    </a>
+                  </div>
+                  <div class="menu"></div>
+                  <nav>
+                  <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                  <ul id="primaryNav">
+                  <li><a href="https://xjomwnd.github.io/WDD-230-1/Lesson06/home.html" class="active">Home</a></li>
+                  <li><a href="https://xjomwnd.github.io/WDD-230-1/Lesson11/contact.html">Fresh</a></li>
+                  <li><a href="https://xjomwnd.github.io/WDD-230-1/Lesson09/directory/directory.html">About</a></li>
+                  <li><a href="https://xjomwnd.github.io/WDD-230-1/Lesso07n/discover/discover.html">Contact</a></li>
+                  </ul>
+                  </nav>
+                  </div>      
             </div>
-        </div>
-    </navbar>
-    <!-- HEADER CODE -->
-    <div class="jumbotron">
-        <div class="container">
-            <div class="row align-items-center">
+            </div>
+          
+      </header>
                 <div class="col-12 col-sm-6">
                     <h1>About Us</h1>
 
                 </div>
+    <main>
+      <!-- LOGIN MODAL -->
+    
+                  <h4 class="modal-title">Sign-In</h4>
+                  
+                  <form method="get" action="forms.html">
+                    <fieldset>
+                        <legend>Bountiful Foods Sign-In</legend>
+                        <label class="top">First Name* <input type="text" name="name" required></label>
+                        <label class="top">Last Name* <input type="text" name="name" required></label>
+                        <label class="top">Email* <input type="email" name="email" placeholder="example@gmail.com" required></label>
+                        <label class="top">Phone* <input type="tel" name="phone" placeholder="18085556487" required></label>
+                        <label class="top">Business Name * <input type="text" name="businessName" required></label>
+                        
+                      </fieldset>
+                  </form>
+              </div>
+          </div>
+          <div></div>
+      </div>
+  </div>
+  <!-- NAVBAR CODE -->
 
-
-            </div>
-        </div>
-    </div>
-    <!-- MAIN BODY CODE -->
-    <div class="container">
+      <div class="container">
 
         <div class="row mt-5 mb-5">
             <div class="col-12 col-sm-6">
                 <h1>Our History</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, debitis cum? Officiis iure ab sint!
-                    Provident voluptas distinctio ab eaque velit amet adipisci quas libero accusantium quam dolorem, eos
-                    ratione quia delectus incidunt assumenda. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Animi quam, recusandae fuga nostrum, nam eius non aperiam quibusdam totam culpa assumenda
-                    dignissimos itaque voluptatem?</p>
+                <p>Carlsbad’s earliest residents were the  Luiseño Indians who settled the coastal area. The Luiseño people were successful in living off the land using a number of natural resources to provide food and clothing. They had a close relationship with their natural environment. They used many of the native plants, harvesting many kinds of seeds, berries, nuts, fruits, and vegetables for a varied and nutritious diet. The land also was inhabited by many different species of animals which the men hunted for game and skins. Hunters took antelopes, bobcats, deer, elk, foxes, mice, mountain lions, rabbits, wood rats, river otters, ground squirrels, and a wide variety of insects.  These Native Americans people were here at the time of the first contacts with the Spanish in the 16th century.
+                    <br>
+                    The Spanish missions in California comprise a series of 21 religious outpost were established between 1769 and 1833. The missions led to the creation of the New Spain province of Alta California and were part of the expansion of the Spanish Empire into the most northern and western parts of Spanish North America.
+                    <br>
+                    In 1821, Mexico achieved independence from Spain, taking Alta California along with it, but the missions maintained authority over native people and control of land holdings until the 1830s. The Alta California government secularized the missions after the passage of the Mexican secularization act of 1833. This divided the mission lands into land grants, which became many of the Ranchos of California. During the Mexican period, in 1842, the southern portion of Carlsbad, was granted as Rancho Agua Hedionda to Juan María Marrón.
+                    More Local History of Carlsbad California “The Village By The Sea”
+                    <br>
+                    In the 1882 Captain John Frazier dug a well near the coast in Carlsbad. He began offering his water at the train station and soon the whistle-stop became known as Frazier’s Station. A test done on a second fresh-water well discovered the water to be chemically similar to that found in some of the most renowned spas in the world, and the town was named after the famed spa in the Bohemian town of Karlsbad</p>
+                
 
             </div>
             <!-- AT A GLANCE CARD -->
@@ -222,50 +221,40 @@
             </div>
         </div>
     </div>
-    <!-- FOOTER CODE -->
+    
+    </main>
     <footer class="footer">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-sm-4">
-                    <h2>Contact Us</h2>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone"></i>1234567</li>
-                        <li><a class="fa fa-envelope" href="email@gmail.com" style="color:white">email@gmail.com</a>
-                        </li>
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-4">
+                <h2>Contact Us</h2>
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-phone"></i>(858) 314-1930</li>
+                    <li><a class="fa fa-envelope" href="email@gmail.com" style="color:white">email@gmail.com</a>
+                    </li>
 
-                    </ul>
-                </div>
-
-
-                <div class="col-12 col-sm-4">
-                    <h2>Address</h2>
-                    <p>H.NO 123/456</p>
-                    <p>Heaven street</p>
-                    <p>London</p>
-                </div>
-                <div class="col-12 col-sm-4">
-                    <a class="btn btn-social-icon btn-facebook" href="https://facebook.com" target="_blank"><i
-                            class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="https://twitter.com" target="_blank"><i
-                            class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon btn-linkedin" href="https://linkedin.com" target="_blank"><i
-                            class="fa fa-linkedin"></i></a>
-                    <a class="btn btn-social-icon btn-github" href="https://github.com/sainikhil1605" target="_blank"><i
-                            class="fa fa-github"></i></a>
-                </div>
+                </ul>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <p>©Copyright 2020 Slack</p>
-                </div>
-            </div>
+      <div>
+          <h3>Bountiful Foods</h3>
+          <div class="col-12 col-sm-4">
+            <h2>Address</h2>
+            The Grand Golf Club at Fairmont Grand Del Mar
+            5200 Grand Del Mar Way
+            San Diego, CA 92130
+            (858) 314-1930
+            Neighborhood: North Coastal
         </div>
-    </footer>
-    <!-- INCLUDING JQUERY,POPPER AND BOOTSTRAPS'S JAVASCRIPT FILES RESPECTIVELY-->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+          
+          &copy;<span id="year"></span>|<span> Bountiful Foods</span> |
+          <p class="last-update" id="lastModified"></p>
+          </div>
+            
+        </footer>
+        <script src="js/last-modified.js" defer></script>
+        
+    </footer>  
+    
 </body>
 
 </html>
-Footer
