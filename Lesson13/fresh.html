@@ -106,7 +106,37 @@
             </div>
         </div>
         <!-- ORDER PLACING CODE -->
-        
+        <div class="row mt-5 justify-items-center" id="reserveform">
+            <div class="card  offset-sm-2 col-sm-8">
+                <div class="card-header bg-warning text-white">Place your Order</div>
+                <div class="card-body">
+                    <dl class="row">
+                        <dd class="col-6">Enter the items you want to place</dd>
+                        <dl class="form-check col-6">
+                            <select class="form-control" name="number" id="number">
+                                <option value=""></option>
+                                <option value="">Apple</option>
+                                <option value="">Apricot</option>
+                                <option value="">Mango</option>
+                                <option value="">Watermelon</option>
+                                <option value="">Durin</option>
+                                <option value="">Grape</option>
+                                <option value="">Papaya</option>
+                                <option value="">Guava</option>
+                            </select>
+                        </dl>
+                        </dl>
+                        <dd class="col-6">Number of items</dd>
+                        <dl class="form-check col-6">
+                            <select class="form-control" name="number" id="number">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                            </select>
+                        </dl>
                         <form method="get" action="forms.html">
                             <fieldset>
                                 <legend>Chamber Area Applicant Information</legend>
@@ -118,35 +148,6 @@
                             </fieldset>
                         </form>
                     </dl>
-                    <div ng-app="todoapp">
-                        <div ng-controller="todocontroller">
-                          
-                          <h1>{{MIXER}}</h1>
-                         
-                        
-                         
-                          <div class="searcheng"> <input type="text" ng-model="search" ng-model-options="{debounce:500}"/>
-                          <p>Give me an ingredient</p>
-                          </div>
-                         
-                       
-                          <div class="cocktails">
-                             <img src="http://sbeccompany.fr/wikisbec/images/8/82/Cocktails_Neon_Sign_on_White_Matte.png">
-                          <h3> {{search}} </h3>
-                           <li ng-repeat="cocktail in cocktails | filter:{ingredients:search}" ng-if="search" ng-click="showMethod = !showMethod">
-                            {{cocktail.text}} <span ng-show="showMethod === true"> 
-                            
-                             {{cocktail.method}}     
-                         
-                                  <!--YOU HAVE TO DO NG REPEAT EVERYTIME YOU WANT TO DO SOME REPETIION WITH AN ARRAY-->    
-                            <ul ng-repeat="ing in cocktail.ingredients">
-                             <li>{{ing}}</li>
-                              
-                            </ul>  
-                             </span>
-                          </li>
-                           
-                          </div>
                     <a href="http://127.0.0.1:5500/Lesson13/thanks.html">
                         <button class="btn btn-warning text-white">Confirm Order</button>
                     </a>

@@ -424,53 +424,7 @@ button, [type='submit'] {
 /*////////////////////////////////////*/
 /*////////////////////////////////////////FRUITS MIXER//////////////////////////*/
 
-.searcheng p{
-  font-family:'Poiret One', cursive;
-  font-size:15px;
-  color:black;
-  margin:auto;
-  padding-left:-10px;
-}
-
-.searcheng {
-  background-color:#b2d8b2;
-  padding-top:20px;
-  padding-bottom:20px;
-  padding-left:250px; 
-  
-}
-
-h3{
-  margin:0px;
-  padding:0px;
-  font-family: "Roboto", sans-serif;
-  text-decoration:none;
-  font-size:50px;
-}
-
-img{
- width:200px;
- height:250px;
- float:right;
- display:inline-block;
- margin-right:40px;
- 
-}
 
 
-.cocktails{
-  background-color:#99cc99; 
-  height:700px;
-  font-family: "Roboto", sans-serif;
-  font-size:20px;
-  
-}
-
-
-.cocktails, li{
-  padding-left:10px;
-  padding-top:5px;
-  
-}
 
 /*////////////////////////////////////////// MIXER //////////////////////////////////////*/
