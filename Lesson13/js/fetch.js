@@ -1,7 +1,7 @@
 document.querySelector("#retrieve-resources").onclick = () => {
     let displayResources = document.querySelector("#display-resources");
     displayResources.textContent = "Loading data from JSON source...";
-    fetch("https://api.myjson.com/bins/owmcc")
+    fetch("https://github.com/xjomwnd/WDD-230-1/blob/main/Lesson13/json/ingredient.json")
       .then(function(response) {
         return response.json();
       })
