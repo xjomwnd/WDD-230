@@ -139,6 +139,31 @@
                                 <option value="">6</option>
                             </select>
                         </dl>
+                        <div class="container">
+                            <form>
+                              <label for="phone">Phone number:</label>
+                              <input type="text" id="phone" oninput="myFunction()">
+                              <label for="phone">Email:</label>
+                              <input type="text" id="email" oninput="myFunction()">
+                              <label for="phone">Order:</label>
+                              <input type="text" id="order" oninput="myFunction()">
+                              
+                              
+  
+                            </form>
+                          </div>
+                          <div class="container">
+                            Output:
+                            <span id="phone-output"></span>
+                          </div>
+                          <div class="container">
+                            Output:
+                            <span id="email-output"></span>
+                          </div>
+                          <div class="container">
+                            Output:
+                            <span id="order-output"></span>
+                          </div> 
                         <form method="get" action="forms.html">
                             <fieldset>
                                 <legend>Chamber Area Applicant Information</legend>
@@ -147,20 +172,10 @@
                                 <label class="top">Email* <input type="email" name="email" placeholder="example@gmail.com" required></label>
                                 <label class="top">Phone* <input type="tel" name="phone" placeholder="18085556487" required></label>
                                 <label class="top">Special Instructions (If needed) * <input type="text" name="businessName" required></label>
+            
                             </fieldset>
                         </form>
                     </dl>
-                    <div class="wrapper">
-                        <h1>Passing user input to screen</h1>
-                        
-                         <label>First Name</label> 
-                        <input id="firstName" type="text"></input>
-                        
-                        <label>3 Drinks Are</label>
-                        <input id="threeDrinks" type="text"></input>
-                        <button id="submitButton" type="submit">Print Order</button>
-                        <p id='result'></p>
-                    </div>
                     <a href="http://127.0.0.1:5500/Lesson13/thanks.html">
                         <button class="btn btn-warning text-white">Confirm Order</button>
                     </a>
