@@ -7,6 +7,12 @@ body {
  
 }
 header,
+main,
+footer {
+  max-width: 900px;
+  margin: 0 auto;
+}
+header,
 footer {
   padding: 1.5rem;
   background-color: #A42B23;
