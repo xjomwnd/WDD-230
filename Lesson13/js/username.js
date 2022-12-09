@@ -1,6 +1,6 @@
 function userNameInput () {
     var firstName = document.getElementById('firstName').value;
-    var threeMonthGoal = document.getElementById('threeMonthGoal').value;
+    var threeMonthGoal = document.getElementById('threeDrinks').value;
     var result = document.getElementById('result');
   
     if (firstName.length < 3) {
