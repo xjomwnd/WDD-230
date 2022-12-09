@@ -38,12 +38,7 @@ header p {
 header div{
   margin: auto 1rem;
 }
-nav {
-	margin: 0 auto;
-	font-size: 1.25rem;
-	background-color: #d2e8eb;
-	color: #f5f8f8
-}
+
 .menu {
   display: block;
 }
