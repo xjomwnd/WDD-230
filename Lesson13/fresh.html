@@ -132,12 +132,7 @@
                                 <option value="">Guava</option>
                             </select>
                         </dl>
-<!--button for json fruits selection-->
-<div>
-  <a href='#' onclick='downloadCSV({ filename: "fruit.json" });'><button>Get your Ingredients</button></a> 
-</div>
-<!--END button for json fruits selection-->
-                       </dl>
+                        </dl>
                         <dd class="col-6">Number of items</dd>
                         <dl class="form-check col-6">
                             <select class="form-control" name="number" id="number">
@@ -154,7 +149,12 @@
             </div>
         </div>
     </div>
-      <div class="form">
+    <!--button for json fruits selection-->
+<div>
+  <a href='#' onclick='downloadCSV({ filename: "fruit.json" });'><button>Download JSON</button></a> 
+</div>
+<!--END button for json fruits selection-->  
+    <div class="form">
             <section class="content">
               <h1 class="content__heading">Place Your Order</h1>
               <p class="content__lede">Use this handy contact form to get in touch with me.</p>
