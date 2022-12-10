@@ -95,68 +95,30 @@
 
                             https://www.tripadvisor.com/ShowUserReviews-g32171-d15064888-r632440274-Nekter_Juice_Bar-Carlsbad_California.html#</p>
                     </div>
-                </div>
-                <!-- Indiactors for carousel -->
-                <ul class="carousel-indicators">
-                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#mycarousel" data-slide-to="1"></li>
-                    <li data-target="#mycarousel" data-slide-to="2"></li>
-                </ul>
-                <!-- Left and right controls -->
-                <a class="carousel-control-prev" href="#mycarousel" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#mycarousel" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
-
-            </div>
-        </div>
-        <!-- ORDER PLACING CODE -->
-        <div class="row mt-5 justify-items-center" id="reserveform">
-            <div class="card  offset-sm-2 col-sm-8">
-                <div class="card-header bg-warning text-white">Place your Order</div>
-                <div class="card-body">
-                    <dl class="row">
-                        <dd class="col-6">Enter the items you want to place</dd>
-                        <dl class="form-check col-6">
-                            <select class="form-control" name="number" id="number">
-                                <option value=""></option>
-                                <option value="">Apple</option>
-                                <option value="">Apricot</option>
-                                <option value="">Mango</option>
-                                <option value="">Watermelon</option>
-                                <option value="">Durin</option>
-                                <option value="">Grape</option>
-                                <option value="">Papaya</option>
-                                <option value="">Guava</option>
-                            </select>
-                        </dl>
-                        </dl>
-                        <dd class="col-6">Number of items</dd>
-                        <dl class="form-check col-6">
-                            <select class="form-control" name="number" id="number">
-                                <option value="">1</option>
-                                <option value="">2</option>
-                                <option value="">3</option>
-                                <option value="">4</option>
-                                <option value="">5</option>
-                                <option value="">6</option>
-                            </select>
-                        </dl>
-                    </dl>   
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--button for json fruits selection-->
-
-<!--END button for json fruits selection-->  
+                    <div class="stockData">
+                      <head>
+                        <meta charset="UTF-8">
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=, initial-scale=1.0">
+                        <title>Document JSON</title>
+                        <link rel="stylesheet" href="css/small.css">
+                        <link rel="stylesheet" href="css/medium.css">
+                        <link rel="stylesheet" href="css/large.css">
+                        <link rel="stylesheet" href="css/style.css">
+                        <script defer src="js/index.js"></script>
+                        <script defer src="js/toggleMenu.js"></script>
+                        <script defer src="js/alert.js"></script>
+                        <script defer src='js/weatherapi.js'></script>
+                        <script defer src="js/localEvents.js"></script>
+                        <script defer src="js/stockData.js"></script>
+                    </head>
+                    <body>
+                        <a href='#' onclick='downloadCSV({ filename: "fruit.json" });'><button>Download </button></a> 
+                    </body>
+                    </div>
     <div class="form">
             <section class="content">
-              <div>
-                <a href='#' onclick='downloadCSV({ filename: "fruit.json" });'><button>Download JSON</button></a> 
-              </div>
+              
               <h1 class="content__heading">Place Your Order</h1>
               <p class="content__lede">Use this handy contact form to get in touch with me.</p>
               <form class="content__form contact-form">
@@ -212,7 +174,12 @@
           
       </div>
   </main>
-        <footer>
+  <!--button for json fruits selection-->
+  <div>
+    <a href='#' onclick='downloadCSV({ filename: "fruit.json" });'>Download JSON</a> 
+  </div>
+<!--END button for json fruits selection-->       
+  <footer>
         <div>
             <h3>Bountiful Foods</h3>
             
