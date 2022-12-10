@@ -11,8 +11,11 @@ body {
   footer {
     max-width: 900px;
     margin: 0 auto;
+    color: #000;
   }
-  
+  .footer h1 {
+    color: #000;
+  }
   header,
   footer {
     padding: 1.5rem;
