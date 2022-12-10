@@ -132,7 +132,12 @@
                                 <option value="">Guava</option>
                             </select>
                         </dl>
-                        </dl>
+<!--button for json fruits selection-->
+<div>
+  <a href='#' onclick='downloadCSV({ filename: "fruit.json" });'><button>Get your Ingredients</button></a> 
+</div>
+<!--END button for json fruits selection-->
+                       </dl>
                         <dd class="col-6">Number of items</dd>
                         <dl class="form-check col-6">
                             <select class="form-control" name="number" id="number">
@@ -184,11 +189,6 @@
                     <option>I have a general question.</option>
                   </select>
                 </div>
-                <!--button for json fruits selection-->
-                <div>
-                  <a href='#' onclick='downloadCSV({ filename: "fruit.json" });'><button>Download </button></a> 
-                </div>
-                <!--END button for json fruits selection-->
                 <div class="contact-form__input-group">
                   <label class="contact-form__label" for="message">Enter a Message</label>
                   <textarea class="contact-form__input contact-form__input--textarea" id="message" name="message" rows="6" cols="65"></textarea>
