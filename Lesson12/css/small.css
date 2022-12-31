@@ -25,20 +25,20 @@ header,
     height: 100%;
   }
 
-  header,
-  main,
-  footer {
-    max-width: 900px;
-    margin: 0 auto;
-  }
-  header,
-  footer {
-    padding: 1.5rem;
-    background-color: #A42B23;
-    border-radius: 15px;
-    width: 100%;
-    height: 200px;
-  }
+header,
+main,
+footer {
+  max-width: 900px;
+  margin: 0 auto;
+}
+header,
+footer {
+  padding: 1.5rem;
+  background-color: #A42B23;
+  border-radius: 15px;
+  width: 100%;
+  height: 200px;
+}
 
 #profilePic {
   max-width: 250px;
